@@ -2503,31 +2503,31 @@ main .section.h5-pitch :is(.default-content-wrapper, .columns) h5 {
 }
 
 /* news gallery pages (H1–H3): the gallery title h2 is the modal's title on the source — never rendered inline */
-body.legacy main .section.carousel-container > .default-content-wrapper:has(> h2:only-child) {
+body.legacy main .section.carousel-container:not(.photo-gallery) > .default-content-wrapper:has(> h2:only-child) {
   display: none;
 }
 
-body.legacy main .section:has(+ .section.carousel-container) .default-content-wrapper p:last-child {
+body.legacy main .section:has(+ .section.carousel-container:not(.photo-gallery)) .default-content-wrapper p:last-child {
   margin-bottom: 0;
 }
 
-body.legacy main .section.carousel-container > .carousel-wrapper {
+body.legacy main .section.carousel-container:not(.photo-gallery) > .carousel-wrapper {
   display: flow-root;
 }
 
-body.legacy main .section.carousel-container .carousel.gallery .carousel-slide {
+body.legacy main .section.carousel-container:not(.photo-gallery) .carousel.gallery .carousel-slide {
   position: relative;
   height: 550px;
 }
 
-body.legacy main .section.carousel-container .carousel.gallery .carousel-slide img {
+body.legacy main .section.carousel-container:not(.photo-gallery) .carousel.gallery .carousel-slide img {
   width: 100%;
   height: auto;
   aspect-ratio: 3 / 2;
   object-fit: cover;
 }
 
-body.legacy main .section.carousel-container .carousel.gallery .carousel-slide :is(p, .prosemirror-editor):not(:has(img)) {
+body.legacy main .section.carousel-container:not(.photo-gallery) .carousel.gallery .carousel-slide :is(p, .prosemirror-editor):not(:has(img)) {
   position: absolute;
   bottom: 0;
   left: 0;
