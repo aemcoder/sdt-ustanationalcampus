@@ -188,7 +188,7 @@
     transform: translateY(-30%) rotate(225deg);
   }
 
-  .tabs:not(.large, .expanded) .tabs-panel.active {
+  .tabs:not(.large, .select, .expanded) .tabs-panel.active {
     display: none;
   }
 }
