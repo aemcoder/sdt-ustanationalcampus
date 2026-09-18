@@ -1,0 +1,1139 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-09-18T17:02:45Z",
+    "stardustVersion": "0.22.1"
+  },
+  "site": {
+    "originUrl": "https://www.ustanationalcampus.com/",
+    "deployUrl": null,
+    "extractedAt": "2026-09-18T16:54:41.268Z",
+    "pageCap": 0,
+    "totalDiscovered": 75,
+    "crawled": 50,
+    "discovery": "BFS depth-4 (no sitemap); 50 live / 25 404 links"
+  },
+  "direction": {
+    "resolvedAt": "2026-09-18T17:02:45Z",
+    "phrase": "replica https://www.ustanationalcampus.com/ --hands-off (preserve mode)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim",
+    "mode": "preserve"
+  },
+  "handsOff": true,
+  "pages": [
+    {
+      "slug": "en-home-html",
+      "url": "https://www.ustanationalcampus.com/en/home.html",
+      "title": "Home",
+      "type": "landing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:46:52.075Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-about-holiday-hours-html",
+      "url": "https://www.ustanationalcampus.com/en/home/about/holiday-hours.html",
+      "title": "Holiday Hours",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:51:08.247Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-about-holiday-hours-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-about-html",
+      "url": "https://www.ustanationalcampus.com/en/home/about.html",
+      "title": "About USTA National Campus",
+      "type": "hub",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:07.292Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-about-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-about-meet-our-team-html",
+      "url": "https://www.ustanationalcampus.com/en/home/about/meet-our-team.html",
+      "title": "Meet Our Team",
+      "type": "hub",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:07.278Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-about-meet-our-team-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-about-sponsors-partners-html",
+      "url": "https://www.ustanationalcampus.com/en/home/about/sponsors---partners.html",
+      "title": "Sponsors & Partners",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:07.282Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-about-sponsors-partners-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-about-usta-national-campus-scholarship-html",
+      "url": "https://www.ustanationalcampus.com/en/home/about/usta-national-campus-scholarship.html",
+      "title": "USTA National Campus Scholarship",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:05.846Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-about-usta-national-campus-scholarship-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-calendar-html",
+      "url": "https://www.ustanationalcampus.com/en/home/calendar.html",
+      "title": "Calendar",
+      "type": "hub",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:47:29.562Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-calendar-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-collegiate-events-html",
+      "url": "https://www.ustanationalcampus.com/en/home/collegiate/events.html",
+      "title": "College Tennis",
+      "type": "unique",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:50:38.977Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-collegiate-events-html.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "note": "proxied usta.com College Tennis page with usta.com chrome; finalUrl https://www.usta.com/en/home/play/college-tennis.html"
+    },
+    {
+      "slug": "en-home-connect-html",
+      "url": "https://www.ustanationalcampus.com/en/home/connect.html",
+      "title": "About USTA National Campus",
+      "type": "hub",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:06.110Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-connect-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-events-2026-bnp-paribas-world-team-cup-html",
+      "url": "https://www.ustanationalcampus.com/en/home/events/2026-bnp-paribas-world-team-cup.html",
+      "title": "2026 BNP Paribas World Team Cup",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:47:29.563Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-events-2026-bnp-paribas-world-team-cup-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-events-collegiate-html",
+      "url": "https://www.ustanationalcampus.com/en/home/events/collegiate.html",
+      "title": "Collegiate",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:49:56.267Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-events-collegiate-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-events-html",
+      "url": "https://www.ustanationalcampus.com/en/home/events.html",
+      "title": "Events",
+      "type": "hub",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:47:29.565Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-events-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-news-2019-collegiate-winter-wild-card-html",
+      "url": "https://www.ustanationalcampus.com/en/home/news/2019-collegiate-winter-wild-card.html",
+      "title": "2019 Collegiate Winter Wild Card",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:51:08.760Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-news-2019-collegiate-winter-wild-card-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-news-campus-pro-shop-html",
+      "url": "https://www.ustanationalcampus.com/en/home/news/campus-pro-shop.html",
+      "title": "Campus Pro Shop",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:50:37.803Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-news-campus-pro-shop-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-news-holiday-hours-html",
+      "url": "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html",
+      "title": "Holiday Hours",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:49:19.555Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-news-holiday-hours-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-news-html",
+      "url": "https://www.ustanationalcampus.com/en/home/news.html",
+      "title": "News",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:51:07.662Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-news-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-news-masteruhistory-html",
+      "url": "https://www.ustanationalcampus.com/en/home/news/masteruhistory.html",
+      "title": "MasterUHistory",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:51:15.235Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-news-masteruhistory-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-news-national-campus-program-policies-html",
+      "url": "https://www.ustanationalcampus.com/en/home/news/national-campus-program-policies.html",
+      "title": "National Campus Program Policies",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:49:19.929Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-news-national-campus-program-policies-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-book-a-court-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/book-a-court.html",
+      "title": "Book a Court",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:47:29.562Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-book-a-court-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-court-booking-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/court-booking.html",
+      "title": "Book a Court",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:43.755Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-court-booking-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-davebailey-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/davebailey.html",
+      "title": "Dave Bailey Program",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:47:29.563Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-davebailey-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-events-and-leagues-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/events-and-leagues.html",
+      "title": "Events and Leagues",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:50:42.454Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-events-and-leagues-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-free30-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/free30.html",
+      "title": "Free30",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:47:29.564Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-free30-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play.html",
+      "title": "Play",
+      "type": "hub",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:46:52.072Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-nemours-family-zone-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/nemours-family-zone.html",
+      "title": "Junior Tennis Programs",
+      "type": "redirect",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:49:30.831Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-nemours-family-zone-html.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "duplicateOf": "en-home-play-programs-junior-tennis-programs-html",
+      "finalUrl": "https://www.ustanationalcampus.com/en/home/play/programs/junior-tennis-programs.html"
+    },
+    {
+      "slug": "en-home-play-pickleball-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/pickleball.html",
+      "title": "Pickleball",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:49.053Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-pickleball-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-play-padel-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/play-padel.html",
+      "title": "Padel Programs",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:49:20.229Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-play-padel-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-private-lessons-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/private-lessons.html",
+      "title": "Private Lesson",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:46:51.556Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-private-lessons-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-programs-adult-tennis-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/programs/adult-tennis.html",
+      "title": "Adult Tennis Programs",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:49:19.305Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-programs-adult-tennis-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-programs-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/programs.html",
+      "title": "Programs",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:46:50.967Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-programs-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-programs-junior-tennis-programs-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/programs/junior-tennis-programs.html",
+      "title": "Junior Tennis Programs",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:43.629Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-programs-junior-tennis-programs-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-tennis-adult-camps-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/tennis/adult-camps.html",
+      "title": "Adult Camps",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:46:51.551Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-tennis-adult-camps-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-tennis-adult-red-ball-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/tennis/adult-red-ball.html",
+      "title": "Red Ball Tennis",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:49:20.652Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-tennis-adult-red-ball-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-tennis-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/tennis.html",
+      "title": "Tennis",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:54.645Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-tennis-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-tennis-junior-programming-welcome-letter-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/tennis/junior-programming-welcome-letter.html",
+      "title": "Junior Programming Welcome Letter",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:50:32.887Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-tennis-junior-programming-welcome-letter-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-play-tennis-summer-camps-html",
+      "url": "https://www.ustanationalcampus.com/en/home/play/tennis/summer-camps.html",
+      "title": "Summer Camps",
+      "type": "hub",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:46:50.969Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-play-tennis-summer-camps-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-breakfast-the-most-important-meal-of-the-day-html",
+      "url": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/breakfast--the-most-important-meal-of-the-day.html",
+      "title": "Breakfast: The Most Important Meal of the Day",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:49:25.942Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-breakfast-the-most-important-meal-of-the-day-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-fluid-loss-and-body-weight-html",
+      "url": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/fluid-loss-and-body-weight.html",
+      "title": "Fluid Loss and Body Weight",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:49:56.428Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-fluid-loss-and-body-weight-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-html",
+      "url": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness.html",
+      "title": "Health and Wellness",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:43.374Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-hydration-matters-html",
+      "url": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/hydration-matters.html",
+      "title": "Hydration Matters",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:49:55.597Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-hydration-matters-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-macronutrient-breakdown-carbohydrates-html",
+      "url": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/macronutrient-breakdown--carbohydrates.html",
+      "title": "Macronutrient Breakdown: Carbohydrates",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:50:06.475Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-macronutrient-breakdown-carbohydrates-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-macronutrient-breakdown-html",
+      "url": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/macronutrient-breakdown.html",
+      "title": "Macronutrient Breakdown: Fats",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:50:01.600Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-macronutrient-breakdown-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-nutrition-for-recovery-html",
+      "url": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/nutrition-for-recovery.html",
+      "title": "Nutrition for Recovery",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:50:32.254Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-nutrition-for-recovery-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-nutrition-for-tennis-html",
+      "url": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/nutrition-for-tennis.html",
+      "title": "Nutrition for Tennis",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:49:56.427Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-nutrition-for-tennis-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-sleep-matters-html",
+      "url": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/sleep-matters.html",
+      "title": "Sleep Matters",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:50:32.253Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-sleep-matters-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-strength-and-conditioning-html",
+      "url": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/strength-and-conditioning.html",
+      "title": "Strength and Conditioning",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:50:31.626Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-strength-and-conditioning-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-visit-html",
+      "url": "https://www.ustanationalcampus.com/en/home/visit.html",
+      "title": "Visit Us",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:42.872Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-visit-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-visit-sustainability-html",
+      "url": "https://www.ustanationalcampus.com/en/home/visit/sustainability.html",
+      "title": "Sustainability",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:43.185Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-visit-sustainability-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-watch-html",
+      "url": "https://www.ustanationalcampus.com/en/home/watch.html",
+      "title": "Watch",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:07.276Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-watch-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-home-watch-save-my-play-html",
+      "url": "https://www.ustanationalcampus.com/en/home/watch/save-my-play.html",
+      "title": "Save My Play",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T16:48:42.872Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T17:02:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-home-watch-save-my-play-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ],
+  "replica": {
+    "archetypes": {
+      "landing": "en-home-html",
+      "hub": "en-home-about-html",
+      "program": "en-home-play-private-lessons-html",
+      "static": "en-home-news-holiday-hours-html",
+      "listing": "en-home-visit-html",
+      "article": "en-home-visit-health-and-wellness-hydration-matters-html"
+    },
+    "breakpoints": [
+      1440,
+      360
+    ]
+  }
+}

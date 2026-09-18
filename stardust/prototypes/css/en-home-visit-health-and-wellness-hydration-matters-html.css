@@ -1,0 +1,105 @@
+/* stardust:replica — archetype "article" (LEGACY USTA template family: body.page, #mainContent.mainContainerWrap).
+   Values lifted from live computed styles (stardust/current/_style-lift.json, stardust/.work/replica/lift-*.json)
+   and the harvested source CSS (nationalcampus_clientlibs_clientlib-all.css, nationalcampus_clientlibs_usta-proxy.css).
+   Modules: .legacy-main (template body), .legacy-container (bootstrap .nc-cmp-container model),
+   [data-section="article-body"] (AEM richtext), [data-section="article-hero"] + .news-* (news-article variant). */
+
+/* ---- template body: legacy body{font-size:16px;line-height:1.2;color:#333} ---- */
+.content.legacy-main{position:relative;z-index:1;background:#fff;font-family:var(--font-body);font-size:16px;line-height:1.2;color:#333}
+
+/* ---- container model: bootstrap .nc-cmp-container — 1170/970/750/auto, 15px gutters (RULE, not resolved px) ---- */
+.legacy-container{width:1170px;max-width:100%;margin:0 auto;padding:0 15px}
+.legacy-container::before,.legacy-container::after{content:" ";display:table}
+.legacy-container::after{clear:both}
+@media (max-width:1199px){.legacy-container{width:970px}}
+@media (max-width:991px){.legacy-container{width:750px}}
+@media (max-width:767px){.legacy-container{width:100%}}
+
+/* ---- AEM richtext (.text.parbase > .nc-cmp-container) ---- */
+.content [data-section="article-body"] h1,.content [data-section="article-body"] h2,.content [data-section="article-body"] h3{font-family:var(--font-display);font-weight:500;line-height:1.1;color:inherit;margin:20px 0 10px}
+.content [data-section="article-body"] h2{font-size:24px}
+.content [data-section="article-body"] h3{font-size:24px}
+.content [data-section="article-body"] h4,.content [data-section="article-body"] h5,.content [data-section="article-body"] h6{font-family:inherit;font-weight:500;line-height:1.3;font-size:16px;margin:8px 0 10px;color:inherit}
+.content [data-section="article-body"] .legacy-container>h1:first-child,.content [data-section="article-body"] .legacy-container>h2:first-child,.content [data-section="article-body"] .legacy-container>h3:first-child,.content [data-section="article-body"] .legacy-container>h4:first-child{margin-top:0}
+.content [data-section="article-body"] p{margin:0;font-family:var(--font-body);font-size:16px;line-height:1.3;color:#333}
+.content [data-section="article-body"] b,.content [data-section="article-body"] strong{font-weight:700}
+.content [data-section="article-body"] a{color:#0357b8;text-decoration:underline}
+.content [data-section="article-body"] ul,.content [data-section="article-body"] ol{margin:0 0 10px;padding-left:40px}
+.content [data-section="article-body"] ul li,.content [data-section="article-body"] ol li{display:list-item;list-style:inherit;font-size:16px;line-height:1.3;color:#333}
+.content [data-section="article-body"] ul{list-style:disc}
+.content [data-section="article-body"] ol{list-style:decimal}
+.content [data-section="article-body"] img{max-width:100%;vertical-align:middle}
+/* table: presentational attributes (border=1 cellpadding=3 cellspacing=0) carry the borders; row height comes from line-height:normal */
+.content [data-section="article-body"] table{background:transparent;border-collapse:separate;line-height:normal;max-width:100%}
+.content [data-section="article-body"] td,.content [data-section="article-body"] th{color:#333;vertical-align:middle;text-align:left}
+
+/* ---- news-article variant (.articleTextDetailImageComp) ---- */
+.news-article{position:relative;float:left;width:100%;min-height:1px;color:#3c3d3d;background:#fff;z-index:1}
+.news-article__wrap{position:relative;z-index:1;width:100%;padding:0}
+.news-article__wrap::before,.news-article__wrap::after{content:" ";display:table}
+.news-article__wrap::after{clear:both}
+.news-article__scrolltop{display:none;position:fixed;top:50%;left:90%;z-index:1;width:35px;height:35px;cursor:pointer}
+.clearfix::before,.clearfix::after{content:" ";display:table}
+.clearfix::after{clear:both}
+
+/* hero: 656px band, cover image, 336px navy scrim from the bottom, centered white title block pinned 19px from the bottom */
+.news-hero{width:100%;position:relative;padding:0;height:656px;overflow:hidden}
+.news-hero__img{position:relative;float:left;width:100%;min-height:1px;padding:0}
+.news-hero__img img{width:100%;height:656px;object-fit:cover;vertical-align:top}
+.news-hero__bg{display:none;height:656px;background-size:cover;background-position:50% 50%;background-repeat:no-repeat}
+.news-hero__scrim{position:absolute;z-index:1;bottom:0;width:100%;height:336px;background:linear-gradient(to bottom,rgba(0,37,73,0) 0,#00162b 100%)}
+.news-hero__title{position:absolute;bottom:19px;z-index:2;float:left;width:100%;min-height:1px;padding:0 15px;text-align:center;color:#fff}
+.content .news-hero__title h3{font-family:var(--font-display);font-size:20px;line-height:22px;font-weight:500;color:#fff;margin:0 0 10px}
+.content .news-hero__title h2{font-family:var(--font-display);font-size:60px;line-height:60px;font-weight:400;text-transform:uppercase;color:#fff;margin:10px 0 0}
+.content .news-hero__title h6{font-family:var(--font-semibold);font-size:16px;line-height:24px;font-weight:400;color:#fff;margin:8px 0 10px}
+
+/* share bar (.shareImg col-xs-12 > a.col-xs-offset-10.share) */
+.news-share{position:relative;float:right;width:100%;min-height:1px;padding:0 15px;margin-top:40px}
+.news-share a{display:inline-block;width:25px;height:25px;margin-left:83.33333333%;background:url("https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/articleShare/share_image.png");text-indent:-9999px;overflow:hidden;cursor:pointer;color:#418fde}
+
+/* body column (.contentWrap 800px, 20px/35px, #000) */
+.news-body{position:relative;width:100%;max-width:800px;margin:60px auto 92px;padding:0;color:#000;font-size:20px;line-height:35px;font-weight:normal}
+.news-body__text{clear:both;width:100%}
+.content .news-body p{margin:0 0 45px;font-family:var(--font-body);font-size:20px;line-height:35px;font-weight:normal;color:#000}
+.content .news-body p:last-child{margin-bottom:0}
+.content .news-body p:empty{display:none}
+.content .news-body b,.content .news-body strong{font-weight:bold;text-transform:uppercase;font-size:20px;line-height:24px}
+.content .news-body a{color:#186ccc;text-decoration:none;position:relative}
+.content .news-body a::after{content:"\e258";position:relative;top:1px;right:-5px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:400;line-height:1;font-size:13px;-webkit-font-smoothing:antialiased}
+.content .news-body ul{position:relative;list-style:none;padding:0;margin:0 0 10px}
+.content .news-body ul li{font-size:20px;line-height:35px;color:#000;display:list-item;padding-left:24px;position:relative}
+.content .news-body ul li::before{content:'\2022';line-height:16px;position:absolute;left:0;top:9px;font-size:30px}
+.content .news-body ol{position:relative;list-style-type:decimal;padding-left:40px;margin:0 0 10px}
+.content .news-body ol li{font-size:20px;line-height:35px;color:#000;display:list-item;padding-left:24px;position:relative}
+.content .news-body table tr:first-child{color:#000}
+
+/* gallery teaser (.imageGallery 550px, scrim 336px, "Launch Gallery" 32px/14px from the corner) */
+.news-gallery{position:relative;float:left;width:100%;min-height:1px;height:550px;padding:0;margin:46px 0 43px;overflow:hidden}
+.news-gallery__img{width:100%;height:auto}
+.news-gallery__img img{width:100%;vertical-align:top}
+.news-gallery__scrim{position:absolute;z-index:1;bottom:0;width:100%;height:336px;background:linear-gradient(to bottom,rgba(0,37,73,0) 0,#00162b 100%)}
+.news-gallery__cta{position:absolute;bottom:14px;left:32px;width:auto}
+.content .news-gallery__cta a{color:#fff;font-size:20px;font-weight:normal;text-decoration:none;line-height:2.55;letter-spacing:.4px;background-color:transparent;position:relative;z-index:2}
+.news-gallery__data{display:none}
+
+@media (max-width:767px){
+  .news-article{margin-bottom:30px}
+  .news-hero{height:426px}
+  .news-hero__img img{height:426px}
+  .news-hero__bg{height:425px}
+  .news-hero__scrim{height:242px}
+  .news-hero__title{bottom:22px}
+  .content .news-hero__title h6{width:278px;font-size:14px;line-height:18px;margin:0 auto}
+  .news-body{width:90.4%;margin:28px auto 0}
+  .content .news-body p{margin-bottom:17px;font-size:16px;line-height:24px}
+  .content .news-body p:last-child{margin-bottom:0}
+  .content .news-body b,.content .news-body strong,.content .news-body i,.content .news-body u{font-size:16px}
+  .content .news-body ul li{font-size:16px;line-height:24px}
+  .news-gallery__scrim{height:100px}
+  .news-gallery__cta{left:19px}
+  .content .news-gallery__cta a{font-size:14px;line-height:18px}
+  .content .news-gallery__cta a::after{font-size:10px}
+}
+
+/* Glyphicons Halflings — harvested from the live clientlib (chevron \e258 after body links / gallery CTA) */
+@font-face{font-family:'Glyphicons Halflings';src:url(../assets/fonts/glyphicons-halflings-regular.woff2) format('woff2');font-weight:normal;font-style:normal}

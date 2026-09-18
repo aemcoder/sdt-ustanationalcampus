@@ -1,0 +1,1348 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T17:26:54.842Z",
+    "waitMode": "fast",
+    "waitMs": 1200,
+    "httpStatus": 200
+  },
+  "slug": "en-home-news-collegiatenews-html",
+  "url": "https://www.ustanationalcampus.com/en/home/news/collegiatenews.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T17:26:54.842Z",
+  "finalUrl": "https://www.ustanationalcampus.com/en/home/news/collegiatenews.html",
+  "title": "CollegiateNews",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h3",
+      "text": "Top Stories From"
+    },
+    {
+      "tag": "h2",
+      "text": "Collegiate Tennis"
+    },
+    {
+      "tag": "h6",
+      "text": "February 12, 2020"
+    },
+    {
+      "tag": "h2",
+      "text": "2020"
+    },
+    {
+      "tag": "h2",
+      "text": "2019"
+    },
+    {
+      "tag": "h2",
+      "text": "2018"
+    },
+    {
+      "tag": "h3",
+      "text": "Campus Hours"
+    },
+    {
+      "tag": "h3",
+      "text": "Address"
+    },
+    {
+      "tag": "h3",
+      "text": "Usta info"
+    },
+    {
+      "tag": "h3",
+      "text": "Usta links"
+    }
+  ],
+  "body": [
+    "Register for Fall Programming! Session runs now - Nov 8.",
+    "PLAY PLAY submenu Programs Private Lessons Adult Camps Summer Camps Book a Court Free30 Dave Bailey Programs",
+    "EVENTS EVENTS submenu Calendar 2026 BNP Paribas World Team Cup",
+    "ABOUT ABOUT submenu Meet Our Team Contact Us Sponsors & Partners USTA National Campus Scholarship",
+    "WATCH WATCH submenu Watch Live Record Your Match",
+    "VISIT VISIT submenu Hotel Booking Sustainability Health & Wellness Shop",
+    "Home >",
+    "News >",
+    "CollegiateNews",
+    "Get updated on some of the top stories from around college tennis.",
+    "NCAA Homepage (Men)",
+    "NCAA Homepage (Women)",
+    "ITA",
+    "Feb. 12, 2020 - USTA - Collegians Soak it In at NY Open",
+    "Jan. 30, 2020 - USTA - College MatchDay: FSU-UF Preview",
+    "Jan. 24, 2020 - The Criterion - Colorado Mesa's MacDonald Inducted into Cowley HOF",
+    "Jan. 23, 2020 - The Observer - Q&A with Case Western's Cristina Hoog",
+    "Jan. 17, 2020 - USTA - 2020 Preview: Virginia Men",
+    "Jan. 16, 2020 - USTA - 2020 Preview: Pepperdine Women",
+    "Jan. 15, 2020 - USTA - 2020 Preview: Wake Forest Men",
+    "Jan. 14, 2020 - USTA - 2020 Preview: Stanford Women",
+    "Dec. 26, 2019 - Malibu Times - Athlete of the Year: Ashley Lahey",
+    "Dec. 13, 2019 - USTA - Orange Bowl Players Make Case for College",
+    "Dec. 12, 2019 - USTA - 2019 Collegiate Year In Review",
+    "Nov. 6, 2019 - Las Vegas Review-Journal - McAdoo Trying to Make Her Own Name",
+    "Nov. 2, 2019 - Bradenton Herald - No 'Love' For Cancer at the Dick Vitale College Tournament",
+    "Oct. 22, 2019 - Chicago Sun Times - Kamau Murray Helping Kids Win Championships and Scholarships",
+    "Sept. 14, 2019 - Tennis Channel - Former NCAA Standouts Weigh In On College Tennis",
+    "Sept. 11, 2019 - Atlanta Magazine - Chase Hodges is One of the Best-Kept Secrets",
+    "Aug. 19, 2019 - USTA - American Collegians at the 2019 US Open",
+    "July 16, 2019 - USTA - College Players Ready to Represent Team USA at the 2019 Pan-Am Games",
+    "June 20, 2019 - USTA - Kenyon's Kobelt Recruiting at the Combine While Playing on the ITF World Tour",
+    "June 19, 2019 - USTA - Fitness Testing with Dr. Mark Kovacs",
+    "June 12, 2019 - Tennis Recruiting - Combine Success Story - From No Interest to an Offer",
+    "June 4, 2019 - Tennis Recruiting - Growing College Combines and Showcases",
+    "May 24, 2019 - USTA - Growing the College Game: USTA Hosts NCAAs",
+    "May 23, 2019 - USTA - College Tennis Serves as a Pathway to the Pros",
+    "May 22, 2019 - Hartford Courant - Wesleyan Wins D-III Championship",
+    "May 21, 2019 - USTA - Duke's Kelly Chen and Her Brush with the Hospital During NCAAs",
+    "May 20, 2019 - Gwinnett Daily Post - GGC Grizzlies Bring Home Two More NAIA Tennis Banners",
+    "May 7, 2019 - Tennis.com - NCAA Championship Coming to Tennis Channel",
+    "May 7, 2019 - NCAA - Tennis Channel, USTA to Air NCAA Championships",
+    "May 5, 2019 - Chicago Tribune - Lake Forest Makes NCAA D-III Tournament for First Time",
+    "May 4, 2019 - Tyler Morning Telegraph - Rose City Hosting NJCAA Championships",
+    "May 2, 2019 - Baseline - College Tennis Becoming a Better Pathway to the Pros",
+    "May 2, 2019 - USTA - NCAA Contenders: Ohio State Men",
+    "May 2, 2019 - USTA - NCAA Contenders: USC Men",
+    "April 25, 2019 - News-Gazette - Illinois' Clark Brings Selfless Nature to Men's Tennis",
+    "April 25, 2019 - USTA - Saint Michael's Puts Vermont Tennis on the Map",
+    "April 24, 2019 - Minnesota Daily - Minnesota's Merzbacher Hopes to Start New Chapter as Coach",
+    "April 24, 2019 - Lincoln Journal Star - Ex-High School Champion Relishes College Tennis at Iowa",
+    "April 23, 2019 - USTA - Azusa Pacific Aims for the D-II Trophy",
+    "April 16, 2019 - USTA - NCAA Contenders: Vanderbilt Women",
+    "April 15, 2019 - USTA - Midway's Poste Reflects on the Combine and Recruiting",
+    "April 12, 2019 - Shelby Star - Gardner-Webb's Max Scholl",
+    "April 11, 2019 - Middlebury Campus - Middlebury Hosts Women in Tennis Together Workshop",
+    "April 10, 2019 - Sports Illustrated - Guest Mailbag: Mackenzie McDonald",
+    "April 10, 2019 - USTA - Sibling Takeover at Cedarville University",
+    "April 4, 2019 - USTA - NCAA Contenders: North Carolina Women",
+    "April 3, 2019 - Brainerd Dispatch - College of St. Scholastica's Wennerstrand Serving Up Aces Once Again",
+    "April 3, 2019 - My NBC 5 Vermont - Saint Michael's Using Homegrown Talent",
+    "April 1, 2019 - USTA - NCAA Contenders: Virginia Men",
+    "March 21, 2019 - USTA - NCAA Contenders: Michigan Women",
+    "March 13, 2019 - USTA - NCAA Contenders: Duke Women",
+    "March 13, 2019 - Tennis World - Loeb, Aragone Receive Oracle US Tennis Awards",
+    "March 11, 2019 - Los Angeles Times - Marcos Giron Gives Milos Ranoic a Scare and UCLA Fans a Thrill",
+    "March 8, 2019 - USTA - Spring Break Highlight: Concordia (NY)",
+    "March 6, 2019 - Gwinnett Daily Post - Georgia Gwinnett Wins 90th Straight",
+    "March 4, 2019 - CBS Baltimore - 101-Year-Old Player Helps Upgrade Goucher College Tennis Center",
+    "March 3, 2019 - WTA - Jermaine Jenkins - From College to Coach of Naomi Osaka",
+    "March 1, 2019 - USTA - NCAA Contenders: Stanford Women",
+    "Feb. 21, 2019 - USC - Fearless with USC's Salma Ewing",
+    "Feb. 18, 2019 - Buckeyes Wire - Ohio State Wins ITA Men's Indoors",
+    "Feb. 15, 2019 - Tennis.com - A Flyover and Ground Games: Air Force Faces Army in Historic Match-Up",
+    "Feb. 14, 2019 - Dawg Nation - Georgia Wins ITA Women's Indoors",
+    "Feb. 11, 2019 - New York Times - Columbia's Winston Lin Ready for the ATP New York Open",
+    "Feb. 7, 2019 - USTA - Black History Month: Traci Green",
+    "Feb. 7, 2019 - USTA - American Collegians Having Success in the Pros",
+    "Feb. 6, 2019 - Duke Chronicle - 2019 Chron15 Icon: Maria Mateas",
+    "Feb. 5, 2019 - USTA - College MatchDay Heats Up for Duke vs. Tennessee",
+    "Feb. 1, 2019 - Daily Tar Heel - Why UNC's Brian Kalbas was a Chance Worth Taking",
+    "Jan. 29, 2019 - USTA - FSU-UF Rivalry Renewed",
+    "Jan. 25, 2019 - Tennis Panorama - USTA and Tennis Channel Partner on Top 25",
+    "Jan. 23, 2019 - USTA - Collins' Run Highlights Benefits of Collegiate Tennis",
+    "Jan. 23, 2019 - Sports Illustrated - From UVA to the Australian Open Final Four",
+    "Jan. 23, 2019 - UK Telegraph - Collins is the Fearless American in the Australian Open Semifinals",
+    "Jan. 22, 2019 - WTA - USTA and Collins Coach, Cloer, Keeping Everything Simple",
+    "Jan. 22, 2019 - Washington Post - Collins in the Australian Open Semifinals is Beyond Surprising",
+    "Jan. 22, 2019 - ESPN - Collins into Australian Open Semifinals and Feeling the Love Back Home",
+    "Jan. 20, 2019 - USA Today - Collins: Going to College Helped Me Develop Myself as a Person",
+    "Jan. 20, 2019 - New York Times - Collins Stuns Kerber for Australian Open Quarterfinals Berth",
+    "Jan. 18, 2019 - US Open - Get to Know Danielle Collins",
+    "Jan. 17, 2019 - WTA - Collins Reaches Fourth Round of Australian Open",
+    "Jan. 17, 2019 - State News - Michigan State's Gene Orlando Enjoys Every Year",
+    "Jan. 16, 2019 - LA Times - McDonald Growing Accustomed to Pro Tennis",
+    "Jan. 11, 2019 - Georgia Tech - Eubanks Qualifies for Australian Open",
+    "Jan. 9, 2019 - USTA - National Campus Collegiate Series Schedule Announced",
+    "Dec. 21, 2018 - ESPN - Isner, Anderson Going to Give it the College Try in 2019",
+    "Dec. 20, 2018 - USTA - College Tennis Year in Review",
+    "Dec. 20, 2018 - Gustavus Adolphus - Gustavus Wins USTA College Alumni Classic",
+    "Dec. 18, 2018 - USTA - Gordon, Rybakov Claim Blizzard Wild Card Titles",
+    "Dec. 11, 2018 - ITA - USC, South Carolina to Clash at the Australian Open",
+    "Dec. 3, 2018 - USTA - Master'U Team USA Blog - USA Claims the Title",
+    "Dec. 1, 2018 - USTA - Master'U Team USA Blog - USA Advances to Finals by Toppling Ireland",
+    "Nov. 30, 2018 - USTA - Master'U Team USA Blog - USA Defeats Belgium",
+    "Nov. 29, 2018 - USTA - Master'U Team USA Blog - Draw Ceremony",
+    "Nov. 29, 2018 - USTA - Master'U Team USA Blog - Arriving in France",
+    "Nov. 27, 2018 - USTA - College Spotlight: Florida's Oliver Crawford",
+    "Nov. 17, 2018 - Tennis.com - Krajicek, Monroe Come Through in Houston",
+    "Nov. 15, 2018 - Daily Bruin - UCLA Freshman Eric Hahn Adjusting to College Competition",
+    "Nov. 13, 2018 - Duke Chronicle - Duke Freshman Maria Mateas Brings Pro Success to College",
+    "Nov. 7, 2018 - Sports Illustrated - Mailbag and News (Master'U Team Announcement)",
+    "Nov. 7, 2018 - NY Open - College Wild Card Challenge for a Main Draw Spot in the NY Open",
+    "Oct. 25, 2018 - USTA - College Spotlight: Gonzaga's Sophie Whittle",
+    "Oct. 18, 2018 - USTA - College MatchDay Schedule is Announced",
+    "Oct. 12, 2018 - Tennis Takes - My College Tennis Experience: Taylor Davidson",
+    "Oct. 11, 2018 - Tennis Takes - My College Tennis Experience: Ronnie Schneider",
+    "Oct. 8, 2018 - ITA - Trophies are Handed out at the Riviera ITA Women's All-Americans",
+    "Oct. 8, 2018 - ITA - Champions Crowned at 2018 Saint Francis Health System ITA Men's All-Americans",
+    "Sept. 18, 2018 - USTA - Joe Hunt Invitational Honors Tennis Hero",
+    "Sept. 13, 2018 - USTA - College Spotlight: Former Cal Bear Maegan Manasse",
+    "Sept. 12, 2018 - Baseline - In College Tennis, You Get as Much as You Put In",
+    "Aug. 29, 2018 - USOpen - US Open Interview: Francesca Di Lorenzo",
+    "Aug. 25, 2018 - WTA - Getting to Know the Grand Slam Debutantes at the US Open (Di Lorenzo)",
+    "Aug. 21, 2018 - USTA - American Collegians at the US Open",
+    "Aug. 6, 2018 - TennisRecruiting - Evan King Having Fun Chasing the Dream",
+    "July 30, 2018 - Washington Post - Kwiatkowski Reaches ATP D.C. Main Draw",
+    "July 27, 2018 - USTA - College Spotlight: Winthrop's Lauren Proctor",
+    "July 24, 2018 - Tennis.com - Tennis.com Podcast with Irina Falconi",
+    "July 12, 2018 - USTA - Isner, Anderson Clash in Collegiate Reunion in Wimbledon Semifinals",
+    "July 10, 2018 - TennisRecruiting - College Tennis Finds a Home at the National Campus",
+    "July 9, 2018 - US Open - 2018 US Open Spotlight: Mackenzie McDonald",
+    "July 8, 2018 - USA Today - McDonald's Run has been Extra Special for UCLA Coach",
+    "July 8, 2018 - ATP Tour - YouTube: Five Things to know about Mackenzie McDonald",
+    "July 6, 2018 - USA Today - Up-and-Coming American McDonald Makes Presence Felt at Wimbledon",
+    "July 6, 2018 - San Francisco Chronicle - McDonald Reaches Fourth Round at Wimbledon",
+    "July 3, 2018 - TennisRecruiting - Diversity on Display at the Combine",
+    "June 27, 2018 - TennisRecruiting - The Value of Combines for Coaches",
+    "June 25, 2018 - USTA - Michael Redlicki Claims First Pro Title",
+    "June 6, 2018 - TennisRecruiting - USTA College Combine Improvements for 2018",
+    "June 4, 2018 - USTA - 7 Tips to Stand Out at the USTA College Combine",
+    "May 29, 2018 - USTA - NCAA Singles & Doubles Champions Crowned",
+    "May 23, 2018 - USTA - NCAA Singles & Doubles Preview",
+    "May 23, 2018 - USTA - NCAA Team Championships Recap",
+    "May 22, 2018 - ESPN - Collins Did it Her Way to get to the WTA Tour",
+    "May 22, 2018 - Stanford - Cardinal Claim Another NCAA Women's Championship",
+    "May 22, 2018 - Wake Forest - Demon Deacons Claim the 2018 NCAA Men's Title",
+    "May 16, 2018 - USTA - 2018 NCAA Championships Preview",
+    "May 14, 2018 - Tennis.com - 10 to Watch in 2018: Chris Eubanks",
+    "May 14, 2018 - USTA - Spotlight: Kristie Ahn",
+    "May 14, 2018 - Covington News - Oxford College Claims Fourth Straight NJCAA Title",
+    "May 9, 2018 - USTA - Pepperdine Ready to Crash NCAA Tournament",
+    "May 8, 2018 - USTA - Spotlight: Thai-Son Kwiatkowski",
+    "May 3, 2018 - Tennis.com - College Tennis is Setting a Course for the Sport's Future",
+    "May 2, 2018 - Winston-Salem Journal - Wake Forest Receives Top Men's Seed",
+    "May 1, 2018 - USTA - Austin Krajicek Preps for Big Summer",
+    "April 19, 2018 - USTA - Former UVA Standouts Take College Lessons to the Tour",
+    "April 12, 2018 - Tennis Industry Magazine - USTA Announces 2018 Combine",
+    "April 10, 2018 - USTA Florida - National Campus to Host 2018 Combine",
+    "March 31, 2018 - Tennis World - Isner: \"Going to College Makes you a Better Person and Player\"",
+    "March 27, 2018 - New York Times - Collins Discusses How Having a College Degree Provides Her with a Sense of Calm",
+    "March 26, 2018 - Virginia Athletics - Aragone Wins First Pro Title",
+    "March 16, 2018 - PR Newswire - Eubanks, Di Lorenzo Receive Oracle US Tennis Awards",
+    "March 12, 2018 - WTA - Danielle Collins Ready for Impact",
+    "Feb. 28, 2018 - Rocky Mountain Collegian - The Story of Compton's and Colorado State's Grijalva",
+    "Feb. 23, 2018 - USTA - College Spotlight: Hayley Carter",
+    "Feb. 9, 2018 - USTA - Di Lorenzo Finding a Rhythm on Pro Tour",
+    "Jan. 30, 2018 - USTA - Tennis Channel to Air College MatchDay Live",
+    "Jan. 18, 2018 - Tennis.com - McDonald vs. Dimitrov was Unforgettable",
+    "Jan. 17, 2018 - ESPN - Meet Mackenzie McDonald, who Almost Pulled Off an Aussie Upset",
+    "Jan. 17, 2018 - USTA - Top 25 Returns for 2018",
+    "Monday - Friday 7:00 AM - 9:00 PM",
+    "Saturday 7:00 AM - 5:00 PM",
+    "Sunday 7:00 AM - 5:00 PM",
+    "VIEW HOLIDAY HOURS",
+    "10000 USTA Blvd.",
+    "Orlando, FL 32827",
+    "(407) 675-2500",
+    "About",
+    "Careers",
+    "Terms of Use",
+    "Privacy Policy",
+    "Program policies",
+    "Site Map",
+    "USTA.com",
+    "USOPEN.org",
+    "USTAFOUNDATION.com",
+    "PLAYER DEVELOPMENT",
+    "©2026 USTA ALL RIGHTS RESERVED"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Register for Fall Programming",
+      "href": "https://app.courtreserve.com/Online/Events/List/6415/K9INL6ND8Y6415"
+    },
+    {
+      "label": "PLAY",
+      "href": "/en/home/play.html"
+    },
+    {
+      "label": "PLAY submenu",
+      "href": null
+    },
+    {
+      "label": "EVENTS",
+      "href": "/en/home/events.html"
+    },
+    {
+      "label": "EVENTS submenu",
+      "href": null
+    },
+    {
+      "label": "ABOUT",
+      "href": "/en/home/about.html"
+    },
+    {
+      "label": "ABOUT submenu",
+      "href": null
+    },
+    {
+      "label": "WATCH",
+      "href": "/en/home/watch.html"
+    },
+    {
+      "label": "WATCH submenu",
+      "href": null
+    },
+    {
+      "label": "VISIT",
+      "href": "/en/home/visit.html"
+    },
+    {
+      "label": "VISIT submenu",
+      "href": null
+    },
+    {
+      "label": "BOOK NOW",
+      "href": null
+    },
+    {
+      "label": "Home",
+      "href": "/en/home.html"
+    },
+    {
+      "label": "News",
+      "href": "/en/home/news.html"
+    },
+    {
+      "label": "Share",
+      "href": "#shareModal"
+    },
+    {
+      "label": "NCAA Homepage (Men)",
+      "href": "http://www.ncaa.com/sports/tennis-men/d1"
+    },
+    {
+      "label": "NCAA Homepage (Women)",
+      "href": "http://www.ncaa.com/sports/tennis-women/d1"
+    },
+    {
+      "label": "ITA",
+      "href": "https://www.wearecollegetennis.com/category/ita/"
+    },
+    {
+      "label": "Collegians Soak it In at NY Open",
+      "href": "https://www.usta.com/en/home/pro/pro-media---news/local-collegians-soak-it-all-in-at-new-york-open.html"
+    },
+    {
+      "label": "College MatchDay: FSU-UF Preview",
+      "href": "https://www.ustanationalcampus.com/en/home/news/college-matchday-preview--florida--florida-state-to-renew-rivalr.html"
+    },
+    {
+      "label": "Colorado Mesa's MacDonald Inducted into Cowley HOF",
+      "href": "http://thecrite.com/coloradomesau/mavericks-tennis-coach-enshrined-in-cowley-college-hall-of-fame/"
+    },
+    {
+      "label": "Q&A with Case Western's Cristina Hoog",
+      "href": "https://observer.case.edu/first-year-tennis-player-thanks-the-team-for-making-her-transition-to-college-easier/"
+    },
+    {
+      "label": "2020 Preview: Virginia Men",
+      "href": "https://www.usta.com/en/home/stay-current/national/2020-ncaa-season-preview--virginia-men.html"
+    },
+    {
+      "label": "2020 Preview: Pepperdine Women",
+      "href": "https://www.usta.com/en/home/stay-current/national/2020-ncaa-season-preview--pepperdine-women.html"
+    },
+    {
+      "label": "2020 Preview: Wake Forest Men",
+      "href": "https://www.usta.com/en/home/stay-current/national/2020-ncaa-season-preview--wake-forest-men.html"
+    },
+    {
+      "label": "2020 Preview: Stanford Women",
+      "href": "https://www.usta.com/en/home/stay-current/national/2020-ncaa-season-preview--stanford-women.html"
+    },
+    {
+      "label": "Athlete of the Year: Ashley Lahey",
+      "href": "http://www.malibutimes.com/malibu_life/article_5725677e-27b2-11ea-ae3b-6fac710b96a9.html"
+    },
+    {
+      "label": "Orange Bowl Players Make Case for College",
+      "href": "https://www.usta.com/en/home/stay-current/national/alexandra-yepifanova--blaise-bicknell-make-case-for-college-tenn.html"
+    },
+    {
+      "label": "2019 Collegiate Year In Review",
+      "href": "https://www.usta.com/en/home/stay-current/national/2019-year-in-review--historic-year-for-college-tennis-includes-n.html"
+    },
+    {
+      "label": "McAdoo Trying to Make Her Own Name",
+      "href": "https://www.reviewjournal.com/sports/sports-columns/ron-kantowski/rasheeda-mcadoo-trying-to-make-her-own-name-in-tennis-1887097/"
+    },
+    {
+      "label": "No 'Love' For Cancer at the Dick Vitale College Tournament",
+      "href": "https://www.bradenton.com/news/local/article236939313.html"
+    },
+    {
+      "label": "Kamau Murray Helping Kids Win Championships and Scholarships",
+      "href": "https://chicago.suntimes.com/voices-sports/2019/10/22/20911831/kamau-murray-south-side-xs-tennis-taylor-townsend-sloane-stephens"
+    },
+    {
+      "label": "Former NCAA Standouts Weigh In On College Tennis",
+      "href": "http://www.tennis.com/pro-game/2019/09/give-it-old-college-tryor-not-atp-wta-tours-speak-out/84955/"
+    },
+    {
+      "label": "Chase Hodges is One of the Best-Kept Secrets",
+      "href": "https://www.atlantamagazine.com/news-culture-articles/109-straight-wins-georgia-gwinnett-coach-chase-hodges-is-one-of-the-best-kept-secrets-in-college-tennis/"
+    },
+    {
+      "label": "American Collegians at the 2019 US Open",
+      "href": "https://www.usta.com/en/home/pro/pro-media---news/american-collegians-ready-for-us-open.html"
+    },
+    {
+      "label": "College Players Ready to Represent Team USA at the 2019 Pan-Am Games",
+      "href": "https://www.usta.com/en/home/pro/pro-media---news/twelve-named-to-team-usa-for-pan-american--parapan-american-game.html"
+    },
+    {
+      "label": "Kenyon's Kobelt Recruiting at the Combine While Playing on the ITF World Tour",
+      "href": "https://www.usta.com/en/home/stay-current/national/maddie-kobelt--college-coach-and-pro-player--on-double-duty-at-u.html"
+    },
+    {
+      "label": "Fitness Testing with Dr. Mark Kovacs",
+      "href": "https://www.usta.com/en/home/stay-current/national/fitness-testing-with-dr--mark-kovacs-at-usta-all-american-colleg.html"
+    },
+    {
+      "label": "Combine Success Story - From No Interest to an Offer",
+      "href": "https://www.tennisrecruiting.net/article.asp?id=297369096&sessionid=01456FD9779FCD2A"
+    },
+    {
+      "label": "Growing College Combines and Showcases",
+      "href": "https://www.tennisrecruiting.net/article.asp?id=296321112"
+    },
+    {
+      "label": "Growing the College Game: USTA Hosts NCAAs",
+      "href": "https://www.usta.com/en/home/stay-current/national/growing-the-college-game--usta-national-campus-hosts-ncaa-champs.html"
+    },
+    {
+      "label": "College Tennis Serves as a Pathway to the Pros",
+      "href": "https://www.usta.com/en/home/stay-current/national/collegiate-tennis-serves-as-a-pathway-to-the-pros.html"
+    },
+    {
+      "label": "Wesleyan Wins D-III Championship",
+      "href": "https://www.courant.com/sports/college/hc-sp-wesleyan-women-win-20190522-20190522-3lxjzeye6jgnlnfra5w7jqcycy-story.html"
+    },
+    {
+      "label": "Duke's Kelly Chen and Her Brush with the Hospital During NCAAs",
+      "href": "https://www.usta.com/en/home/stay-current/national/duke-s-kelly-chen-recovers-from-hospitalizing-cramps-at-ncaas.html"
+    },
+    {
+      "label": "GGC Grizzlies Bring Home Two More NAIA Tennis Banners",
+      "href": "https://www.gwinnettdailypost.com/sports/unrelenting-ggc-grizzlies-bring-home-two-more-naia-tennis-banners/article_f529ab38-7b28-11e9-ab96-5bfbe367df1a.html"
+    },
+    {
+      "label": "NCAA Championship Coming to Tennis Channel",
+      "href": "http://www.tennis.com/pro-game/2019/05/ncaa-tennis-championships-come-tennis-channel-3-year-agreement/81432/"
+    },
+    {
+      "label": "Tennis Channel, USTA to Air NCAA Championships",
+      "href": "https://www.ncaa.com/news/tennis-men/article/2019-05-06/tennis-channel-and-usta-form-3-year-rights-agreement-ncaa-di"
+    },
+    {
+      "label": "Lake Forest Makes NCAA D-III Tournament for First Time",
+      "href": "https://www.chicagotribune.com/suburbs/lake-forest/sports/ct-lfr-womens-tennis-lake-forest-college-ncaa-tournament-tl-0509-story.html"
+    },
+    {
+      "label": "Rose City Hosting NJCAA Championships",
+      "href": "https://tylerpaper.com/sports/college/tennis-anyone-rose-city-hosting-njcaa-national-tournament/article_9fb87fe0-6ebb-11e9-918a-e750f5d70ee3.html"
+    },
+    {
+      "label": "College Tennis Becoming a Better Pathway to the Pros",
+      "href": "http://baseline.tennis.com/article/81310/new-college-try-steve-denton-john-roddick"
+    },
+    {
+      "label": "NCAA Contenders: Ohio State Men",
+      "href": "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--ohio-state-men.html"
+    },
+    {
+      "label": "NCAA Contenders: USC Men",
+      "href": "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--southern-california-men.html"
+    },
+    {
+      "label": "Illinois' Clark Brings Selfless Nature to Men's Tennis",
+      "href": "http://www.news-gazette.com/sports/illini-sports/2019-04-25/clark-brings-selfless-nature-illinois-mens-tennis-team.html"
+    },
+    {
+      "label": "Saint Michael's Puts Vermont Tennis on the Map",
+      "href": "https://www.ustanationalcampus.com/en/home/news/saint-michael-s-puts-vermont-tennis-on-the-map.html"
+    },
+    {
+      "label": "Minnesota's Merzbacher Hopes to Start New Chapter as Coach",
+      "href": "https://www.mndaily.com/article/2019/04/s-as-playing-career-ends-caitlyn-merzbacher-hopes-to-start-new-chapter-as-coach"
+    },
+    {
+      "label": "Ex-High School Champion Relishes College Tennis at Iowa",
+      "href": "https://journalstar.com/sports/huskers/tennis/ex-elkhorn-south-state-champion-mannix-relishes-the-challenge-of/article_2d12445c-d49a-5f05-868a-b84958b1b1e7.html"
+    },
+    {
+      "label": "Azusa Pacific Aims for the D-II Trophy",
+      "href": "https://www.ustanationalcampus.com/en/home/news/azusa-pacific-aims-for-the-d-ii-trophy.html"
+    },
+    {
+      "label": "NCAA Contenders: Vanderbilt Women",
+      "href": "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--vanderbilt-women.html"
+    },
+    {
+      "label": "Midway's Poste Reflects on the Combine and Recruiting",
+      "href": "https://www.ustanationalcampus.com/en/home/news/midway-university-s-carly-poste.html"
+    },
+    {
+      "label": "dner-Webb's Max Scholl",
+      "href": "https://www.shelbystar.com/news/20190412/whos-nations-top-college-tennis-player-gardner-webbs-max-scholl-is-in-discussion"
+    },
+    {
+      "label": "Middlebury Hosts Women in Tennis Together Workshop",
+      "href": "https://middleburycampus.com/44129/sports/college-hosts-second-annual-women-in-tennis-together-workshop/"
+    },
+    {
+      "label": "Guest Mailbag: Mackenzie McDonald",
+      "href": "https://www.si.com/tennis/2019/04/10/guest-mailbag-mackenzie-mcdonald-college-tennis-greatest-players-roger-federer"
+    },
+    {
+      "label": "Sibling Takeover at Cedarville University",
+      "href": "https://www.usta.com/en/home/stay-current/national/sibling-takeover-on-cedarville-university-men-s--women-s-tennis-.html"
+    },
+    {
+      "label": "NCAA Contenders: North Carolina Women",
+      "href": "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--north-carolina-women.html"
+    },
+    {
+      "label": "College of St. Scholastica's Wennerstrand Serving Up Aces Once Again",
+      "href": "https://www.brainerddispatch.com/sports/tennis/4594031-college-tennis-wennerstand-serving-aces-once-again"
+    },
+    {
+      "label": "Saint Michael's Using Homegrown Talent",
+      "href": "https://www.mynbc5.com/article/vermonters-sparking-saint-michael-s-tennis-resurgence/27037055"
+    },
+    {
+      "label": "NCAA Contenders: Virginia Men",
+      "href": "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--virginia-men.html"
+    },
+    {
+      "label": "NCAA Contenders: Michigan Women",
+      "href": "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--michigan-women.html"
+    },
+    {
+      "label": "NCAA Contenders: Duke Women",
+      "href": "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--duke-women.html"
+    },
+    {
+      "label": "Loeb, Aragone Receive Oracle US Tennis Awards",
+      "href": "https://www.tennisworldusa.org/tennis/news/ATP_Tennis/67809/jamie-loeb-and-jc-aragone-receive-oracle-us-tennis-awards/"
+    },
+    {
+      "label": "Marcos Giron Gives Milos Ranoic a Scare and UCLA Fans a Thrill",
+      "href": "https://www.latimes.com/sports/more/la-sp-marcos-giron-milos-raonic-dwyre-20190311-story.html"
+    },
+    {
+      "label": "Spring Break Highlight: Concordia (NY)",
+      "href": "https://www.ustanationalcampus.com/en/home/news/spring-break-highlight--concordia-college-new-york-.html"
+    },
+    {
+      "label": "Georgia Gwinnett Wins 90th Straight",
+      "href": "https://www.gwinnettdailypost.com/sports/ggc-men-s-tennis-rallies-in-battle-of-no-teams/article_9cd60fec-3fbb-11e9-8952-f3611f990ac1.html"
+    },
+    {
+      "label": "101-Year-Old Player Helps Upgrade Goucher College Tennis Center",
+      "href": "https://baltimore.cbslocal.com/2019/03/04/101-year-old-tennis-player-helps-upgrade-goucher-colleges-tennis-center/"
+    },
+    {
+      "label": "From College to Coach of Naomi Osaka",
+      "href": "https://www.wtatennis.com/news/jermaine-jenkins-college-champ-osakas-new-coach"
+    },
+    {
+      "label": "NCAA Contenders: Stanford Women",
+      "href": "https://www.usta.com/en/home/stay-current/national/road-to-orlando--stanford-women-.html"
+    },
+    {
+      "label": "Fearless with USC's Salma Ewing",
+      "href": "https://www.uscbhm.com/fearless"
+    },
+    {
+      "label": "Ohio State Wins ITA Men's Indoors",
+      "href": "https://buckeyeswire.usatoday.com/2019/02/18/ohio-state-mens-tennis-wins-ita-indoor-national-team-championship/"
+    },
+    {
+      "label": "A Flyover and Ground Games: Air Force Faces Army in Historic Match-Up",
+      "href": "http://tnns.co/mrvEsF"
+    },
+    {
+      "label": "Georgia Wins ITA Women's Indoors",
+      "href": "https://www.dawgnation.com/womens-tennis/georgia-womens-tennis-team-wins-2019-indoor-national-championship"
+    },
+    {
+      "label": "Columbia's Winston Lin Ready for the ATP New York Open",
+      "href": "https://www.nytimes.com/2019/02/11/sports/tennis/jack-lin-new-york-open-columbia.html"
+    },
+    {
+      "label": "Black History Month: Traci Green",
+      "href": "https://www.usta.com/en/home/stay-current/national/black-history-month-profile--harvard-coach-traci-green.html"
+    },
+    {
+      "label": "American Collegians Having Success in the Pros",
+      "href": "https://www.ustanationalcampus.com/en/home/news/current-and-former-american-collegians-in-the-pros.html"
+    },
+    {
+      "label": "2019 Chron15 Icon: Maria Mateas",
+      "href": "https://www.dukechronicle.com/article/2019/02/2019-chron15-icon-maria-mateas"
+    },
+    {
+      "label": "College MatchDay Heats Up for Duke vs. Tennessee",
+      "href": "https://www.ustanationalcampus.com/en/home/news/college-matchday-continues-to-heat-up.html"
+    },
+    {
+      "label": "Why UNC's Brian Kalbas was a Chance Worth Taking",
+      "href": "https://www.dailytarheel.com/article/2019/02/brian-kalbas-feature-0130"
+    },
+    {
+      "label": "FSU-UF Rivalry Renewed",
+      "href": "https://www.ustanationalcampus.com/en/home/news/rivalry-renewed.html"
+    },
+    {
+      "label": "USTA and Tennis Channel Partner on Top 25",
+      "href": "http://www.tennispanorama.com/archives/64923"
+    },
+    {
+      "label": "Collins' Run Highlights Benefits of Collegiate Tennis",
+      "href": "https://www.usta.com/en/home/stay-current/national/danielle-collins--run-at-australian-open-shines-light-on-collegi.html"
+    },
+    {
+      "label": "From UVA to the Australian Open Final Four",
+      "href": "https://www.si.com/tennis/2019/01/23/danielle-collins-uva-college-tennis-australian-open"
+    },
+    {
+      "label": "Collins is the Fearless American in the Australian Open Semifinals",
+      "href": "https://www.telegraph.co.uk/tennis/2019/01/22/danielle-collins-fearless-american-australian-open-semi-finals/"
+    },
+    {
+      "label": "USTA and Collins Coach, Cloer, Keeping Everything Simple",
+      "href": "https://www.wtatennis.com/news/danielle-collins%E2%80%99-coach-%E2%80%98keeping-everything-simple%E2%80%99-ahead-melbourne-semifinal"
+    },
+    {
+      "label": "Collins in the Australian Open Semifinals is Beyond Surprising",
+      "href": "https://www.washingtonpost.com/sports/2019/01/22/danielle-collins-two-time-ncaa-singles-champion-virginia-is-surprise-australian-open/?utm_term=.bcf5c676ab2d"
+    },
+    {
+      "label": "Collins into Australian Open Semifinals and Feeling the Love Back Home",
+      "href": "http://www.espn.com/tennis/story/_/id/25822730/into-australian-open-final-four-danielle-collins-feeling-love-back-home"
+    },
+    {
+      "label": "Collins: Going to College Helped Me Develop Myself as a Person",
+      "href": "https://www.usatoday.com/story/sports/tennis/2019/01/20/australian-open-danielle-collins-upsets-angelique-kerber-fourth-round/2630479002/"
+    },
+    {
+      "label": "Collins Stuns Kerber for Australian Open Quarterfinals Berth",
+      "href": "https://www.nytimes.com/2019/01/20/sports/tennis/danielle-collins-stuns-foe-to-reach-australian-open-quarterfinals.html"
+    },
+    {
+      "label": "Get to Know Danielle Collins",
+      "href": "https://www.usopen.org/en_US/news/articles/2019-01-18/2019-01-18_2019-01-18_getting_to_know_danielle_collins.html"
+    },
+    {
+      "label": "Collins Reaches Fourth Round of Australian Open",
+      "href": "https://www.wtatennis.com/news/collins-cruises-past-garcia-enter-aussie-open-fourth-round"
+    },
+    {
+      "label": "Michigan State's Gene Orlando Enjoys Every Year",
+      "href": "https://statenews.com/article/2019/01/msu-coach-enters-28th-season"
+    },
+    {
+      "label": "McDonald Growing Accustomed to Pro Tennis",
+      "href": "https://www.latimes.com/sports/more/la-sp-mackenzie-mcdonald-elliott-20190116-story.html"
+    }
+  ],
+  "links": [
+    "https://app.courtreserve.com/Online/Events/List/6415/K9INL6ND8Y6415",
+    "https://www.ustanationalcampus.com/en/home.html",
+    "https://www.ustanationalcampus.com/en/home/play.html",
+    "https://www.ustanationalcampus.com/en/home/play/programs.html",
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html",
+    "https://www.ustanationalcampus.com/en/home/play/tennis/adult-camps.html",
+    "https://www.ustanationalcampus.com/en/home/play/tennis/summer-camps.html",
+    "https://www.ustanationalcampus.com/en/home/play/book-a-court.html",
+    "https://www.ustanationalcampus.com/en/home/play/free30.html",
+    "https://www.ustanationalcampus.com/en/home/play/davebailey.html",
+    "https://www.ustanationalcampus.com/en/home/events.html",
+    "https://www.ustanationalcampus.com/en/home/calendar.html",
+    "https://www.ustanationalcampus.com/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "https://www.ustanationalcampus.com/en/home/about.html",
+    "https://www.ustanationalcampus.com/en/home/about/meet-our-team.html",
+    "https://www.ustanationalcampus.com/en/home/connect.html",
+    "https://www.ustanationalcampus.com/en/home/about/sponsors---partners.html",
+    "https://www.ustanationalcampus.com/en/home/about/usta-national-campus-scholarship.html",
+    "https://www.ustanationalcampus.com/en/home/watch.html",
+    "https://www.ustanationalcampus.com/en/home/watch/save-my-play.html",
+    "https://www.ustanationalcampus.com/en/home/visit.html",
+    "https://www.ustatravel.com/",
+    "https://www.ustanationalcampus.com/en/home/visit/sustainability.html",
+    "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness.html",
+    "https://www.ustaproshop.com/",
+    "https://www.ustanationalcampus.com/en/home/news.html",
+    "https://www.usta.com/About-USTA/Organization/Information/Terms%20of%20Use",
+    "https://www.usta.com/About-USTA/Organization/Information/Privacy%20Policy",
+    "https://twitter.com/usta",
+    "https://www.facebook.com/USTA/",
+    "https://www.instagram.com/USTA/",
+    "https://www.youtube.com/user/tennis",
+    "https://www.ustanationalcampus.com/en/home/news/collegiatenews.html#",
+    "https://www.ustanationalcampus.com/en/home/news/collegiatenews.html#shareModal",
+    "http://www.ncaa.com/sports/tennis-men/d1",
+    "http://www.ncaa.com/sports/tennis-women/d1",
+    "https://www.wearecollegetennis.com/category/ita/",
+    "https://www.usta.com/en/home/pro/pro-media---news/local-collegians-soak-it-all-in-at-new-york-open.html",
+    "https://www.ustanationalcampus.com/en/home/news/college-matchday-preview--florida--florida-state-to-renew-rivalr.html",
+    "http://thecrite.com/coloradomesau/mavericks-tennis-coach-enshrined-in-cowley-college-hall-of-fame/",
+    "https://observer.case.edu/first-year-tennis-player-thanks-the-team-for-making-her-transition-to-college-easier/",
+    "https://www.usta.com/en/home/stay-current/national/2020-ncaa-season-preview--virginia-men.html",
+    "https://www.usta.com/en/home/stay-current/national/2020-ncaa-season-preview--pepperdine-women.html",
+    "https://www.usta.com/en/home/stay-current/national/2020-ncaa-season-preview--wake-forest-men.html",
+    "https://www.usta.com/en/home/stay-current/national/2020-ncaa-season-preview--stanford-women.html",
+    "http://www.malibutimes.com/malibu_life/article_5725677e-27b2-11ea-ae3b-6fac710b96a9.html",
+    "https://www.usta.com/en/home/stay-current/national/alexandra-yepifanova--blaise-bicknell-make-case-for-college-tenn.html",
+    "https://www.usta.com/en/home/stay-current/national/2019-year-in-review--historic-year-for-college-tennis-includes-n.html",
+    "https://www.reviewjournal.com/sports/sports-columns/ron-kantowski/rasheeda-mcadoo-trying-to-make-her-own-name-in-tennis-1887097/",
+    "https://www.bradenton.com/news/local/article236939313.html",
+    "https://chicago.suntimes.com/voices-sports/2019/10/22/20911831/kamau-murray-south-side-xs-tennis-taylor-townsend-sloane-stephens",
+    "http://www.tennis.com/pro-game/2019/09/give-it-old-college-tryor-not-atp-wta-tours-speak-out/84955/",
+    "https://www.atlantamagazine.com/news-culture-articles/109-straight-wins-georgia-gwinnett-coach-chase-hodges-is-one-of-the-best-kept-secrets-in-college-tennis/",
+    "https://www.usta.com/en/home/pro/pro-media---news/american-collegians-ready-for-us-open.html",
+    "https://www.usta.com/en/home/pro/pro-media---news/twelve-named-to-team-usa-for-pan-american--parapan-american-game.html",
+    "https://www.usta.com/en/home/stay-current/national/maddie-kobelt--college-coach-and-pro-player--on-double-duty-at-u.html",
+    "https://www.usta.com/en/home/stay-current/national/fitness-testing-with-dr--mark-kovacs-at-usta-all-american-colleg.html",
+    "https://www.tennisrecruiting.net/article.asp?id=297369096&sessionid=01456FD9779FCD2A",
+    "https://www.tennisrecruiting.net/article.asp?id=296321112",
+    "https://www.usta.com/en/home/stay-current/national/growing-the-college-game--usta-national-campus-hosts-ncaa-champs.html",
+    "https://www.usta.com/en/home/stay-current/national/collegiate-tennis-serves-as-a-pathway-to-the-pros.html",
+    "https://www.courant.com/sports/college/hc-sp-wesleyan-women-win-20190522-20190522-3lxjzeye6jgnlnfra5w7jqcycy-story.html",
+    "https://www.usta.com/en/home/stay-current/national/duke-s-kelly-chen-recovers-from-hospitalizing-cramps-at-ncaas.html",
+    "https://www.gwinnettdailypost.com/sports/unrelenting-ggc-grizzlies-bring-home-two-more-naia-tennis-banners/article_f529ab38-7b28-11e9-ab96-5bfbe367df1a.html",
+    "http://www.tennis.com/pro-game/2019/05/ncaa-tennis-championships-come-tennis-channel-3-year-agreement/81432/",
+    "https://www.ncaa.com/news/tennis-men/article/2019-05-06/tennis-channel-and-usta-form-3-year-rights-agreement-ncaa-di",
+    "https://www.chicagotribune.com/suburbs/lake-forest/sports/ct-lfr-womens-tennis-lake-forest-college-ncaa-tournament-tl-0509-story.html",
+    "https://tylerpaper.com/sports/college/tennis-anyone-rose-city-hosting-njcaa-national-tournament/article_9fb87fe0-6ebb-11e9-918a-e750f5d70ee3.html",
+    "http://baseline.tennis.com/article/81310/new-college-try-steve-denton-john-roddick",
+    "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--ohio-state-men.html",
+    "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--southern-california-men.html",
+    "http://www.news-gazette.com/sports/illini-sports/2019-04-25/clark-brings-selfless-nature-illinois-mens-tennis-team.html",
+    "https://www.ustanationalcampus.com/en/home/news/saint-michael-s-puts-vermont-tennis-on-the-map.html",
+    "https://www.mndaily.com/article/2019/04/s-as-playing-career-ends-caitlyn-merzbacher-hopes-to-start-new-chapter-as-coach",
+    "https://journalstar.com/sports/huskers/tennis/ex-elkhorn-south-state-champion-mannix-relishes-the-challenge-of/article_2d12445c-d49a-5f05-868a-b84958b1b1e7.html",
+    "https://www.ustanationalcampus.com/en/home/news/azusa-pacific-aims-for-the-d-ii-trophy.html",
+    "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--vanderbilt-women.html",
+    "https://www.ustanationalcampus.com/en/home/news/midway-university-s-carly-poste.html",
+    "https://www.shelbystar.com/news/20190412/whos-nations-top-college-tennis-player-gardner-webbs-max-scholl-is-in-discussion",
+    "https://middleburycampus.com/44129/sports/college-hosts-second-annual-women-in-tennis-together-workshop/",
+    "https://www.si.com/tennis/2019/04/10/guest-mailbag-mackenzie-mcdonald-college-tennis-greatest-players-roger-federer",
+    "https://www.usta.com/en/home/stay-current/national/sibling-takeover-on-cedarville-university-men-s--women-s-tennis-.html",
+    "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--north-carolina-women.html",
+    "https://www.brainerddispatch.com/sports/tennis/4594031-college-tennis-wennerstand-serving-aces-once-again",
+    "https://www.mynbc5.com/article/vermonters-sparking-saint-michael-s-tennis-resurgence/27037055",
+    "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--virginia-men.html",
+    "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--michigan-women.html",
+    "https://www.usta.com/en/home/stay-current/national/ncaa-contenders--duke-women.html",
+    "https://www.tennisworldusa.org/tennis/news/ATP_Tennis/67809/jamie-loeb-and-jc-aragone-receive-oracle-us-tennis-awards/",
+    "https://www.latimes.com/sports/more/la-sp-marcos-giron-milos-raonic-dwyre-20190311-story.html",
+    "https://www.ustanationalcampus.com/en/home/news/spring-break-highlight--concordia-college-new-york-.html",
+    "https://www.gwinnettdailypost.com/sports/ggc-men-s-tennis-rallies-in-battle-of-no-teams/article_9cd60fec-3fbb-11e9-8952-f3611f990ac1.html",
+    "https://baltimore.cbslocal.com/2019/03/04/101-year-old-tennis-player-helps-upgrade-goucher-colleges-tennis-center/",
+    "https://www.wtatennis.com/news/jermaine-jenkins-college-champ-osakas-new-coach",
+    "https://www.usta.com/en/home/stay-current/national/road-to-orlando--stanford-women-.html",
+    "https://www.uscbhm.com/fearless",
+    "https://buckeyeswire.usatoday.com/2019/02/18/ohio-state-mens-tennis-wins-ita-indoor-national-team-championship/",
+    "http://tnns.co/mrvEsF",
+    "https://www.dawgnation.com/womens-tennis/georgia-womens-tennis-team-wins-2019-indoor-national-championship",
+    "https://www.nytimes.com/2019/02/11/sports/tennis/jack-lin-new-york-open-columbia.html",
+    "https://www.usta.com/en/home/stay-current/national/black-history-month-profile--harvard-coach-traci-green.html",
+    "https://www.ustanationalcampus.com/en/home/news/current-and-former-american-collegians-in-the-pros.html",
+    "https://www.dukechronicle.com/article/2019/02/2019-chron15-icon-maria-mateas",
+    "https://www.ustanationalcampus.com/en/home/news/college-matchday-continues-to-heat-up.html",
+    "https://www.dailytarheel.com/article/2019/02/brian-kalbas-feature-0130",
+    "https://www.ustanationalcampus.com/en/home/news/rivalry-renewed.html",
+    "http://www.tennispanorama.com/archives/64923",
+    "https://www.usta.com/en/home/stay-current/national/danielle-collins--run-at-australian-open-shines-light-on-collegi.html",
+    "https://www.si.com/tennis/2019/01/23/danielle-collins-uva-college-tennis-australian-open",
+    "https://www.telegraph.co.uk/tennis/2019/01/22/danielle-collins-fearless-american-australian-open-semi-finals/",
+    "https://www.wtatennis.com/news/danielle-collins%E2%80%99-coach-%E2%80%98keeping-everything-simple%E2%80%99-ahead-melbourne-semifinal",
+    "https://www.washingtonpost.com/sports/2019/01/22/danielle-collins-two-time-ncaa-singles-champion-virginia-is-surprise-australian-open/?utm_term=.bcf5c676ab2d",
+    "http://www.espn.com/tennis/story/_/id/25822730/into-australian-open-final-four-danielle-collins-feeling-love-back-home",
+    "https://www.usatoday.com/story/sports/tennis/2019/01/20/australian-open-danielle-collins-upsets-angelique-kerber-fourth-round/2630479002/",
+    "https://www.nytimes.com/2019/01/20/sports/tennis/danielle-collins-stuns-foe-to-reach-australian-open-quarterfinals.html",
+    "https://www.usopen.org/en_US/news/articles/2019-01-18/2019-01-18_2019-01-18_getting_to_know_danielle_collins.html",
+    "https://www.wtatennis.com/news/collins-cruises-past-garcia-enter-aussie-open-fourth-round",
+    "https://statenews.com/article/2019/01/msu-coach-enters-28th-season",
+    "https://www.latimes.com/sports/more/la-sp-mackenzie-mcdonald-elliott-20190116-story.html",
+    "https://ramblinwreck.com/former-tech-tennis-star-eubanks-qualifies-at-australian-open/",
+    "https://www.ustanationalcampus.com/en/home/news/2019-collegiate-series.html",
+    "http://www.espn.com/tennis/story/_/id/25586901/tennis-kevin-anderson-john-isner-going-give-old-college-try-2019",
+    "https://www.usta.com/en/home/stay-current/national/year-in-review--college.html",
+    "https://athletics.blog.gustavus.edu/2018/12/20/former-mens-tennis-players-win-usta-college-alumni-classic/",
+    "https://www.ustanationalcampus.com/en/home/news/2018blizzardrecap.html",
+    "https://itatennis.com/ITA/Media/News2018/Collegiate_Tennis_Dual_Matches_To_Be_Contested_At_Australian_Open_2019.aspx",
+    "https://www.usta.com/en/home/stay-current/national/2018-master-u-blog--team-usa-reclaims-title-with-4-1-victory-ove.html",
+    "https://www.usta.com/en/home/stay-current/national/2018-master-u-blog--team-usa-defeats-ireland--6-1--to-set-up-tit.html",
+    "https://www.usta.com/en/home/stay-current/national/2018-master-u-blog--team-usa-starts-strong-against-Belgium.html",
+    "https://www.usta.com/en/home/stay-current/national/2018-master-u-blog--draw-ceremony.html",
+    "https://www.usta.com/en/home/stay-current/national/2018-master-u-blog--greetings-from-france.html",
+    "https://www.usta.com/en/home/stay-current/national/college-spotlight--oliver-crawford--florida.html",
+    "http://www.tennis.com/pro-game/2018/11/hometown-heroes-krajicek-monroe-come-through-houston/78035/",
+    "https://dailybruin.com/2018/11/15/mens-tennis-freshman-adjusts-to-college-competition-in-fall-tournaments/",
+    "https://www.dukechronicle.com/article/2018/11/duke-womens-tennis-freshman-maria-mateas-brings-professional-success-to-the-college-game",
+    "https://www.si.com/tennis/2018/11/07/tennis-mailbag-karen-khachanov-elina-svitolina-fed-cup",
+    "http://newyorkopen.com/news/2018/11/07/new-york-open-main-draw-singles-wild-card-up-for-grabs-for-college-champion/",
+    "https://www.usta.com/en/home/stay-current/national/college-spotlight--sophie-whittle--gonzaga.html",
+    "https://www.ustanationalcampus.com/en/home/news/2019-college-matchday-schedule.html",
+    "https://www.tennistakes.com/my-college-tennis-experience-taylor-davidson/",
+    "https://www.tennistakes.com/my-college-tennis-experience-ronnie-schneider/",
+    "https://www.itatennis.com/ITA/Media/News2018/2018_Riviera_ITA_Women_s_All-American_Championships_-_Sunday_Recap.aspx",
+    "https://www.itatennis.com/ITA/Media/News2018/Champions_Crowned_At_2018_Saint_Francis_Health_System_ITA_Men_s_All-American_Championships.aspx",
+    "https://www.usta.com/en/home/stay-current/national/navy-s-joe-hunt-inviational-to-honor-tennis-legend.html",
+    "https://www.usta.com/en/home/stay-current/national/college-spotlight--maegan-manasse.html",
+    "http://baseline.tennis.com/article/76915/college-tennis-you-get-much-you-put-it",
+    "https://www.usopen.org/en_US/news/articles/2018-08-29/2018-08-29_us_open_interview_francesca_di_lorenzo.html?chip=4",
+    "http://www.wtatennis.com/news/getting-know-you-introducing-us-open-2018s-grand-slam-debutantes",
+    "https://www.ustanationalcampus.com/en/home/news/2018usopenamericancollegians.html",
+    "https://tennisrecruiting.net/article.asp?id=269438256",
+    "https://www.washingtonpost.com/sports/ncaa-champion-thai-son-kwiatkowski-battles-back-to-reach-main-draw-at-citi-open/2018/07/29/7f64f782-9365-11e8-810c-5fa705927d54_story.html?noredirect=on&utm_term=.4cdc2eff453b",
+    "https://www.usta.com/en/home/stay-current/national/college-spotlight--lauren-proctor.html",
+    "http://www.tennis.com/pro-game/2018/07/tenniscom-podcast-sloane-stephens-john-isner-taylor-swift/75525/",
+    "https://www.usta.com/en/home/pro/pro-media---news/former-collegians-isner--anderson-to-meet-in-wimbledon-semifinal.html",
+    "https://www.tennisrecruiting.net/article.asp?id=267896484&sessionid=17B932CD678F0A8E",
+    "http://www.usopen.org/en_US/news/articles/2018-07-09/2018-07-09_2018_us_open_spotlight_mackenzie_mcdonald.html?chip=1",
+    "https://www.usatoday.com/story/sports/tennis/2018/07/08/wimbledon-mackenzie-mcdonald-coach-billy-martin/766726002/",
+    "https://www.youtube.com/watch?v=5RfhCHlg-nc",
+    "https://www.usatoday.com/story/sports/tennis/2018/07/06/up-and-comer-mackenzie-mcdonald-making-presence-felt-wimbledon/764701002/",
+    "https://www.sfgate.com/sports/article/Piedmont-s-Mackenzie-McDonald-reaches-fourth-13055295.php",
+    "https://www.tennisrecruiting.net/article.asp?id=268063940&sessionid=6B934D7011FE5716",
+    "https://tennisrecruiting.net/article.asp?id=265981250",
+    "https://www.usta.com/en/home/pro/pro-media---news/pro-circuit-round-up--redlicki-returns-with-a-title.html",
+    "https://www.tennisrecruiting.net/article.asp?id=262352258&sessionid=0DA03DB8024200BE",
+    "https://www.ustanationalcampus.com/en/home/news/7-tips-to-stand-out-at-the-all-american-college-combine-.html",
+    "https://www.usta.com/en/home/stay-current/national/chrysochos--hartono-capture-2018-ncaa-singles-crowns.html",
+    "https://www.usta.com/en/home/stay-current/national/2018-ncaa-singles-and-doubles-championship-preview.html",
+    "https://www.usta.com/en/home/stay-current/national/wake-forest-men--stanford-women-claim-2018-ncaa-titles.html",
+    "http://www.espn.com/tennis/story/_/id/23530462/tennis-did-way-why-danielle-collins-succeed-wta-tour",
+    "http://gostanford.com/news/2018/5/22/womens-tennis-unstoppable-once-again.aspx",
+    "http://www.wakeforestsports.com/sports/m-tennis/recaps/052218aaa.html",
+    "https://www.usta.com/en/home/stay-current/national/ncaa-tournament-preview.html",
+    "http://www.tennis.com/pro-game/2018/05/10-watch-christopher-eubanksanother-fantastic-college-product/73818/",
+    "https://www.usta.com/en/home/stay-current/national/asian-american-spotlight--kristie-ahn.html",
+    "https://www.covnews.com/sports/oxford-college-mens-tennis-claims-fourth-straight-njcaa-national-championship/",
+    "https://www.usta.com/en/home/stay-current/national/pepperdine-women-look-to-back-up-usta-college-tennis-top-25-rank.html",
+    "https://www.usta.com/en/home/stay-current/national/asian-american-spotlight--thai-son-kwiatkowski.html",
+    "http://www.tennis.com/pro-game/2018/05/new-school-college-tennis-setting-course-sports-future/73629/",
+    "http://www.journalnow.com/sports/colleges/tennis/wake-forest-men-s-tennis-receives-top-seed-for-ncaa/article_e434b50c-0b4f-55fe-985e-fd32627e93ab.html",
+    "https://www.usta.com/en/home/stay-current/national/austin-krajicek-profile.html",
+    "https://www.usta.com/en/home/stay-current/national/former-virginia-standouts-climb-atp-ranks.html",
+    "http://www.tennisindustrymag.com/news/2018/04/usta_to_host_second_all-americ.html",
+    "https://www.ustaflorida.com/orlando-usta-national-campus-to-host-2nd-all-american-college-combine-for-tennis-juniors/",
+    "http://www.tennisworldusa.org/tennis/news/Tennis_Interviews/53321/john-isner-going-to-college-makes-you-a-better-person-and-player-/",
+    "https://mobile.nytimes.com/2018/03/27/sports/tennis/danielle-collins-miami-open.html?smid=tw-nytsports&smtyp=cur",
+    "http://www.virginiasports.com/sports/m-tennis/spec-rel/032618aaa.html",
+    "https://www.prnewswire.com/news-releases/eubanks-di-lorenzo-receive-annual-oracle-us-tennis-awards-300615548.html",
+    "http://www.wtatennis.com/news/getting-know-danielle-collins-ready-impact",
+    "https://collegian.com/2018/02/college-tennis-serves-as-alyssa-grijalvas-ticket-away-from-compton/",
+    "https://www.usta.com/en/home/stay-current/national/college-spotlight--hayley-carter--oklahoma-state-assistant-coach.html",
+    "https://www.usta.com/en/home/stay-current/national/former-college-star-di-lorenzo-adjusts-to-life-on-the-pro-tour.html",
+    "https://www.usta.com/en/home/stay-current/national/college-matchday-events-coming-to-tennis-channel.html",
+    "http://www.tennis.com/pro-game/2018/01/grigor-dimitrov-mackenzie-mcdonald-2018-australian-open/71348/",
+    "http://www.espn.com/tennis/story/_/id/22124148/icymi-australian-open-tennis-meet-mackenzie-mcdonald-guy-almost-pulled-epic-upset",
+    "https://www.usta.com/en/home/stay-current/national/usta-college-tennis-top-25-rankings-return-jan--31.html",
+    "https://theundefeated.com/features/michigan-brienne-minor-ncaa-tennis-title/",
+    "https://www.ustanationalcampus.com/en/home/news/collegiatenews.html#carousel-example-generic",
+    "https://48188ad2.sibforms.com/serve/MUIFAIlfGVpfzetYeY0ld-o5gJ7N5WLmcwQKCGzls8hZvrp2c6G6GFENvYgX7OWG9VbBtY2di_JbLmqhFm7cL9WkImuoMTLvDsvlJ1OfbDwS5Ed7cOb1BUmMtDWvHaXKoaCYIeDhSiMjqlZ3KCgWnkFu5myttFWj8KLBCu2Pc1kdVOxjo-CfeZK4Skx3Tx4K7ThvcFrrHARYrbZu",
+    "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html",
+    "tel:4076752500",
+    "https://www.google.com/maps/place/USTA+National+Campus/@28.40035,-81.277727,15z/data=!4m5!3m4!1s0x0:0xa93446c27a424f4c!8m2!3d28.40035!4d-81.277727",
+    "https://www.usta.com/content/usta/en/home/about-usta.html",
+    "http://careers.usta.com/",
+    "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-terms-of-use.html",
+    "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-privacy-policy.html",
+    "https://www.ustanationalcampus.com/en/home/news/national-campus-program-policies.html",
+    "https://www.ustanationalcampus.com/en/home/site-map.html",
+    "https://www.usta.com/content/usta/en/home.html",
+    "https://www.usopen.org/",
+    "https://www.ustafoundation.com/",
+    "https://www.playerdevelopment.usta.com/",
+    "https://usta.courtreserve.com/Online/Events/List/6415/F6SUBQ2NFZ6415",
+    "https://www.facebook.com/USTANationalCampus/",
+    "https://www.instagram.com/usta.nationalcampus/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/components/content/common/header/clientlibs/resources/Tennis-Ball.svg",
+        "alt": "",
+        "w": 21,
+        "h": 21
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/components/content/common/header/clientlibs/resources/Cancel-Topnav-Bold.svg",
+        "alt": "Close",
+        "w": 18,
+        "h": 18
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/components/content/common/header/clientlibs/resources/Hamburger-Menu-Black.svg",
+        "alt": "Menu",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/HeaderLogos/national-campus-logo.svg",
+        "alt": "USTA National Campus Logo Home",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/USTANC-Lightbox-Pop-Up_484x557.jpg/_jcr_content/renditions/cq5dam.web.484.557.jpeg",
+        "alt": "headerimage",
+        "w": 484,
+        "h": 557
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/icons_twitter.png",
+        "alt": "/content/dam/nationalcampus/newsletter/icons_twitter.png",
+        "w": 50,
+        "h": 20
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/icons_facebook.png",
+        "alt": "/content/dam/nationalcampus/newsletter/icons_facebook.png",
+        "w": 50,
+        "h": 20
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/icons_instagram.png",
+        "alt": "/content/dam/nationalcampus/newsletter/icons_instagram.png",
+        "w": 50,
+        "h": 20
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/icons_youtube.png",
+        "alt": "/content/dam/nationalcampus/newsletter/icons_youtube.png",
+        "w": 50,
+        "h": 20
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/findUs/twitter.svg",
+        "alt": "Twitter",
+        "w": 20,
+        "h": 17
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/findUs/twitterHover.svg",
+        "alt": "Twitter",
+        "w": 20,
+        "h": 17
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/findUs/facebook.svg",
+        "alt": "Facebook",
+        "w": 11,
+        "h": 22
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/findUs/facebookHover.svg",
+        "alt": "Facebook",
+        "w": 11,
+        "h": 22
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/articleShare/icons_googlePlus.png",
+        "alt": "google",
+        "w": 31,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/articleShare/icons_googlePlus_hover.png",
+        "alt": "google",
+        "w": 31,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/icon-backtop.svg",
+        "alt": "scroll-top",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/collegiate/news/NewsTop.jpg/_jcr_content/renditions/cq5dam.web.1600.750.jpeg",
+        "alt": "primary-article-image",
+        "w": 1600,
+        "h": 750
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/national-campus-logo.png",
+        "alt": "USTA National Campus Home",
+        "w": 295,
+        "h": 63
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/map-location-pin.svg",
+        "alt": "",
+        "w": 25,
+        "h": 24
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/facebook.png",
+        "alt": "Facebook",
+        "w": 30,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/instagram.png",
+        "alt": "Instagram",
+        "w": 30,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/youtube.png",
+        "alt": "YouTube",
+        "w": 35,
+        "h": 26
+      }
+    ],
+    "allImgCount": 22,
+    "cssBackgrounds": [],
+    "modals": [
+      "x Share with your friends or copy this link share",
+      "x Share with your friends or copy this link share"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--font-GraphikRegular": "\"Graphik Regular\",Tahoma,sans-serif",
+    "--font-GraphikSemibold": "\"Graphik Semibold\",Tahoma,sans-serif",
+    "--font-GraphikXXCondBold": "\"Graphik XXCond Bold\",Tahoma,sans-serif"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 10,
+    "mainTextLen": 14615,
+    "realImageCount": 22,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6a4.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b662249/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2586,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 13040,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1780,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.ustanationalcampus.com",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 121,
+        "hits": 1,
+        "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/j/collect",
+        "query": [
+          "_gid",
+          "_s",
+          "_slc",
+          "_u",
+          "_v",
+          "a",
+          "cid",
+          "dl",
+          "dt",
+          "gjid",
+          "jid",
+          "sr",
+          "t",
+          "tid",
+          "ul",
+          "v",
+          "vp",
+          "z"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 15,
+        "hits": 1,
+        "example": "https://www.google-analytics.com/j/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "region1.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://region1.google-analytics.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "region1.analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://region1.analytics.google.com/g/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 5
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 3
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 3
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "www.googletagservices.com",
+        "count": 1
+      },
+      {
+        "host": "www.google-analytics.com",
+        "count": 1
+      },
+      {
+        "host": "securepubads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "usta.d2.sc.omtrdc.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 10,
+      "thirdPartyScriptHosts": 8,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/en-home-news-collegiatenews-html.png",
+  "renderedHtml": "pages/en-home-news-collegiatenews-html.html"
+}

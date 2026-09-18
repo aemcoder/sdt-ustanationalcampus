@@ -1,0 +1,211 @@
+/* stardust:replica — archetype "en-home-visit-html" (legacy USTA template family: body.page, #mainContent.mainContainerWrap).
+   Every value lifted from stardust/current/_style-lift.json (1440 + 360) and the harvested legacy clientlib CSS
+   (stardust/current/assets/css/nationalcampus_clientlibs_clientlib-all.css: .guestServiceMainWrap, .campusInformationMainWrap,
+   .usefulInformationMainWrap, .adComponentWrapper, Bootstrap 3 .collapse/.collapsing). Container model = Bootstrap
+   .container (1170 @>=1200, 970 @>=992, 750 @>=768, 100% below) with 15px gutters; grids are float-based like the source. */
+
+/* ---- legacy base (overrides the modern canon .content ramp for this template family) ---- */
+.content{position:relative;z-index:1;background:#fff;font-family:var(--font-body);font-size:16px;line-height:1.2;color:#333}
+.content p,.content li{font-family:var(--font-body);font-size:16px;line-height:1.3;color:#333}
+.content p{margin:0}
+.content ul,.content ol{margin:0 0 10px;padding-left:40px}
+.content a{color:#418fde;text-decoration:none}
+.content h2,.content h3{font-family:var(--font-display);font-weight:400}
+.content h4,.content h5{font-family:var(--font-semibold);font-weight:400}
+.content h2{font-size:24px;line-height:1.1;margin:10px 0;color:#333;font-weight:500}
+.content h2 b{font-weight:700}
+.content b{font-weight:700}
+.content .hospitalityStyle,.content .usefulInfoStyle{color:#70a5d7}
+.content [role="button"]{cursor:pointer}
+
+/* ---- Bootstrap 3 collapse (observed live: .collapsing height .35s ease -> .collapse.in) ---- */
+.content .collapse{display:none}
+.content .collapse.in{display:block}
+.content .collapsing{position:relative;height:0;overflow:hidden;transition-property:height,visibility;transition-duration:.35s;transition-timing-function:ease}
+
+/* ---- container model ---- */
+.content .gs__container,.content .rt__container,.content .ci__container,.content .ui__container{width:1170px;margin:0 auto;padding:0 15px}
+.content .gs__container::after,.content .rt__container::after,.content .ci__container::after,.content .ui__container::after{content:" ";display:table;clear:both}
+.content .gs__container,.content .ci__container,.content .ui__container{padding:0}
+
+/* ================= GUEST SERVICES (.guestServiceMainWrap) ================= */
+.content .gs{position:relative;clear:both;z-index:1;width:100%;margin:0;padding:95px 0 0;background-color:#f5f5f5}
+.content .gs__title{font-family:var(--font-display);font-size:45px;font-weight:400;line-height:.64;letter-spacing:1.4px;color:#002649;text-transform:uppercase;margin:0}
+.content .gs__dash,.content .ui__dash{position:absolute;margin-top:23px;margin-left:10px;width:29px;height:9px;transform:skew(-30deg);background:#ce1126}
+.content .ui__dash{height:8px}
+.content .gs__sub{margin:20px 0 50px;font-family:var(--font-semibold);font-size:16px;font-weight:400;line-height:1.5;color:#444}
+.content .gs__grid{position:relative;float:left;width:100%;min-height:1px;padding:0}
+.content .gs-card{position:relative;float:left;width:33.33333%;min-height:1px;text-align:center;padding:0;margin:0 0 30px}
+.content .gs-card:nth-of-type(3n+1){clear:left}
+.content .gs-card:nth-of-type(3n+1) .gs-card__inner{padding:0 15px 0 0}
+.content .gs-card:nth-of-type(3n+2) .gs-card__inner{padding:0 15px}
+.content .gs-card:nth-of-type(3n+3) .gs-card__inner{padding:0 0 0 15px}
+.content .gs-card__inner,.content .gs-card__content{width:100%;float:left;position:relative}
+.content .gs-card__media{width:100%;position:relative;overflow:hidden;text-align:center}
+.content .gs-card__img{height:203px;width:100%;vertical-align:middle}
+.content .gs-card__text{width:100%;position:relative;background-color:#fff;padding:0 10px 25px}
+.content .gs-card__title{font-family:var(--font-semibold);font-size:30px;font-weight:400;line-height:2;text-align:center;color:#444;text-transform:capitalize;margin:0 0 10px;padding:10px 0 0}
+.content .gs-card__desc{margin:6px 0 0;padding:0 35px;font-size:14px;line-height:1.3;text-align:center;color:#444}
+.content .gs-card__more{display:none;text-align:center;margin:10px 0 0;font-size:13px;line-height:1.3}
+.content .gs-card__more-link,.content .gs-card__hover-text{font-family:var(--font-semibold);font-size:13px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#002649}
+.content .gs-card__text.active{padding:0 10px 23px;border-bottom:2px solid #ce1126}
+.content .gs-card__hover{width:100%;height:100%;position:absolute;top:0;left:0;opacity:.84;background-color:#002649;display:none}
+.content .gs-card__hover a{width:100%;height:100%;display:block}
+.content .gs-card__hover-text{position:absolute;top:50%;left:50%;margin:0 -50% 0 0;transform:translate(-50%,-50%);text-align:center;color:#fff}
+.content .gs-card__content:hover .gs-card__hover,.content .gs-card__content:focus .gs-card__hover{display:block}
+.content .gs-card__arrow{width:100%;position:relative;float:left;display:none}
+.content .gs-card__arrow-up{display:block;width:0;height:0;border-left:30px solid transparent;border-right:30px solid transparent;border-bottom:30px solid #fff;margin:10px auto 0}
+.content .gs-card__panel{width:300%;float:left;position:relative}
+.content .gs-card:nth-of-type(3n+2) .gs-card__panel{margin-left:-100%}
+.content .gs-card:nth-of-type(3n+3) .gs-card__panel{margin-left:-200%}
+.content .gs-card__close{position:absolute;right:25px;top:25px;z-index:2;float:right;font-size:21px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:1}
+.content .gs-detail{width:100%;float:left;position:relative;padding:0;background-color:#fff;text-align:left}
+.content .gs-detail__image{position:relative;float:left;width:33.33333%;min-height:1px;margin:37px 0 30px;padding:0 0 0 30px;overflow:hidden}
+.content .gs-detail__image img{width:100%}
+.content .gs-detail__image--hidden{display:none}
+.content .gs-detail__desc{position:relative;float:left;width:66.66667%;min-height:1px;margin:37px 0 30px;padding:0 100px 0 40px}
+.content .gs-detail__image--hidden+.gs-detail__desc{width:100%}
+.content .gs-detail__heading{font-family:var(--font-display);text-transform:capitalize;font-size:30px;font-weight:400;line-height:1.33;color:#444;margin:4px 0 0}
+.content .gs-detail__sub{font-family:var(--font-semibold);font-size:16px;font-weight:400;line-height:1.5;color:#444;margin:15px 0 0;padding:0}
+.content .gs-detail__sub a{color:#186ccc;cursor:pointer}
+.content .gs-detail__hours,.content .gs-detail__phone{position:relative;float:left;width:50%;min-height:1px;padding:0;margin:30px 0 0;font-size:14px;line-height:1.71;color:#444}
+.content .gs-detail__image--hidden+.gs-detail__desc .gs-detail__hours,.content .gs-detail__image--hidden+.gs-detail__desc .gs-detail__phone{width:auto}
+.content .gs-detail__hours p,.content .gs-detail__phone p{font-size:14px;line-height:1.71;color:#444}
+.content .gs-detail__hours b,.content .gs-detail__phone b{font-size:16px;font-weight:400;line-height:1.5;letter-spacing:.8px;color:#70a5d7}
+.content .gs-detail__rule{position:relative;float:left;opacity:.08;border:1px solid #000;margin:0 0 0 30px;width:90.5%}
+.content .gs-detail:last-child .gs-detail__rule{display:none}
+
+/* ================= RICHTEXT (.text.parbase) — USTA Hotel Shuttle ================= */
+.content .rt{position:relative;width:100%;background:#fff}
+.content .rt a{font-weight:700}
+
+/* ================= CAMPUS INFORMATION (.campusInformationMainWrap) ================= */
+.content .ci{position:relative;clear:both;z-index:1;width:100%;padding:30px 0 46px;background-color:#002649}
+.content .ci__col{position:relative;float:left;width:50%;min-height:1px;padding:0 15px;text-align:center}
+.content .ci__col--location{border-right:1px solid rgba(255,255,255,.37)}
+.content .ci__col--hours{border:0}
+.content .ci__col h3{font-family:var(--font-display);font-size:24px;font-weight:400;line-height:1;letter-spacing:1.2px;color:#70a5d7;padding:0;text-transform:uppercase;margin:16px 0 0}
+.content .ci__col p{font-size:14px;line-height:1.79;color:#fff;margin:0}
+.content .ci__col p:nth-child(2){margin:15px 0 0}
+.content .ci__bar{display:none;position:relative;float:left;width:76%;min-height:1px;opacity:.37;border:1px solid #fff;margin-left:12%;margin-top:19px}
+
+/* ================= USEFUL INFORMATION (.usefulInformationMainWrap) ================= */
+.content .ui{position:relative;clear:both;z-index:1;width:100%;padding:70px 0 86px;background-color:#fff}
+.content .ui__title{font-family:var(--font-display);font-size:45px;font-weight:400;line-height:.64;letter-spacing:1.4px;color:#002649;margin:0;outline:0}
+.content .ui__list{position:relative;float:left;width:100%;min-height:1px;padding:0 15px;margin:53px 0 0}
+.content .ui-acc__item{position:relative;float:left;width:100%;min-height:1px;padding:0 15px;border-bottom:1px solid #979797}
+.content .ui-acc__item:first-child{border-top:1px solid #979797}
+.content .ui-acc__head{font-family:var(--font-semibold);font-size:20px;font-weight:400;line-height:2.5;color:#444;text-transform:capitalize;margin:8px 0;outline:0}
+.content .ui-acc__head:focus,.content .ui-acc__head:active{outline:1px dotted #000 !important}
+.content .ui-acc__head a{color:#444}
+.content .ui-acc__chev{float:right;margin:20px 15px 0 0;width:20px;height:10px;background:url("https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/sprite.png") 0 0;transition:transform .4s}
+.content .ui-acc__chev.open{transform:rotate(180deg)}
+.content .ui-acc__chev:hover{background:url("https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/sprite.png") 20px 0}
+.content .ui-acc__panel{position:relative;float:left;width:100%;min-height:1px;padding:0 15px}
+.content .ui-acc__body{position:relative;float:left;width:100%;min-height:1px;padding:10px 113px 35px 24px}
+.content .ui-acc__col{position:relative;float:left;width:50%;min-height:1px;padding:0 20px;margin:0;font-size:14px;color:#444}
+.content .ui-acc__col p{font-size:14px;line-height:1.3;color:#444;margin:0 0 7px}
+.content .ui-acc__col li{font-size:14px;line-height:1.3;color:#444}
+.content .ui-acc__col b{font-size:14px;font-family:var(--font-semibold);font-weight:500}
+.content .ui-acc__col ul li{display:list-item;list-style:disc}
+.content .ui-acc__col ol li{display:list-item;list-style:decimal}
+
+/* ================= ADVERTISEMENT (.adComponentWrapper — static creative, dynamics row "ad-slot") ================= */
+.content .ad{display:flex;align-items:center;justify-content:center;background:#f3f3f3}
+.content .ad__wrapper{margin:23px 0}
+.content .ad__content{background:#fff;clear:both;display:block;padding:20px}
+.content .ad__slot{width:728px;height:90px}
+.content .ad__creative{display:block;width:728px;height:90px;vertical-align:bottom}
+
+/* ================= responsive (lifted per breakpoint from the legacy @media blocks) ================= */
+@media (min-width:992px) and (max-width:1199px){
+  .content .gs__container,.content .rt__container,.content .ci__container,.content .ui__container{width:970px}
+  .content .ui__container{width:960px}
+  .content .gs{padding:95px 0 60px}
+  .content .gs-card__img{height:167px;width:100%}
+  .content .gs-card__desc{padding:0 25px}
+  .content .ui{padding:75px 0 85px}
+  .content .ui-acc__head{margin:5px 0 8px}
+  .content .ui-acc__body{padding:15px 0 35px 30px}
+  .content .ui-acc__col{padding:0 17px}
+  .content .gs-detail__desc{padding:0 70px 0 30px}
+  .content .gs-detail__sub{font-size:14px;margin:5px 0 0}
+  .content .gs-detail__hours,.content .gs-detail__phone{margin:15px 0 0}
+}
+@media (min-width:768px) and (max-width:991px){
+  .content .gs__container,.content .rt__container,.content .ci__container,.content .ui__container{width:750px}
+  .content .gs__container,.content .ui__container{width:91.15%}
+  .content .gs{padding:46px 0 30px}
+  .content .gs__title{font-size:36px;line-height:1.08}
+  .content .gs__dash{margin-top:27px;width:21px;height:5.7px}
+  .content .gs__sub{margin:10px 0 60px;line-height:1.38}
+  .content .gs-card{width:50%}
+  .content .gs-card:nth-of-type(3n+1){clear:none}
+  .content .gs-card:nth-of-type(2n+1){clear:left}
+  .content .gs-card:nth-of-type(3n+1) .gs-card__inner,.content .gs-card:nth-of-type(3n+2) .gs-card__inner,.content .gs-card:nth-of-type(3n+3) .gs-card__inner{padding:0}
+  .content .gs-card:nth-of-type(2n+1) .gs-card__inner{padding:0 15px 0 0}
+  .content .gs-card:nth-of-type(2n+2) .gs-card__inner{padding:0 0 0 15px}
+  .content .gs-card:nth-of-type(3n+2) .gs-card__panel,.content .gs-card:nth-of-type(3n+3) .gs-card__panel{margin-left:0}
+  .content .gs-card__panel{width:200%}
+  .content .gs-card:nth-of-type(2n+2) .gs-card__panel{margin-left:-100%}
+  .content .gs-card__media{position:absolute;top:0;z-index:2}
+  .content .gs-card__img{height:113px;width:auto}
+  .content .gs-card__text{padding:56px 10px 15px;margin:56px 0 0}
+  .content .gs-card__title{margin:0;padding:0}
+  .content .gs-card__desc{margin:0;padding:0 25px}
+  .content .gs-card__more{display:block}
+  .content .gs-card__text.active{padding:56px 10px 23px}
+  .content .gs-card__content:hover .gs-card__hover{display:none}
+  .content .ci{padding:30px 0 32px}
+  .content .ci__col h3{margin:5px 0 0}
+  .content .ui{padding:72px 0 85px}
+  .content .ui__list{margin:54px 0 0}
+  .content .ui-acc__head{margin:5px 0 8px}
+  .content .ui-acc__body{padding:20px 0 37px;margin:0}
+  .content .ui-acc__col{padding:0 14px 0 0}
+  .content .ui-acc__col:nth-child(even){padding:0 0 0 14px}
+}
+@media (max-width:767px){
+  .content .gs__container,.content .rt__container,.content .ci__container,.content .ui__container{width:100%}
+  .content .gs__container{padding:0}
+  .content .gs{padding:76px 0 0}
+  .content .gs__title{font-size:36px;line-height:1.08;padding:0 33px 0 18px}
+  .content .gs__dash{margin-top:27px;margin-left:1px;width:17px;height:5px}
+  .content .gs__sub{margin:10px 0 48px;padding:0 55px 0 18px;line-height:1.38}
+  .content .gs-card{width:100%}
+  .content .gs-card:nth-of-type(3n+1) .gs-card__inner,.content .gs-card:nth-of-type(3n+2) .gs-card__inner,.content .gs-card:nth-of-type(3n+3) .gs-card__inner{padding:0}
+  .content .gs-card__media{position:absolute;top:0;z-index:2}
+  .content .gs-card__img{height:126px;width:auto}
+  .content .gs-card__text{padding:63px 10px 15px;margin:63px 0 0}
+  .content .gs-card__title{margin:0;padding:0}
+  .content .gs-card__desc{margin:0;padding:0 25px}
+  .content .gs-card__more{display:block}
+  .content .gs-card__text.active{padding:56px 10px 23px}
+  .content .gs-card__content:hover .gs-card__hover{display:none}
+  .content .gs-card__panel,.content .gs-card:nth-of-type(3n+2) .gs-card__panel,.content .gs-card:nth-of-type(3n+3) .gs-card__panel{width:100%;margin-left:0}
+  .content .gs-card__close{right:18px;top:18px}
+  .content .gs-detail{padding:20px 53px 0 18px}
+  .content .gs-detail__image{margin:0 0 10px;padding:0}
+  .content .gs-detail__desc{margin:0 0 34px;padding:0}
+  .content .gs-detail__sub{margin:13px 0 0;padding:0}
+  .content .gs-detail__hours,.content .gs-detail__phone{margin:29px 0 0;padding:0}
+  .content .gs-detail__rule{margin:0 0 0 5%;width:90%}
+  .content .ci{padding:0 0 29px}
+  .content .ci__col{width:100%}
+  .content .ci__col h3{margin:25px 0 0}
+  .content .ci__col--hours h3{margin:21px 0 0}
+  .content .ci__bar{display:block}
+  .content .ui{padding:57px 0 58px}
+  .content .ui__container{width:90.4%}
+  .content .ui__title{font-size:36px;line-height:1;letter-spacing:1px}
+  .content .ui__dash{margin-top:26px;margin-left:5px;width:21px;height:5.7px}
+  .content .ui__list{margin:25px 0 0}
+  .content .ui-acc__head{margin:5px 0 8px}
+  .content .ui-acc__chev{margin:20px 5px 0 0}
+  .content .ui-acc__body{padding:15px 18px 30px 0}
+  .content .ui-acc__col{width:100%;margin:20px 0 0;padding:0}
+  .content .ui-acc__col:nth-child(odd){margin:0}
+  .content .ad__content{padding:1px}
+  .content .ad__slot{width:320px;height:50px}
+  .content .ad__creative{width:320px;height:50px}
+}

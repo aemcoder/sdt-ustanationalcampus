@@ -1,20 +1,306 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* footer — sage band (values lifted from the live computed styles at 1440 and 360). */
+footer .site-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-sage);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.4286;
+  color: var(--color-text);
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
-}
-
-footer .footer p {
+footer .site-footer p {
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+footer .site-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+footer .site-footer-social li {
+  margin: 0;
+}
+
+footer .site-footer-copyright p {
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+footer .site-footer-container {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  gap: 50px;
+  padding: 50px var(--gutter) 0;
+}
+
+footer .site-footer-subscription {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 18px;
+  width: 300px;
+}
+
+footer .site-footer-logo-link {
+  display: block;
+  width: 300px;
+  height: 63px;
+}
+
+footer .site-footer-logo-link :is(img, picture) {
+  display: inline;
+}
+
+footer .site-footer-logo-link img {
+  width: 295px;
+  height: 63px;
+  vertical-align: middle;
+}
+
+footer .site-footer-subscription-button a:any-link,
+footer .site-footer-booking a:any-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0;
+  font-family: var(--font-semibold);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-white);
+  background: var(--color-black);
+  border-radius: 0;
+  text-decoration: none;
+  opacity: 1;
+}
+
+footer .site-footer-subscription-button a:any-link {
+  width: 300px;
+}
+
+footer .site-footer-info {
+  display: grid;
+  grid-template-columns: 318.531px 127.422px 159.281px 222.969px;
+  grid-template-areas:
+    'schedule links partner booking'
+    'address links partner booking';
+  column-gap: 6%;
+  width: 1010px;
+}
+
+footer .site-footer-schedule {
+  grid-area: schedule;
+}
+
+footer .site-footer-address {
+  grid-area: address;
+  margin-top: 44px;
+}
+
+footer .site-footer-links-usta {
+  grid-area: links;
+}
+
+footer .site-footer-links-partner {
+  grid-area: partner;
+}
+
+footer .site-footer-booking {
+  grid-area: booking;
+  width: 110px;
+  max-width: 225px;
+  justify-self: end;
+  text-align: right;
+}
+
+footer .site-footer h3 {
+  margin: 0 0 16px;
+  font-family: var(--font-semibold);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+footer .site-footer-schedule p {
+  margin: 0 0 22px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+footer .site-footer-address p {
+  margin: 0 0 14px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+footer .site-footer-schedule p:last-child {
+  margin-top: 65px; /* the source's empty spacer paragraph: 22px margin + 21px line + 22px margin, collapsed with the previous paragraph's margin — whitespace never survives the pipeline (#112) */
+  margin-bottom: 0;
+}
+
+footer .site-footer-schedule a:any-link,
+footer .site-footer-address a:any-link {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+footer .site-footer-schedule a strong {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+
+footer .site-footer-map {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .site-footer-address .site-footer-map p {
+  margin: 0;
+}
+
+
+footer .site-footer-map a:any-link {
+  display: block;
+  text-decoration: underline;
+}
+
+footer .site-footer-map-pin {
+  display: block;
+  width: 24.6406px;
+  height: 23.7031px;
+  margin-bottom: 4px;
+}
+
+footer .site-footer-links li {
+  margin: 0 0 22px;
+  line-height: 22.8571px;
+}
+
+footer .site-footer-links li:last-child {
+  margin-bottom: 0;
+}
+
+footer .site-footer-links a:any-link {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+footer .site-footer-booking a:any-link {
+  width: 110px;
+  margin-bottom: 10px;
+}
+
+footer .site-footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  padding: 50px var(--gutter) 0;
+}
+
+footer .site-footer-social {
+  margin-top: 55px;
+}
+
+footer .site-footer-social ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+
+footer .site-footer-social :is(img, picture) {
+  display: inline;
+}
+
+footer .site-footer-social img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+footer .site-footer-social img[alt='YouTube'] {
+  width: 35px;
+  height: 26px;
+}
+
+footer .site-footer-copyright {
+  margin: 22px 0 40px;
+}
+
+
+footer .site-footer-line {
+  width: 100%;
+  height: 10px;
+  background: var(--color-black);
+}
+
+@media (width <= 767px) {
+  footer .site-footer {
+    position: relative;
+  }
+
+  footer .site-footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    width: 300px;
+    padding: 50px 0 0;
+  }
+
+  footer .site-footer-info {
+    grid-template-columns: 150px 150px;
+    grid-template-areas:
+      'schedule schedule'
+      'address links'
+      'partner booking';
+    gap: 4% 0;
+    width: 300px;
+    margin-top: 36px;
+  }
+
+  footer .site-footer-address {
+    margin-top: 0;
+  }
+
+  footer .site-footer-bottom {
+    width: 300px;
+    padding: 50px 0 0;
+  }
+
+  footer .site-footer-line {
+    display: none;
   }
 }

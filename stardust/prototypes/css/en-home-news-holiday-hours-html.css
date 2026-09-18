@@ -1,0 +1,38 @@
+/* stardust:replica — archetype en-home-news-holiday-hours-html (static "content-page-template").
+   Every value lifted from stardust/current/_style-lift.json (1440 + 360) and the harvested AEM
+   responsive grid CSS; nothing eyeballed. Shared chrome lives in canon.css. */
+
+/* Header on this template (content-page-template): the header's .aem-GridColumn carries padding:8px 0,
+   so the fixed header is 229px at 1440 / 176px at 360 (canon measured 213 / 160 on the proxy template):
+   8px white strip above the alert banner and 8px between the nav row and the breadcrumb
+   (gate iter1: live BOOK NOW rows 111–150 vs build 103–142; crumb text 212–220 vs 196–204).
+   Compensated here, not in canon — see stardust/replica/canon-feedback/en-home-news-holiday-hours-html.md */
+:root{--header-height:229px}
+.top-nav{padding:8px 0}
+
+/* live: #mainContent inline margin-top puts the content column at y=253 (1440) / y=200 (360)
+   = fixed header (229 / 176) + 24px at both widths. */
+.page[data-section="holiday-hours"]{margin-top:24px}
+
+/* .container.responsivegrid.aem-GridColumn--default--12: max-width 1200 (336 at ≤767, 720 at 768–991),
+   centered via margin-left:calc((100% - W)/2), padding 8px 0. */
+.hh-container{width:100%;max-width:var(--content-max);margin:0 auto;padding:8px 0}
+
+/* .text.aem-GridColumn: margin 0 6px (→ 1188px wide at x=126), padding 8px 0; the
+   .phe-block spacers and .cmp-text__icon render 0px on live (derived: h1 top = column top + 8). */
+.text-block{margin:0 6px;padding:8px 0}
+.text-block h5{margin:10px 0}          /* lifted h5 margin-top/bottom 10px (canon zeroes headings) */
+.text-block h5 b{font-weight:700}      /* live: "Graphik Semibold|22px|700" — synthesized bold */
+.text-block p{margin:0}                /* AEM richtext: <p>&nbsp;</p> spacers are real 24px lines */
+
+/* experiencefragment column: footer.nc-footer starts 24px below the content column and the
+   document ends 16px below it (live: 1172.5 → 1197 → 1925 → 1940 at 1440; 1117.4 → 1141 → 2283 → 2300 at 360). */
+.footer-slot{padding:24px 0 16px}
+
+@media (min-width:768px) and (max-width:991px){
+  .hh-container{max-width:720px}
+}
+@media (max-width:767px){
+  :root{--header-height:176px}
+  .hh-container{max-width:336px}
+}

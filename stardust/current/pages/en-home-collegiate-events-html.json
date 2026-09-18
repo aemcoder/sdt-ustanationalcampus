@@ -1,0 +1,1220 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T16:50:38.977Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "en-home-collegiate-events-html",
+  "url": "https://www.ustanationalcampus.com/en/home/collegiate/events.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T16:50:38.977Z",
+  "finalUrl": "https://www.usta.com/en/home/play/college-tennis.html",
+  "title": "College Tennis",
+  "description": "For college athletes, stay up to date on all things college tennis with USTA. From college rankings to scholarships, tournaments and recruiting.",
+  "og": {
+    "title": "College Tennis",
+    "description": "For college athletes, stay up to date on all things college tennis with USTA. From college rankings to scholarships, tournaments and recruiting.",
+    "image": "https://www.usta.com/content/dam/usta/play/tennis-101-scoring/gameplay.jpg",
+    "type": "article"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "College Tennis"
+    },
+    {
+      "tag": "h2",
+      "text": "USTA College Resources"
+    },
+    {
+      "tag": "h6",
+      "text": "USEFUL INFORMATION FROM THE USTA AND THE NCAA"
+    },
+    {
+      "tag": "h2",
+      "text": "Build Your Player Profile"
+    },
+    {
+      "tag": "h6",
+      "text": "SHOWCASE CALENDAR"
+    },
+    {
+      "tag": "h6",
+      "text": "VIDEOS"
+    },
+    {
+      "tag": "h6",
+      "text": "RESOURCES"
+    },
+    {
+      "tag": "h6",
+      "text": "TENNIS RECRUITING.NET"
+    },
+    {
+      "tag": "h2",
+      "text": "Growing The Game"
+    },
+    {
+      "tag": "h5",
+      "text": "USTA Junior Tournaments"
+    },
+    {
+      "tag": "h5",
+      "text": "USTA Player Development"
+    },
+    {
+      "tag": "h5",
+      "text": "NCAA Championship"
+    },
+    {
+      "tag": "h5",
+      "text": "USTA Coaching"
+    },
+    {
+      "tag": "h5",
+      "text": "Facilty Assistance"
+    },
+    {
+      "tag": "h5",
+      "text": "K-12 Schools"
+    }
+  ],
+  "body": [
+    "USTA Sites",
+    "USTA Sections",
+    "New! Lost your account information? Find your account!",
+    "PLAYPLAY submenuPLAYTennis GroupsYouthHigh SchoolCollegeAdultWheelchairUSTA MEMBER BENEFITSFind Local TennisFIND TENNIS PROGRAMSFIND TOURNAMENTSFind a Place to PlayFind a CoachFind a LeaguePLAYER PARENTSIMPROVE YOUR TENNIS GAMEHEALTH BENEFITS OF TENNISTIPS & TRAININGSWEBINARS & PODCASTSRULES OF TENNISUSTA RANKINGS & STANDINGSSEARCH PLAYERSITF WORLD TENNIS NUMBER",
+    "SAFE PLAYSAFE PLAY submenuSAFE PLAYGET SAFE PLAY APPROVEDComplete the USTA’s Safe Play program for providers and coaches.SAFE PLAY PROVIDER SEARCHSearch our list of over 22,000 Safe PlayTM-approved coaches, trainers, umpires, and more.REPORT SUSPICIOUS ACTIVITYLearn how to make a report or raise a concern.SAFE PLAY RESOURCESValuable information and helpful resources on how to keep sport safe.ADDITIONAL SAFE SPORT COURSESGet Educated! Let’s create a safe and respectful sporting environment together.Safe Play Disciplinary List",
+    "PROVIDERS & FACILITIESPROVIDERS & FACILITIES submenuPROVIDERS & FACILITIESUSTA COACHINGCareer DevelopmentTIPS, TRAINING & PODCASTSTennis SupportTennis Industry UnitedTennis GrantsFacility AssistanceTennis Service RepresentativesOrganizations & FacilitiesCommunity Tennis AssociationsNational Junior Tennis & LearningTENNIS PARKS & RECREATIONTennis in SchoolsTennis Tool CenterOfficiatingBecome an OfficialOfficiating Certification Regulations",
+    "ABOUTABOUT submenuABOUTABOUT USUSTA Growth StrategyUSTA CONNECTUSTA Connect boosts tennis industry connectivity, fostering data sharing and services for growth at all levels.USTA GEOGRAPHIC SECTIONS MAPUSTA is comprised of 17 individual sections, representing locations throughout the U.STENNIS ADVOCACYUSTA VENTURESUSTA Ventures, by the USTA, assesses varied long-term investments via its Strategic Investment Committee.",
+    "PRO TENNISPRO TENNIS submenuPRO TENNISPRO TENNIS EVENTSUS OpenDavis Cup Billie Jean King CupLaver CupInternational Team EventsWorld Team CupPRO TENNIS CIRCUITWatch LivePro Tennis News",
+    "NEWS",
+    "Home >",
+    "Play >",
+    "College Tennis",
+    "GET OUT AND PLAY.",
+    "The USTA is committed to providing all aspiring collegiate tennis players the knowledge and resources that will help them navigate the recruiting process. This suite of resources as well as other helpful links, downloads and guides will help student-athletes better understand the right fit and the opportunities available.",
+    "Student-athletes interested in a less rigorous, but still competitive, collegiate tennis experience might find a home in the Tennis on Campus program.",
+    "Choosing a Pathway",
+    "Sample Email To a College Coach",
+    "College Tennis Glossary",
+    "Additional Resources And Important Junior Websites",
+    "When Do I Start? Basic Recruiting Information And Year-By-Year Checklist",
+    "Stand Out As A Recruit - Recruiting Education Video Series With Coaches",
+    "Stand Out As A Recruit - Coaches Explain What They Look For",
+    "College Tennis FAQ",
+    "Find a tennis showcase or recruiting event to learn more about college tennis and get noticed by coaches.",
+    "LEARN MORE",
+    "Hear from college coaches to learn more about the recruiting process and tips to stand out.",
+    "LEARN MORE",
+    "USTA's important links to remember during the college recruiting process.",
+    "LEARN MORE",
+    "The Tennis Recruiting Network continue its recruiting class ranking...",
+    "LEARN MORE",
+    "USTA junior tournaments are an integral part of a junior player’s tennis development, putting them on the path to compete at the intercollegiate level.",
+    "LEARN MORE",
+    "USTA Player Development sponsors the USTA Collegiate Summer Team, which helps top players assimilate to the pros in a team setting.",
+    "LEARN MORE",
+    "The crowning moment of the NCAA tennis season comes each May at the NCAA Championships, where the top athletes compete for titles.",
+    "LEARN MORE",
+    "Varsity tennis players can become USTA Coaching certified coaches at age 18, and USTA Coaching certified professionals can advance their careers at a college or university.",
+    "LEARN MORE",
+    "College and university tennis venues can connect the school and the community, and the USTA offers several services that will make your venue top-notch.",
+    "LEARN MORE",
+    "Many student-athletes get their first exposure to tennis in their physical education classes. Learn more about the USTA’s resources for tennis in schools.",
+    "LEARN MORE",
+    "Download the USTA App",
+    "CAREERS",
+    "INTERNSHIPS",
+    "CONTACT US",
+    "TERMS OF USE",
+    "USTA CONNECT PORTAL",
+    "SAFE PLAY DISCIPLINARY LIST",
+    "SITEMAP",
+    "UMPIRE POLICY",
+    "PRIVACY POLICY",
+    "FIND YOUR ACCOUNT",
+    "ACCESSIBILITY STATEMENT",
+    "COOKIE POLICY"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "USTA Sites",
+      "href": null
+    },
+    {
+      "label": "USTA Sections",
+      "href": null
+    },
+    {
+      "label": "Find your account!",
+      "href": "/content/usta/en/home/search-profile/find-your-account.html"
+    },
+    {
+      "label": "PLAY",
+      "href": "/en/home/play.html"
+    },
+    {
+      "label": "PLAY submenu",
+      "href": null
+    },
+    {
+      "label": "SAFE PLAY",
+      "href": "/en/home/safe-play.html"
+    },
+    {
+      "label": "SAFE PLAY submenu",
+      "href": null
+    },
+    {
+      "label": "PROVIDERS & FACILITIES",
+      "href": "/en/home/coach-organize.html"
+    },
+    {
+      "label": "PROVIDERS & FACILITIES submenu",
+      "href": null
+    },
+    {
+      "label": "ABOUT",
+      "href": "/en/home/about-usta.html"
+    },
+    {
+      "label": "ABOUT submenu",
+      "href": null
+    },
+    {
+      "label": "PRO TENNIS",
+      "href": "/en/home/pro.html"
+    },
+    {
+      "label": "PRO TENNIS submenu",
+      "href": null
+    },
+    {
+      "label": "NEWS",
+      "href": "/en/home/stay-current.html"
+    },
+    {
+      "label": "JOIN",
+      "href": "/content/usta/en/home/myaccount/profile/join-self-rate.html"
+    },
+    {
+      "label": "SIGN IN",
+      "href": null
+    },
+    {
+      "label": "Home",
+      "href": "/en/home.html"
+    },
+    {
+      "label": "Play",
+      "href": "/en/home/play.html"
+    },
+    {
+      "label": "Tennis on Campus",
+      "href": "/en/home/play/college-tennis/programs/national/tennis-on-campus.html"
+    },
+    {
+      "label": "NCAA GUIDE",
+      "href": "http://fs.ncaa.org/Docs/eligibility_center/Student_Resources/CBSA.pdf"
+    },
+    {
+      "label": "NCAA AMATEURISM",
+      "href": "http://fs.ncaa.org/Docs/eligibility_center/ECMIP/Amateurism_Certification/Amat_Tennis.pdf"
+    },
+    {
+      "label": "Choosing a Pathway",
+      "href": "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis-choosing-a-pathway-that-works-for-you.html"
+    },
+    {
+      "label": "Sample Email To a College Coach",
+      "href": "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis-sample-email-to-a-college-coach.html"
+    },
+    {
+      "label": "College Tennis Glossary",
+      "href": "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis-glossary.html"
+    },
+    {
+      "label": "Additional Resources And Important Junior Websites",
+      "href": "https://www.usta.com/en/home/play/college-tennis/programs/national/collegiate-news-and-links.html"
+    },
+    {
+      "label": "When Do I Start? Basic Recruiting Information And Year-By-Year Checklist",
+      "href": "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis-basic-recruiting-information.html"
+    },
+    {
+      "label": "Stand Out As A Recruit - Recruiting Education Video Series With Coaches",
+      "href": "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis-recruiting-education-videos.html"
+    },
+    {
+      "label": "Stand Out As A Recruit - Coaches Explain What They Look For",
+      "href": "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis--what-do-coaches-look-for-recruit.html"
+    },
+    {
+      "label": "College Tennis FAQ",
+      "href": "https://customercare.usta.com/hc/en-us/articles/12439269506708"
+    },
+    {
+      "label": "LEARN MORE",
+      "href": "https://www.usta.com/en/home/play/college-tennis/programs/national/national-showcases-for-juniors.html"
+    },
+    {
+      "label": "LEARN MORE",
+      "href": "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis-recruiting-education-videos.html"
+    },
+    {
+      "label": "LEARN MORE",
+      "href": "https://www.usta.com/en/home/play/college-tennis/programs/national/collegiate-news-and-links.html"
+    },
+    {
+      "label": "LEARN MORE",
+      "href": "https://www.tennisrecruiting.net/"
+    },
+    {
+      "label": "LEARN MORE",
+      "href": "https://www.usta.com/en/home/play/youth-tennis/programs/national/about-junior-tournaments.html"
+    },
+    {
+      "label": "LEARN MORE",
+      "href": "https://www.playerdevelopment.usta.com/"
+    },
+    {
+      "label": "LEARN MORE",
+      "href": "http://ustanationalcampus.com/ncaa"
+    },
+    {
+      "label": "LEARN MORE",
+      "href": "https://www.ustacoaching.com/en/home.html"
+    },
+    {
+      "label": "LEARN MORE",
+      "href": "https://www.usta.com/en/home/coach-organize/tennis-support/facility-assistance.html"
+    },
+    {
+      "label": "LEARN MORE",
+      "href": "https://www.usta.com/schools"
+    },
+    {
+      "label": "CAREERS",
+      "href": "https://careers.usta.com"
+    },
+    {
+      "label": "INTERNSHIPS",
+      "href": "https://careers.usta.com"
+    },
+    {
+      "label": "CONTACT US",
+      "href": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-contact-us.html"
+    },
+    {
+      "label": "TERMS OF USE",
+      "href": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-terms-of-use.html"
+    },
+    {
+      "label": "USTA CONNECT PORTAL",
+      "href": "https://ustaconnect.usta.com/"
+    },
+    {
+      "label": "SAFE PLAY DISCIPLINARY LIST",
+      "href": "https://www.usta.com/en/home/safe-play/individuals-permanently-ineligible--suspended--or-other-measures.html"
+    },
+    {
+      "label": "SITEMAP",
+      "href": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-com-sitemap.html"
+    },
+    {
+      "label": "UMPIRE POLICY",
+      "href": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-umpire-anti-discrimination-policy.html"
+    },
+    {
+      "label": "PRIVACY POLICY",
+      "href": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-privacy-policy.html"
+    },
+    {
+      "label": "FIND YOUR ACCOUNT",
+      "href": "https://www.usta.com/en/home/search-profile/find-your-account.html"
+    },
+    {
+      "label": "ACCESSIBILITY STATEMENT",
+      "href": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-accessibility-statement.html"
+    },
+    {
+      "label": "COOKIE POLICY",
+      "href": "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-privacy-policy/usta-cookie-policy.html"
+    }
+  ],
+  "links": [
+    "https://www.usta.com/en/home/play/college-tennis.html#mainContent",
+    "https://customercare.usta.com/hc/en-us",
+    "https://tennislink.usta.com/",
+    "https://netgeneration.usta.com/",
+    "https://www.ustanationalcampus.com/",
+    "https://www.ntc.usta.com/",
+    "https://www.playerdevelopment.usta.com/",
+    "https://www.ustafoundation.com/",
+    "https://www.ustacoaching.com/",
+    "https://www.redballtennis.com/",
+    "https://www.usta.com/en/home/about-usta/who-we-are/national/get-to-know-the-usta-sections.html",
+    "https://www.usta.com/en/home.html",
+    "https://www.ustahawaii.com/",
+    "javascript:void(0)",
+    "https://www.usta.com/es/home.html",
+    "https://www.usta.com/en/home/membership/shopping/shoppingcart.html",
+    "https://www.usta.com/content/usta/en/home/search-profile/find-your-account.html",
+    "https://www.usta.com/content/usta/en/home.html",
+    "https://www.usta.com/en/home/play.html",
+    "https://www.usta.com/en/home/play/youth-tennis.html",
+    "https://www.usta.com/en/home/play/high-school-tennis.html",
+    "https://www.usta.com/en/home/play/college-tennis.html",
+    "https://www.usta.com/en/home/play/adult-tennis.html",
+    "https://www.usta.com/en/home/play/50th-anniversary-of-wheelchair-tennis.html",
+    "https://www.usta.com/en/home/membership/join-benefits.html",
+    "https://www.usta.com/en/home/play/play-tennis-near-me.html",
+    "https://playtennis.usta.com/Programming",
+    "https://playtennis.usta.com/tournaments",
+    "https://www.usta.com/en/home/play/facility-listing.html",
+    "https://www.usta.com/en/home/play/coach-search.html",
+    "https://tennislink.usta.com/Dashboard/Main/default.aspx",
+    "https://www.usta.com/en/home/play/get-kids-involved-in-tennis.html",
+    "https://www.usta.com/en/home/improve.html",
+    "https://www.usta.com/en/home/improve/tennis-health---fitness.html",
+    "https://www.usta.com/en/home/improve/tips-and-instruction.html",
+    "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-player-webinars.html",
+    "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-scoring-rules.html",
+    "https://www.usta.com/en/home/play/rankings.html",
+    "https://www.usta.com/en/home/play/player-search.html",
+    "https://www.usta.com/en/home/play/itf-world-tennis-number.html",
+    "https://www.usta.com/en/home/safe-play.html",
+    "https://www.usta.com/en/home/safe-play/check-your-status.html",
+    "https://www.usta.com/en/home/safe-play/search-for-a-tennis-provider.html",
+    "https://www.usta.com/en/home/safe-play/report-suspicious-activity.html",
+    "https://www.usta.com/en/home/safe-play/safe-play-resources.html",
+    "https://www.usta.com/en/home/safe-play/safesport-courses.html",
+    "https://www.usta.com/en/home/safe-play/individuals-permanently-ineligible--suspended--or-other-measures.html",
+    "https://www.usta.com/en/home/coach-organize.html",
+    "https://www.usta.com/en/home/coach-organize/coaches.html",
+    "https://www.usta.com/en/home/coach-organize/coaches/career-development.html",
+    "https://www.usta.com/en/home/coach-organize/trainings-webinars.html",
+    "https://www.usta.com/en/home/coach-organize/tennis-support.html",
+    "https://www.usta.com/en/home/coach-organize/tennis-support/tennis-industry-united.html",
+    "https://www.usta.com/en/home/coach-organize/tennis-support/grants-assistance.html",
+    "https://www.usta.com/en/home/coach-organize/tennis-support/facility-assistance.html",
+    "https://www.usta.com/en/home/coach-organize/tennis-support/tennis-service-representatives.html",
+    "https://www.usta.com/en/home/coach-organize/organization-facilities.html",
+    "https://www.usta.com/en/home/coach-organize/organization-facilities/community-tennis-associations.html",
+    "https://www.usta.com/en/home/coach-organize/organization-facilities/national-junior-tennis-learning.html",
+    "https://www.usta.com/en/home/coach-organize/organization-facilities/parks-recreation.html",
+    "https://www.usta.com/en/home/coach-organize/organization-facilities/tennis-in-schools.html",
+    "https://www.usta.com/en/home/coach-organize/tennis-tool-center.html",
+    "https://www.usta.com/en/home/coach-organize/officiating.html",
+    "https://www.usta.com/en/home/coach-organize/officiating/national/interested-in-becoming-an-official.html",
+    "https://www.usta.com/en/home/coach-organize/officiating/national/officiating-certification-regulations.html",
+    "https://www.usta.com/en/home/about-usta.html",
+    "https://www.usta.com/en/home/about-usta/who-we-are/national/35-by--35--the-usta-s-growth-strategy-for-35-million-tennis-play.html",
+    "https://www.usta.com/en/home/about-usta/usta-connect.html",
+    "https://www.usta.com/en/home/about-usta/tennis-advocacy.html",
+    "https://www.usta.com/en/home/about-usta/usta-ventures.html",
+    "https://www.usta.com/en/home/pro.html",
+    "https://www.usopen.org/",
+    "https://www.usta.com/en/home/pro/pro-tennis-events/davis-cup.html",
+    "https://www.usta.com/en/home/pro/pro-tennis-events/billie-jean-king-cup.html",
+    "http://www.lavercup.com/",
+    "https://www.usta.com/en/home/pro/pro-tennis-events/international-team-events0.html",
+    "https://www.usta.com/en/home/pro/pro-tennis-events/bnp-paribas-world-team-cup.html",
+    "https://www.usta.com/en/home/pro/pro-tennis-events/pro-circuit.html",
+    "https://www.usta.com/en/home/pro/pro-tennis-events/live-streaming.html",
+    "https://www.usta.com/en/home/stay-current.html",
+    "https://www.usta.com/content/usta/en/home/myaccount/profile/join-self-rate.html",
+    "https://www.cccaasports.org/",
+    "https://www.naia.org/landing/index",
+    "https://www.ncaa.org/",
+    "https://www.njcaa.org/landing/index",
+    "https://www.usta.com/en/home/play/college-tennis/programs/national/tennis-on-campus.html",
+    "http://fs.ncaa.org/Docs/eligibility_center/Student_Resources/CBSA.pdf",
+    "http://fs.ncaa.org/Docs/eligibility_center/ECMIP/Amateurism_Certification/Amat_Tennis.pdf",
+    "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis-choosing-a-pathway-that-works-for-you.html",
+    "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis-sample-email-to-a-college-coach.html",
+    "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis-glossary.html",
+    "https://www.usta.com/en/home/play/college-tennis/programs/national/collegiate-news-and-links.html",
+    "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis-basic-recruiting-information.html",
+    "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis-recruiting-education-videos.html",
+    "https://www.usta.com/en/home/play/college-tennis/programs/national/college-tennis--what-do-coaches-look-for-recruit.html",
+    "https://customercare.usta.com/hc/en-us/articles/12439269506708",
+    "https://www.usta.com/en/home/play/college-tennis/programs/national/national-showcases-for-juniors.html",
+    "https://www.tennisrecruiting.net/",
+    "https://www.usta.com/en/home/play/youth-tennis/programs/national/about-junior-tournaments.html",
+    "http://ustanationalcampus.com/ncaa",
+    "https://www.ustacoaching.com/en/home.html",
+    "https://www.usta.com/schools",
+    "https://apps.apple.com/us/app/usta-tennis/id6443585452",
+    "https://play.google.com/store/apps/details?id=com.usta.player",
+    "https://careers.usta.com/",
+    "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-contact-us.html",
+    "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-terms-of-use.html",
+    "https://ustaconnect.usta.com/",
+    "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-com-sitemap.html",
+    "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-umpire-anti-discrimination-policy.html",
+    "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-privacy-policy.html",
+    "https://www.usta.com/en/home/search-profile/find-your-account.html",
+    "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-accessibility-statement.html",
+    "https://www.usta.com/en/home/about-usta/who-we-are/national/usta-privacy-policy/usta-cookie-policy.html",
+    "https://www.facebook.com/usta",
+    "https://www.twitter.com/usta",
+    "https://www.instagram.com/usta/",
+    "https://www.youtube.com/@usta/videos",
+    "https://apps.apple.com/us/app/usta-mobile/id411621803",
+    "https://apps.apple.com/us/app/usta-programming/id1501843836",
+    "https://apps.apple.com/us/app/usta-flex/id6446393326",
+    "https://apps.apple.com/us/app/us-open-tennis-championships/id327455869",
+    "https://www.onetrust.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Sites%20Icon.svg",
+        "alt": "USTA Logo",
+        "w": 170,
+        "h": 28
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Section%20Icon.svg",
+        "alt": "",
+        "w": 147,
+        "h": 93
+      },
+      {
+        "src": "https://www.usta.com/etc.clientlibs/usta/clientlibs/clientlib-vue/resources/img/Language-Icon.svg",
+        "alt": "Language",
+        "w": 32,
+        "h": 32
+      },
+      {
+        "src": "https://www.usta.com/etc.clientlibs/usta/clientlibs/clientlib-vue/resources/img/Language-Icon.svg",
+        "alt": "",
+        "w": 32,
+        "h": 32
+      },
+      {
+        "src": "https://www.usta.com/etc.clientlibs/usta/clientlibs/clientlib-vue/resources/img/Avatar-Menu-Arrow.svg",
+        "alt": "",
+        "w": 18,
+        "h": 18
+      },
+      {
+        "src": "https://www.usta.com/etc.clientlibs/usta/clientlibs/clientlib-vue/resources/img/Hamburger-Menu-Black.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.usta.com/etc.clientlibs/usta/clientlibs/clientlib-vue/resources/img/Cancel.svg",
+        "alt": "",
+        "w": 16,
+        "h": 16
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/logos/section-logos/USTA_1c-black_RGB.png",
+        "alt": "USTA Logo Home",
+        "w": 1920,
+        "h": 530
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/logos/section-logos/USTA_1c-black_RGB.png",
+        "alt": "USTA Logo Home",
+        "w": 1920,
+        "h": 530
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Play%20Tennis%20Icon.svg",
+        "alt": "",
+        "w": 89,
+        "h": 108
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Icon%20Age%20Groups.svg",
+        "alt": "",
+        "w": 40,
+        "h": 39
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/icons/Asset%203.png",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Search%20Icon.svg",
+        "alt": "",
+        "w": 30,
+        "h": 30
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Icon%20Pro%20Tennis%20Circuit.svg",
+        "alt": "",
+        "w": 35,
+        "h": 40
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/icons/Group-24014.svg",
+        "alt": "",
+        "w": 95,
+        "h": 106
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Icon%20Tool%20Center.svg",
+        "alt": "",
+        "w": 38,
+        "h": 46
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/icons/Asset%202.png",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/icons/Asset%204.png",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/icons/icon-find-account.svg",
+        "alt": "",
+        "w": 47,
+        "h": 47
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/icons/eye-test-69x54.png",
+        "alt": "",
+        "w": 69,
+        "h": 54
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/icons/program-offerings-69x54.png",
+        "alt": "",
+        "w": 69,
+        "h": 54
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/icons/19226_C_NY_22_USTA_Website_icons_69x54-advanced-certification.png",
+        "alt": "",
+        "w": 69,
+        "h": 54
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/icons/USTA_Website_icons_69x54-complete-workshop.png",
+        "alt": "",
+        "w": 69,
+        "h": 54
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Coach%20Icon.svg",
+        "alt": "",
+        "w": 112,
+        "h": 99
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Icon%20Tips.svg",
+        "alt": "",
+        "w": 41,
+        "h": 31
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Tennis%20News%20Icon.svg",
+        "alt": "",
+        "w": 107,
+        "h": 94
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Icon%20Facilities.svg",
+        "alt": "",
+        "w": 41,
+        "h": 33
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Icon%20Tool%20Center.svg",
+        "alt": "",
+        "w": 38,
+        "h": 46
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/About%20Icon.svg",
+        "alt": "",
+        "w": 89,
+        "h": 100
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/About%20Icon.svg",
+        "alt": "",
+        "w": 89,
+        "h": 100
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Icon%20Racket.svg",
+        "alt": "",
+        "w": 42,
+        "h": 43
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/icons/USTA_Website_icons_69x54-training-webinars.png",
+        "alt": "",
+        "w": 69,
+        "h": 54
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Icon%20Chair.svg",
+        "alt": "",
+        "w": 44,
+        "h": 43
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/icons/USTA_Website_icons_69x54-school-workshop.png",
+        "alt": "",
+        "w": 69,
+        "h": 54
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/icons/USTA_Website_icons_69x54-participate-level-1.png",
+        "alt": "",
+        "w": 69,
+        "h": 54
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/About%20Icon.svg",
+        "alt": "",
+        "w": 89,
+        "h": 100
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/About%20Icon.svg",
+        "alt": "",
+        "w": 89,
+        "h": 100
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Icon%20Pro%20Tennis%20Circuit.svg",
+        "alt": "",
+        "w": 35,
+        "h": 40
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/top-navigation/Icon%20About%20Tennis%20Gear.svg",
+        "alt": "",
+        "w": 40,
+        "h": 36
+      },
+      {
+        "src": "https://www.usta.com/etc.clientlibs/usta/clientlibs/clientlib-vue/resources/img/Avatar-Menu-Arrow.svg",
+        "alt": "",
+        "w": 18,
+        "h": 18
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container/container/image.coreimg.90.256.png/1706782206152/cccaa.png",
+        "alt": "CCCAA",
+        "w": 212,
+        "h": 100
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container/container/image_copy_652191835.coreimg.90.256.png/1706782213784/naia.png",
+        "alt": "NAIA",
+        "w": 213,
+        "h": 100
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container/container/image_copy_1300248319.coreimg.90.256.png/1706782220686/ncaa.png",
+        "alt": "NCAA",
+        "w": 213,
+        "h": 100
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container/container/image_copy.coreimg.90.256.png/1706782226693/njcaa.png",
+        "alt": "NJCAA",
+        "w": 213,
+        "h": 100
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container_1562986204/container_2049039780_1865050925/container/image.coreimg.svg/1704361072880/icon-resources-7.svg",
+        "alt": "",
+        "w": 198,
+        "h": 198
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container_1562986204/container_2049039780_1534277395/container_copy/image_1512977821.coreimg.svg/1704361078446/icon-resources-6.svg",
+        "alt": "",
+        "w": 198,
+        "h": 198
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container_1562986204/container_2049039780/container_copy/image_1321456131.coreimg.svg/1704361083112/icon-resources-5.svg",
+        "alt": "",
+        "w": 198,
+        "h": 198
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container_1562986204/container_2049039780_864440082/container_copy/image_1788340477.coreimg.svg/1704361087736/icon-resources-1.svg",
+        "alt": "",
+        "w": 198,
+        "h": 198
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container_417084335/container_copy/image.coreimg.90.512.png/1704361093239/gtg-1.png",
+        "alt": "",
+        "w": 512,
+        "h": 512
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container_417084335/container_copy_copy_1099410054/image.coreimg.90.512.png/1704361098172/gtg-2.png",
+        "alt": "",
+        "w": 512,
+        "h": 512
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container_417084335/container_copy_2055082334/image_copy.coreimg.90.512.png/1704361102648/gtg-3.png",
+        "alt": "",
+        "w": 512,
+        "h": 512
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container_417084335/container/image_copy.coreimg.90.512.png/1704361107561/gtg-4.png",
+        "alt": "",
+        "w": 512,
+        "h": 512
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container_417084335/container_copy_copy_2120632110/image.coreimg.90.512.png/1704361112668/gtg-5.png",
+        "alt": "",
+        "w": 512,
+        "h": 512
+      },
+      {
+        "src": "https://www.usta.com/en/home/play/college-tennis/_jcr_content/root/content/container_417084335/container_copy_copy/image.coreimg.90.512.png/1704361120054/gtg-6.png",
+        "alt": "",
+        "w": 512,
+        "h": 512
+      },
+      {
+        "src": "https://www.usta.com/content/experience-fragments/usta/usta-en-footer-ef/master/_jcr_content/root/container/image.coreimg.png/1683879200192/app-store.png",
+        "alt": "Download USTA App from Apple store",
+        "w": 421,
+        "h": 167
+      },
+      {
+        "src": "https://www.usta.com/content/experience-fragments/usta/usta-en-footer-ef/master/_jcr_content/root/container/image_746557089.coreimg.png/1684907142031/google-play-badge.png",
+        "alt": "Download USTA App from Google Play",
+        "w": 646,
+        "h": 250
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/footer/USTA_Logo_White_footer.svg",
+        "alt": "USTA Logo",
+        "w": 170,
+        "h": 28
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/footer/Facebook_White_footer.svg",
+        "alt": "Facebook",
+        "w": 30,
+        "h": 30
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/footer/TwitterX_White-footer.svg",
+        "alt": "Twitter",
+        "w": 30,
+        "h": 30
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/footer/Instagram_White_footer.svg",
+        "alt": "Instagram",
+        "w": 30,
+        "h": 30
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/footer/YouTube_White_footer.svg",
+        "alt": "YouTube",
+        "w": 34,
+        "h": 25
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/app-icons/USTA-app.png",
+        "alt": "USTA Tennis Application",
+        "w": 57,
+        "h": 57
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/logos/Tennislink-app.png",
+        "alt": "TennisLink Application",
+        "w": 57,
+        "h": 57
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/app-icons/Serve-app.png",
+        "alt": "USTA Serve",
+        "w": 57,
+        "h": 57
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/logos/usta-flex-icon.png",
+        "alt": "USTA Flex App",
+        "w": 434,
+        "h": 434
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/logos/AppIcons-USO.png",
+        "alt": "USO Application",
+        "w": 57,
+        "h": 57
+      },
+      {
+        "src": "https://www.usta.com/content/dam/usta/footer/Privacy_Icon_footer.svg",
+        "alt": "Reviewed by Onetrust for privacy",
+        "w": 65,
+        "h": 67
+      }
+    ],
+    "allImgCount": 68,
+    "cssBackgrounds": [
+      "https://www.usta.com/content/dam/usta/play/college/college-tennis-header.jpg"
+    ],
+    "modals": [
+      "× Whoops, something went wrong. Please try logging in again or email customer care at customercare.usta.com for assistance.",
+      "× Whoops, something went wrong. Please try logging in again or email customer care at customercare.usta.com for assistance."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--vc-white": "#fff",
+    "--vc-black": "#000",
+    "--vc-gray-50": "#f8fafc",
+    "--vc-gray-100": "#f1f5f9",
+    "--vc-gray-200": "#e2e8f0",
+    "--vc-gray-300": "#cbd5e1",
+    "--vc-gray-400": "#94a3b8",
+    "--vc-gray-500": "#64748b",
+    "--vc-gray-600": "#475569",
+    "--vc-gray-700": "#334155",
+    "--vc-gray-800": "#1e293b",
+    "--vc-gray-900": "#0f172a",
+    "--vc-font-family": "BlinkMacSystemFont,-apple-system,\"Segoe UI\",\"Roboto\",\"Oxygen\",\"Ubuntu\",\"Cantarell\",\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",\"Helvetica\",\"Arial\",sans-serif",
+    "--vc-font-normal": "400",
+    "--vc-font-medium": "500",
+    "--vc-font-semibold": "600",
+    "--vc-font-bold": "700",
+    "--vc-text-2xs": "10px",
+    "--vc-text-xs": "12px",
+    "--vc-text-sm": "14px",
+    "--vc-text-base": "16px",
+    "--vc-text-lg": "18px",
+    "--vc-text-xl": "20px",
+    "--vc-text-2xl": "24px",
+    "--vc-leading-none": "1",
+    "--vc-leading-tight": "1.25",
+    "--vc-leading-snug": "1.375",
+    "--vc-leading-normal": "1.5",
+    "--vc-rounded": "0.25rem",
+    "--vc-rounded-md": "0.375rem",
+    "--vc-rounded-lg": "0.5rem",
+    "--vc-rounded-full": "9999px",
+    "--vc-shadow": "0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)",
+    "--vc-shadow-lg": "0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)",
+    "--vc-shadow-inner": "inset 0 2px 4px 0 rgba(0,0,0,.06)",
+    "--vc-slide-translate": "22px",
+    "--vc-slide-duration": "0.15s",
+    "--vc-slide-timing": "ease",
+    "--vc-day-content-transition": "all 0.13s ease-in",
+    "--vc-weeknumber-offset-inside": "26px",
+    "--vc-weeknumber-offset-outside": "34px",
+    "--vs-colors--lightest": "rgba(60,60,60,.26)",
+    "--vs-colors--light": "rgba(60,60,60,.5)",
+    "--vs-colors--dark": "#333",
+    "--vs-colors--darkest": "rgba(0,0,0,.15)",
+    "--vs-search-input-color": "inherit",
+    "--vs-search-input-placeholder-color": "inherit",
+    "--vs-font-size": "1rem",
+    "--vs-line-height": "1.4",
+    "--vs-state-disabled-bg": "#f8f8f8",
+    "--vs-state-disabled-color": "rgba(60,60,60,.5)",
+    "--vs-state-disabled-controls-color": "rgba(60,60,60,.5)",
+    "--vs-state-disabled-cursor": "not-allowed",
+    "--vs-border-color": "rgba(60,60,60,.26)",
+    "--vs-border-width": "1px",
+    "--vs-border-style": "solid",
+    "--vs-border-radius": "4px",
+    "--vs-actions-padding": "4px 6px 0 3px",
+    "--vs-controls-color": "rgba(60,60,60,.5)",
+    "--vs-controls-size": "1",
+    "--vs-controls--deselect-text-shadow": "0 1px 0 #fff",
+    "--vs-selected-bg": "#f0f0f0",
+    "--vs-selected-color": "#333",
+    "--vs-selected-border-color": "rgba(60,60,60,.26)",
+    "--vs-selected-border-style": "solid",
+    "--vs-selected-border-width": "1px",
+    "--vs-dropdown-bg": "#fff",
+    "--vs-dropdown-color": "inherit",
+    "--vs-dropdown-z-index": "1000",
+    "--vs-dropdown-min-width": "160px",
+    "--vs-dropdown-max-height": "350px",
+    "--vs-dropdown-box-shadow": "0px 3px 6px 0px rgba(0,0,0,.15)",
+    "--vs-dropdown-option-bg": "#000",
+    "--vs-dropdown-option-color": "var(--vs-dropdown-color)",
+    "--vs-dropdown-option-padding": "3px 20px",
+    "--vs-dropdown-option--active-bg": "#5897fb",
+    "--vs-dropdown-option--active-color": "#fff",
+    "--vs-dropdown-option--deselect-bg": "#fb5858",
+    "--vs-dropdown-option--deselect-color": "#fff",
+    "--vs-transition-timing-function": "cubic-bezier(1,.5,.8,1)",
+    "--vs-transition-duration": ".15s",
+    "--vs-disabled-bg": "#f8f8f8",
+    "--vs-disabled-color": "rgba(60,60,60,.5)",
+    "--vs-disabled-cursor": "not-allowed",
+    "--header-height": "244px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 15,
+    "mainTextLen": 6087,
+    "realImageCount": 67,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/43383d2d-67e6-4d4a-99cb-3ff760b82737/43383d2d-67e6-4d4a-99cb-3ff760b82737.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.usta.com",
+        "path": "/conf/usta/settings/wcm/segments.seg.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 2050,
+        "hits": 1,
+        "example": "https://www.usta.com/conf/usta/settings/wcm/segments.seg.js",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.usta.com",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 121,
+        "hits": 1,
+        "example": "https://www.usta.com/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "maps.googleapis.com",
+        "path": "/maps/api/mapsjs/gen_204",
+        "query": [
+          "csp_test"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 23,
+        "hits": 1,
+        "example": "https://maps.googleapis.com/maps/api/mapsjs/gen_204",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.usta.com",
+        "path": "/libs/cq/i18n/dict.en.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 8292,
+        "hits": 1,
+        "example": "https://www.usta.com/libs/cq/i18n/dict.en.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/43383d2d-67e6-4d4a-99cb-3ff760b82737/0197eb97-8979-7a41-81be-ce00ed18db50/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.usta.com",
+        "path": "/usta/newsLandingServlet.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1920,
+        "hits": 1,
+        "example": "https://www.usta.com/usta/newsLandingServlet.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202605.1.0/assets/otFloatingRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2742,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otFloatingRounded.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202605.1.0/assets/v2/otPcPanel.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 13655,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/v2/otPcPanel.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202605.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202605.1.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1970,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otCookieSettingsButton.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 3
+      },
+      {
+        "host": "maps.googleapis.com",
+        "count": 2
+      },
+      {
+        "host": "pg.feroot.com",
+        "count": 1
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 1
+      },
+      {
+        "host": "cse.google.com",
+        "count": 1
+      },
+      {
+        "host": "www.google.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "vue",
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 2,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 4,
+      "thirdPartyEndpoints": 9,
+      "thirdPartyScriptHosts": 6,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/en-home-collegiate-events-html.png",
+  "renderedHtml": "pages/en-home-collegiate-events-html.html"
+}

@@ -1,0 +1,1383 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 50,
+    "concurrency": 6,
+    "method": "BFS depth-4 over same-origin /en/ links (no sitemap.xml, robots.txt empty); 75 URLs found, 50 live, 25 dead links recorded in stardust/.work/extract/discovered.json"
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/favicons/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "dynamicSurface": {
+    "pages": 50,
+    "pagesWithSameSiteData": 50,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 50,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6a4.json",
+        "pages": 50,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b662249/en.json",
+        "pages": 50,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ustanationalcampus.com",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/j/collect",
+        "query": [
+          "_gid",
+          "_r",
+          "_s",
+          "_slc",
+          "_u",
+          "_v",
+          "a",
+          "cid",
+          "dl",
+          "dt",
+          "gjid",
+          "jid",
+          "sr",
+          "t",
+          "tid",
+          "ul",
+          "v",
+          "vp",
+          "z"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/j/collect",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "region1.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_fv",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://region1.google-analytics.com/g/collect",
+        "pages": 48,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "region1.analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://region1.analytics.google.com/g/collect",
+        "pages": 48,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "unitedstatestennisas.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery",
+        "pages": 29,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 13,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pagead/ping",
+        "query": [
+          "e"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/pagead/ping",
+        "pages": 12,
+        "examples": [
+          "en-home-play-html",
+          "en-home-html",
+          "en-home-calendar-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/gampad/ads",
+        "query": [
+          "abxe",
+          "adfs",
+          "adks",
+          "adxs",
+          "adys",
+          "bc",
+          "bih",
+          "biw",
+          "btvi",
+          "correlator",
+          "dids",
+          "dlt",
+          "dmc",
+          "dt",
+          "eid",
+          "enc_prev_ius",
+          "eoidce",
+          "frm",
+          "fws",
+          "gdfp_req",
+          "idt",
+          "ifi",
+          "impl",
+          "iu_parts",
+          "lmt",
+          "msz",
+          "nvt",
+          "ohw",
+          "oid",
+          "output",
+          "prev_iu_szs",
+          "psz",
+          "ptt",
+          "pvsid",
+          "sc",
+          "scr_x",
+          "scr_y",
+          "sfv",
+          "u_ah",
+          "u_aw",
+          "u_cd",
+          "u_h",
+          "u_his",
+          "u_sd",
+          "u_tz",
+          "u_w",
+          "uach",
+          "uas",
+          "ucis",
+          "url",
+          "vis",
+          "vrg"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/gampad/ads",
+        "pages": 9,
+        "examples": [
+          "en-home-play-html",
+          "en-home-html",
+          "en-home-calendar-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pcs/view",
+        "query": [
+          "adurl",
+          "sig",
+          "uach_m",
+          "xai"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/pcs/view",
+        "pages": 9,
+        "examples": [
+          "en-home-play-html",
+          "en-home-html",
+          "en-home-calendar-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pagead/gen_204",
+        "query": [
+          "id",
+          "type"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/pagead/gen_204",
+        "pages": 9,
+        "examples": [
+          "en-home-play-html",
+          "en-home-html",
+          "en-home-calendar-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ep1.adtrafficquality.google",
+        "path": "/getconfig/sodar",
+        "query": [
+          "sjk",
+          "st",
+          "sv",
+          "tid",
+          "tv"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://ep1.adtrafficquality.google/getconfig/sodar",
+        "pages": 9,
+        "examples": [
+          "en-home-play-html",
+          "en-home-html",
+          "en-home-calendar-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://dpm.demdex.net/id",
+        "pages": 6,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "usta.d2.sc.omtrdc.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_visid_ver",
+          "mcorgid",
+          "mid",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://usta.d2.sc.omtrdc.net/id",
+        "pages": 6,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ioncourt.com",
+        "path": "/svg/mail.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://ioncourt.com/svg/mail.svg",
+        "pages": 1,
+        "examples": [
+          "en-home-events-2026-bnp-paribas-world-team-cup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ioncourt.com",
+        "path": "/assets/i18n/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://ioncourt.com/assets/i18n/en.json",
+        "pages": 1,
+        "examples": [
+          "en-home-events-2026-bnp-paribas-world-team-cup-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "firebaseinstallations.googleapis.com",
+        "path": "/v1/projects/ioncourt-8bcd4/installations",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://firebaseinstallations.googleapis.com/v1/projects/ioncourt-8bcd4/installations",
+        "pages": 1,
+        "examples": [
+          "en-home-events-2026-bnp-paribas-world-team-cup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "firebase.googleapis.com",
+        "path": "/v1alpha/projects/-/apps/1:211885406782:web:444d3c786da4501afb6f6f/webConfig",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:211885406782:web:444d3c786da4501afb6f6f/webConfig",
+        "pages": 1,
+        "examples": [
+          "en-home-events-2026-bnp-paribas-world-team-cup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.ioncourt.com",
+        "path": "/api/v2/team-events/{hash}/live",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live",
+        "pages": 1,
+        "examples": [
+          "en-home-events-2026-bnp-paribas-world-team-cup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.ioncourt.com",
+        "path": "/api/configuration",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.ioncourt.com/api/configuration",
+        "pages": 1,
+        "examples": [
+          "en-home-events-2026-bnp-paribas-world-team-cup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.ioncourt.com",
+        "path": "/api/i18n",
+        "query": [
+          "locale",
+          "ns"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.ioncourt.com/api/i18n",
+        "pages": 1,
+        "examples": [
+          "en-home-events-2026-bnp-paribas-world-team-cup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.ioncourt.com",
+        "path": "/api/v2/team-events/{hash}/live/ties/{hash}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live/ties/6aac67c44089c0cfccdf07b6",
+        "pages": 1,
+        "examples": [
+          "en-home-events-2026-bnp-paribas-world-team-cup-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ustanationalcampus.com",
+        "path": "/usta/events",
+        "query": [
+          "dataPagePath",
+          "source"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.ustanationalcampus.com/usta/events",
+        "pages": 1,
+        "examples": [
+          "en-home-calendar-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ustanationalcampus.com",
+        "path": "/usta/nc/photogallery",
+        "query": [
+          "galleryPath",
+          "galleryType",
+          "serviceType"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": true,
+        "example": "https://www.ustanationalcampus.com/usta/nc/photogallery",
+        "pages": 1,
+        "examples": [
+          "en-home-events-collegiate-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/id",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://googleads.g.doubleclick.net/pagead/id",
+        "pages": 1,
+        "examples": [
+          "en-home-visit-health-and-wellness-strength-and-conditioning-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.gstatic.com",
+        "path": "/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "pages": 1,
+        "examples": [
+          "en-home-visit-health-and-wellness-strength-and-conditioning-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "jnn-pa.googleapis.com",
+        "path": "/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "pages": 1,
+        "examples": [
+          "en-home-visit-health-and-wellness-strength-and-conditioning-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/youtubei/v1/log_event",
+        "query": [
+          "alt"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.youtube.com/youtubei/v1/log_event",
+        "pages": 1,
+        "examples": [
+          "en-home-visit-health-and-wellness-strength-and-conditioning-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.usta.com",
+        "path": "/conf/usta/settings/wcm/segments.seg.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": true,
+        "example": "https://www.usta.com/conf/usta/settings/wcm/segments.seg.js",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.usta.com",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.usta.com/libs/granite/csrf/token.json",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "maps.googleapis.com",
+        "path": "/maps/api/mapsjs/gen_204",
+        "query": [
+          "csp_test"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://maps.googleapis.com/maps/api/mapsjs/gen_204",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.usta.com",
+        "path": "/libs/cq/i18n/dict.en.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.usta.com/libs/cq/i18n/dict.en.json",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.usta.com",
+        "path": "/usta/newsLandingServlet.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.usta.com/usta/newsLandingServlet.json",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202605.1.0/assets/otFloatingRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otFloatingRounded.json",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202605.1.0/assets/v2/otPcPanel.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/v2/otPcPanel.json",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202605.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otCommonStyles.css",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202605.1.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otCookieSettingsButton.json",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.ustanationalcampus.com",
+        "path": "/usta/nc/newsfeed",
+        "query": [
+          "newsType",
+          "pageNo",
+          "resultsPerPage"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.ustanationalcampus.com/usta/nc/newsfeed",
+        "pages": 1,
+        "examples": [
+          "en-home-news-html"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 50,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 50,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "host": "www.googletagservices.com",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "host": "www.google-analytics.com",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "host": "securepubads.g.doubleclick.net",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "host": "usta.d2.sc.omtrdc.net",
+        "pages": 49,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "host": "pagead2.googlesyndication.com",
+        "pages": 9,
+        "examples": [
+          "en-home-play-html",
+          "en-home-html",
+          "en-home-calendar-html"
+        ]
+      },
+      {
+        "host": "ep2.adtrafficquality.google",
+        "pages": 9,
+        "examples": [
+          "en-home-play-html",
+          "en-home-html",
+          "en-home-calendar-html"
+        ]
+      },
+      {
+        "host": "www.google.com",
+        "pages": 2,
+        "examples": [
+          "en-home-visit-health-and-wellness-strength-and-conditioning-html",
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "host": "ioncourt.com",
+        "pages": 1,
+        "examples": [
+          "en-home-events-2026-bnp-paribas-world-team-cup-html"
+        ]
+      },
+      {
+        "host": "www.gstatic.com",
+        "pages": 1,
+        "examples": [
+          "en-home-events-2026-bnp-paribas-world-team-cup-html"
+        ]
+      },
+      {
+        "host": "www.youtube.com",
+        "pages": 1,
+        "examples": [
+          "en-home-visit-health-and-wellness-strength-and-conditioning-html"
+        ]
+      },
+      {
+        "host": "static.doubleclick.net",
+        "pages": 1,
+        "examples": [
+          "en-home-visit-health-and-wellness-strength-and-conditioning-html"
+        ]
+      },
+      {
+        "host": "maps.googleapis.com",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "host": "pg.feroot.com",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      },
+      {
+        "host": "cse.google.com",
+        "pages": 1,
+        "examples": [
+          "en-home-collegiate-events-html"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 50,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      },
+      {
+        "hint": "vue",
+        "pages": 2,
+        "examples": [
+          "en-home-calendar-html",
+          "en-home-collegiate-events-html"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 50,
+        "examples": [
+          "en-home-play-programs-html",
+          "en-home-play-tennis-summer-camps-html",
+          "en-home-play-tennis-adult-camps-html"
+        ]
+      }
+    ],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "en-home-about-holiday-hours-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-about-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-about-meet-our-team-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-about-sponsors-partners-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-about-usta-national-campus-scholarship-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-calendar-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-collegiate-events-html",
+      "verdict": "ok",
+      "notes": "renders usta.com College Tennis page with usta.com chrome (proxy); typed unique"
+    },
+    {
+      "slug": "en-home-connect-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-events-2026-bnp-paribas-world-team-cup-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-events-collegiate-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-events-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-news-2019-collegiate-winter-wild-card-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-news-campus-pro-shop-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-news-holiday-hours-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-news-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-news-masteruhistory-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-news-national-campus-program-policies-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-book-a-court-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-court-booking-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-davebailey-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-events-and-leagues-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-free30-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-nemours-family-zone-html",
+      "verdict": "ok",
+      "notes": "duplicate of en-home-play-programs-junior-tennis-programs-html (server redirect to junior-tennis-programs); treated as redirect alias"
+    },
+    {
+      "slug": "en-home-play-pickleball-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-play-padel-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-private-lessons-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-programs-adult-tennis-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-programs-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-programs-junior-tennis-programs-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-tennis-adult-camps-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-tennis-adult-red-ball-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-tennis-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-tennis-junior-programming-welcome-letter-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-play-tennis-summer-camps-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-breakfast-the-most-important-meal-of-the-day-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-fluid-loss-and-body-weight-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-hydration-matters-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-macronutrient-breakdown-carbohydrates-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-macronutrient-breakdown-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-nutrition-for-recovery-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-nutrition-for-tennis-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-sleep-matters-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-visit-health-and-wellness-strength-and-conditioning-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-visit-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-visit-sustainability-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-watch-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    },
+    {
+      "slug": "en-home-watch-save-my-play-html",
+      "verdict": "ok",
+      "notes": "hero/palette/media match the record; consent banner dismissed; no bot wall"
+    }
+  ],
+  "siblingCandidates": [
+    {
+      "origin": "https://www.usta.com",
+      "confidence": "high",
+      "evidence": "footer USTA LINKS + collegiate/events proxied from usta.com",
+      "decision": "excluded — parent brand with its own design system; replica keeps the National Campus surface"
+    },
+    {
+      "origin": "https://www.playerdevelopment.usta.com",
+      "confidence": "medium",
+      "evidence": "footer link",
+      "decision": "excluded"
+    }
+  ]
+}

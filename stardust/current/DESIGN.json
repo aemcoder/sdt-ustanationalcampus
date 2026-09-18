@@ -1,0 +1,856 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-18T17:00:35Z",
+    "againstInput": "https://www.ustanationalcampus.com/",
+    "readArtifacts": [
+      "stardust/current/DESIGN.md",
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_style-lift.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.22.1",
+    "mode": "descriptive"
+  },
+  "name": "USTA National Campus",
+  "description": "Big condensed display type over full-bleed campus photography; black on white with USTA blue calls to action and a sage-green footer.",
+  "colors": {
+    "white": "#ffffff",
+    "black": "#000000",
+    "usta-blue": "#0373f3",
+    "link-blue": "#0357b8",
+    "sage": "#92bfb7",
+    "alert-orange": "#f0aa54",
+    "contact-grey": "#dcdfcf",
+    "breadcrumb-grey": "#f4f4f4",
+    "text-grey": "#333333",
+    "legacy-navy": "#002649",
+    "legacy-canvas": "#f5f5f5",
+    "legacy-card-text": "#444444",
+    "legacy-red": "#ce1126",
+    "legacy-blue-link": "#2456b2",
+    "legacy-teal": "#01675a",
+    "scrim-50": "rgba(0, 0, 0, 0.5)",
+    "scrim-75": "rgba(0, 0, 0, 0.75)"
+  },
+  "typography": {
+    "display": {
+      "fontFamily": "'Graphik XXCond Bold', 'Graphik Semibold', Arial, sans-serif",
+      "fontSize": "100px",
+      "fontWeight": 500,
+      "lineHeight": 1.1,
+      "letterSpacing": "normal"
+    },
+    "headline": {
+      "fontFamily": "'Graphik XXCond Bold', 'Graphik Semibold', Arial, sans-serif",
+      "fontSize": "76px",
+      "fontWeight": 500,
+      "lineHeight": 1.1
+    },
+    "title": {
+      "fontFamily": "'Graphik XXCond Bold', 'Graphik Semibold', Arial, sans-serif",
+      "fontSize": "56px",
+      "fontWeight": 500,
+      "lineHeight": 1.1
+    },
+    "subtitle": {
+      "fontFamily": "'Graphik Semibold', Arial, sans-serif",
+      "fontSize": "22px",
+      "fontWeight": 500,
+      "lineHeight": 1.1
+    },
+    "body": {
+      "fontFamily": "'Graphik Regular', Arial, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": 400,
+      "lineHeight": 1.333
+    },
+    "body-small": {
+      "fontFamily": "'Graphik Regular', Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": 1.5
+    },
+    "label": {
+      "fontFamily": "'Graphik Semibold', Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 700,
+      "lineHeight": 1.5,
+      "letterSpacing": "normal"
+    },
+    "button": {
+      "fontFamily": "'Graphik Semibold', Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "lineHeight": 1,
+      "letterSpacing": "1px"
+    },
+    "footer-link": {
+      "fontFamily": "'Graphik Regular', Arial, sans-serif",
+      "fontSize": "12px",
+      "fontWeight": 700,
+      "lineHeight": 1.083
+    }
+  },
+  "rounded": {
+    "none": "0px",
+    "sm": "3px",
+    "legacy": "4px",
+    "tile": "10px",
+    "pill": "9999px"
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "14px",
+    "base": "16px",
+    "lg": "24px",
+    "xl": "40px",
+    "xxl": "64px"
+  },
+  "components": {
+    "button-primary": {
+      "backgroundColor": "{colors.usta-blue}",
+      "textColor": "{colors.white}",
+      "typography": "{typography.button}",
+      "rounded": "{rounded.sm}",
+      "padding": "14px",
+      "height": "40px"
+    },
+    "button-inverse": {
+      "backgroundColor": "{colors.white}",
+      "textColor": "{colors.black}",
+      "typography": "{typography.button}",
+      "rounded": "{rounded.sm}",
+      "padding": "14px",
+      "height": "40px"
+    },
+    "button-pill-icon": {
+      "backgroundColor": "{colors.black}",
+      "textColor": "{colors.white}",
+      "typography": "{typography.button}",
+      "rounded": "{rounded.pill}",
+      "padding": "14px 34px 14px 14px",
+      "height": "56px"
+    },
+    "button-header": {
+      "backgroundColor": "{colors.usta-blue}",
+      "textColor": "{colors.white}",
+      "typography": "{typography.button}",
+      "rounded": "{rounded.none}",
+      "width": "110px",
+      "height": "40px"
+    },
+    "button-footer": {
+      "backgroundColor": "{colors.black}",
+      "textColor": "{colors.white}",
+      "typography": "{typography.button}",
+      "rounded": "{rounded.none}",
+      "height": "40px"
+    },
+    "nav-link": {
+      "textColor": "{colors.black}",
+      "typography": "{typography.label}"
+    },
+    "card-legacy": {
+      "backgroundColor": "{colors.white}",
+      "textColor": "{colors.legacy-card-text}",
+      "rounded": "{rounded.legacy}"
+    }
+  },
+  "extensions": {
+    "componentStyle": {
+      "buttons": {
+        "button-core (flat)": {
+          "bg": "#0373f3",
+          "color": "#fff",
+          "font": "Graphik Semibold 14px uppercase, letter-spacing 1px",
+          "padding": "14px",
+          "radius": "3px",
+          "height": "40px"
+        },
+        "button-core inverse": {
+          "bg": "#ffffff",
+          "color": "#000",
+          "font": "Graphik Semibold 18px uppercase, ls 1px",
+          "radius": "3px",
+          "height": "40px"
+        },
+        "button-core_with-icon (pill)": {
+          "bg": "#000000",
+          "color": "#fff",
+          "font": "Graphik Semibold 18px uppercase, ls 1px",
+          "padding": "14px 34px 14px 14px",
+          "radius": "9999px",
+          "height": "56px",
+          "icon": "tennis-ball / mail svg left"
+        },
+        "header BOOK NOW": {
+          "bg": "#0373f3",
+          "color": "#fff",
+          "font": "Graphik Semibold 14px",
+          "size": "110×40",
+          "radius": "0"
+        },
+        "footer buttons": {
+          "bg": "#000000",
+          "color": "#fff",
+          "font": "Graphik Semibold 14px uppercase",
+          "size": "300×40 / 110×40",
+          "radius": "0"
+        }
+      },
+      "cards": {
+        "modern": "image 16:9, 22px Semibold title, 18px Regular body, 18px underlined #0357b8 link; no border, no shadow",
+        "legacy": "white card, 4px radius, 0 4px 8px rgba(0,0,0,.2) shadow, centered 30px Semibold title, 14px #444 body"
+      },
+      "inputs": "none on modern pages; calendar search selects (legacy)",
+      "nav": "uppercase Graphik Semibold 16px black top-level items with chevron toggles; 2-level dropdown; blue BOOK NOW pill-less button"
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "3px",
+        "secondary": "9999px",
+        "pill": "9999px",
+        "primarySources": [
+          "home",
+          "programs",
+          "private-lessons"
+        ],
+        "occurrences": {
+          "3px": 2,
+          "9999px": 3,
+          "10px": 16,
+          "4px": 8,
+          "2.5px": 3
+        },
+        "notes": "3px on flat blue/white CTAs (button-core), full pill on black icon CTAs (button-core_with-icon), 10px on legacy/calendar tiles, 4px on legacy cards"
+      },
+      "shadows": [
+        {
+          "value": "rgba(0, 0, 0, 0.2) 0px 4px 8px 0px",
+          "uses": "legacy guest-service cards"
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.5) 0px 2px 5px 0px",
+          "uses": "legacy tile hover / calendar"
+        }
+      ],
+      "gradients": [],
+      "patterns": [
+        {
+          "name": "condensed-display-hero",
+          "evidence": "every modern page opens with a full-bleed photo container (background-image cover, 658px @1440) carrying a 100px XXCond Bold title, white or on a translucent black box"
+        },
+        {
+          "name": "clickable-photo-tile-mosaic",
+          "evidence": "home (1 large + 4 small tiles), programs (1 large + 4), events: cmp-container--clickable with cover bg, 56px white condensed title bottom-left"
+        },
+        {
+          "name": "stat-band",
+          "evidence": "home: four 76px numbers over 22px uppercase Semibold labels"
+        },
+        {
+          "name": "icon-heading",
+          "evidence": "75px racquet/tennis-ball PNG icon before a 76px section heading (home Programs, about Discover/Events, private-lessons FAQ)"
+        },
+        {
+          "name": "card-grid-4",
+          "evidence": "4-col image + 22px Semibold title + 18px body + underlined blue Learn More (home, play)"
+        },
+        {
+          "name": "contact-band",
+          "evidence": "#dcdfcf full-bleed band with side gutters, 76px \"Questions? Contact us.\" + black pill EMAIL button (all program pages)"
+        },
+        {
+          "name": "faq-accordion",
+          "evidence": "cmp-accordion with 16px Semibold uppercase-ish questions + chevron (program pages, summer camps)"
+        },
+        {
+          "name": "tabs",
+          "evidence": "cmp-tabs with underline indicator (meet-our-team, adult-tennis, adult-camps, pickleball)"
+        },
+        {
+          "name": "ad-slot",
+          "evidence": "GPT advertisement slot (Advertisement label + 728×90 creative) before the footer on most modern pages"
+        },
+        {
+          "name": "legacy-card-grid-3",
+          "evidence": "legacy template: 3-col white cards with 4px radius, shadow, image + 30px Semibold title + 14px body on #f5f5f5"
+        },
+        {
+          "name": "legacy-navy-info-band",
+          "evidence": "#002649 band with LOCATION / HOURS columns (visit)"
+        },
+        {
+          "name": "legacy-heading-red-dash",
+          "evidence": "45px XXCond navy uppercase heading followed by a #ce1126 red rectangle (visit, sustainability, health-and-wellness)"
+        }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "Welcome to the USTA National Campus",
+      "heroSubcopy": null,
+      "heroImage": "https://www.ustanationalcampus.com/content/dam/nationalcampus/home/hero-cropped.jpg",
+      "heroMedium": null,
+      "primaryCTALabel": "BOOK NOW",
+      "firstParagraph": "Our recreational and competitive pathways help players ages 4-17 develop a passion for tennis in a fun environment.",
+      "ctaSamples": [
+        "BOOK NOW",
+        "Learn More",
+        "SHOW ME",
+        "BOOK A FREE SESSION",
+        "EMAIL",
+        "BOOK YOUR FREE30",
+        "SIGN UP FOR OUR NEWSLETTER"
+      ],
+      "navItems": [
+        "PLAY",
+        "EVENTS",
+        "ABOUT",
+        "WATCH",
+        "VISIT"
+      ],
+      "footerHeadings": [
+        "CAMPUS HOURS",
+        "ADDRESS",
+        "USTA INFO",
+        "USTA LINKS"
+      ],
+      "tone": "direct, welcoming, action-first (imperative CTAs, short declarative headings)"
+    },
+    "systemComponents": [
+      {
+        "kind": "alert-banner",
+        "selector": ".top-navigation__alert-banner",
+        "occurrences": 50,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Register for Fall Programming"
+        ],
+        "notes": "#f0aa54 55px band with tennis-ball icon, underlined bold link, close ×; part of the fixed header"
+      },
+      {
+        "kind": "header",
+        "selector": "#headerContainer.top-fixed",
+        "occurrences": 50,
+        "headingSequence": [],
+        "ctaLabels": [
+          "PLAY",
+          "EVENTS",
+          "ABOUT",
+          "WATCH",
+          "VISIT",
+          "BOOK NOW"
+        ],
+        "notes": "position:fixed, 213px tall at 1440 incl. alert banner (55) + nav (129) + breadcrumb (28); 160px at 360 (banner 55 + 66 bar + 38 breadcrumb); logo 300×78 svg; nav becomes off-canvas at 360 (hamburger)"
+      },
+      {
+        "kind": "breadcrumb",
+        "selector": ".cmp-breadcrumb",
+        "occurrences": 50,
+        "headingSequence": [],
+        "ctaLabels": [
+          "HOME"
+        ],
+        "notes": "#f4f4f4 28px band, 12px uppercase; inside the fixed header"
+      },
+      {
+        "kind": "footer",
+        "selector": "footer.nc-footer",
+        "occurrences": 49,
+        "headingSequence": [
+          "CAMPUS HOURS",
+          "ADDRESS",
+          "USTA INFO",
+          "USTA LINKS"
+        ],
+        "ctaLabels": [
+          "SIGN UP FOR OUR NEWSLETTER",
+          "BOOK NOW",
+          "VIEW HOLIDAY HOURS",
+          "SHOW ON MAP"
+        ],
+        "notes": "#92bfb7 sage band, 728px @1440 / 1142px @360; logo png, hours table, address, two link columns, social icons, ©2026 USTA ALL RIGHTS RESERVED; collegiate/events proxies usta.com chrome instead"
+      },
+      {
+        "kind": "ad-slot",
+        "selector": ".cmp-experiencefragment--ros-ad-experience-fragment .ad",
+        "occurrences": 38,
+        "headingSequence": [],
+        "ctaLabels": [],
+        "notes": "GPT ad slot; creative varies (FREE 30 / OUC)"
+      },
+      {
+        "kind": "contact-band",
+        "selector": ".cmp-container (#dcdfcf) \"Questions? Contact us.\"",
+        "occurrences": 16,
+        "headingSequence": [
+          "Questions? Contact us."
+        ],
+        "ctaLabels": [
+          "EMAIL"
+        ],
+        "notes": "program-page pre-footer band + CourtReserve app badges below"
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.32,
+        1.36,
+        2.55,
+        1.22,
+        1.38
+      ],
+      "matchedScale": null
+    },
+    "fonts": [
+      {
+        "url": "https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/Graphik-Regular-App.woff2",
+        "family": "Graphik Regular",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Graphik-Regular-App.woff2",
+        "sourceCssRule": "@font-face{font-family:'Graphik Regular';src:url(.../Graphik-Regular-App.woff2) format('woff2');font-weight:normal;font-style:normal}",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/Graphik-Semibold-App.woff2",
+        "family": "Graphik Semibold",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Graphik-Semibold-App.woff2",
+        "sourceCssRule": "@font-face{font-family:'Graphik Semibold';src:url(.../Graphik-Semibold-App.woff2) format('woff2')}",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/fonts/GraphikXXCondensed-Bold-App.woff2",
+        "family": "Graphik XXCond Bold",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/GraphikXXCondensed-Bold-App.woff2",
+        "sourceCssRule": "@font-face{font-family:'Graphik XXCond Bold';src:url(.../GraphikXXCondensed-Bold-App.woff2) format('woff2')}",
+        "licensingFlag": "private"
+      }
+    ],
+    "licensingNote": "Graphik is a Commercial Type licensed family. The files are self-hosted by the site owner (USTA) on ustanationalcampus.com and served without CORS headers, so cross-origin loading from the migration host is impossible. Replica decision: self-host the same three woff2 files in the EDS repo under the same licensee — surfaced to the user for confirmation; the brand family names stay first in every stack.",
+    "shadows": {
+      "legacy-card": "0 4px 8px rgba(0,0,0,.2)",
+      "legacy-hover": "0 2px 5px rgba(0,0,0,.5)"
+    },
+    "chrome": {
+      "header": {
+        "position": "fixed",
+        "height1440": 213,
+        "height360": 160,
+        "parts": {
+          "alertBanner": 55,
+          "navBar1440": 129,
+          "navBar360": 66,
+          "breadcrumb1440": 28,
+          "breadcrumb360": 38
+        },
+        "logo": "300×78 svg (150×39 at 360)",
+        "bookNow": "110×40 #0373f3"
+      },
+      "footer": {
+        "background": "#92bfb7",
+        "height1440": 728,
+        "height360": 1142
+      }
+    },
+    "container": {
+      "maxWidth": 1200,
+      "gutter1440": 40,
+      "margin360": 12,
+      "mosaicGap": 8,
+      "cardGap": 24
+    },
+    "templates": {
+      "modern": [
+        "landing",
+        "hub",
+        "program",
+        "static"
+      ],
+      "legacy": [
+        "listing",
+        "article"
+      ],
+      "proxy": [
+        "unique"
+      ]
+    },
+    "modules": [
+      {
+        "id": "alert-banner",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "icon",
+            "type": "image"
+          },
+          {
+            "name": "text",
+            "type": "richtext"
+          },
+          {
+            "name": "close",
+            "type": "action"
+          }
+        ],
+        "instances": 50
+      },
+      {
+        "id": "hero",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "lede",
+            "type": "text"
+          },
+          {
+            "name": "cta",
+            "type": "link"
+          }
+        ],
+        "variants": [
+          "title-only-white",
+          "boxed-scrim",
+          "boxed-scrim-two-cta"
+        ],
+        "instances": 26
+      },
+      {
+        "id": "tile-mosaic",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "tiles[]",
+            "type": "image+title+link"
+          }
+        ],
+        "variants": [
+          "1+4",
+          "1+4-with-solid-tile"
+        ],
+        "instances": 4
+      },
+      {
+        "id": "stat-band",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "stats[]",
+            "type": "number+label"
+          }
+        ],
+        "instances": 1
+      },
+      {
+        "id": "icon-heading",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "icon",
+            "type": "image"
+          },
+          {
+            "name": "heading",
+            "type": "text"
+          }
+        ],
+        "instances": 12
+      },
+      {
+        "id": "cards",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "cards[]",
+            "type": "image+title+body+link"
+          }
+        ],
+        "variants": [
+          "4-col",
+          "3-col-legacy",
+          "with-solid-cta-card"
+        ],
+        "instances": 18
+      },
+      {
+        "id": "contact-band",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text"
+          },
+          {
+            "name": "cta",
+            "type": "link"
+          }
+        ],
+        "instances": 16
+      },
+      {
+        "id": "app-badges",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "label",
+            "type": "text"
+          },
+          {
+            "name": "badges[]",
+            "type": "image+link"
+          }
+        ],
+        "instances": 16
+      },
+      {
+        "id": "accordion",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "items[]",
+            "type": "question+answer"
+          }
+        ],
+        "instances": 22
+      },
+      {
+        "id": "tabs",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "tabs[]",
+            "type": "label+panel"
+          }
+        ],
+        "instances": 7
+      },
+      {
+        "id": "carousel",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "slides[]",
+            "type": "image"
+          }
+        ],
+        "instances": 6
+      },
+      {
+        "id": "event-cards",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "events[]",
+            "type": "image+date+title+body+link"
+          }
+        ],
+        "dynamic": "/usta/events",
+        "instances": 4
+      },
+      {
+        "id": "team-grid",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "members[]",
+            "type": "image+name+role"
+          }
+        ],
+        "instances": 1
+      },
+      {
+        "id": "pricing-table",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "rows[]",
+            "type": "label+price"
+          }
+        ],
+        "instances": 3
+      },
+      {
+        "id": "register-grid",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "items[]",
+            "type": "title+dates+cta"
+          }
+        ],
+        "instances": 2
+      },
+      {
+        "id": "ad-slot",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "creative",
+            "type": "image+link"
+          }
+        ],
+        "instances": 38
+      },
+      {
+        "id": "legacy-info-band",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "columns[]",
+            "type": "heading+lines"
+          }
+        ],
+        "instances": 1
+      },
+      {
+        "id": "legacy-heading",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text"
+          },
+          {
+            "name": "sub",
+            "type": "text"
+          }
+        ],
+        "instances": 8
+      },
+      {
+        "id": "article-hero",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image"
+          },
+          {
+            "name": "kicker",
+            "type": "text"
+          },
+          {
+            "name": "title",
+            "type": "text"
+          },
+          {
+            "name": "date",
+            "type": "text"
+          }
+        ],
+        "instances": 4
+      },
+      {
+        "id": "photo-gallery",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "images[]",
+            "type": "image"
+          }
+        ],
+        "dynamic": "/usta/nc/photogallery",
+        "instances": 1
+      },
+      {
+        "id": "news-feed",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "items[]",
+            "type": "image+title+body+link"
+          }
+        ],
+        "dynamic": "/usta/nc/newsfeed",
+        "instances": 1
+      },
+      {
+        "id": "calendar",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "search",
+            "type": "form"
+          },
+          {
+            "name": "month",
+            "type": "widget"
+          },
+          {
+            "name": "events[]",
+            "type": "list"
+          }
+        ],
+        "dynamic": "/usta/events",
+        "instances": 1
+      },
+      {
+        "id": "embed",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "src",
+            "type": "url"
+          }
+        ],
+        "variants": [
+          "youtube",
+          "ioncourt"
+        ],
+        "instances": 2
+      },
+      {
+        "id": "footer",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "logo",
+            "type": "image"
+          },
+          {
+            "name": "newsletter",
+            "type": "link"
+          },
+          {
+            "name": "hours",
+            "type": "table"
+          },
+          {
+            "name": "address",
+            "type": "lines"
+          },
+          {
+            "name": "links[]",
+            "type": "link-columns"
+          },
+          {
+            "name": "social[]",
+            "type": "image+link"
+          },
+          {
+            "name": "copyright",
+            "type": "text"
+          }
+        ],
+        "instances": 49
+      }
+    ]
+  }
+}

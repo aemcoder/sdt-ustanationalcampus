@@ -1,0 +1,107 @@
+/* stardust:replica — archetype en-home-about-html (hub · nc-usta-proxy-template). Values lifted from the live
+   computed styles at 1440 AND 360 (stardust/.work/deeplift-en-home-about-html.json); grid fractions are the
+   AEM 12-col rules (col = n/12 − 12px gutter, margin 0 6px, padding 8px 0), never resolved px. */
+
+/* ---- content typography this page adds on top of canon ---- */
+.content{text-rendering:optimizeLegibility}
+.content h3{font-family:var(--font-display);font-size:56px;line-height:1.1;font-weight:500;color:var(--color-black)}
+.content .cmp-text{font-size:18px;line-height:24px;color:var(--color-black)}
+.content .cmp-text--colored h1{color:var(--color-white)}
+.content .cmp-text--center h3,.content .cmp-text--center p{text-align:center}
+.content .cmp-text b{font-weight:700}
+.content .cmp-text p a{color:var(--color-link);text-decoration:underline}
+.cmp-image__image{display:block;width:100%;height:auto;overflow:clip}
+.cmp-image--icon{width:90%}
+.cmp-image--half{width:50%}
+
+/* ---- generic AEM column boxes ---- */
+.col{margin:0 6px;padding:8px 0}
+.sep{margin:0 6px;width:calc(100% - 12px)}
+.sep hr{height:0;margin:0;border:0;border-top:1px solid transparent;color:#808080;overflow:hidden}
+.sep--4{padding:4px 0}
+.sep--8{padding:8px 0}
+.sep--rule-margin hr{margin:20px 0}
+
+/* ---- section 1: hero ---- */
+.about-hero{display:flow-root;padding-top:96px;background:url("https://www.ustanationalcampus.com/content/dam/nationalcampus/2024/aboutushero.jpg") 50% 50% / cover no-repeat}
+.about-hero__box-wrap{width:58.3333%;margin:224px 0 32px}
+.about-hero__box{padding:32px 12px;background:rgba(0,0,0,.6)}
+.about-hero__grid{display:flow-root}
+.about-hero__title-col{float:left;width:calc(100% - 12px);margin:0 6px;padding:8px 0}
+.about-hero__btn-col{float:left;width:calc(28.5714% - 12px);margin:0 6px;padding:8px 0}
+.about-btn{display:flex;flex-wrap:nowrap;justify-content:center;align-items:center;width:100%;min-width:max-content;height:40px;margin:0 auto;padding:14px;overflow:hidden;font-family:var(--font-semibold);font-size:18px;font-weight:400;line-height:20px;letter-spacing:1px;text-transform:uppercase;text-align:center;text-decoration:none;color:var(--color-white);background-color:var(--color-usta-blue);border:1px solid transparent;border-radius:3px;vertical-align:middle;cursor:pointer}
+.about-btn__text{display:flex;position:relative;align-items:center}
+
+/* ---- icon + heading row (shared by sections 2 and 3) ---- */
+.icon-row{display:flex;align-items:center;width:100%}
+.icon-row__icon{flex:0 0 auto;width:calc(8.3333% - 12px);margin:0 6px;padding:8px 0}
+.icon-row__heading{flex:0 0 auto;width:calc(91.6667% - 12px);margin:0 6px;padding:8px 0}
+
+/* ---- section 2: Discover the Campus ---- */
+.about-discover{display:flow-root;padding:32px 12px 8px}
+.about-discover__inner{max-width:1200px;margin:0 auto;padding:8px 0}
+.about-discover__body{display:flow-root}
+.about-discover__text-half{float:left;width:50%}
+.about-discover__text-half .text-col{margin:0 6px;padding:8px 0}
+.about-discover__image-half{float:left;width:calc(50% - 12px);margin:0 6px;padding:8px 0}
+
+/* ---- section 3: Events ---- */
+.about-events{display:flow-root;padding-top:64px}
+.about-events__inner{max-width:1200px;margin:0 auto;padding-top:8px}
+.about-events__panel{padding-bottom:32px}
+.about-events__grid{display:flex;flex-wrap:wrap;justify-content:space-around;align-items:center}
+.about-events__intro{width:calc(100% - 12px);margin:0 6px;padding:8px 0}
+.about-events__tile-wrap{width:25%}
+.about-events__collage-wrap{width:50%;padding:8px 0}
+.about-events__photo-wrap{width:25%}
+.calendar-tile{display:flex;flex-wrap:wrap;justify-content:space-around;align-items:center;background-color:#a4ee90}
+.calendar-tile__title{width:calc(100% - 12px);margin:0 6px;padding:8px 0}
+.calendar-tile__icon{width:calc(33.3333% - 12px);margin:0 auto;padding:8px 0}
+.calendar-tile__cta{width:calc(66.6667% - 12px);margin:0 6px;padding:8px 0}
+.calendar-tile__arrow{width:calc(33.3333% - 12px);margin:0 6px;padding:8px 0}
+.collage{display:flex;flex-wrap:wrap;justify-content:space-around;align-items:center;padding:0 6px}
+.collage__item{width:calc(33.3333% - 12px);margin:0 6px;padding:8px 0}
+.about-events__photo{display:flex;justify-content:space-around;padding:128px 0;background:url("https://www.ustanationalcampus.com/content/dam/usta/Articles/2024-photos/20240711-jimmyconnors-a.jpg") 50% 50% / cover no-repeat}
+
+/* ---- section 4: teaser rows ---- */
+.about-teasers{display:flow-root}
+.teaser--half{float:left;width:50%;padding-top:32px}
+.teaser__img-col{float:left;width:calc(33.3333% - 12px);margin:0 6px;padding:8px 0}
+.teaser__text-col{float:left;width:calc(66.6667% - 12px);margin:0 6px;padding:8px 0}
+.teaser--full{clear:both;width:100%;padding:32px 0 8px}
+.teaser__row{display:flex;align-items:center}
+.teaser__photo-wrap{flex:0 0 auto;width:16.6667%}
+.teaser__text-col--wide{float:none;flex:0 0 auto;width:calc(83.3333% - 12px)}
+.teaser__photo-wrap--careers .teaser__photo{padding:64px 12px 128px 0;background:url("https://www.ustanationalcampus.com/content/dam/nationalcampus/2024/careers.jpg") 50% 50% / cover no-repeat}
+.teaser__photo-wrap--pd{padding-top:8px}
+.teaser__photo-wrap--pd .teaser__photo{padding:128px 0;background:url("https://www.ustanationalcampus.com/content/dam/nationalcampus/2024/pd.jpg") 50% 50% / cover no-repeat}
+
+/* ================= mobile (lifted at 360) ================= */
+@media (max-width:767px){
+  .content h3{font-size:36px}
+  .about-hero{padding-top:48px}
+  .about-hero__box-wrap{width:100%;margin:112px 0 16px}
+  .about-hero__box{padding:16px 12px}
+  .about-hero__btn-col{width:calc(50% - 12px)}
+  .icon-row__icon{width:calc(16.6667% - 12px)}
+  .icon-row__heading{width:calc(83.3333% - 12px)}
+  .icon-row--events{justify-content:space-around}
+  .icon-row--events .icon-row__heading{width:calc(75% - 12px)}
+  .about-discover{padding-top:16px}
+  .about-discover__inner{max-width:336px}
+  .about-discover__text-half{width:100%}
+  .about-discover__image-half{display:none}
+  .about-events{padding-top:32px}
+  .about-events__inner{max-width:336px}
+  .about-events__panel{padding-bottom:16px}
+  .about-events__tile-wrap,.about-events__collage-wrap,.about-events__photo-wrap{width:100%}
+  .calendar-tile__cta{width:calc(66.6667% - 40px);margin:0 20px}
+  .calendar-tile__arrow{width:calc(33.3333% - 40px);margin:0 20px}
+  .collage__item{width:calc(50% - 12px)}
+  .about-events__photo{padding:64px 0}
+  .teaser--half{width:100%;padding-top:16px}
+  .teaser__img-col,.teaser__text-col{width:calc(100% - 12px)}
+  .teaser--full{padding:16px 0 8px}
+  .teaser__photo-wrap{display:none}
+  .teaser__text-col--wide{width:calc(100% - 12px)}
+}

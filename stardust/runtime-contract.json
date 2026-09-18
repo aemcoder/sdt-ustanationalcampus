@@ -1,0 +1,15 @@
+{
+  "_provenance": { "writtenBy": "stardust:deploy (runtime-detection probe)", "writtenAt": "2026-09-18T17:40:00Z", "readArtifacts": ["scripts/aem.js", "scripts/scripts.js", "styles/styles.css", "blocks/header/header.js"] },
+  "runtime": "vanilla-eds",
+  "boilerplateVintage": "adobe/aem-boilerplate 2026-09 (trusted-types policy, consent-check.js in loadDelayed, widget auto-block)",
+  "blockWrapperClass": "block",
+  "sectionShape": "main > div.section[.<name>-container] > div.default-content-wrapper | div.<name>-wrapper > div.<name>.block[data-block-name]",
+  "buttonClasses": "a.button / a.button.primary / a.button.secondary / a.button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only (strong→primary, em→secondary, em+strong→accent; bare <a> alone in <p> stays a link)",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "chromeReservation": "header { height: var(--nav-height) } + header .header { visibility: hidden } until [data-block-status=loaded]; --nav-height set per breakpoint (213 desktop / 160 mobile) — the live site's header is position:fixed with body padding-top, reproduced as an in-flow reserve + fixed inner chrome",
+  "fontsLoad": "styles/fonts.css via loadFonts() (desktop eager / repeat views; always in loadLazy); metric-matched -fallback faces in styles.css",
+  "csp": "script-src nonce + strict-dynamic; require-trusted-types-for script — no inline handlers, block JS uses trusted-types-safe DOM APIs",
+  "notes": ["decorateBlock runs wrapTextNodes: media-led / unlisted-first-child cells fold into one <p> — decode with the wrapper-expanding collector", "header.js stock contract: nav sections brand/sections/tools — replaced by a template-slotted decorate keeping toggleMenu semantics", "helix-query.yaml is retired per AGENTS.md; the query index must be configured at tools.aem.live (config service) by an org admin"]
+}

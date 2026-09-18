@@ -1,0 +1,1097 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T16:47:29.562Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "en-home-calendar-html",
+  "url": "https://www.ustanationalcampus.com/en/home/calendar.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T16:47:29.562Z",
+  "finalUrl": "https://www.ustanationalcampus.com/en/home/calendar.html",
+  "title": "Calendar",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Event Calendar at a Glance"
+    },
+    {
+      "tag": "h6",
+      "text": "SEPTEMBER 16-19, 2026"
+    },
+    {
+      "tag": "h4",
+      "text": "BNP Paribas World Team Cup"
+    },
+    {
+      "tag": "h6",
+      "text": "SEPTEMBER 18, 2026"
+    },
+    {
+      "tag": "h4",
+      "text": "Military Day"
+    },
+    {
+      "tag": "h6",
+      "text": "SEPTEMBER 19, 2026"
+    },
+    {
+      "tag": "h4",
+      "text": "Courtside Flow"
+    },
+    {
+      "tag": "h6",
+      "text": "SEPTEMBER 19, 2026"
+    },
+    {
+      "tag": "h4",
+      "text": "Community Day"
+    },
+    {
+      "tag": "h4",
+      "text": "Advertisement"
+    },
+    {
+      "tag": "h3",
+      "text": "Campus Hours"
+    },
+    {
+      "tag": "h3",
+      "text": "Address"
+    },
+    {
+      "tag": "h3",
+      "text": "Usta info"
+    },
+    {
+      "tag": "h3",
+      "text": "Usta links"
+    }
+  ],
+  "body": [
+    "Register for Fall Programming! Session runs now - Nov 8.",
+    "PLAY PLAY submenu Programs Private Lessons Adult Camps Summer Camps Book a Court Free30 Dave Bailey Programs",
+    "EVENTS EVENTS submenu Calendar 2026 BNP Paribas World Team Cup",
+    "ABOUT ABOUT submenu Meet Our Team Contact Us Sponsors & Partners USTA National Campus Scholarship",
+    "WATCH WATCH submenu Watch Live Record Your Match",
+    "VISIT VISIT submenu Hotel Booking Sustainability Health & Wellness Shop",
+    "Home >",
+    "Calendar",
+    "Search Events",
+    "Military DaySep 18Get active, learn new skills, and connect with fellow service members and families. REGISTER FOR EVENT",
+    "Military Day",
+    "Sep 18",
+    "Get active, learn new skills, and connect with fellow service members and families.",
+    "BNP Paribas World Team CupSep 16 - 19This year, mark's the 50th anniversary of wheelchair tennis and this prestigious competition return to the USA, where it was first staged in 1985. You're invited to experience the action up close for FREE!",
+    "BNP Paribas World Team Cup",
+    "Sep 16 - 19",
+    "This year, mark's the 50th anniversary of wheelchair tennis and this prestigious competition return to the USA, where it was first staged in 1985. You're invited to experience the action up close for FREE!",
+    "Location: Team USA 1-20",
+    "LEARN MORE",
+    "Get active, learn new skills, and connect with fellow service members and families. REGISTER FOR FREE",
+    "Join SOUL Ambassador Ana from Studio SOUL for a revitalizing 50-minute Vinyasa Yoga session!",
+    "REGISTER FOR FREE",
+    "Bring the whole crew out for a morning of on-court activities for all ages and skill levels, face painting for the kids, and more to kickstart your weekend! REGISTER FOR FREE",
+    "Monday - Friday 7:00 AM - 9:00 PM",
+    "Saturday 7:00 AM - 5:00 PM",
+    "Sunday 7:00 AM - 5:00 PM",
+    "VIEW HOLIDAY HOURS",
+    "10000 USTA Blvd.",
+    "Orlando, FL 32827",
+    "(407) 675-2500",
+    "About",
+    "Careers",
+    "Terms of Use",
+    "Privacy Policy",
+    "Program policies",
+    "Site Map",
+    "USTA.com",
+    "USOPEN.org",
+    "USTAFOUNDATION.com",
+    "PLAYER DEVELOPMENT",
+    "©2026 USTA ALL RIGHTS RESERVED"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Register for Fall Programming",
+      "href": "https://app.courtreserve.com/Online/Events/List/6415/K9INL6ND8Y6415"
+    },
+    {
+      "label": "PLAY",
+      "href": "/en/home/play.html"
+    },
+    {
+      "label": "PLAY submenu",
+      "href": null
+    },
+    {
+      "label": "EVENTS",
+      "href": "/en/home/events.html"
+    },
+    {
+      "label": "EVENTS submenu",
+      "href": null
+    },
+    {
+      "label": "ABOUT",
+      "href": "/en/home/about.html"
+    },
+    {
+      "label": "ABOUT submenu",
+      "href": null
+    },
+    {
+      "label": "WATCH",
+      "href": "/en/home/watch.html"
+    },
+    {
+      "label": "WATCH submenu",
+      "href": null
+    },
+    {
+      "label": "VISIT",
+      "href": "/en/home/visit.html"
+    },
+    {
+      "label": "VISIT submenu",
+      "href": null
+    },
+    {
+      "label": "BOOK NOW",
+      "href": null
+    },
+    {
+      "label": "Home",
+      "href": "/en/home.html"
+    },
+    {
+      "label": "Search",
+      "href": null
+    },
+    {
+      "label": "September 2026",
+      "href": null
+    },
+    {
+      "label": "1",
+      "href": null
+    },
+    {
+      "label": "2",
+      "href": null
+    },
+    {
+      "label": "3",
+      "href": null
+    },
+    {
+      "label": "4",
+      "href": null
+    },
+    {
+      "label": "5",
+      "href": null
+    },
+    {
+      "label": "6",
+      "href": null
+    },
+    {
+      "label": "7",
+      "href": null
+    },
+    {
+      "label": "8",
+      "href": null
+    },
+    {
+      "label": "9",
+      "href": null
+    },
+    {
+      "label": "10",
+      "href": null
+    },
+    {
+      "label": "11",
+      "href": null
+    },
+    {
+      "label": "12",
+      "href": null
+    },
+    {
+      "label": "13",
+      "href": null
+    },
+    {
+      "label": "14",
+      "href": null
+    },
+    {
+      "label": "15",
+      "href": null
+    },
+    {
+      "label": "16",
+      "href": null
+    },
+    {
+      "label": "17",
+      "href": null
+    },
+    {
+      "label": "18",
+      "href": null
+    },
+    {
+      "label": "19",
+      "href": null
+    },
+    {
+      "label": "20",
+      "href": null
+    },
+    {
+      "label": "21",
+      "href": null
+    },
+    {
+      "label": "22",
+      "href": null
+    },
+    {
+      "label": "23",
+      "href": null
+    },
+    {
+      "label": "24",
+      "href": null
+    },
+    {
+      "label": "25",
+      "href": null
+    },
+    {
+      "label": "26",
+      "href": null
+    },
+    {
+      "label": "27",
+      "href": null
+    },
+    {
+      "label": "28",
+      "href": null
+    },
+    {
+      "label": "29",
+      "href": null
+    },
+    {
+      "label": "30",
+      "href": null
+    },
+    {
+      "label": "REGISTER FOR EVENT",
+      "href": "https://usta.courtreserve.com/Online/Events/Details/6415/B2R3AH9641564?resId=58682446"
+    },
+    {
+      "label": "LEARN MORE",
+      "href": "https://www.ustanationalcampus.com/en/home/events/2026-bnp-paribas-world-team-cup.html"
+    },
+    {
+      "label": "REGISTER FOR FREE",
+      "href": "https://usta.courtreserve.com/Online/Events/Details/6415/B2R3AH9641564?resId=58682446"
+    },
+    {
+      "label": "REGISTER FOR FREE",
+      "href": "https://usta.courtreserve.com/Online/Events/Details/6415/2ODEYK86415842?resId=58690144"
+    },
+    {
+      "label": "REGISTER FOR FREE",
+      "href": "https://usta.courtreserve.com/Online/Events/Details/6415/QW8A1OC6415289?resId=58681399"
+    },
+    {
+      "label": "Skip Advertisement",
+      "href": "#skipAd-div-gpt-ad-1789750012327"
+    },
+    {
+      "label": "Sign Up for our Newsletter",
+      "href": "https://48188ad2.sibforms.com/serve/MUIFAIlfGVpfzetYeY0ld-o5gJ7N5WLmcwQKCGzls8hZvrp2c6G6GFENvYgX7OWG9VbBtY2di_JbLmqhFm7cL9WkImuoMTLvDsvlJ1OfbDwS5Ed7cOb1BUmMtDWvHaXKoaCYIeDhSiMjqlZ3KCgWnkFu5myttFWj8KLBCu2Pc1kdVOxjo-CfeZK4Skx3Tx4K7ThvcFrrHARYrbZu"
+    },
+    {
+      "label": "VIEW HOLIDAY HOURS",
+      "href": "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html"
+    },
+    {
+      "label": "(407) 675-2500",
+      "href": "tel:4076752500"
+    },
+    {
+      "label": "Show on map",
+      "href": "https://www.google.com/maps/place/USTA+National+Campus/@28.40035,-81.277727,15z/data=!4m5!3m4!1s0x0:0xa93446c27a424f4c!8m2!3d28.40035!4d-81.277727"
+    },
+    {
+      "label": "About",
+      "href": "https://www.usta.com/content/usta/en/home/about-usta.html"
+    },
+    {
+      "label": "Careers",
+      "href": "http://careers.usta.com/"
+    },
+    {
+      "label": "Terms of Use",
+      "href": "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-terms-of-use.html"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-privacy-policy.html"
+    },
+    {
+      "label": "Program policies",
+      "href": "/en/home/news/national-campus-program-policies.html"
+    },
+    {
+      "label": "Site Map",
+      "href": "https://drive.google.com/file/d/1E3DZ5oJldst_PQEvnUhapNl6f7LeWUCa/view?usp=sharing"
+    },
+    {
+      "label": "USTA.com",
+      "href": "https://www.usta.com/content/usta/en/home.html"
+    },
+    {
+      "label": "USOPEN.org",
+      "href": "https://www.usopen.org/"
+    },
+    {
+      "label": "USTAFOUNDATION.com",
+      "href": "https://www.ustafoundation.com/"
+    },
+    {
+      "label": "PLAYER DEVELOPMENT",
+      "href": "https://www.playerdevelopment.usta.com/"
+    },
+    {
+      "label": "Book now",
+      "href": "https://usta.courtreserve.com/Online/Events/List/6415/F6SUBQ2NFZ6415"
+    }
+  ],
+  "links": [
+    "https://app.courtreserve.com/Online/Events/List/6415/K9INL6ND8Y6415",
+    "https://www.ustanationalcampus.com/en/home.html",
+    "https://www.ustanationalcampus.com/en/home/play.html",
+    "https://www.ustanationalcampus.com/en/home/play/programs.html",
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html",
+    "https://www.ustanationalcampus.com/en/home/play/tennis/adult-camps.html",
+    "https://www.ustanationalcampus.com/en/home/play/tennis/summer-camps.html",
+    "https://www.ustanationalcampus.com/en/home/play/book-a-court.html",
+    "https://www.ustanationalcampus.com/en/home/play/free30.html",
+    "https://www.ustanationalcampus.com/en/home/play/davebailey.html",
+    "https://www.ustanationalcampus.com/en/home/events.html",
+    "https://www.ustanationalcampus.com/en/home/calendar.html",
+    "https://www.ustanationalcampus.com/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "https://www.ustanationalcampus.com/en/home/about.html",
+    "https://www.ustanationalcampus.com/en/home/about/meet-our-team.html",
+    "https://www.ustanationalcampus.com/en/home/connect.html",
+    "https://www.ustanationalcampus.com/en/home/about/sponsors---partners.html",
+    "https://www.ustanationalcampus.com/en/home/about/usta-national-campus-scholarship.html",
+    "https://www.ustanationalcampus.com/en/home/watch.html",
+    "https://www.ustanationalcampus.com/en/home/watch/save-my-play.html",
+    "https://www.ustanationalcampus.com/en/home/visit.html",
+    "https://www.ustatravel.com/",
+    "https://www.ustanationalcampus.com/en/home/visit/sustainability.html",
+    "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness.html",
+    "https://www.ustaproshop.com/",
+    "https://usta.courtreserve.com/Online/Events/Details/6415/B2R3AH9641564?resId=58682446",
+    "https://usta.courtreserve.com/Online/Events/Public/6415/2134114",
+    "https://usta.courtreserve.com/Online/Events/List/6415/C2HM11EQFQ6415",
+    "https://usta.courtreserve.com/Online/Events/Public/6415/2135670",
+    "https://usta.courtreserve.com/Online/Events/Public/6415/2135644",
+    "https://usta.courtreserve.com/Online/Events/Public/6415/2135664",
+    "https://usta.courtreserve.com/Online/Events/Public/6415/2145610",
+    "https://usta.courtreserve.com/Online/Events/Public/6415/2135669",
+    "https://usta.courtreserve.com/Online/Events/Public/6415/2135662",
+    "https://usta.courtreserve.com/Online/Events/Details/6415/QW8A1OC6415289?resId=58681399",
+    "https://usta.courtreserve.com/Online/Events/Details/6415/2ODEYK86415842?resId=58690144",
+    "https://usta.courtreserve.com/Online/Events/Public/6415/2147425",
+    "https://usta.courtreserve.com/Online/Events/Details/6415/1M6OE5R6415477?resId=58283340",
+    "https://www.ustanationalcampus.com/en/home/calendar.html#skipAd-div-gpt-ad-1789750012327",
+    "https://48188ad2.sibforms.com/serve/MUIFAIlfGVpfzetYeY0ld-o5gJ7N5WLmcwQKCGzls8hZvrp2c6G6GFENvYgX7OWG9VbBtY2di_JbLmqhFm7cL9WkImuoMTLvDsvlJ1OfbDwS5Ed7cOb1BUmMtDWvHaXKoaCYIeDhSiMjqlZ3KCgWnkFu5myttFWj8KLBCu2Pc1kdVOxjo-CfeZK4Skx3Tx4K7ThvcFrrHARYrbZu",
+    "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html",
+    "tel:4076752500",
+    "https://www.google.com/maps/place/USTA+National+Campus/@28.40035,-81.277727,15z/data=!4m5!3m4!1s0x0:0xa93446c27a424f4c!8m2!3d28.40035!4d-81.277727",
+    "https://www.usta.com/content/usta/en/home/about-usta.html",
+    "http://careers.usta.com/",
+    "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-terms-of-use.html",
+    "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-privacy-policy.html",
+    "https://www.ustanationalcampus.com/en/home/news/national-campus-program-policies.html",
+    "https://drive.google.com/file/d/1E3DZ5oJldst_PQEvnUhapNl6f7LeWUCa/view?usp=sharing",
+    "https://www.usta.com/content/usta/en/home.html",
+    "https://www.usopen.org/",
+    "https://www.ustafoundation.com/",
+    "https://www.playerdevelopment.usta.com/",
+    "https://usta.courtreserve.com/Online/Events/List/6415/F6SUBQ2NFZ6415",
+    "https://www.facebook.com/USTANationalCampus/",
+    "https://www.instagram.com/usta.nationalcampus/",
+    "https://www.youtube.com/user/tennis"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/components/content/common/header/clientlibs/resources/Tennis-Ball.svg",
+        "alt": "",
+        "w": 21,
+        "h": 21
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/components/content/common/header/clientlibs/resources/Cancel-Topnav-Bold.svg",
+        "alt": "Close",
+        "w": 18,
+        "h": 18
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/components/content/common/header/clientlibs/resources/Hamburger-Menu-Black.svg",
+        "alt": "Menu",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/HeaderLogos/national-campus-logo.svg",
+        "alt": "USTA National Campus Logo Home",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-vue/resources/img/Calendar_Icon.svg",
+        "alt": "Calendar view",
+        "w": 48,
+        "h": 41
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-vue/resources/img/Sort_Events_Menu.svg",
+        "alt": "Sort events",
+        "w": 56,
+        "h": 35
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/en/home/calendar/_jcr_content/root/content/container/container_636087784_/container_copy_copy__547814979/image_copy_600761977.coreimg.90.512.jpeg/1789483484845/20220426-mathewsonwtc-desktop.jpeg",
+        "alt": "US Open Watch Party at Boxi Park Lake Nona Florida",
+        "w": 512,
+        "h": 327
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/en/home/calendar/_jcr_content/root/content/container/container_636087784_/container_copy_copy__2063258770/image.coreimg.90.512.png/1789068900614/military-tennis-program.png",
+        "alt": "Junior girls tennis player at the USTA National Campus.",
+        "w": 512,
+        "h": 341
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/en/home/calendar/_jcr_content/root/content/container/container_636087784_/container_copy_copy_/image_729212750.coreimg.90.512.jpeg/1786994706505/campus-welcome.jpeg",
+        "alt": "USTA National Campus Welcome Center",
+        "w": 512,
+        "h": 352
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/en/home/calendar/_jcr_content/root/content/container/container_636087784_/container_copy_copy__1662121256/image_copy.coreimg.90.512.jpeg/1789068920599/community-day.jpeg",
+        "alt": "Woman league tennis player at the USTA National Campus",
+        "w": 512,
+        "h": 341
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/national-campus-logo.png",
+        "alt": "USTA National Campus Home",
+        "w": 295,
+        "h": 63
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/map-location-pin.svg",
+        "alt": "",
+        "w": 25,
+        "h": 24
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/facebook.png",
+        "alt": "Facebook",
+        "w": 30,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/instagram.png",
+        "alt": "Instagram",
+        "w": 30,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/youtube.png",
+        "alt": "YouTube",
+        "w": 35,
+        "h": 26
+      }
+    ],
+    "allImgCount": 15,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": [
+      {
+        "src": null,
+        "title": "Advertisement"
+      }
+    ]
+  },
+  "customProps": {
+    "--vc-white": "#fff",
+    "--vc-black": "#000",
+    "--vc-gray-50": "#f8fafc",
+    "--vc-gray-100": "#f1f5f9",
+    "--vc-gray-200": "#e2e8f0",
+    "--vc-gray-300": "#cbd5e1",
+    "--vc-gray-400": "#94a3b8",
+    "--vc-gray-500": "#64748b",
+    "--vc-gray-600": "#475569",
+    "--vc-gray-700": "#334155",
+    "--vc-gray-800": "#1e293b",
+    "--vc-gray-900": "#0f172a",
+    "--vc-font-family": "BlinkMacSystemFont,-apple-system,\"Segoe UI\",\"Roboto\",\"Oxygen\",\"Ubuntu\",\"Cantarell\",\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",\"Helvetica\",\"Arial\",sans-serif",
+    "--vc-font-normal": "400",
+    "--vc-font-medium": "500",
+    "--vc-font-semibold": "600",
+    "--vc-font-bold": "700",
+    "--vc-text-2xs": "10px",
+    "--vc-text-xs": "12px",
+    "--vc-text-sm": "14px",
+    "--vc-text-base": "16px",
+    "--vc-text-lg": "18px",
+    "--vc-text-xl": "20px",
+    "--vc-text-2xl": "24px",
+    "--vc-leading-none": "1",
+    "--vc-leading-tight": "1.25",
+    "--vc-leading-snug": "1.375",
+    "--vc-leading-normal": "1.5",
+    "--vc-rounded": "0.25rem",
+    "--vc-rounded-md": "0.375rem",
+    "--vc-rounded-lg": "0.5rem",
+    "--vc-rounded-full": "9999px",
+    "--vc-shadow": "0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)",
+    "--vc-shadow-lg": "0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)",
+    "--vc-shadow-inner": "inset 0 2px 4px 0 rgba(0,0,0,.06)",
+    "--vc-slide-translate": "22px",
+    "--vc-slide-duration": "0.15s",
+    "--vc-slide-timing": "ease",
+    "--vc-day-content-transition": "all 0.13s ease-in",
+    "--vc-weeknumber-offset-inside": "26px",
+    "--vc-weeknumber-offset-outside": "34px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 13,
+    "mainTextLen": 5710,
+    "realImageCount": 15,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6a4.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.ustanationalcampus.com",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b662249/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2586,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 13040,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1780,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "unitedstatestennisas.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/gampad/ads",
+        "query": [
+          "abxe",
+          "adfs",
+          "adks",
+          "adxs",
+          "adys",
+          "bc",
+          "bih",
+          "biw",
+          "btvi",
+          "correlator",
+          "cpu",
+          "dids",
+          "dlt",
+          "dmc",
+          "dt",
+          "eid",
+          "enc_prev_ius",
+          "eo_id_str",
+          "frm",
+          "fws",
+          "gdfp_req",
+          "idt",
+          "ifi",
+          "impl",
+          "iu_parts",
+          "lmt",
+          "msz",
+          "nvt",
+          "ohw",
+          "oid",
+          "output",
+          "prev_iu_szs",
+          "psz",
+          "ptt",
+          "pvsid",
+          "sc",
+          "scr_x",
+          "scr_y",
+          "sfv",
+          "u_ah",
+          "u_aw",
+          "u_cd",
+          "u_h",
+          "u_his",
+          "u_sd",
+          "u_tz",
+          "u_w",
+          "uach",
+          "ucis",
+          "url",
+          "vis",
+          "vrg"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 29518,
+        "hits": 1,
+        "example": "https://pagead2.googlesyndication.com/gampad/ads",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pcs/view",
+        "query": [
+          "adurl",
+          "sig",
+          "uach_m",
+          "xai"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://pagead2.googlesyndication.com/pcs/view",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/j/collect",
+        "query": [
+          "_gid",
+          "_s",
+          "_slc",
+          "_u",
+          "_v",
+          "a",
+          "cid",
+          "dl",
+          "dt",
+          "gjid",
+          "jid",
+          "sr",
+          "t",
+          "tid",
+          "ul",
+          "v",
+          "vp",
+          "z"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 15,
+        "hits": 1,
+        "example": "https://www.google-analytics.com/j/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pagead/gen_204",
+        "query": [
+          "id",
+          "type"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 204,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://pagead2.googlesyndication.com/pagead/gen_204",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.ustanationalcampus.com",
+        "path": "/usta/events",
+        "query": [
+          "dataPagePath",
+          "source"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 16645,
+        "hits": 1,
+        "example": "https://www.ustanationalcampus.com/usta/events",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ep1.adtrafficquality.google",
+        "path": "/getconfig/sodar",
+        "query": [
+          "sjk",
+          "st",
+          "sv",
+          "tid",
+          "tv"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 13398,
+        "hits": 1,
+        "example": "https://ep1.adtrafficquality.google/getconfig/sodar",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pagead/ping",
+        "query": [
+          "e"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://pagead2.googlesyndication.com/pagead/ping",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "region1.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://region1.google-analytics.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "region1.analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://region1.analytics.google.com/g/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 4
+      },
+      {
+        "host": "pagead2.googlesyndication.com",
+        "count": 4
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 3
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 3
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "www.googletagservices.com",
+        "count": 1
+      },
+      {
+        "host": "securepubads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "www.google-analytics.com",
+        "count": 1
+      },
+      {
+        "host": "usta.d2.sc.omtrdc.net",
+        "count": 1
+      },
+      {
+        "host": "ep2.adtrafficquality.google",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "vue",
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 2,
+      "thirdPartyEndpoints": 16,
+      "thirdPartyScriptHosts": 10,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/en-home-calendar-html.png",
+  "renderedHtml": "pages/en-home-calendar-html.html"
+}

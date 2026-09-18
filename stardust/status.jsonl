@@ -1,0 +1,6 @@
+{"ts":"2026-09-18T16:46:39Z","skill":"stardust:replica","phase":"1-extract","event":"start","detail":"50 pages discovered via BFS (no sitemap); hands-off; Code Sync registration parked (GH_PAT expired)"}
+{"ts":"2026-09-18T17:02:45Z","skill":"stardust:replica","phase":"1-extract","event":"end","detail":"50/50 live captures, 0 failures; brand surface + PRODUCT/DESIGN/brand-review written; 7 page types","artifact":"stardust/current/"}
+{"ts":"2026-09-18T17:02:45Z","skill":"stardust:replica","phase":"2-preserve-direction","event":"start"}
+{"ts":"2026-09-18T17:08:58Z","skill":"stardust:replica","phase":"1-extract","event":"start","detail":"wave-2 roster: 892 live news archive pages discovered via /usta/nc/newsfeed; crawling with --wait fast","artifact":"stardust/current/pages/"}
+{"ts":"2026-09-18T17:10:18Z","skill":"stardust:replica","phase":"2-preserve-direction","event":"end","detail":"spec promoted verbatim; register empty; dynamics: 24 rows curated, 0 without disposition, 4 owner decisions","artifact":"stardust/dynamic-features.md"}
+{"ts":"2026-09-18T17:25:09Z","skill":"stardust:replica","phase":"3-recreate","event":"start","detail":"canon chrome gated (1440: header 100%, footer 99.73%; 360: header 99.45%, footer ~97.6% incl. OneTrust floating button residual); 6 archetype agents dispatched","artifact":"stardust/prototypes/css/canon.css"}

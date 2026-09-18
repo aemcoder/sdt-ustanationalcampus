@@ -1,0 +1,403 @@
+{
+  "url": "https://www.ustanationalcampus.com/en/home/visit.html",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#headingone",
+      "frames": [
+        {
+          "t": 16647.900000095367,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16851.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17054.800000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17257.900000095367,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#headingtwo",
+      "frames": [
+        {
+          "t": 18274,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18477.300000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18680,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18882.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#guestServiceAccordion .boxTile:nth-child(1) .boxTileContent",
+      "frames": [
+        {
+          "t": 19888.800000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20091.900000095367,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20294.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20496.300000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "#guestServiceAccordion .boxTile:nth-child(2) .boxTileContent",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.boxTileImage.lazyloaded",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h4.boxTileHeading",
+            "transform": "none",
+            "color": "rgb(68, 68, 68)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.smallText",
+            "transform": "none",
+            "color": "rgb(0, 38, 73)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(65, 143, 222)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.boxTileImage.lazyloaded",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h4.boxTileHeading",
+            "transform": "none",
+            "color": "rgb(68, 68, 68)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.smallText",
+            "transform": "none",
+            "color": "rgb(0, 38, 73)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(65, 143, 222)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "height",
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapsing",
+        "y": 1249,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.informationContainer > div.panel-group > div.info-panel > h4.panel-title > span.arrowDown.open",
+        "y": 1249,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "height",
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapsing",
+        "y": 2034,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.informationContainer > div.panel-group > div.info-panel > h4.panel-title > span.arrowDown.open",
+        "y": 2034,
+        "dur": "0.4s"
+      },
+      {
+        "prop": "height",
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapsing",
+        "y": 2034,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.informationContainer > div.panel-group > div.info-panel > h4.panel-title.collapsed > span.arrowDown",
+        "y": 2034,
+        "dur": "0.4s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "collapsed"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > h4.panel-title.collapsed",
+        "y": 1249
+      },
+      {
+        "added": [
+          "collapsed"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > h4.panel-title.collapsed",
+        "y": 1249
+      },
+      {
+        "added": [
+          "collapsed"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > h4.panel-title.collapsed",
+        "y": 1249
+      },
+      {
+        "added": [
+          "collapsing"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapsing",
+        "y": 1249
+      },
+      {
+        "added": [
+          "collapsing"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapsing",
+        "y": 1249
+      },
+      {
+        "added": [
+          "open"
+        ],
+        "el": "div.informationContainer > div.panel-group > div.info-panel > h4.panel-title > span.arrowDown.open",
+        "y": 1249
+      },
+      {
+        "added": [
+          "collapse",
+          "in"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapse.in",
+        "y": 1249
+      },
+      {
+        "added": [
+          "collapse",
+          "in"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapse.in",
+        "y": 1249
+      },
+      {
+        "added": [
+          "collapsing"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapsing",
+        "y": 2034
+      },
+      {
+        "added": [
+          "collapsing"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapsing",
+        "y": 2034
+      },
+      {
+        "added": [
+          "open"
+        ],
+        "el": "div.informationContainer > div.panel-group > div.info-panel > h4.panel-title > span.arrowDown.open",
+        "y": 2034
+      },
+      {
+        "added": [
+          "collapsing"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapsing",
+        "y": 2034
+      },
+      {
+        "added": [
+          "collapsed"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > h4.panel-title.collapsed",
+        "y": 2034
+      },
+      {
+        "added": [
+          "collapse"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapse",
+        "y": 2033
+      },
+      {
+        "added": [
+          "collapse"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapse",
+        "y": 2033
+      },
+      {
+        "added": [
+          "collapse",
+          "in"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapse.in",
+        "y": 2033
+      },
+      {
+        "added": [
+          "collapse",
+          "in"
+        ],
+        "el": "div.nc-cmp-container > div.informationContainer > div.panel-group > div.info-panel > div.infoCollapse.collapse.in",
+        "y": 2033
+      }
+    ]
+  }
+}

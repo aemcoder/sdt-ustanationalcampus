@@ -1,0 +1,168 @@
+/* stardust:replica — archetype en-home-play-private-lessons-html (page type: program / nc---landing-page-template family).
+   Every value lifted from the live computed styles (stardust/current/_style-lift-en-home-play-private-lessons-html.json @1440 + @360)
+   and the harvested source CSS (usta-proxy.css, usta accordion/table clientlibs, usta-proxy-editable-basepage clientlibs).
+   Container model mirrored, not eyeballed: AEM grid columns carry margin 0 6px, component wrappers padding 8px 0;
+   spacing tokens small=32 / medium=64 / large=128 (halved at <=767px). Variant-ready: [data-section] per top-level section. */
+:root{
+  --pl-icons:url("https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/images/usta-icons/");
+  --sp-small:32px;--sp-medium:64px;--sp-large:128px;
+  --col-gutter:6px;--col-pad:8px;
+  --acc-title-size:28px;--acc-title-lh:40px;
+}
+@media (max-width:767px){:root{--sp-small:16px;--sp-medium:32px;--sp-large:64px;--acc-title-size:22px;--acc-title-lh:31.4285px}}
+
+/* ---- shared primitives (grid column, richtext, separators, buttons) ---- */
+.pl-col{margin:0 var(--col-gutter);padding:var(--col-pad) 0}
+.pl-rt{padding:var(--col-pad) 0;margin:0 var(--col-gutter)}
+.pl-rt h2{margin:0}
+.pl-rt p{margin:0}
+.pl-rt b,.pl-rt strong{font-weight:700}
+.pl-sep{padding:var(--col-pad) 0;margin:0 var(--col-gutter)}
+.pl-sep hr{height:0;margin:20px 0;border:0;border-top:1px solid #fff;box-sizing:content-box}
+.pl-sep--none hr{margin:0}
+.pl-sep--7 hr{margin:7px 0;border-top-color:transparent}
+.pl-sep--pad4{padding:4px 0}
+.pl-sep--pad4 hr{border-top-color:transparent}
+.pl-sep--page{display:flow-root}
+
+/* button-core (usta-proxy.css) — the black pill; --reverse puts the icon before the label; _with-icon adds the 34px right pad */
+.pl-btn{display:block}
+.button-core{display:flex;flex-wrap:nowrap;align-items:center;justify-content:center;width:auto;min-width:max-content;max-width:none;height:56px;margin:0 auto;padding:14px;overflow:hidden;font-family:var(--font-semibold);font-size:18px;line-height:20px;font-weight:normal;letter-spacing:1px;text-transform:uppercase;text-align:center;text-decoration:none;color:#fff;background-color:#000;border:2px solid transparent;border-radius:9999px;cursor:pointer;outline:0;vertical-align:middle}
+.button-core_with-icon{padding-right:34px}
+.button-core:hover{opacity:.7;color:#fff;text-decoration:none}
+.button-core:active{opacity:.7;filter:drop-shadow(0 4px 4px rgba(0,0,0,.5))}
+.button-core:focus-visible{box-shadow:0 0 4px 4px #fff;outline:2px dotted #000}
+.button-core__text{position:relative;display:inline-flex;align-items:center;vertical-align:middle;white-space:nowrap;text-overflow:ellipsis}
+.button-core--reverse .button-core__text{display:flex;flex-direction:row-reverse}
+.button-core__text-content{display:block;font-family:var(--font-semibold);text-transform:uppercase;font-weight:normal;letter-spacing:0}
+.button-core__icon{display:block;flex-shrink:0;width:20px;height:20px;margin-left:10px;background-size:contain;background-position:center;background-repeat:no-repeat;filter:invert(100%)}
+.button-core--reverse .button-core__text .button-core__icon{margin-right:10px}
+.button-core__icon.web{background-image:url("https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/images/usta-icons/Web.svg")}
+.button-core__icon.phone{background-image:url("https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/images/usta-icons/Phone.svg")}
+.button-core__icon.envelope{background-image:url("https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/images/usta-icons/Envelope.svg");filter:invert(1) brightness(742%) sepia(100%) saturate(100%)}
+@media (max-width:767px){.button-core{width:100%}}
+
+/* ---- hero: full-bleed photo, translucent white box on the left half ---- */
+.pl-hero{padding:var(--sp-large) 0 var(--sp-medium);background-size:cover;background-repeat:no-repeat;background-position:50% center}
+.pl-hero__box{width:50%;margin-top:calc(var(--sp-small) + var(--sp-medium) + var(--sp-large));padding:var(--sp-small) 12px;background-color:rgba(255,255,255,.78)}
+.pl-hero__title{margin:0 var(--col-gutter);padding:var(--col-pad) 0}
+.pl-hero__title h1{margin:0 0 10px;font-family:var(--font-display);font-size:100px;line-height:1.1;color:#000}
+@media (max-width:767px){
+  .pl-hero__box{width:100%}
+  .pl-hero__title h1{font-size:54px}
+}
+
+/* ---- intro: image left / richtext + pill right, 1200px centred container ---- */
+.pl-intro{max-width:1200px;margin:var(--sp-medium) auto;padding:var(--col-pad) 0}
+.pl-intro__grid{display:flow-root}
+.pl-intro__media{float:left;width:calc(50% - 12px);margin:0 var(--col-gutter);padding:2px 3.75px}
+.pl-intro__img{display:block;width:100%;height:auto}
+.pl-intro__body{float:left;width:50%;padding:2px 3.75px}
+.pl-btn--half{width:calc(50% - 12px)}
+@media (max-width:767px){
+  .pl-intro{max-width:calc(100% - 24px)}
+  .pl-intro__media{display:none}
+  .pl-intro__body{float:none;width:100%}
+  .pl-btn--half{width:auto}
+}
+
+/* ---- bands (lesson types / camps): flex row, photo half + content half, content vertically centred ---- */
+.pl-band{display:flex;flex-wrap:wrap;align-items:center}
+.pl-band--sage{background-color:#92BFB7}
+.pl-band--clay{background-color:#DCDFCF}
+.pl-band__photo{width:50%;padding:calc(var(--sp-small) + var(--sp-medium) + var(--sp-large)) 0;background-size:cover;background-repeat:no-repeat;background-position:50% center}
+.pl-band__photo--mobile{display:none}
+.pl-band__content{width:50%;padding:var(--col-pad) 12px}
+.pl-band__grid{display:flex;flex-wrap:wrap;align-items:center}
+.pl-band__grid>.pl-col,.pl-band__grid>.pl-rt,.pl-band__grid>.pl-sep{width:calc(100% - 12px)}
+.pl-band__grid>.pl-col--5of6{width:calc(100% * 5 / 6 - 12px)}
+.pl-band__grid>.pl-col--2of6{width:calc(100% * 2 / 6 - 12px)}
+@media (max-width:767px){
+  .pl-band__photo{width:100%}
+  .pl-band__photo--mobile{display:block}
+  .pl-band__photo--desktop{display:none}
+  .pl-band__content{width:100%}
+  .pl-band__grid>.pl-col--5of6,.pl-band__grid>.pl-col--2of6{width:calc(100% - 12px)}
+}
+
+/* ---- accordion (AEM core + usta accordion clientlib; live class names kept so the gate instruments stay symmetric) ---- */
+.pl-accordion .cmp-accordion__item+.cmp-accordion__item>.cmp-accordion__header{margin-top:10px}
+.pl-accordion .cmp-accordion__header{margin:0;font-family:var(--font-semibold);font-size:var(--acc-title-size);line-height:var(--acc-title-lh);font-weight:900;color:#333}
+.pl-accordion .cmp-accordion__button{display:flex;justify-content:space-between;align-items:center;width:100%;padding:0;border:0;background-color:transparent;font-family:inherit;font-size:inherit;line-height:inherit;font-weight:400;color:#000;text-align:left;cursor:pointer}
+.pl-accordion .cmp-accordion__button:focus:not(:focus-visible){outline:0}
+.pl-accordion .cmp-accordion__title{display:block;margin-bottom:8px}
+.pl-accordion .cmp-accordion__icon{display:block;width:36px;height:36px;margin:2px 16px 3px 0;background-repeat:no-repeat;background-image:url("https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/images/usta-icons/Chevron-Down-Desktop.svg")}
+.pl-accordion .cmp-accordion__button--expanded>.cmp-accordion__icon{background-image:url("https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/images/usta-icons/Chevron-Up-Desktop.svg")}
+.pl-accordion .cmp-accordion__panel{padding-top:10px;border-top:1px solid;font-size:18px;line-height:24px;color:#333;overflow:auto;transition:max-height .4s ease-in-out,visibility 0s;scrollbar-width:none}
+.pl-accordion .cmp-accordion__panel::-webkit-scrollbar{display:none}
+.pl-accordion .cmp-accordion__panel--hidden{display:block;max-height:0;padding:0!important;overflow:hidden;visibility:hidden;transition:max-height .4s ease-in-out,visibility 0s .4s}
+.pl-accordion .cmp-accordion__panel--expanded{max-height:9999px;visibility:visible}
+.pl-panel-grid{padding:var(--col-pad) 0;margin:0 var(--col-gutter)}
+.pl-panel-text{padding:var(--col-pad) 0}
+.pl-panel-text .pl-rt{margin:0}
+@media (max-width:767px){
+  .pl-accordion .cmp-accordion__item+.cmp-accordion__item{margin-top:20px}
+  .pl-accordion .cmp-accordion__button{padding-bottom:9px}
+  .pl-accordion .cmp-accordion__title{margin:0;align-items:center}
+  .pl-accordion .cmp-accordion__icon{width:24px;height:24px;margin:0;background-image:url("https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/images/usta-icons/Chevron-Down.svg")}
+  .pl-accordion .cmp-accordion__button--expanded>.cmp-accordion__icon{background-image:url("https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-site/resources/images/usta-icons/Chevron-Up.svg")}
+  .pl-accordion .cmp-accordion__panel{margin-top:9px}
+}
+
+/* ---- price table inside the lesson-type panels (usta responsive table clientlib) ---- */
+.pl-table{border:1px solid #e1e6e8;border-radius:6px;box-shadow:0 2px 4px 0 rgba(0,0,0,.1);overflow:hidden}
+.pl-table__row{display:flex;min-height:56px}
+.pl-table__row:not(:last-child){border-bottom:1px solid #e1e6e8}
+.pl-table__cell{flex:1;padding:16px;overflow-wrap:anywhere}
+.pl-table__cell p{margin:0;font-size:18px;line-height:24px;color:#000}
+.pl-table__cell b{font-weight:700}
+@media (max-width:767px){
+  .pl-table{box-shadow:none}
+  .pl-table__row{flex-direction:column;padding:16px 5px}
+  .pl-table__cell{width:100%;flex-basis:100%;padding:0}
+  .pl-table__cell:not(:last-child){padding-bottom:16px}
+}
+
+/* ---- narrow column (FAQ + cancellation): 8/12 offset 2/12 desktop, 10/12 offset 1/12 mobile ---- */
+.pl-narrow{width:calc(100% * 8 / 12 - 12px);margin-left:calc(100% * 2 / 12 + 6px);padding:var(--col-pad) 0}
+.pl-narrow.pl-rt{margin-right:0}
+.cmp-text__image-and-paragraph{display:flex}
+.cmp-text__image-wrapper{margin-right:10px}
+.cmp-text__image{width:60px;height:auto;vertical-align:middle}
+@media (max-width:767px){
+  .pl-narrow{width:calc(100% * 10 / 12 - 12px);margin-left:calc(100% * 1 / 12 + 6px)}
+}
+
+/* ---- contact band: clay background, 16px white stripes at the 1200px container edges (-30px), centred h2 + EMAIL pill ---- */
+.pl-contact{position:relative;background-color:#DCDFCF}
+.pl-contact::before,.pl-contact::after{content:'';position:absolute;top:0;display:block;width:16px;height:100%;background:#fff}
+.pl-contact::before{left:calc(calc((100% - 1200px) / 2) - 30px)}
+.pl-contact::after{right:calc(calc((100% - 1200px) / 2) - 30px)}
+.pl-contact__row{width:calc(100% * 8 / 12);margin:var(--sp-small) auto;padding:var(--col-pad) 0}
+.pl-contact__grid{display:flex;flex-wrap:wrap;align-items:center}
+.pl-contact__text-col{width:calc(100% * 5 / 8);padding:var(--col-pad) 0}
+.pl-contact__text-col .pl-col--4of5{width:calc(100% * 4 / 5 - 12px)}
+.pl-contact__btn-col{width:calc(100% * 3 / 8);margin:var(--sp-small) 0;padding:var(--col-pad) 0}
+@media (max-width:767px){
+  .pl-contact::before,.pl-contact::after{width:8px}
+  .pl-contact::before{left:calc(calc((100% - 336px) / 2) - 11px)}
+  .pl-contact::after{right:calc(calc((100% - 336px) / 2) - 11px)}
+  .pl-contact__row{width:calc(100% * 10 / 12)}
+  .pl-contact__text-col,.pl-contact__btn-col{width:100%}
+  .pl-contact__text-col .pl-col--4of5{width:calc(100% - 12px)}
+}
+
+/* ---- app badges: centred label + App Store / Google Play, space-around row in the middle third ---- */
+.pl-app{padding-top:var(--sp-small);background-color:#FFFFFF}
+.pl-app__row{width:calc(100% / 3);margin-left:calc(100% / 3);padding:var(--col-pad) 0}
+.pl-app__grid{display:flex;justify-content:space-around}
+.pl-app__gap{width:calc(25% - 12px);margin:0 var(--col-gutter)}
+.pl-app__badge{width:calc(25% - 12px);margin:0 var(--col-gutter);padding:var(--col-pad) 0}
+.pl-app__badge .cmp-image__link{display:inline}
+.pl-app__badge .cmp-image__image{display:block;width:100%;height:auto}
+.cmp-image__link:hover{color:#23527c}
+@media (max-width:767px){
+  .pl-app__row{width:100%;margin-left:0}
+  .pl-app__gap{width:calc(100% / 12 - 12px)}
+  .pl-app__badge{width:calc(100% * 3 / 12 - 12px)}
+}

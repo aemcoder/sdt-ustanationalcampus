@@ -1,0 +1,154 @@
+/* stardust:replica — archetype en-home-html (landing / home). Values lifted from
+   stardust/current/_style-lift.json @1440 and @360 and the harvested AEM clientlib CSS
+   (stardust/current/assets/css/nationalcampus_clientlibs_clientlib-all.css). Never eyeballed.
+   AEM model mirrored: every grid column carries 8px top/bottom padding; non-container
+   columns carry 6px side margins; padding-*-small = 32px (16px mobile), *-large = 128px
+   (64px mobile); margin-top small+medium+large = 224px (112px mobile); padding-left/right-triple = 12px. */
+
+:root{
+  --col-pad:8px;          /* .responsivegrid .cmp-container>*>.aem-GridColumn{padding:8px 0} */
+  --col-gutter:6px;       /* .aem-Grid--N>.aem-GridColumn{margin:0 6px} */
+  --pad-small:32px;       /* .padding-top-small>.cmp-container */
+  --pad-large:128px;      /* .padding-top-large>.cmp-container */
+  --pad-triple:12px;      /* .padding-left-triple>.cmp-container */
+  --margin-small:32px;    /* .margin-bottom-small */
+  --margin-sml:224px;     /* .margin-top-small.margin-top-medium.margin-top-large */
+  --sep-plain:57px;       /* separator column: 8 + hr(20+1+20) + 8 */
+  --sep-thin:9px;         /* separator--vertical-paddings--4px + inner-margins--none: 4+1+4 */
+  --sep-7:31px;           /* separator--vertical-margins--7px: 8+7+1+7+8 */
+  --sep-7-thin:23px;      /* + vertical-paddings--4px: 4+7+1+7+4 */
+  --sep-promo:24px;       /* full-width, paddings 4, margins 7, border 2px: 4+7+2+7+4 */
+  --hero-h1-lh:110px;
+}
+@media (max-width:767px){
+  :root{--pad-small:16px;--pad-large:64px;--margin-small:16px;--margin-sml:112px}
+}
+
+/* ---- generic separator rows (transparent hr unless --visible) ---- */
+.rule{display:block;margin:0 var(--col-gutter);padding:var(--col-pad) 0}
+.rule hr{margin:20px 0;border:0;border-top:1px solid transparent}
+.rule--thin{padding:4px 0}
+.rule--thin hr{margin:0}
+.rule--visible hr{border-top-color:#eee}
+.rule--wide{padding:var(--col-pad) 0}
+.rule--promo{margin:0;padding:4px 0}
+.rule--promo hr{margin:7px 0;border-top-width:2px}
+.u-hidden{display:none !important}
+.u-mobile-only{display:none}
+@media (max-width:767px){.u-mobile-only{display:block}.u-desktop-only{display:none}}
+
+/* ---- text roles shared by the page (cmp-text) ---- */
+.content h1{color:var(--color-white);line-height:var(--hero-h1-lh)}
+.content h5{margin:10px 0}
+.content .tile-title{margin:0;color:var(--color-white)}
+.content .tile-title a{color:inherit;text-decoration:underline}
+.tile-title--center{text-align:center}
+
+/* ================= 1. HERO ================= */
+.hero{padding:var(--col-pad) 0}
+.hero__media{background-size:cover;background-repeat:no-repeat;background-position:50% center;
+  /* padding-top-large + the four 57px transparent separator rows the live grid carries above the title */
+  padding-top:calc(var(--pad-large) + 4 * var(--sep-plain))}
+.hero__panel{width:75%;padding:var(--col-pad) 0;margin-bottom:var(--margin-small)}
+.hero__scrim{background:var(--scrim-50);padding:var(--sep-thin) 0}
+.hero__title{width:calc(100% * 8 / 9);padding:var(--col-pad) 0;margin:0 var(--col-gutter);box-sizing:border-box}
+.hero__title h1{margin:0}
+@media (max-width:767px){
+  :root{--hero-h1-lh:59.4px}
+}
+
+/* ================= 3. MOSAIC ================= */
+.mosaic{display:flex;flex-wrap:wrap;align-items:stretch}
+.mosaic__main{position:relative;width:50%;display:flex;flex-direction:column;justify-content:flex-end;
+  background-size:cover;background-repeat:no-repeat;background-position:50% center;cursor:pointer}
+.mosaic__panel{width:100%;background:var(--scrim-50);padding-left:var(--pad-triple)}
+.mosaic__panel-text{margin:0 var(--col-gutter);padding:var(--col-pad) 0}
+.mosaic__panel-text h2{margin:0;color:var(--color-white)}
+.mosaic__panel-cta{width:calc(100% * 4 / 6);margin:0 var(--col-gutter);padding:var(--col-pad) 0 calc(var(--col-pad) + 17px)}
+.mosaic__cta{display:flex;width:calc(100% - 2 * var(--col-gutter));min-width:max-content;border:1px solid var(--color-black)}
+.btn__text{display:inline-block}
+
+.mosaic__side{width:50%;display:flex;flex-wrap:wrap;align-items:flex-start}
+.mosaic__side-rule{width:100%;margin:0}
+.mosaic__tile{position:relative;width:50%;padding-left:8px;box-sizing:border-box}   /* border_left: 8px white bar */
+.mosaic__tile--photo{margin-top:2px;background-clip:content-box;background-size:cover;background-repeat:no-repeat;
+  background-position:50% center;background-origin:content-box;padding-top:calc(var(--pad-small) + var(--pad-large) + 2px);cursor:pointer}
+.mosaic__tile--photo{padding-top:2px}
+.mosaic__tile--photo::before{content:"";display:block;height:calc(var(--pad-small) + var(--pad-large) + var(--sep-thin))}
+.mosaic__caption{background:var(--scrim-50);padding-left:var(--pad-triple);padding-right:var(--pad-triple)}
+.mosaic__caption-text{margin:0;padding:var(--col-pad) 0}
+.mosaic__caption-text h3{text-align:left}
+
+.mosaic__tile--book .mosaic__book-inner{background:var(--color-usta-blue);padding:var(--pad-small) var(--pad-triple)}
+.mosaic__tile--book-desktop .mosaic__book-inner{padding-top:calc(var(--pad-small) + var(--sep-7) + var(--sep-7-thin));
+  padding-bottom:calc(var(--pad-small) + var(--sep-7-thin) + var(--sep-7))}
+.mosaic__book-text{margin:0 var(--col-gutter);padding:var(--col-pad) 0}
+@media (max-width:767px){
+  .mosaic__main{width:100%;min-height:355.39px}   /* lifted tile height at 360 (no source rule found — JS-set); panel sits at the bottom */
+  .mosaic__panel{width:calc(100% * 10 / 12)}
+  .mosaic__panel-cta{width:50%}
+  .mosaic__side{width:100%}
+  .mosaic__tile{width:100%;padding-left:0}
+  .mosaic__tile--photo{margin-top:0}
+  .mosaic__tile--book-mobile .mosaic__book-inner{padding-top:calc(var(--pad-small) + var(--sep-7));padding-bottom:calc(var(--pad-small) + var(--sep-7))}
+  .mosaic__book-text--plain{width:calc(100% * 5 / 12);margin:0 auto;padding:var(--col-pad) var(--col-gutter);box-sizing:border-box}
+  .mosaic__caption-text--narrow{width:calc(100% * 11 / 12);margin:0 auto;padding:var(--col-pad) var(--col-gutter);box-sizing:border-box}
+}
+
+/* ================= 4. STATS ================= */
+.stats{padding:var(--col-pad) 0}
+.stats__inner{display:flex;flex-wrap:wrap;padding:var(--pad-small) var(--pad-triple)}
+.stats__col{width:25%;padding:var(--col-pad) var(--pad-triple);box-sizing:border-box}
+.stats__text{margin:0 var(--col-gutter);padding:var(--col-pad) 0;text-align:center}
+.stats__text h2{margin:0;text-align:center}
+.stats__text h5{text-align:center}
+@media (max-width:767px){.stats__col{width:50%}}
+
+/* ================= 5. SAGE STRIP ================= */
+.strip{padding:var(--col-pad) 0}
+.strip__band{background:var(--color-sage);padding:var(--col-pad) 0}
+.strip__band hr{margin:0 var(--col-gutter);border:0;border-top:2px solid transparent}
+
+/* ================= 6. PROGRAMS ================= */
+.programs{padding-top:var(--col-pad)}
+.programs__inner{max-width:var(--content-max);margin:0 auto;padding:var(--pad-small) 0}
+.programs__heading{margin:0 var(--col-gutter);padding:var(--col-pad) 0}
+.programs__heading-flex{display:flex}
+.programs__icon{margin-right:10px}
+.programs__icon img{display:block;width:75px;height:75px}
+.programs__heading h2{margin:0}
+.programs__grid{display:flex;flex-wrap:wrap;align-items:flex-start}
+.card{width:25%;padding:var(--col-pad) 0;box-sizing:border-box}
+.card__image{margin:0 var(--col-gutter);padding:var(--col-pad) 0}
+.card__image img{display:block;width:100%;height:auto}
+.card__text{margin:0 var(--col-gutter);padding:var(--col-pad) 0}
+.card__text h5{margin:10px 0}
+.card__text p{margin:0}
+.card--promo .rule--thin{margin:0 var(--col-gutter)}
+.promo{background:var(--color-usta-blue);padding:0 var(--pad-triple);cursor:pointer}
+.promo__icon{margin:0 var(--col-gutter);padding:var(--col-pad) 0}
+.promo__icon-box{width:50%;margin:0 auto}
+.promo__icon-box img{display:block;width:100%;height:auto}
+.promo__text{margin:0 var(--col-gutter);padding:var(--col-pad) 0;text-align:center}
+.promo__text h5,.promo__text p{color:var(--color-white);text-align:center}
+.promo__text p{margin:0}
+.promo__cta{margin:0 var(--col-gutter);padding:var(--col-pad) 0}
+.promo__btn{display:flex;width:100%;min-width:max-content;border:1px solid transparent}
+@media (max-width:767px){
+  .programs__inner{max-width:336px}
+  .card{width:100%}
+}
+
+/* ================= 7. AD SLOT (adImageComp.fullWidth) ================= */
+.ad-wrap{width:50%;margin-left:25%;padding:var(--col-pad) 0}
+.ad-slot{position:relative;text-align:center;height:156px;padding-top:23px;box-sizing:border-box}
+.ad-slot__skip{position:absolute;left:-999px;top:auto;width:1px;height:1px;margin:4px;padding:2px}
+.ad-slot__title{margin:0 12px 16px;font-family:var(--font-semibold);font-size:12px;font-weight:500;line-height:13.2px;font-style:italic;color:#6c7689;text-align:center}
+.ad-slot__cont{display:block}
+.ad-slot__creative{width:728px;height:90px;margin:0 auto;background:#f2f2f2}
+@media (max-width:767px){
+  .ad-wrap{width:calc(100% * 10 / 12);margin-left:calc(100% / 12)}
+  .ad-slot{height:164.3px;padding-top:44px}
+  .ad-slot__title{margin:0 0 19.8px;font-size:20.48px;line-height:22.528px}
+  .ad-slot__creative{width:320px;height:50px;margin-top:3.6px}
+}

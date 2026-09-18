@@ -1,0 +1,570 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-09-18T17:00:37.636Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--sdt-ustanationalcampus--aemcoder.aem.page",
+  "migrated": null
+ },
+ "rows": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "www.google.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-cms-app-settings-object-digitaldata",
+   "class": "A",
+   "feature": "CMS / app settings object digitalData",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-granite",
+   "class": "A",
+   "feature": "CMS / app settings object Granite",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-unknown-third-party-host-ep1-adtrafficquality-google",
+   "class": "A",
+   "feature": "unknown third-party host ep1.adtrafficquality.google",
+   "pages": 6,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "ep1.adtrafficquality.google"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-cms-app-settings-object-cq",
+   "class": "A",
+   "feature": "CMS / app settings object CQ",
+   "pages": 1,
+   "probed": 12,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-first-party-api-get-usta-events",
+   "class": "A",
+   "feature": "first-party API GET /usta/events",
+   "pages": 1,
+   "probed": 12,
+   "reach": {
+    "pages": 1,
+    "of": 50
+   },
+   "evidence": [
+    "GET /usta/events?dataPagePath,source → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-usta-nc-newsfeed",
+   "class": "A",
+   "feature": "first-party API GET /usta/nc/newsfeed",
+   "pages": 1,
+   "probed": 12,
+   "reach": {
+    "pages": 1,
+    "of": 50
+   },
+   "evidence": [
+    "GET /usta/nc/newsfeed?newsType,pageNo,resultsPerPage → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-unknown-third-party-host-ioncourt-com",
+   "class": "A",
+   "feature": "unknown third-party host ioncourt.com",
+   "pages": 1,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "ioncourt.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-firebase-googleapis-com",
+   "class": "A",
+   "feature": "unknown third-party host firebase.googleapis.com",
+   "pages": 1,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "firebase.googleapis.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-firebaseinstallations-googleapis-",
+   "class": "A",
+   "feature": "unknown third-party host firebaseinstallations.googleapis.com",
+   "pages": 1,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "firebaseinstallations.googleapis.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-api-ioncourt-com",
+   "class": "A",
+   "feature": "unknown third-party host api.ioncourt.com",
+   "pages": 1,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "api.ioncourt.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "cr-client-framework-vue",
+   "class": "CR",
+   "feature": "client framework vue",
+   "pages": 1,
+   "probed": 12,
+   "reach": null,
+   "evidence": [],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "d-first-party-data-file-get-libs-granite-csrf-token-json",
+   "class": "D",
+   "feature": "first-party data file GET /libs/granite/csrf/token.json",
+   "pages": 12,
+   "probed": 12,
+   "reach": {
+    "pages": 50,
+    "of": 50
+   },
+   "evidence": [
+    "GET /libs/granite/csrf/token.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "f-form-less-control-group-in-body-3-controls-submit-search",
+   "class": "F",
+   "feature": "form-less control group in body (3 controls, submit \"Search\")",
+   "pages": 1,
+   "probed": 12,
+   "reach": null,
+   "evidence": [],
+   "pattern": "client-compute",
+   "disposition": "client-only",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "client tools",
+   "decision": "none"
+  },
+  {
+   "id": "i18n-locale-variants-us",
+   "class": "I18N",
+   "feature": "locale variants us",
+   "pages": 1,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "https://apps.apple.com/us/app/courtreserve/id1392556575"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "pages": 12,
+   "probed": 12,
+   "reach": {
+    "pages": 2,
+    "of": 50
+   },
+   "evidence": [
+    "Filter Icon"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (motion-observe evidence)"
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "cdn.cookielaw.org",
+    "optanon.blob.core.windows.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "CMP domain script reuse on the new host"
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-googletagservices-com",
+   "class": "T",
+   "feature": "unknown third-party host www.googletagservices.com",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "www.googletagservices.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "securepubads.g.doubleclick.net",
+    "connect.facebook.net",
+    "2606b8790572d1b5d8b0922d1cc0729b.safeframe.googlesyndication.com",
+    "cm.g.doubleclick.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "www.google-analytics.com",
+    "region1.google-analytics.com",
+    "region1.analytics.google.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "dpm.demdex.net",
+    "usta.demdex.net",
+    "usta.d2.sc.omtrdc.net",
+    "unitedstatestennisas.tt.omtrdc.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-google-it",
+   "class": "T",
+   "feature": "unknown third-party host www.google.it",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "www.google.it"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-sync-crwdcntrl-net",
+   "class": "T",
+   "feature": "unknown third-party host sync.crwdcntrl.net",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "sync.crwdcntrl.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-ep2-adtrafficquality-google",
+   "class": "T",
+   "feature": "unknown third-party host ep2.adtrafficquality.google",
+   "pages": 6,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "ep2.adtrafficquality.google"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-csi-gstatic-com",
+   "class": "T",
+   "feature": "unknown third-party host csi.gstatic.com",
+   "pages": 1,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "csi.gstatic.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-gstatic-com",
+   "class": "T",
+   "feature": "unknown third-party host www.gstatic.com",
+   "pages": 1,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "www.gstatic.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-ioc-prod-secure-photos-s3-us-east",
+   "class": "T",
+   "feature": "unknown third-party host ioc-prod-secure-photos.s3.us-east-1.amazonaws.com",
+   "pages": 1,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "ioc-prod-secure-photos.s3.us-east-1.amazonaws.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "Advertisement",
+    "onetrust-text-resize",
+    "0×0",
+    "This is an Advertisement"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "embeds",
+   "decision": "resolve the runtime src from a rendered capture"
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "pages": 12,
+   "probed": 12,
+   "reach": null,
+   "evidence": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  }
+ ]
+}

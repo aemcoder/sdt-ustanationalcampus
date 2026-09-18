@@ -1,0 +1,4587 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-09-18T16:54:30.184Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.ustanationalcampus.com/en/home.html",
+   "https://www.ustanationalcampus.com/en/home/about.html",
+   "https://www.ustanationalcampus.com/en/home/play/private-lessons.html",
+   "https://www.ustanationalcampus.com/en/home/visit.html",
+   "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/hydration-matters.html",
+   "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html",
+   "https://www.ustanationalcampus.com/en/home/calendar.html",
+   "https://www.ustanationalcampus.com/en/home/events.html",
+   "https://www.ustanationalcampus.com/en/home/news.html",
+   "https://www.ustanationalcampus.com/en/home/events/2026-bnp-paribas-world-team-cup.html",
+   "https://www.ustanationalcampus.com/en/home/about/meet-our-team.html",
+   "https://www.ustanationalcampus.com/en/home/events/collegiate.html"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/en/home.html": {
+   "url": "https://www.ustanationalcampus.com/en/home.html",
+   "status": 200,
+   "host": "www.ustanationalcampus.com",
+   "title": "Home",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "alertdialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2754,
+     "hasForm": true,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "Advertisement",
+     "w": 728,
+     "h": 90
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "version",
+     "page"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 7,
+   "inlineFetch": false,
+   "mainText": 2063,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.ustanationalcampus.com": 43,
+    "cdn.cookielaw.org": 10,
+    "assets.adobedtm.com": 4,
+    "www.googletagservices.com": 1,
+    "securepubads.g.doubleclick.net": 3,
+    "www.google-analytics.com": 2,
+    "connect.facebook.net": 2,
+    "dpm.demdex.net": 4,
+    "www.googletagmanager.com": 3,
+    "2606b8790572d1b5d8b0922d1cc0729b.safeframe.googlesyndication.com": 1,
+    "usta.demdex.net": 1,
+    "cm.g.doubleclick.net": 2,
+    "region1.google-analytics.com": 2,
+    "usta.d2.sc.omtrdc.net": 2,
+    "pagead2.googlesyndication.com": 13,
+    "unitedstatestennisas.tt.omtrdc.net": 1,
+    "tpc.googlesyndication.com": 1,
+    "cm.everesttech.net": 1,
+    "region1.analytics.google.com": 1,
+    "ad.doubleclick.net": 1,
+    "www.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "www.google.it": 1,
+    "sync.crwdcntrl.net": 1,
+    "ep1.adtrafficquality.google": 2,
+    "ep2.adtrafficquality.google": 3,
+    "csi.gstatic.com": 1,
+    "optanon.blob.core.windows.net": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "assets.adobedtm.com",
+    "www.googletagservices.com",
+    "securepubads.g.doubleclick.net",
+    "www.google-analytics.com",
+    "connect.facebook.net",
+    "dpm.demdex.net",
+    "www.googletagmanager.com",
+    "2606b8790572d1b5d8b0922d1cc0729b.safeframe.googlesyndication.com",
+    "usta.demdex.net",
+    "cm.g.doubleclick.net",
+    "region1.google-analytics.com",
+    "usta.d2.sc.omtrdc.net",
+    "pagead2.googlesyndication.com",
+    "unitedstatestennisas.tt.omtrdc.net",
+    "tpc.googlesyndication.com",
+    "cm.everesttech.net",
+    "region1.analytics.google.com",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.it",
+    "sync.crwdcntrl.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "csi.gstatic.com",
+    "optanon.blob.core.windows.net"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/OtAutoBlock.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/utils.min.db566d5aecd5f4948d651868607d2db6.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN1e11bbf3860f415da9319a506515ad69.min.js",
+    "https://www.googletagservices.com/tag/js/gpt.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/core/tabs/clientlibs/site.min.875cdb62d1c32eafe2db16d0b32f5e93.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/clientlibs/segmentation.min.4c19a023a5d20beb227fa9b4c0e81bd9.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/util/hashProcessor.min.6bd8c1abd5ddff81d6b6d37222555b63.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/usta-proxy.min.82f3068ddb3cafe566fd4fd214271f38.js",
+    "https://www.google-analytics.com/analytics.js",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609140101/pubads_impl.js?cb=122881037",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2332WYSW3",
+    "https://connect.facebook.net/signals/config/3642094592776600?v=2.9.403&r=stable&domain=www.ustanationalcampus.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C",
+    "https://www.googletagmanager.com/gtag/js?id=G-0MS4BSS9YJ&cx=c&_slc=1",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11095761697",
+    "https://pagead2.googlesyndication.com/pagead/js/r20260917/r20110914/client/window_focus.js",
+    "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js",
+    "https://pagead2.googlesyndication.com/pagead/js/r20260917/r20110914/abg_lite.js",
+    "https://securepubads.g.doubleclick.net/pagead/js/rum.js",
+    "https://usta.d2.sc.omtrdc.net/b/ss/usta.nationalcampusprod,usta.global/10/JS-2.27.0-LGPQ/s74271858686420?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F8%2F2026%2018%3A54%3A31%205%20-120&",
+    "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+    "https://pagead2.googlesyndication.com/bg/dVU7YC_IHNLAuo73oEax7kJe6zOZtQfbD4RBB6EqV-Y.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6",
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b6622",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+    "GET dpm.demdex.net/id",
+    "POST www.google-analytics.com/j/collect",
+    "POST region1.google-analytics.com/g/collect",
+    "GET usta.d2.sc.omtrdc.net/id",
+    "GET pagead2.googlesyndication.com/gampad/ads",
+    "POST unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery",
+    "POST region1.analytics.google.com/g/collect",
+    "GET pagead2.googlesyndication.com/pcs/view",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "GET pagead2.googlesyndication.com/pagead/gen_204",
+    "GET ep1.adtrafficquality.google/getconfig/sodar",
+    "POST pagead2.googlesyndication.com/pagead/ping",
+    "GET pagead2.googlesyndication.com/pcs/activeview"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=2137974032&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome.html&ul=en-us&dt=Home&sr=1440x900&vp=1440x900&_u=IEBAAEABAAA",
+     "body": ""
+    },
+    {
+     "url": "https://unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery?client=unitedstatestennisas&sessionId=93ddc6f806e94b4590511d21bd29e506&version=2.11.7",
+     "body": "{\"requestId\":\"7c7fef65561a4b74baa65c9ba27e88d4\",\"context\":{\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"clientHints\":{\"mobile\":false,\"platform\":\"macOS\",\"browserUAWithMajorVersion\":\"\\\"HeadlessChrome\\\";v=\\\"153\\\", \\\"Not_A Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"153\\\"\"},\"timeOffsetInMinutes\":120,\"channel\":\"we"
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2332WYSW3&gtm=45je69g1h1v9103740633za200zd9103740633xf1&_p=1789750471458&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=1690178307.1789750471&frm=",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-0MS4BSS9YJ&gtm=45je69g1v9110852544za20gxf1&_p=1789750471458&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&cid=1690178307.1789750471&frm=0&ir=",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-YK6Z7492YW&gtm=45be69g1v9103723949za200zd9103723949xf1&_p=1789750471458&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAACAC&cid=16901783",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&auid=267971639.1789750472&dt=Home&tid=AW-11095761697&en=page_view&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome.html&scrsrc=www.googlet",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=267971639.1789750472&gtm=45be69g1v9103723949za200zd9103723949xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1",
+     "body": "[[],[4,\"m202609140101\",[95397230,95403397,122880507,122881037]],[[{\"1\":[\"ewzMSe\",null,[null,1],[[null,3]]]}]]]"
+    }
+   ],
+   "textAtLoad": 2295,
+   "mainEmptyAtLoad": false
+  },
+  "/en/home/about.html": {
+   "url": "https://www.ustanationalcampus.com/en/home/about.html",
+   "status": 200,
+   "host": "www.ustanationalcampus.com",
+   "title": "About USTA National Campus",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "alertdialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2754,
+     "hasForm": true,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "version",
+     "page"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 2579,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.ustanationalcampus.com": 45,
+    "cdn.cookielaw.org": 10,
+    "assets.adobedtm.com": 4,
+    "www.googletagservices.com": 1,
+    "www.google-analytics.com": 2,
+    "connect.facebook.net": 2,
+    "securepubads.g.doubleclick.net": 2,
+    "dpm.demdex.net": 4,
+    "www.googletagmanager.com": 3,
+    "usta.demdex.net": 1,
+    "region1.google-analytics.com": 2,
+    "cm.g.doubleclick.net": 2,
+    "usta.d2.sc.omtrdc.net": 2,
+    "cm.everesttech.net": 1,
+    "unitedstatestennisas.tt.omtrdc.net": 1,
+    "region1.analytics.google.com": 1,
+    "ad.doubleclick.net": 1,
+    "www.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "sync.crwdcntrl.net": 1,
+    "www.google.it": 1,
+    "optanon.blob.core.windows.net": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "assets.adobedtm.com",
+    "www.googletagservices.com",
+    "www.google-analytics.com",
+    "connect.facebook.net",
+    "securepubads.g.doubleclick.net",
+    "dpm.demdex.net",
+    "www.googletagmanager.com",
+    "usta.demdex.net",
+    "region1.google-analytics.com",
+    "cm.g.doubleclick.net",
+    "usta.d2.sc.omtrdc.net",
+    "cm.everesttech.net",
+    "unitedstatestennisas.tt.omtrdc.net",
+    "region1.analytics.google.com",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "stats.g.doubleclick.net",
+    "sync.crwdcntrl.net",
+    "www.google.it",
+    "optanon.blob.core.windows.net"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/OtAutoBlock.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/utils.min.db566d5aecd5f4948d651868607d2db6.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN1e11bbf3860f415da9319a506515ad69.min.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/util/hashProcessor.min.6bd8c1abd5ddff81d6b6d37222555b63.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/core/tabs/clientlibs/site.min.875cdb62d1c32eafe2db16d0b32f5e93.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/clientlibs/segmentation.min.4c19a023a5d20beb227fa9b4c0e81bd9.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/usta-proxy.min.82f3068ddb3cafe566fd4fd214271f38.js",
+    "https://www.googletagservices.com/tag/js/gpt.js",
+    "https://www.google-analytics.com/analytics.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/3642094592776600?v=2.9.403&r=stable&domain=www.ustanationalcampus.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881131",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2332WYSW3",
+    "https://www.googletagmanager.com/gtag/js?id=G-0MS4BSS9YJ&cx=c&_slc=1",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11095761697",
+    "https://usta.d2.sc.omtrdc.net/b/ss/usta.nationalcampusprod,usta.global/10/JS-2.27.0-LGPQ/s74491232645780?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F8%2F2026%2018%3A54%3A42%205%20-120&"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6",
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b6622",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+    "POST www.google-analytics.com/j/collect",
+    "GET dpm.demdex.net/id",
+    "POST region1.google-analytics.com/g/collect",
+    "GET usta.d2.sc.omtrdc.net/id",
+    "POST unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery",
+    "POST region1.analytics.google.com/g/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=19283021&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fabout.html&ul=en-us&dt=About%20USTA%20National%20Campus&sr=1",
+     "body": ""
+    },
+    {
+     "url": "https://unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery?client=unitedstatestennisas&sessionId=8fceb15eaee04fa0854e7392b4c6b852&version=2.11.7",
+     "body": "{\"requestId\":\"4aff9c89501d4cc9a70699ec31051fb2\",\"context\":{\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"clientHints\":{\"mobile\":false,\"platform\":\"macOS\",\"browserUAWithMajorVersion\":\"\\\"HeadlessChrome\\\";v=\\\"153\\\", \\\"Not_A Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"153\\\"\"},\"timeOffsetInMinutes\":120,\"channel\":\"we"
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2332WYSW3&gtm=45je69g1v9103740633za200zd9103740633xf1&_p=1789750482258&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=337962958.1789750482&frm=0&n",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-0MS4BSS9YJ&gtm=45je69g1v9110852544za20gxf1&_p=1789750482258&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&cid=337962958.1789750482&frm=0&ir=1",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-YK6Z7492YW&gtm=45be69g1v9103723949za200zd9103723949xf1&_p=1789750482258&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAACAC&cid=33796295",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&auid=1355159636.1789750482&dt=About%20USTA%20National%20Campus&tid=AW-11095761697&en=page_view&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2F",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1355159636.1789750482&gtm=45be69g1v9103723949za200zd9103723949xecxf1&fmt=8",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 2811,
+   "mainEmptyAtLoad": false
+  },
+  "/en/home/play/private-lessons.html": {
+   "url": "https://www.ustanationalcampus.com/en/home/play/private-lessons.html",
+   "status": 200,
+   "host": "www.ustanationalcampus.com",
+   "title": "Private Lesson",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "alertdialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2754,
+     "hasForm": true,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": [
+     "https://apps.apple.com/us/app/courtreserve/id1392556575"
+    ]
+   },
+   "cms": {
+    "digitalData": [
+     "version",
+     "page"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 2421,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.ustanationalcampus.com": 45,
+    "cdn.cookielaw.org": 10,
+    "assets.adobedtm.com": 4,
+    "www.googletagservices.com": 1,
+    "securepubads.g.doubleclick.net": 2,
+    "www.google-analytics.com": 2,
+    "connect.facebook.net": 2,
+    "www.googletagmanager.com": 3,
+    "dpm.demdex.net": 4,
+    "usta.demdex.net": 1,
+    "region1.google-analytics.com": 2,
+    "cm.g.doubleclick.net": 2,
+    "usta.d2.sc.omtrdc.net": 2,
+    "unitedstatestennisas.tt.omtrdc.net": 1,
+    "cm.everesttech.net": 1,
+    "region1.analytics.google.com": 1,
+    "ad.doubleclick.net": 1,
+    "www.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "sync.crwdcntrl.net": 1,
+    "www.google.it": 1,
+    "optanon.blob.core.windows.net": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "assets.adobedtm.com",
+    "www.googletagservices.com",
+    "securepubads.g.doubleclick.net",
+    "www.google-analytics.com",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "dpm.demdex.net",
+    "usta.demdex.net",
+    "region1.google-analytics.com",
+    "cm.g.doubleclick.net",
+    "usta.d2.sc.omtrdc.net",
+    "unitedstatestennisas.tt.omtrdc.net",
+    "cm.everesttech.net",
+    "region1.analytics.google.com",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "stats.g.doubleclick.net",
+    "sync.crwdcntrl.net",
+    "www.google.it",
+    "optanon.blob.core.windows.net"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/OtAutoBlock.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/utils.min.db566d5aecd5f4948d651868607d2db6.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN1e11bbf3860f415da9319a506515ad69.min.js",
+    "https://www.googletagservices.com/tag/js/gpt.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/core/wcm/components/accordion/v1/accordion/clientlibs/site.min.79325bbbcfd5123ce0760bfe7144e3b4.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/clientlibs/segmentation.min.4c19a023a5d20beb227fa9b4c0e81bd9.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/core/accordion/clientlibs.min.b7b13ded6d14e9cfbcef606de443a450.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.min.0a6aff292f5cc42142779cde92054524.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/util/hashProcessor.min.6bd8c1abd5ddff81d6b6d37222555b63.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/core/tabs/clientlibs/site.min.875cdb62d1c32eafe2db16d0b32f5e93.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/usta-proxy.min.82f3068ddb3cafe566fd4fd214271f38.js",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609170101/pubads_impl.js?cb=122881132",
+    "https://www.google-analytics.com/analytics.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/3642094592776600?v=2.9.403&r=stable&domain=www.ustanationalcampus.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2332WYSW3",
+    "https://www.googletagmanager.com/gtag/js?id=G-0MS4BSS9YJ&cx=c&_slc=1",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11095761697",
+    "https://usta.d2.sc.omtrdc.net/b/ss/usta.nationalcampusprod,usta.global/10/JS-2.27.0-LGPQ/s73656407438579?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F8%2F2026%2018%3A54%3A53%205%20-120&"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6",
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b6622",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+    "POST www.google-analytics.com/j/collect",
+    "GET dpm.demdex.net/id",
+    "POST region1.google-analytics.com/g/collect",
+    "GET usta.d2.sc.omtrdc.net/id",
+    "POST unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery",
+    "POST region1.analytics.google.com/g/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=797671492&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fplay%2Fprivate-lessons.html&ul=en-us&dt=Private%20Lesson&sr",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2332WYSW3&gtm=45je69g1v9103740633za200zd9103740633xf1&_p=1789750493126&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=701081465.1789750493&frm=0&n",
+     "body": ""
+    },
+    {
+     "url": "https://unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery?client=unitedstatestennisas&sessionId=dd316e4a2d48410381b087e7291baf99&version=2.11.7",
+     "body": "{\"requestId\":\"bf1715eeb3c344c280895f9b0de5e4d5\",\"context\":{\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"clientHints\":{\"mobile\":false,\"platform\":\"macOS\",\"browserUAWithMajorVersion\":\"\\\"HeadlessChrome\\\";v=\\\"153\\\", \\\"Not_A Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"153\\\"\"},\"timeOffsetInMinutes\":120,\"channel\":\"we"
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-0MS4BSS9YJ&gtm=45je69g1v9110852544za20gxf1&_p=1789750493126&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&cid=701081465.1789750493&frm=0&ir=1",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-YK6Z7492YW&gtm=45be69g1v9103723949za200zd9103723949xf1&_p=1789750493126&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAACAC&cid=70108146",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&auid=940400316.1789750493&dt=Private%20Lesson&tid=AW-11095761697&en=page_view&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fplay%2Fpr",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=940400316.1789750493&gtm=45be69g1v9103723949za200zd9103723949xecxf1&fmt=8",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 2653,
+   "mainEmptyAtLoad": false
+  },
+  "/en/home/visit.html": {
+   "url": "https://www.ustanationalcampus.com/en/home/visit.html",
+   "status": 200,
+   "host": "www.ustanationalcampus.com",
+   "title": "Visit Us",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "Thank you and see you on the courts!",
+     "textLen": 87,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Share with your friends",
+     "textLen": 49,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "Share with your friends",
+     "textLen": 49,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Share with your friends",
+     "textLen": 49,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "alertdialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2754,
+     "hasForm": true,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 11,
+   "media": [
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "This is an Advertisement",
+     "w": 728,
+     "h": 90
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "version",
+     "page"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 9,
+   "inlineFetch": false,
+   "mainText": 1531,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.ustanationalcampus.com": 41,
+    "cdn.cookielaw.org": 10,
+    "assets.adobedtm.com": 4,
+    "www.googletagservices.com": 1,
+    "securepubads.g.doubleclick.net": 2,
+    "www.google-analytics.com": 2,
+    "a8ad4f3ef5d1972f49dbbfb2026976ce.safeframe.googlesyndication.com": 1,
+    "connect.facebook.net": 2,
+    "www.googletagmanager.com": 3,
+    "dpm.demdex.net": 4,
+    "pagead2.googlesyndication.com": 12,
+    "usta.demdex.net": 1,
+    "tpc.googlesyndication.com": 1,
+    "region1.google-analytics.com": 2,
+    "cm.g.doubleclick.net": 2,
+    "usta.d2.sc.omtrdc.net": 2,
+    "region1.analytics.google.com": 1,
+    "cm.everesttech.net": 1,
+    "www.google.com": 1,
+    "www.google.it": 1,
+    "stats.g.doubleclick.net": 1,
+    "ad.doubleclick.net": 1,
+    "ep1.adtrafficquality.google": 2,
+    "ep2.adtrafficquality.google": 3,
+    "sync.crwdcntrl.net": 1,
+    "optanon.blob.core.windows.net": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "assets.adobedtm.com",
+    "www.googletagservices.com",
+    "securepubads.g.doubleclick.net",
+    "www.google-analytics.com",
+    "a8ad4f3ef5d1972f49dbbfb2026976ce.safeframe.googlesyndication.com",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "dpm.demdex.net",
+    "pagead2.googlesyndication.com",
+    "usta.demdex.net",
+    "tpc.googlesyndication.com",
+    "region1.google-analytics.com",
+    "cm.g.doubleclick.net",
+    "usta.d2.sc.omtrdc.net",
+    "region1.analytics.google.com",
+    "cm.everesttech.net",
+    "www.google.com",
+    "www.google.it",
+    "stats.g.doubleclick.net",
+    "ad.doubleclick.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "sync.crwdcntrl.net",
+    "optanon.blob.core.windows.net"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/OtAutoBlock.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/utils.min.db566d5aecd5f4948d651868607d2db6.js",
+    "https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN1e11bbf3860f415da9319a506515ad69.min.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://www.googletagservices.com/tag/js/gpt.js",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609110101/pubads_impl.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-all.min.07b6a8588003d99b77672216cfc8283d.js",
+    "https://www.google-analytics.com/analytics.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/3642094592776600?v=2.9.403&r=stable&domain=www.ustanationalcampus.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2332WYSW3",
+    "https://www.googletagmanager.com/gtag/js?id=G-0MS4BSS9YJ&cx=c&_slc=1",
+    "https://pagead2.googlesyndication.com/pagead/js/r20260917/r20110914/abg_lite.js",
+    "https://pagead2.googlesyndication.com/pagead/js/r20260917/r20110914/client/window_focus.js",
+    "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11095761697",
+    "https://usta.d2.sc.omtrdc.net/b/ss/usta.nationalcampusprod,usta.global/10/JS-2.27.0-LGPQ/s75654880008033?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F8%2F2026%2018%3A55%3A4%205%20-120&d",
+    "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+    "https://pagead2.googlesyndication.com/bg/dVU7YC_IHNLAuo73oEax7kJe6zOZtQfbD4RBB6EqV-Y.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6",
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b6622",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+    "POST www.google-analytics.com/j/collect",
+    "GET dpm.demdex.net/id",
+    "GET pagead2.googlesyndication.com/gampad/ads",
+    "POST region1.google-analytics.com/g/collect",
+    "GET usta.d2.sc.omtrdc.net/id",
+    "GET pagead2.googlesyndication.com/pcs/view",
+    "POST region1.analytics.google.com/g/collect",
+    "GET pagead2.googlesyndication.com/pagead/gen_204",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "GET ep1.adtrafficquality.google/getconfig/sodar",
+    "POST pagead2.googlesyndication.com/pagead/ping",
+    "GET pagead2.googlesyndication.com/pcs/activeview"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1398570456&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fvisit.html&ul=en-us&dt=Visit%20Us&sr=1440x900&vp=1440x900&",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2332WYSW3&gtm=45je69g1v9103740633za200zd9103740633xf1&_p=1789750503908&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=645346994.1789750504&frm=0&n",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-0MS4BSS9YJ&gtm=45je69h0h2v9110852544za20gxf1&_p=1789750503908&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&cid=645346994.1789750504&frm=0&ir",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-YK6Z7492YW&gtm=45be69h0h2v9103723949za200zd9103723949xf1&_p=1789750503908&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAACAC&cid=645346",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=1&auid=198624277.1789750504&dt=Visit%20Us&tid=AW-11095761697&en=page_view&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fvisit.html&scrs",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=198624277.1789750504&gtm=45be69h0h2v9103723949za200zd9103723949xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1",
+     "body": "[[],[4,\"m202609110101\",[95397228,95403397]],[[{\"1\":[\"ewzMSe\",null,[null,1],[[null,3]]]}]]]"
+    }
+   ],
+   "textAtLoad": 1753,
+   "mainEmptyAtLoad": false
+  },
+  "/en/home/visit/health-and-wellness/hydration-matters.html": {
+   "url": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/hydration-matters.html",
+   "status": 200,
+   "host": "www.ustanationalcampus.com",
+   "title": "Hydration Matters",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "Thank you and see you on the courts!",
+     "textLen": 87,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Share with your friends",
+     "textLen": 49,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "Share with your friends",
+     "textLen": 49,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Share with your friends",
+     "textLen": 49,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "alertdialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2754,
+     "hasForm": true,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 11,
+   "media": [
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "version",
+     "page"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 9,
+   "inlineFetch": false,
+   "mainText": 3005,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.ustanationalcampus.com": 33,
+    "cdn.cookielaw.org": 10,
+    "assets.adobedtm.com": 4,
+    "www.googletagservices.com": 1,
+    "securepubads.g.doubleclick.net": 2,
+    "www.google-analytics.com": 2,
+    "connect.facebook.net": 2,
+    "www.googletagmanager.com": 3,
+    "dpm.demdex.net": 4,
+    "usta.demdex.net": 1,
+    "region1.google-analytics.com": 2,
+    "cm.g.doubleclick.net": 2,
+    "usta.d2.sc.omtrdc.net": 2,
+    "region1.analytics.google.com": 1,
+    "cm.everesttech.net": 1,
+    "ad.doubleclick.net": 1,
+    "www.google.com": 1,
+    "www.google.it": 1,
+    "stats.g.doubleclick.net": 1,
+    "sync.crwdcntrl.net": 1,
+    "optanon.blob.core.windows.net": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "assets.adobedtm.com",
+    "www.googletagservices.com",
+    "securepubads.g.doubleclick.net",
+    "www.google-analytics.com",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "dpm.demdex.net",
+    "usta.demdex.net",
+    "region1.google-analytics.com",
+    "cm.g.doubleclick.net",
+    "usta.d2.sc.omtrdc.net",
+    "region1.analytics.google.com",
+    "cm.everesttech.net",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "www.google.it",
+    "stats.g.doubleclick.net",
+    "sync.crwdcntrl.net",
+    "optanon.blob.core.windows.net"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/OtAutoBlock.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/utils.min.db566d5aecd5f4948d651868607d2db6.js",
+    "https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN1e11bbf3860f415da9319a506515ad69.min.js",
+    "https://www.googletagservices.com/tag/js/gpt.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609110101/pubads_impl.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-all.min.07b6a8588003d99b77672216cfc8283d.js",
+    "https://www.google-analytics.com/analytics.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/3642094592776600?v=2.9.403&r=stable&domain=www.ustanationalcampus.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2332WYSW3",
+    "https://www.googletagmanager.com/gtag/js?id=G-0MS4BSS9YJ&cx=c&_slc=1",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11095761697",
+    "https://usta.d2.sc.omtrdc.net/b/ss/usta.nationalcampusprod,usta.global/10/JS-2.27.0-LGPQ/s7173415964469?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F8%2F2026%2018%3A55%3A14%205%20-120&d"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6",
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b6622",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+    "POST www.google-analytics.com/j/collect",
+    "GET dpm.demdex.net/id",
+    "POST region1.google-analytics.com/g/collect",
+    "GET usta.d2.sc.omtrdc.net/id",
+    "POST region1.analytics.google.com/g/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=154147700&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fvisit%2Fhealth-and-wellness%2Fhydration-matters.html&ul=en-",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2332WYSW3&gtm=45je69g1v9103740633za200zd9103740633xf1&_p=1789750514363&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=302797338.1789750514&frm=0&n",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-0MS4BSS9YJ&gtm=45je69g1v9110852544za20gxf1&_p=1789750514363&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&cid=302797338.1789750514&frm=0&ir=1",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-YK6Z7492YW&gtm=45be69h0h2v9103723949za200zd9103723949xf1&_p=1789750514363&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAACAC&cid=302797",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&auid=1750524611.1789750515&dt=Hydration%20Matters&tid=AW-11095761697&en=page_view&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fvisit",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1750524611.1789750515&gtm=45be69h0h2v9103723949za200zd9103723949xecxf1&fmt=8",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 3237,
+   "mainEmptyAtLoad": false
+  },
+  "/en/home/news/holiday-hours.html": {
+   "url": "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html",
+   "status": 200,
+   "host": "www.ustanationalcampus.com",
+   "title": "Holiday Hours",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "alertdialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2754,
+     "hasForm": true,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "version",
+     "page"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 1000,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.ustanationalcampus.com": 29,
+    "cdn.cookielaw.org": 10,
+    "assets.adobedtm.com": 4,
+    "www.googletagservices.com": 1,
+    "securepubads.g.doubleclick.net": 2,
+    "www.google-analytics.com": 2,
+    "connect.facebook.net": 2,
+    "www.googletagmanager.com": 3,
+    "dpm.demdex.net": 4,
+    "usta.demdex.net": 1,
+    "region1.google-analytics.com": 2,
+    "cm.g.doubleclick.net": 2,
+    "usta.d2.sc.omtrdc.net": 2,
+    "unitedstatestennisas.tt.omtrdc.net": 1,
+    "region1.analytics.google.com": 1,
+    "cm.everesttech.net": 1,
+    "ad.doubleclick.net": 1,
+    "www.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "www.google.it": 1,
+    "sync.crwdcntrl.net": 1,
+    "optanon.blob.core.windows.net": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "assets.adobedtm.com",
+    "www.googletagservices.com",
+    "securepubads.g.doubleclick.net",
+    "www.google-analytics.com",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "dpm.demdex.net",
+    "usta.demdex.net",
+    "region1.google-analytics.com",
+    "cm.g.doubleclick.net",
+    "usta.d2.sc.omtrdc.net",
+    "unitedstatestennisas.tt.omtrdc.net",
+    "region1.analytics.google.com",
+    "cm.everesttech.net",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.it",
+    "sync.crwdcntrl.net",
+    "optanon.blob.core.windows.net"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/OtAutoBlock.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/utils.min.db566d5aecd5f4948d651868607d2db6.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN1e11bbf3860f415da9319a506515ad69.min.js",
+    "https://www.googletagservices.com/tag/js/gpt.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/util/hashProcessor.min.6bd8c1abd5ddff81d6b6d37222555b63.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/core/tabs/clientlibs/site.min.875cdb62d1c32eafe2db16d0b32f5e93.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/clientlibs/segmentation.min.4c19a023a5d20beb227fa9b4c0e81bd9.js",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609170101/pubads_impl.js?cb=122881142",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/usta-proxy.min.82f3068ddb3cafe566fd4fd214271f38.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement.min.js",
+    "https://www.google-analytics.com/analytics.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/3642094592776600?v=2.9.403&r=stable&domain=www.ustanationalcampus.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2332WYSW3",
+    "https://www.googletagmanager.com/gtag/js?id=G-0MS4BSS9YJ&cx=c&_slc=1",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11095761697",
+    "https://usta.d2.sc.omtrdc.net/b/ss/usta.nationalcampusprod,usta.global/10/JS-2.27.0-LGPQ/s71546382958343?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F8%2F2026%2018%3A55%3A25%205%20-120&"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6",
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b6622",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+    "POST www.google-analytics.com/j/collect",
+    "GET dpm.demdex.net/id",
+    "POST region1.google-analytics.com/g/collect",
+    "GET usta.d2.sc.omtrdc.net/id",
+    "POST unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery",
+    "POST region1.analytics.google.com/g/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1942685071&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fabout%2Fholiday-hours.html&ul=en-us&dt=Holiday%20Hours&sr=",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2332WYSW3&gtm=45je69g1v9103740633za200zd9103740633xf1&_p=1789750525031&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=1935493277.1789750525&frm=0&",
+     "body": ""
+    },
+    {
+     "url": "https://unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery?client=unitedstatestennisas&sessionId=2dddeef9f06a4f70ae6b4ef3414d87d4&version=2.11.7",
+     "body": "{\"requestId\":\"f1eed76113804e15b2d12398e723e070\",\"context\":{\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"clientHints\":{\"mobile\":false,\"platform\":\"macOS\",\"browserUAWithMajorVersion\":\"\\\"HeadlessChrome\\\";v=\\\"153\\\", \\\"Not_A Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"153\\\"\"},\"timeOffsetInMinutes\":120,\"channel\":\"we"
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-0MS4BSS9YJ&gtm=45je69g1v9110852544za20gxf1&_p=1789750525031&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&cid=1935493277.1789750525&frm=0&ir=",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-YK6Z7492YW&gtm=45be69g1v9103723949za200zd9103723949xf1&_p=1789750525031&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAACAC&cid=19354932",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=6&frm=0&apvc=1&auid=325158851.1789750525&dt=Holiday%20Hours&tid=AW-11095761697&en=page_view&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fabout%2Fhol",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=325158851.1789750525&gtm=45be69g1v9103723949za200zd9103723949xecxf1&fmt=8",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 1232,
+   "mainEmptyAtLoad": false
+  },
+  "/en/home/calendar.html": {
+   "url": "https://www.ustanationalcampus.com/en/home/calendar.html",
+   "status": 200,
+   "host": "www.ustanationalcampus.com",
+   "title": "Calendar",
+   "forms": [],
+   "controlGroups": [
+    {
+     "container": "body",
+     "controls": 3,
+     "names": [],
+     "submit": "Search"
+    }
+   ],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "alertdialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2754,
+     "hasForm": true,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "Advertisement",
+     "w": 728,
+     "h": 90
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "version",
+     "page"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ]
+   },
+   "framework": "vue",
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 7,
+   "inlineFetch": false,
+   "mainText": 1961,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.ustanationalcampus.com": 40,
+    "cdn.cookielaw.org": 10,
+    "assets.adobedtm.com": 4,
+    "www.googletagservices.com": 1,
+    "securepubads.g.doubleclick.net": 2,
+    "eca59322a73fd27ea42f038f597fb1eb.safeframe.googlesyndication.com": 1,
+    "www.google-analytics.com": 2,
+    "pagead2.googlesyndication.com": 12,
+    "connect.facebook.net": 2,
+    "tpc.googlesyndication.com": 1,
+    "www.googletagmanager.com": 3,
+    "dpm.demdex.net": 4,
+    "usta.demdex.net": 1,
+    "cm.g.doubleclick.net": 2,
+    "usta.d2.sc.omtrdc.net": 2,
+    "unitedstatestennisas.tt.omtrdc.net": 1,
+    "cm.everesttech.net": 1,
+    "region1.google-analytics.com": 2,
+    "region1.analytics.google.com": 1,
+    "www.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "ad.doubleclick.net": 1,
+    "www.google.it": 1,
+    "sync.crwdcntrl.net": 1,
+    "ep1.adtrafficquality.google": 2,
+    "ep2.adtrafficquality.google": 3,
+    "optanon.blob.core.windows.net": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "assets.adobedtm.com",
+    "www.googletagservices.com",
+    "securepubads.g.doubleclick.net",
+    "eca59322a73fd27ea42f038f597fb1eb.safeframe.googlesyndication.com",
+    "www.google-analytics.com",
+    "pagead2.googlesyndication.com",
+    "connect.facebook.net",
+    "tpc.googlesyndication.com",
+    "www.googletagmanager.com",
+    "dpm.demdex.net",
+    "usta.demdex.net",
+    "cm.g.doubleclick.net",
+    "usta.d2.sc.omtrdc.net",
+    "unitedstatestennisas.tt.omtrdc.net",
+    "cm.everesttech.net",
+    "region1.google-analytics.com",
+    "region1.analytics.google.com",
+    "www.google.com",
+    "stats.g.doubleclick.net",
+    "ad.doubleclick.net",
+    "www.google.it",
+    "sync.crwdcntrl.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "optanon.blob.core.windows.net"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/OtAutoBlock.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/utils.min.db566d5aecd5f4948d651868607d2db6.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+    "https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN1e11bbf3860f415da9319a506515ad69.min.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/util/hashProcessor.min.6bd8c1abd5ddff81d6b6d37222555b63.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-vue-shared.min.6c50db0caa2ed216eb5708a2cbdbf950.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/clientlibs/segmentation.min.4c19a023a5d20beb227fa9b4c0e81bd9.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/usta-proxy.min.82f3068ddb3cafe566fd4fd214271f38.js",
+    "https://www.googletagservices.com/tag/js/gpt.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/core/tabs/clientlibs/site.min.875cdb62d1c32eafe2db16d0b32f5e93.js",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881131",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/clientlibs/clientlib-calendar.min.3ec344e76e289e9beee95931aa80d727.js",
+    "https://www.google-analytics.com/analytics.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement.min.js",
+    "https://pagead2.googlesyndication.com/pagead/js/r20260917/r20110914/client/window_focus.js",
+    "https://pagead2.googlesyndication.com/pagead/js/r20260917/r20110914/abg_lite.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2332WYSW3",
+    "https://connect.facebook.net/signals/config/3642094592776600?v=2.9.403&r=stable&domain=www.ustanationalcampus.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C",
+    "https://www.googletagmanager.com/gtag/js?id=G-0MS4BSS9YJ&cx=c&_slc=1",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11095761697",
+    "https://usta.d2.sc.omtrdc.net/b/ss/usta.nationalcampusprod,usta.global/10/JS-2.27.0-LGPQ/s7989936403520?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F8%2F2026%2018%3A55%3A36%205%20-120&d",
+    "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+    "https://pagead2.googlesyndication.com/bg/dVU7YC_IHNLAuo73oEax7kJe6zOZtQfbD4RBB6EqV-Y.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/usta/events",
+     "query": [
+      "dataPagePath",
+      "source"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/usta/events"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6",
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b6622",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+    "GET pagead2.googlesyndication.com/gampad/ads",
+    "GET pagead2.googlesyndication.com/pcs/view",
+    "GET pagead2.googlesyndication.com/pagead/gen_204",
+    "GET dpm.demdex.net/id",
+    "POST www.google-analytics.com/j/collect",
+    "GET usta.d2.sc.omtrdc.net/id",
+    "POST unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery",
+    "POST region1.google-analytics.com/g/collect",
+    "POST region1.analytics.google.com/g/collect",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "GET ep1.adtrafficquality.google/getconfig/sodar",
+    "POST pagead2.googlesyndication.com/pagead/ping",
+    "GET pagead2.googlesyndication.com/pcs/activeview"
+   ],
+   "postBodies": [
+    {
+     "url": "https://unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery?client=unitedstatestennisas&sessionId=1be4276107f64aa482224a38f2ed312e&version=2.11.7",
+     "body": "{\"requestId\":\"041ce68943634ca7902e1d1d2e106bf9\",\"context\":{\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"clientHints\":{\"mobile\":false,\"platform\":\"macOS\",\"browserUAWithMajorVersion\":\"\\\"HeadlessChrome\\\";v=\\\"153\\\", \\\"Not_A Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"153\\\"\"},\"timeOffsetInMinutes\":120,\"channel\":\"we"
+    },
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=945382202&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fcalendar.html&ul=en-us&dt=Calendar&sr=1440x900&vp=1440x900&",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2332WYSW3&gtm=45je69g1v9103740633za200zd9103740633xf1&_p=1789750535880&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=1382124661.1789750536&frm=0&",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-0MS4BSS9YJ&gtm=45je69g1v9110852544za20gxf1&_p=1789750535880&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&cid=1382124661.1789750536&frm=0&ir=",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-YK6Z7492YW&gtm=45be69g1v9103723949za200zd9103723949xf1&_p=1789750535880&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAACAC&cid=13821246",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=1&auid=715876008.1789750536&dt=Calendar&tid=AW-11095761697&en=page_view&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fcalendar.html&scrs",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=715876008.1789750536&gtm=45be69g1v9103723949za200zd9103723949xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1",
+     "body": "[[],[4,\"m202609160101\",[122881112,122880890,122881131]],[[{\"1\":[\"ewzMSe\",null,[null,1],[[null,4]]]}]]]"
+    }
+   ],
+   "textAtLoad": 1844,
+   "mainEmptyAtLoad": false
+  },
+  "/en/home/events.html": {
+   "url": "https://www.ustanationalcampus.com/en/home/events.html",
+   "status": 200,
+   "host": "www.ustanationalcampus.com",
+   "title": "Events",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "alertdialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2754,
+     "hasForm": true,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "Advertisement",
+     "w": 728,
+     "h": 90
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "version",
+     "page"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 7,
+   "inlineFetch": false,
+   "mainText": 2263,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.ustanationalcampus.com": 44,
+    "cdn.cookielaw.org": 10,
+    "www.googletagservices.com": 1,
+    "assets.adobedtm.com": 4,
+    "securepubads.g.doubleclick.net": 2,
+    "www.google-analytics.com": 2,
+    "connect.facebook.net": 2,
+    "pagead2.googlesyndication.com": 12,
+    "www.googletagmanager.com": 3,
+    "47a6a8b0a3986b71e8b36f423be0add6.safeframe.googlesyndication.com": 1,
+    "tpc.googlesyndication.com": 1,
+    "dpm.demdex.net": 4,
+    "usta.demdex.net": 1,
+    "region1.google-analytics.com": 2,
+    "cm.g.doubleclick.net": 2,
+    "usta.d2.sc.omtrdc.net": 2,
+    "unitedstatestennisas.tt.omtrdc.net": 1,
+    "region1.analytics.google.com": 1,
+    "cm.everesttech.net": 1,
+    "www.google.com": 1,
+    "ad.doubleclick.net": 1,
+    "www.google.it": 1,
+    "stats.g.doubleclick.net": 1,
+    "sync.crwdcntrl.net": 1,
+    "ep1.adtrafficquality.google": 2,
+    "ep2.adtrafficquality.google": 3,
+    "optanon.blob.core.windows.net": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "www.googletagservices.com",
+    "assets.adobedtm.com",
+    "securepubads.g.doubleclick.net",
+    "www.google-analytics.com",
+    "connect.facebook.net",
+    "pagead2.googlesyndication.com",
+    "www.googletagmanager.com",
+    "47a6a8b0a3986b71e8b36f423be0add6.safeframe.googlesyndication.com",
+    "tpc.googlesyndication.com",
+    "dpm.demdex.net",
+    "usta.demdex.net",
+    "region1.google-analytics.com",
+    "cm.g.doubleclick.net",
+    "usta.d2.sc.omtrdc.net",
+    "unitedstatestennisas.tt.omtrdc.net",
+    "region1.analytics.google.com",
+    "cm.everesttech.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "www.google.it",
+    "stats.g.doubleclick.net",
+    "sync.crwdcntrl.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "optanon.blob.core.windows.net"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/OtAutoBlock.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/utils.min.db566d5aecd5f4948d651868607d2db6.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js",
+    "https://www.googletagservices.com/tag/js/gpt.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/util/hashProcessor.min.6bd8c1abd5ddff81d6b6d37222555b63.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/core/tabs/clientlibs/site.min.875cdb62d1c32eafe2db16d0b32f5e93.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/clientlibs/segmentation.min.4c19a023a5d20beb227fa9b4c0e81bd9.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/usta-proxy.min.82f3068ddb3cafe566fd4fd214271f38.js",
+    "https://assets.adobedtm.com/launch-EN1e11bbf3860f415da9319a506515ad69.min.js",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609140101/pubads_impl.js?cb=122881037",
+    "https://www.google-analytics.com/analytics.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/3642094592776600?v=2.9.403&r=stable&domain=www.ustanationalcampus.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2332WYSW3",
+    "https://www.googletagmanager.com/gtag/js?id=G-0MS4BSS9YJ&cx=c&_slc=1",
+    "https://pagead2.googlesyndication.com/pagead/js/r20260917/r20110914/abg_lite.js",
+    "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js",
+    "https://pagead2.googlesyndication.com/pagead/js/r20260917/r20110914/client/window_focus.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11095761697",
+    "https://usta.d2.sc.omtrdc.net/b/ss/usta.nationalcampusprod,usta.global/10/JS-2.27.0-LGPQ/s72257443016792?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F8%2F2026%2018%3A55%3A46%205%20-120&",
+    "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+    "https://pagead2.googlesyndication.com/bg/dVU7YC_IHNLAuo73oEax7kJe6zOZtQfbD4RBB6EqV-Y.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6",
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b6622",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+    "POST www.google-analytics.com/j/collect",
+    "GET pagead2.googlesyndication.com/gampad/ads",
+    "GET dpm.demdex.net/id",
+    "GET pagead2.googlesyndication.com/pcs/view",
+    "POST region1.google-analytics.com/g/collect",
+    "GET pagead2.googlesyndication.com/pagead/gen_204",
+    "GET usta.d2.sc.omtrdc.net/id",
+    "POST unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery",
+    "POST region1.analytics.google.com/g/collect",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "GET ep1.adtrafficquality.google/getconfig/sodar",
+    "POST pagead2.googlesyndication.com/pagead/ping",
+    "GET pagead2.googlesyndication.com/pcs/activeview"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1125935888&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fevents.html&ul=en-us&dt=Events&sr=1440x900&vp=1440x900&_u=",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2332WYSW3&gtm=45je69h0h2v9103740633za200zd9103740633xf1&_p=1789750546601&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=775672628.1789750547&frm=0",
+     "body": ""
+    },
+    {
+     "url": "https://unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery?client=unitedstatestennisas&sessionId=9d62d02e6ed240a9b5b4bdba8cecd49c&version=2.11.7",
+     "body": "{\"requestId\":\"7869073dc3c64370abccf24c9c5eefd2\",\"context\":{\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"clientHints\":{\"mobile\":false,\"platform\":\"macOS\",\"browserUAWithMajorVersion\":\"\\\"HeadlessChrome\\\";v=\\\"153\\\", \\\"Not_A Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"153\\\"\"},\"timeOffsetInMinutes\":120,\"channel\":\"we"
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-0MS4BSS9YJ&gtm=45je69h0h2v9110852544za20gxf1&_p=1789750546601&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&cid=775672628.1789750547&frm=0&ir",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-YK6Z7492YW&gtm=45be69g1v9103723949za200zd9103723949xf1&_p=1789750546601&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAACAC&cid=77567262",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=1&auid=2033754173.1789750547&dt=Events&tid=AW-11095761697&en=page_view&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fevents.html&scrsrc=",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=2033754173.1789750547&gtm=45be69g1v9103723949za200zd9103723949xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1",
+     "body": "[[],[4,\"m202609140101\",[95397229,31099901,122881037]],[[{\"1\":[\"ewzMSe\",null,[null,1],[[null,3]]]}]]]"
+    }
+   ],
+   "textAtLoad": 2495,
+   "mainEmptyAtLoad": false
+  },
+  "/en/home/news.html": {
+   "url": "https://www.ustanationalcampus.com/en/home/news.html",
+   "status": 200,
+   "host": "www.ustanationalcampus.com",
+   "title": "News",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "Thank you and see you on the courts!",
+     "textLen": 87,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Share with your friends",
+     "textLen": 49,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "Share with your friends",
+     "textLen": 49,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Share with your friends",
+     "textLen": 49,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 15,
+   "media": [
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "This is an Advertisement",
+     "w": 728,
+     "h": 90
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "version",
+     "page"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 9,
+   "inlineFetch": false,
+   "mainText": 1389,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.ustanationalcampus.com": 44,
+    "cdn.cookielaw.org": 10,
+    "assets.adobedtm.com": 4,
+    "www.googletagservices.com": 1,
+    "securepubads.g.doubleclick.net": 2,
+    "www.google-analytics.com": 2,
+    "efede18276a23d60a5bc2b8f74be0603.safeframe.googlesyndication.com": 1,
+    "connect.facebook.net": 2,
+    "pagead2.googlesyndication.com": 12,
+    "tpc.googlesyndication.com": 1,
+    "www.googletagmanager.com": 3,
+    "dpm.demdex.net": 4,
+    "usta.demdex.net": 1,
+    "region1.google-analytics.com": 2,
+    "cm.g.doubleclick.net": 2,
+    "usta.d2.sc.omtrdc.net": 2,
+    "region1.analytics.google.com": 1,
+    "cm.everesttech.net": 1,
+    "ad.doubleclick.net": 1,
+    "www.google.it": 1,
+    "www.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "ep1.adtrafficquality.google": 2,
+    "ep2.adtrafficquality.google": 3,
+    "sync.crwdcntrl.net": 1,
+    "optanon.blob.core.windows.net": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "assets.adobedtm.com",
+    "www.googletagservices.com",
+    "securepubads.g.doubleclick.net",
+    "www.google-analytics.com",
+    "efede18276a23d60a5bc2b8f74be0603.safeframe.googlesyndication.com",
+    "connect.facebook.net",
+    "pagead2.googlesyndication.com",
+    "tpc.googlesyndication.com",
+    "www.googletagmanager.com",
+    "dpm.demdex.net",
+    "usta.demdex.net",
+    "region1.google-analytics.com",
+    "cm.g.doubleclick.net",
+    "usta.d2.sc.omtrdc.net",
+    "region1.analytics.google.com",
+    "cm.everesttech.net",
+    "ad.doubleclick.net",
+    "www.google.it",
+    "www.google.com",
+    "stats.g.doubleclick.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "sync.crwdcntrl.net",
+    "optanon.blob.core.windows.net"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/OtAutoBlock.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/utils.min.db566d5aecd5f4948d651868607d2db6.js",
+    "https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN1e11bbf3860f415da9319a506515ad69.min.js",
+    "https://www.googletagservices.com/tag/js/gpt.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609110101/pubads_impl.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-all.min.07b6a8588003d99b77672216cfc8283d.js",
+    "https://www.google-analytics.com/analytics.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/3642094592776600?v=2.9.403&r=stable&domain=www.ustanationalcampus.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2332WYSW3",
+    "https://pagead2.googlesyndication.com/pagead/js/r20260917/r20110914/client/window_focus.js",
+    "https://pagead2.googlesyndication.com/pagead/js/r20260917/r20110914/abg_lite.js",
+    "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-0MS4BSS9YJ&cx=c&_slc=1",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11095761697",
+    "https://usta.d2.sc.omtrdc.net/b/ss/usta.nationalcampusprod,usta.global/10/JS-2.27.0-LGPQ/s75502530390402?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F8%2F2026%2018%3A55%3A57%205%20-120&",
+    "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+    "https://pagead2.googlesyndication.com/bg/dVU7YC_IHNLAuo73oEax7kJe6zOZtQfbD4RBB6EqV-Y.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/usta/nc/newsfeed",
+     "query": [
+      "newsType",
+      "pageNo",
+      "resultsPerPage"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/usta/nc/newsfeed"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6",
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b6622",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+    "POST www.google-analytics.com/j/collect",
+    "GET pagead2.googlesyndication.com/gampad/ads",
+    "GET dpm.demdex.net/id",
+    "GET pagead2.googlesyndication.com/pcs/view",
+    "POST region1.google-analytics.com/g/collect",
+    "GET pagead2.googlesyndication.com/pagead/gen_204",
+    "GET usta.d2.sc.omtrdc.net/id",
+    "POST region1.analytics.google.com/g/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "GET ep1.adtrafficquality.google/getconfig/sodar",
+    "POST pagead2.googlesyndication.com/pagead/ping",
+    "GET pagead2.googlesyndication.com/pcs/activeview"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=506911597&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fnews.html&ul=en-us&dt=News&sr=1440x900&vp=1440x900&_u=IEBAA",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2332WYSW3&gtm=45je69g1h1v9103740633za200zd9103740633xf1&_p=1789750557186&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=308602713.1789750557&frm=0",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-0MS4BSS9YJ&gtm=45je69g1v9110852544za20gxf1&_p=1789750557186&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&cid=308602713.1789750557&frm=0&ir=1",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-YK6Z7492YW&gtm=45be69g1h1v9103723949za200zd9103723949xf1&_p=1789750557186&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAACAC&cid=308602",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=6&frm=0&apvc=1&auid=570373653.1789750557&dt=News&tid=AW-11095761697&en=page_view&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fnews.html&scrsrc=www.g",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=570373653.1789750557&gtm=45be69g1h1v9103723949za200zd9103723949xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1",
+     "body": "[[],[4,\"m202609110101\"],[[{\"1\":[\"ewzMSe\",null,[null,1],[[null,3]]]}]]]"
+    }
+   ],
+   "textAtLoad": 893,
+   "mainEmptyAtLoad": false
+  },
+  "/en/home/events/2026-bnp-paribas-world-team-cup.html": {
+   "url": "https://www.ustanationalcampus.com/en/home/events/2026-bnp-paribas-world-team-cup.html",
+   "status": 200,
+   "host": "www.ustanationalcampus.com",
+   "title": "2026 BNP Paribas World Team Cup",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "alertdialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2754,
+     "hasForm": true,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://ioncourt.com/team-events/6aa44524e9b42db9034cc2a7/live ",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://ioncourt.com/team-events/6aa44524e9b42db9034cc2a7/live ",
+     "title": "BNP Paribas World Team Cup live scores",
+     "w": 1188,
+     "h": 900
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "version",
+     "page"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 3026,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.ustanationalcampus.com": 32,
+    "cdn.cookielaw.org": 10,
+    "assets.adobedtm.com": 5,
+    "www.googletagservices.com": 1,
+    "www.google-analytics.com": 2,
+    "securepubads.g.doubleclick.net": 2,
+    "connect.facebook.net": 2,
+    "dpm.demdex.net": 4,
+    "www.googletagmanager.com": 4,
+    "usta.demdex.net": 1,
+    "region1.google-analytics.com": 3,
+    "usta.d2.sc.omtrdc.net": 2,
+    "cm.g.doubleclick.net": 2,
+    "unitedstatestennisas.tt.omtrdc.net": 1,
+    "cm.everesttech.net": 1,
+    "ioncourt.com": 158,
+    "region1.analytics.google.com": 1,
+    "ad.doubleclick.net": 1,
+    "www.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "www.google.it": 1,
+    "sync.crwdcntrl.net": 1,
+    "www.gstatic.com": 2,
+    "firebase.googleapis.com": 1,
+    "firebaseinstallations.googleapis.com": 1,
+    "api.ioncourt.com": 13,
+    "ioc-prod-secure-photos.s3.us-east-1.amazonaws.com": 33,
+    "optanon.blob.core.windows.net": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "assets.adobedtm.com",
+    "www.googletagservices.com",
+    "www.google-analytics.com",
+    "securepubads.g.doubleclick.net",
+    "connect.facebook.net",
+    "dpm.demdex.net",
+    "www.googletagmanager.com",
+    "usta.demdex.net",
+    "region1.google-analytics.com",
+    "usta.d2.sc.omtrdc.net",
+    "cm.g.doubleclick.net",
+    "unitedstatestennisas.tt.omtrdc.net",
+    "cm.everesttech.net",
+    "ioncourt.com",
+    "region1.analytics.google.com",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.it",
+    "sync.crwdcntrl.net",
+    "www.gstatic.com",
+    "firebase.googleapis.com",
+    "firebaseinstallations.googleapis.com",
+    "api.ioncourt.com",
+    "ioc-prod-secure-photos.s3.us-east-1.amazonaws.com",
+    "optanon.blob.core.windows.net"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/OtAutoBlock.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/utils.min.db566d5aecd5f4948d651868607d2db6.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN1e11bbf3860f415da9319a506515ad69.min.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/core/tabs/clientlibs/site.min.875cdb62d1c32eafe2db16d0b32f5e93.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/util/hashProcessor.min.6bd8c1abd5ddff81d6b6d37222555b63.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/clientlibs/segmentation.min.4c19a023a5d20beb227fa9b4c0e81bd9.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/usta-proxy.min.82f3068ddb3cafe566fd4fd214271f38.js",
+    "https://www.googletagservices.com/tag/js/gpt.js",
+    "https://www.google-analytics.com/analytics.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_ActivityMap.min.js",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609110101/pubads_impl.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/3642094592776600?v=2.9.403&r=stable&domain=www.ustanationalcampus.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C",
+    "https://www.googletagmanager.com/gtag/js?id=G-0MS4BSS9YJ&cx=c&_slc=1",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2332WYSW3",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11095761697",
+    "https://ioncourt.com/chunk-47LLFUL6.js",
+    "https://ioncourt.com/chunk-PNWYNOYR.js",
+    "https://ioncourt.com/chunk-7WUDSQPJ.js",
+    "https://ioncourt.com/chunk-WU4W7WXG.js",
+    "https://ioncourt.com/chunk-SMLVG36I.js",
+    "https://ioncourt.com/chunk-VECDYZDV.js",
+    "https://ioncourt.com/chunk-NYQJBUTB.js",
+    "https://ioncourt.com/chunk-IWARL2XC.js",
+    "https://ioncourt.com/chunk-MVAL52UO.js",
+    "https://ioncourt.com/chunk-CW7YMPHH.js",
+    "https://ioncourt.com/polyfills.js",
+    "https://ioncourt.com/website.module-7TNH2W2A.js",
+    "https://ioncourt.com/main.js",
+    "https://ioncourt.com/chunk-GYYQUM7P.js",
+    "https://ioncourt.com/chunk-ZKOHXFNZ.js",
+    "https://ioncourt.com/chunk-EWNJJAJR.js",
+    "https://ioncourt.com/chunk-L4ZNTYQZ.js",
+    "https://ioncourt.com/chunk-YNH4FNOG.js",
+    "https://ioncourt.com/chunk-CVWQHOG4.js",
+    "https://ioncourt.com/scripts.js",
+    "https://ioncourt.com/chunk-KYSNCH7M.js",
+    "https://ioncourt.com/chunk-IZIZI3N3.js",
+    "https://ioncourt.com/chunk-D64633VN.js",
+    "https://ioncourt.com/chunk-EMMG7WAT.js",
+    "https://ioncourt.com/chunk-ZEHXB775.js",
+    "https://ioncourt.com/chunk-YSFHFSF4.js",
+    "https://ioncourt.com/chunk-YP7A6H6J.js",
+    "https://ioncourt.com/chunk-LMR3AGQF.js",
+    "https://ioncourt.com/chunk-WD37UM52.js",
+    "https://ioncourt.com/chunk-DJDSQUFT.js",
+    "https://ioncourt.com/chunk-US4GKPCS.js",
+    "https://ioncourt.com/chunk-VFWFCLNL.js",
+    "https://ioncourt.com/chunk-5RMBCI4J.js",
+    "https://ioncourt.com/chunk-CML7BAOV.js",
+    "https://ioncourt.com/chunk-LFTZV3EB.js",
+    "https://ioncourt.com/chunk-O5WMBBJC.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-QH0NXK5XY8"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6",
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b6622",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+    "POST www.google-analytics.com/j/collect",
+    "GET dpm.demdex.net/id",
+    "POST region1.google-analytics.com/g/collect",
+    "GET usta.d2.sc.omtrdc.net/id",
+    "POST unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery",
+    "POST region1.analytics.google.com/g/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "GET ioncourt.com/assets/i18n/en.json",
+    "GET ioncourt.com/svg/mail.svg",
+    "GET firebase.googleapis.com/v1alpha/projects/-/apps/1:211885406782:web:444d3c786da4501afb6f6f/webConfig",
+    "POST firebaseinstallations.googleapis.com/v1/projects/ioncourt-8bcd4/installations",
+    "GET api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live",
+    "GET api.ioncourt.com/api/i18n",
+    "GET api.ioncourt.com/api/configuration",
+    "GET api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live/ties/6aac67094260a44c84cc944b",
+    "GET api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live/ties/6aac67774260a44c84cc9fa0",
+    "GET api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live/ties/6aac6790d16769a09bc58b7e",
+    "GET api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live/ties/6aac67464260a44c84cc99dd",
+    "GET api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live/ties/6aac66edd16769a09bc58296",
+    "GET api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live/ties/6aac67c44089c0cfccdf07b6",
+    "GET api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live/ties/6aac6763d16769a09bc58819",
+    "GET api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live/ties/6aac67a3d16769a09bc58e25",
+    "GET api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live/ties/6aac66be4089c0cfccdee581",
+    "GET api.ioncourt.com/api/v2/team-events/6aa44524e9b42db9034cc2a7/live/ties/6aac67d8754b771d489ca536"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=243642566&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fevents%2F2026-bnp-paribas-world-team-cup.html&ul=en-us&dt=2",
+     "body": ""
+    },
+    {
+     "url": "https://unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery?client=unitedstatestennisas&sessionId=0dac7e5a739e455883dbbf852c8c4f34&version=2.11.7",
+     "body": "{\"requestId\":\"af34068507174b46b09f5dd105354c75\",\"context\":{\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"clientHints\":{\"mobile\":false,\"platform\":\"macOS\",\"browserUAWithMajorVersion\":\"\\\"HeadlessChrome\\\";v=\\\"153\\\", \\\"Not_A Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"153\\\"\"},\"timeOffsetInMinutes\":120,\"channel\":\"we"
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-0MS4BSS9YJ&gtm=45je69g1v9110852544za20gxf1&_p=1789750567837&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&cid=2025881184.1789750568&frm=0&ir=",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2332WYSW3&gtm=45je69g1v9103740633za200zd9103740633xf1&_p=1789750567837&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=2025881184.1789750568&frm=0&",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-YK6Z7492YW&gtm=45be69g1v9103723949za200zd9103723949xf1&_p=1789750567837&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAACAC&cid=20258811",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=1&auid=18879343.1789750568&dt=2026%20BNP%20Paribas%20World%20Team%20Cup&tid=AW-11095761697&en=page_view&dl=https%3A%2F%2Fwww.ustanationalcampus.com",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=18879343.1789750568&gtm=45be69g1v9103723949za200zd9103723949xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-QH0NXK5XY8&gtm=45je69g1v874495486za200zd874495486xf1&_p=1789750568094&gcs=G100&gcd=13q3q3q2q5l1&npa=1&dma_cps=-&dma=1&_eu=AAAAAGA&cid=526827293",
+     "body": ""
+    },
+    {
+     "url": "https://firebaseinstallations.googleapis.com/v1/projects/ioncourt-8bcd4/installations",
+     "body": "{\"fid\":\"feQsK5YJ008Rxvu69iyY3X\",\"authVersion\":\"FIS_v2\",\"appId\":\"1:211885406782:web:444d3c786da4501afb6f6f\",\"sdkVersion\":\"w:0.4.19\"}"
+    }
+   ],
+   "textAtLoad": 3232,
+   "mainEmptyAtLoad": false
+  },
+  "/en/home/about/meet-our-team.html": {
+   "url": "https://www.ustanationalcampus.com/en/home/about/meet-our-team.html",
+   "status": 200,
+   "host": "www.ustanationalcampus.com",
+   "title": "Meet Our Team",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "alertdialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2754,
+     "hasForm": true,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "version",
+     "page"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 1802,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.ustanationalcampus.com": 77,
+    "cdn.cookielaw.org": 10,
+    "assets.adobedtm.com": 4,
+    "www.googletagservices.com": 1,
+    "securepubads.g.doubleclick.net": 2,
+    "www.google-analytics.com": 2,
+    "connect.facebook.net": 2,
+    "www.googletagmanager.com": 3,
+    "dpm.demdex.net": 4,
+    "usta.demdex.net": 1,
+    "region1.google-analytics.com": 2,
+    "cm.g.doubleclick.net": 2,
+    "usta.d2.sc.omtrdc.net": 2,
+    "unitedstatestennisas.tt.omtrdc.net": 1,
+    "region1.analytics.google.com": 1,
+    "cm.everesttech.net": 1,
+    "www.google.com": 1,
+    "ad.doubleclick.net": 1,
+    "www.google.it": 1,
+    "stats.g.doubleclick.net": 1,
+    "sync.crwdcntrl.net": 1,
+    "optanon.blob.core.windows.net": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "assets.adobedtm.com",
+    "www.googletagservices.com",
+    "securepubads.g.doubleclick.net",
+    "www.google-analytics.com",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "dpm.demdex.net",
+    "usta.demdex.net",
+    "region1.google-analytics.com",
+    "cm.g.doubleclick.net",
+    "usta.d2.sc.omtrdc.net",
+    "unitedstatestennisas.tt.omtrdc.net",
+    "region1.analytics.google.com",
+    "cm.everesttech.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "www.google.it",
+    "stats.g.doubleclick.net",
+    "sync.crwdcntrl.net",
+    "optanon.blob.core.windows.net"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/OtAutoBlock.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/utils.min.db566d5aecd5f4948d651868607d2db6.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN1e11bbf3860f415da9319a506515ad69.min.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/util/hashProcessor.min.6bd8c1abd5ddff81d6b6d37222555b63.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/clientlibs/segmentation.min.4c19a023a5d20beb227fa9b4c0e81bd9.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/responsive/tile/clientlibs/site.min.745b9e70aedf05c3932b5583bd7b579d.js",
+    "https://www.googletagservices.com/tag/js/gpt.js",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609110101/pubads_impl.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/usta/components/core/tabs/clientlibs/site.min.875cdb62d1c32eafe2db16d0b32f5e93.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/usta-proxy.min.82f3068ddb3cafe566fd4fd214271f38.js",
+    "https://www.google-analytics.com/analytics.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/3642094592776600?v=2.9.403&r=stable&domain=www.ustanationalcampus.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2332WYSW3",
+    "https://www.googletagmanager.com/gtag/js?id=G-0MS4BSS9YJ&cx=c&_slc=1",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11095761697",
+    "https://usta.d2.sc.omtrdc.net/b/ss/usta.nationalcampusprod,usta.global/10/JS-2.27.0-LGPQ/s74736939035208?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F8%2F2026%2018%3A56%3A18%205%20-120&"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6",
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b6622",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+    "POST www.google-analytics.com/j/collect",
+    "GET dpm.demdex.net/id",
+    "POST region1.google-analytics.com/g/collect",
+    "GET usta.d2.sc.omtrdc.net/id",
+    "POST unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery",
+    "POST region1.analytics.google.com/g/collect",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1269289561&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fabout%2Fmeet-our-team.html&ul=en-us&dt=Meet%20Our%20Team&s",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2332WYSW3&gtm=45je69g1h1v9103740633za200zd9103740633xf1&_p=1789750578511&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=1674102723.1789750578&frm=",
+     "body": ""
+    },
+    {
+     "url": "https://unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery?client=unitedstatestennisas&sessionId=9d0935638eb8421ea404d976c8647c03&version=2.11.7",
+     "body": "{\"requestId\":\"3eca785cae4c486984e2b2114c12f52a\",\"context\":{\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"clientHints\":{\"mobile\":false,\"platform\":\"macOS\",\"browserUAWithMajorVersion\":\"\\\"HeadlessChrome\\\";v=\\\"153\\\", \\\"Not_A Brand\\\";v=\\\"8\\\", \\\"Chromium\\\";v=\\\"153\\\"\"},\"timeOffsetInMinutes\":120,\"channel\":\"we"
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-0MS4BSS9YJ&gtm=45je69g1v9110852544za20gxf1&_p=1789750578511&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&cid=1674102723.1789750578&frm=0&ir=",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-YK6Z7492YW&gtm=45be69g1v9103723949za200zd9103723949xf1&_p=1789750578511&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAACAC&cid=16741027",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=1&auid=917665661.1789750579&dt=Meet%20Our%20Team&tid=AW-11095761697&en=page_view&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fabout%2Fm",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=917665661.1789750579&gtm=45be69g1v9103723949za200zd9103723949xecxf1&fmt=8",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 1967,
+   "mainEmptyAtLoad": false
+  },
+  "/en/home/events/collegiate.html": {
+   "url": "https://www.ustanationalcampus.com/en/home/events/collegiate.html",
+   "status": 200,
+   "host": "www.ustanationalcampus.com",
+   "title": "Collegiate",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "Thank you and see you on the courts!",
+     "textLen": 87,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Share with your friends",
+     "textLen": 49,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "Share with your friends",
+     "textLen": 49,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Share with your friends",
+     "textLen": 49,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 23,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 1,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "alertdialog",
+     "heading": "Privacy Preference Center",
+     "textLen": 2754,
+     "hasForm": true,
+     "hasIframe": true,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 11,
+   "media": [
+    {
+     "tag": "a",
+     "src": "http://www.playerdevelopment.usta.com/collegiatewheelchair/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "a",
+     "src": "http://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "a",
+     "src": "http://www.playerdevelopment.usta.com/CompetitivePathway",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "a",
+     "src": "http://www.playerdevelopment.usta.com/fellowship_in_professional_coaching/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "a",
+     "src": "https://www.playerdevelopment.usta.com/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "This is an Advertisement",
+     "w": 728,
+     "h": 90
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://usta.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.ustanationalcampus.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "version",
+     "page"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "push"
+    ],
+    "Granite": [
+     "Sling",
+     "Util",
+     "HTTP",
+     "I18n",
+     "TouchIndicator",
+     "OptOutUtil",
+     "Toggles",
+     "$",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 9,
+   "inlineFetch": false,
+   "mainText": 1060,
+   "domAddedAfterLoad": 3,
+   "hosts": {
+    "www.ustanationalcampus.com": 49,
+    "cdn.cookielaw.org": 10,
+    "assets.adobedtm.com": 4,
+    "www.googletagservices.com": 1,
+    "securepubads.g.doubleclick.net": 2,
+    "www.google-analytics.com": 2,
+    "7c422d8f675016717ff1ad83e1074842.safeframe.googlesyndication.com": 1,
+    "connect.facebook.net": 2,
+    "pagead2.googlesyndication.com": 11,
+    "www.googletagmanager.com": 3,
+    "dpm.demdex.net": 4,
+    "tpc.googlesyndication.com": 1,
+    "usta.demdex.net": 1,
+    "usta.d2.sc.omtrdc.net": 2,
+    "region1.google-analytics.com": 2,
+    "cm.g.doubleclick.net": 2,
+    "cm.everesttech.net": 1,
+    "region1.analytics.google.com": 1,
+    "ad.doubleclick.net": 1,
+    "www.google.it": 1,
+    "www.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "ep1.adtrafficquality.google": 2,
+    "ep2.adtrafficquality.google": 3,
+    "sync.crwdcntrl.net": 1,
+    "optanon.blob.core.windows.net": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "assets.adobedtm.com",
+    "www.googletagservices.com",
+    "securepubads.g.doubleclick.net",
+    "www.google-analytics.com",
+    "7c422d8f675016717ff1ad83e1074842.safeframe.googlesyndication.com",
+    "connect.facebook.net",
+    "pagead2.googlesyndication.com",
+    "www.googletagmanager.com",
+    "dpm.demdex.net",
+    "tpc.googlesyndication.com",
+    "usta.demdex.net",
+    "usta.d2.sc.omtrdc.net",
+    "region1.google-analytics.com",
+    "cm.g.doubleclick.net",
+    "cm.everesttech.net",
+    "region1.analytics.google.com",
+    "ad.doubleclick.net",
+    "www.google.it",
+    "www.google.com",
+    "stats.g.doubleclick.net",
+    "ep1.adtrafficquality.google",
+    "ep2.adtrafficquality.google",
+    "sync.crwdcntrl.net",
+    "optanon.blob.core.windows.net"
+   ],
+   "scripts": [
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/OtAutoBlock.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/utils.min.db566d5aecd5f4948d651868607d2db6.js",
+    "https://cdn.cookielaw.org/scripttemplates/6.35.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/launch-EN1e11bbf3860f415da9319a506515ad69.min.js",
+    "https://www.googletagservices.com/tag/js/gpt.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.011c0fc0d0cf131bdff879743a353002.js",
+    "https://www.ustanationalcampus.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609150101/pubads_impl.js?cb=122881078",
+    "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-all.min.07b6a8588003d99b77672216cfc8283d.js",
+    "https://www.google-analytics.com/analytics.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP8757b503532a44a68eee17773f6f10a0/AppMeasurement_Module_AudienceManagement.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/3642094592776600?v=2.9.403&r=stable&domain=www.ustanationalcampus.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2332WYSW3",
+    "https://www.googletagmanager.com/gtag/js?id=G-0MS4BSS9YJ&cx=c&_slc=1",
+    "https://pagead2.googlesyndication.com/pagead/js/r20260917/r20110914/abg_lite.js",
+    "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js",
+    "https://pagead2.googlesyndication.com/pagead/js/r20260917/r20110914/client/window_focus.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11095761697",
+    "https://usta.d2.sc.omtrdc.net/b/ss/usta.nationalcampusprod,usta.global/10/JS-2.27.0-LGPQ/s7860843565148?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=18%2F8%2F2026%2018%3A56%3A29%205%20-120&d",
+    "https://ep2.adtrafficquality.google/sodar/sodar2.js",
+    "https://pagead2.googlesyndication.com/bg/dVU7YC_IHNLAuo73oEax7kJe6zOZtQfbD4RBB6EqV-Y.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.ustanationalcampus.com",
+     "path": "/usta/nc/photogallery",
+     "query": [
+      "galleryPath",
+      "galleryType",
+      "serviceType"
+     ],
+     "status": 200,
+     "contentType": "",
+     "example": "https://www.ustanationalcampus.com/usta/nc/photogallery"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6",
+    "GET cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b6622",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+    "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+    "POST www.google-analytics.com/j/collect",
+    "GET pagead2.googlesyndication.com/gampad/ads",
+    "GET dpm.demdex.net/id",
+    "GET usta.d2.sc.omtrdc.net/id",
+    "GET pagead2.googlesyndication.com/pcs/view",
+    "POST region1.google-analytics.com/g/collect",
+    "GET pagead2.googlesyndication.com/pagead/gen_204",
+    "POST region1.analytics.google.com/g/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "GET ep1.adtrafficquality.google/getconfig/sodar",
+    "POST pagead2.googlesyndication.com/pagead/ping"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=649440483&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fevents%2Fcollegiate.html&ul=en-us&dt=Collegiate&sr=1440x900",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-S2332WYSW3&gtm=45je69g1v9103740633za200zd9103740633xf1&_p=1789750588999&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&cid=1931434889.1789750589&frm=0&",
+     "body": ""
+    },
+    {
+     "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-0MS4BSS9YJ&gtm=45je69g1v9110852544za20gxf1&_p=1789750588999&gcd=13l3l3l2l2l1&npa=0&dma_cps=a&dma=1&_eu=EBAI&cid=1931434889.1789750589&frm=0&ir=",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-YK6Z7492YW&gtm=45be69g1h1v9103723949za200zd9103723949xf1&_p=1789750588999&_gaz=1&gcd=13l3l3l2l1l1&npa=1&dma_cps=a&dma=1&_eu=AAAAACAC&cid=193143",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=1&auid=935805799.1789750589&dt=Collegiate&tid=AW-11095761697&en=page_view&dl=https%3A%2F%2Fwww.ustanationalcampus.com%2Fen%2Fhome%2Fevents%2Fcolleg",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=935805799.1789750589&gtm=45be69g1h1v9103723949za200zd9103723949xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://pagead2.googlesyndication.com/pagead/ping?e=1",
+     "body": "[[],[4,\"m202609150101\",[122880507,122881118,122880891,122881078]],[[{\"1\":[\"ewzMSe\",null,[null,1],[[null,3]]]}]]]"
+    }
+   ],
+   "textAtLoad": 1276,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-digitaldata",
+   "class": "A",
+   "feature": "CMS / app settings object digitalData",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-granite",
+   "class": "A",
+   "feature": "CMS / app settings object Granite",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-ep1-adtrafficquality-google",
+   "class": "A",
+   "feature": "unknown third-party host ep1.adtrafficquality.google",
+   "hint": "inspect",
+   "evidence": [
+    "ep1.adtrafficquality.google"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/visit.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-cq",
+   "class": "A",
+   "feature": "CMS / app settings object CQ",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/en/home/play/private-lessons.html"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-usta-events",
+   "class": "A",
+   "feature": "first-party API GET /usta/events",
+   "api": {
+    "method": "GET",
+    "path": "/usta/events"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /usta/events?dataPagePath,source → 200"
+   ],
+   "pages": [
+    "/en/home/calendar.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 50
+   }
+  },
+  {
+   "id": "a-first-party-api-get-usta-nc-newsfeed",
+   "class": "A",
+   "feature": "first-party API GET /usta/nc/newsfeed",
+   "api": {
+    "method": "GET",
+    "path": "/usta/nc/newsfeed"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /usta/nc/newsfeed?newsType,pageNo,resultsPerPage → 200"
+   ],
+   "pages": [
+    "/en/home/news.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 50
+   }
+  },
+  {
+   "id": "a-unknown-third-party-host-ioncourt-com",
+   "class": "A",
+   "feature": "unknown third-party host ioncourt.com",
+   "hint": "inspect",
+   "evidence": [
+    "ioncourt.com"
+   ],
+   "pages": [
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-firebase-googleapis-com",
+   "class": "A",
+   "feature": "unknown third-party host firebase.googleapis.com",
+   "hint": "inspect",
+   "evidence": [
+    "firebase.googleapis.com"
+   ],
+   "pages": [
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-firebaseinstallations-googleapis-",
+   "class": "A",
+   "feature": "unknown third-party host firebaseinstallations.googleapis.com",
+   "hint": "inspect",
+   "evidence": [
+    "firebaseinstallations.googleapis.com"
+   ],
+   "pages": [
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-api-ioncourt-com",
+   "class": "A",
+   "feature": "unknown third-party host api.ioncourt.com",
+   "hint": "inspect",
+   "evidence": [
+    "api.ioncourt.com"
+   ],
+   "pages": [
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html"
+   ]
+  },
+  {
+   "id": "cr-client-framework-vue",
+   "class": "CR",
+   "feature": "client framework vue",
+   "hint": "framework",
+   "evidence": [],
+   "pages": [
+    "/en/home/calendar.html"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-libs-granite-csrf-token-json",
+   "class": "D",
+   "feature": "first-party data file GET /libs/granite/csrf/token.json",
+   "api": {
+    "method": "GET",
+    "path": "/libs/granite/csrf/token.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /libs/granite/csrf/token.json → 200"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ],
+   "reach": {
+    "pages": 50,
+    "of": 50
+   }
+  },
+  {
+   "id": "f-form-less-control-group-in-body-3-controls-submit-search",
+   "class": "F",
+   "feature": "form-less control group in body (3 controls, submit \"Search\")",
+   "hint": "client-compute?",
+   "evidence": [],
+   "pages": [
+    "/en/home/calendar.html"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-us",
+   "class": "I18N",
+   "feature": "locale variants us",
+   "hint": "locale",
+   "evidence": [
+    "https://apps.apple.com/us/app/courtreserve/id1392556575"
+   ],
+   "pages": [
+    "/en/home/play/private-lessons.html"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Filter Icon"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 50
+   }
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "role": "consent: OneTrust",
+   "hint": "tags",
+   "evidence": [
+    "cdn.cookielaw.org",
+    "optanon.blob.core.windows.net"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-googletagservices-com",
+   "class": "T",
+   "feature": "unknown third-party host www.googletagservices.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.googletagservices.com"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "securepubads.g.doubleclick.net",
+    "connect.facebook.net",
+    "2606b8790572d1b5d8b0922d1cc0729b.safeframe.googlesyndication.com",
+    "cm.g.doubleclick.net",
+    "pagead2.googlesyndication.com",
+    "tpc.googlesyndication.com",
+    "cm.everesttech.net",
+    "ad.doubleclick.net",
+    "stats.g.doubleclick.net",
+    "a8ad4f3ef5d1972f49dbbfb2026976ce.safeframe.googlesyndication.com",
+    "eca59322a73fd27ea42f038f597fb1eb.safeframe.googlesyndication.com",
+    "47a6a8b0a3986b71e8b36f423be0add6.safeframe.googlesyndication.com"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "www.google-analytics.com",
+    "region1.google-analytics.com",
+    "region1.analytics.google.com"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "role": "analytics: Adobe Analytics / Experience Cloud ID",
+   "hint": "tags",
+   "evidence": [
+    "dpm.demdex.net",
+    "usta.demdex.net",
+    "usta.d2.sc.omtrdc.net",
+    "unitedstatestennisas.tt.omtrdc.net"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-google-it",
+   "class": "T",
+   "feature": "unknown third-party host www.google.it",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.it"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-sync-crwdcntrl-net",
+   "class": "T",
+   "feature": "unknown third-party host sync.crwdcntrl.net",
+   "hint": "inspect",
+   "evidence": [
+    "sync.crwdcntrl.net"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-ep2-adtrafficquality-google",
+   "class": "T",
+   "feature": "unknown third-party host ep2.adtrafficquality.google",
+   "hint": "inspect",
+   "evidence": [
+    "ep2.adtrafficquality.google"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/visit.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-csi-gstatic-com",
+   "class": "T",
+   "feature": "unknown third-party host csi.gstatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "csi.gstatic.com"
+   ],
+   "pages": [
+    "/en/home.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-gstatic-com",
+   "class": "T",
+   "feature": "unknown third-party host www.gstatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.gstatic.com"
+   ],
+   "pages": [
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-ioc-prod-secure-photos-s3-us-east",
+   "class": "T",
+   "feature": "unknown third-party host ioc-prod-secure-photos.s3.us-east-1.amazonaws.com",
+   "hint": "inspect",
+   "evidence": [
+    "ioc-prod-secure-photos.s3.us-east-1.amazonaws.com"
+   ],
+   "pages": [
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "Advertisement",
+    "onetrust-text-resize",
+    "0×0",
+    "This is an Advertisement"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html"
+   ],
+   "pages": [
+    "/en/home.html",
+    "/en/home/about.html",
+    "/en/home/play/private-lessons.html",
+    "/en/home/visit.html",
+    "/en/home/visit/health-and-wellness/hydration-matters.html",
+    "/en/home/news/holiday-hours.html",
+    "/en/home/calendar.html",
+    "/en/home/events.html",
+    "/en/home/news.html",
+    "/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "/en/home/about/meet-our-team.html",
+    "/en/home/events/collegiate.html"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 50,
+  "of": 50,
+  "endpoints": {
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}.json": 50,
+   "GET www.ustanationalcampus.com/libs/granite/csrf/token.json": 49,
+   "POST unitedstatestennisas.tt.omtrdc.net/rest/v1/delivery": 29,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}/en.json": 50,
+   "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json": 49,
+   "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json": 49,
+   "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json": 49,
+   "GET cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css": 49,
+   "POST www.google-analytics.com/j/collect": 49,
+   "POST www.google.com/ccm/collect": 49,
+   "POST region1.google-analytics.com/g/collect": 48,
+   "POST region1.analytics.google.com/g/collect": 48,
+   "GET pagead2.googlesyndication.com/gampad/ads": 9,
+   "GET pagead2.googlesyndication.com/pcs/view": 9,
+   "GET pagead2.googlesyndication.com/pagead/gen_204": 9,
+   "GET www.ustanationalcampus.com/usta/events": 1,
+   "GET ep1.adtrafficquality.google/getconfig/sodar": 9,
+   "POST pagead2.googlesyndication.com/pagead/ping": 12,
+   "GET www.usta.com/conf/usta/settings/wcm/segments.seg.js": 1,
+   "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location": 1,
+   "GET www.usta.com/libs/granite/csrf/token.json": 1,
+   "GET maps.googleapis.com/maps/api/mapsjs/gen_204": 1,
+   "GET www.usta.com/libs/cq/i18n/dict.en.json": 1,
+   "POST www.usta.com/usta/newsLandingServlet.json": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otFloatingRounded.json": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202605.1.0/assets/v2/otPcPanel.json": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otCommonStyles.css": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202605.1.0/assets/otCookieSettingsButton.json": 1,
+   "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg": 1,
+   "GET ioncourt.com/svg/mail.svg": 1,
+   "GET ioncourt.com/assets/i18n/en.json": 1,
+   "POST firebaseinstallations.googleapis.com/v1/projects/ioncourt-8bcd4/installations": 1,
+   "GET firebase.googleapis.com/v1alpha/projects/-/apps/1:211885406782:web:444d3c786da4501afb6f6f/webConfig": 1,
+   "GET api.ioncourt.com/api/v2/team-events/{hash}/live": 1,
+   "GET api.ioncourt.com/api/configuration": 1,
+   "GET api.ioncourt.com/api/i18n": 1,
+   "GET api.ioncourt.com/api/v2/team-events/{hash}/live/ties/{hash}": 1,
+   "GET www.ustanationalcampus.com/usta/nc/photogallery": 1,
+   "POST ad.doubleclick.net/ccm/s/collect": 13,
+   "GET dpm.demdex.net/id": 6,
+   "GET usta.d2.sc.omtrdc.net/id": 6,
+   "GET www.ustanationalcampus.com/usta/nc/newsfeed": 1,
+   "GET googleads.g.doubleclick.net/pagead/id": 1,
+   "GET www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg": 1,
+   "POST jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT": 1,
+   "POST www.youtube.com/youtubei/v1/log_event": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {
+   "aria-haspopup": 2
+  }
+ }
+}
