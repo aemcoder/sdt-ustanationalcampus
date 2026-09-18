@@ -454,7 +454,7 @@ a.button.accent[href^='mailto:']:any-link::before {
    ONE style value per section (#120): `icon-heading` (60px), `icon-heading-large` (75px), `icon-heading-grid` (hub 1/12 + 11/12
    columns); a `narrow` section whose prose opens with an image paragraph gets the same row (content-anchored). */
 main .section:is(.icon-heading, .icon-heading-grid, .icon-heading-large) .default-content-wrapper,
-main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) > img) {
+main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) img) {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -462,14 +462,14 @@ main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) 
 }
 
 main .section:is(.icon-heading, .icon-heading-grid, .icon-heading-large) .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img),
-main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) > img) :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img) {
+main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) img) :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img) {
   flex: 0 0 auto;
   margin: 0 10px 0 6px;
   line-height: 0;
 }
 
 main .section:is(.icon-heading, .icon-heading-grid, .icon-heading-large) .default-content-wrapper img,
-main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) > img) img {
+main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) img) img {
   width: 60px;
   height: auto;
 }
@@ -479,14 +479,14 @@ main .section.icon-heading-large .default-content-wrapper img {
 }
 
 main .section:is(.icon-heading, .icon-heading-grid, .icon-heading-large) .default-content-wrapper :is(h2, .prosemirror-editor:has(h2)),
-main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) > img) :is(h2, .prosemirror-editor:has(h2)) {
+main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) img) :is(h2, .prosemirror-editor:has(h2)) {
   flex: 1 1 0;
   min-width: 0;
 }
 
 /* trailing prose under an icon heading (an intro line) drops to its own full-width row */
 main .section:is(.icon-heading, .icon-heading-grid, .icon-heading-large) .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(:has(img)),
-main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) > img) :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(:has(img)) {
+main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) img) :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(:has(img)) {
   width: calc(100% - 12px);
   margin: 0 6px;
   padding: 8px 0;

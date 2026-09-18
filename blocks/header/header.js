@@ -53,8 +53,10 @@ async function buildBreadcrumb(ol) {
       crumbs.forEach((c) => { if (titles.get(c.path)) c.label = titles.get(c.path); });
     }
   } catch (e) { /* index not available yet — segment labels stand */ }
+  // live: the last crumb is the page's own title (the <title>), not its h1
+  const pageTitle = (document.title || '').trim();
   const h1 = document.querySelector('main h1');
-  if (crumbs.length > 1 && h1) crumbs[crumbs.length - 1].label = h1.textContent.trim();
+  if (crumbs.length > 1) crumbs[crumbs.length - 1].label = pageTitle || (h1 ? h1.textContent.trim() : crumbs[crumbs.length - 1].label);
   ol.textContent = '';
   crumbs.forEach((c, i) => {
     const li = el('li');

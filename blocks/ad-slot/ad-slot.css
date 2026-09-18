@@ -84,3 +84,20 @@
     margin: 3.6px 0 0 calc(50% - 160px);
   }
 }
+
+/* legacy template family: the adcomponent slot is 176px tall at 1440 (creative at +43) and 98px at 360 (creative at +24) */
+body.legacy .ad-slot {
+  height: 160px;
+  padding-top: 35px;
+}
+
+@media (width <= 767px) {
+  body.legacy .ad-slot {
+    height: 82px;
+    padding-top: 16px;
+  }
+
+  body.legacy .ad-slot .ad-slot-creative {
+    margin-top: 0;
+  }
+}
