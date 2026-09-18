@@ -1,7 +1,9 @@
 /**
  * calendar — client-only event calendar over the events snapshot (stardust/dynamic-features.md #1).
  *
- * Authoring (key-value config, D14): `source` — the events JSON (default /data/events.json).
+ * Authoring (key-value config, D14): `source` — the events sheet (default /data/events.json,
+ *   a DA sheet with columns eventTitle · eventDescription · eventStartDate · eventEndDate ·
+ *   eventType · eventTags · eventLink · isSponsoredEvent).
  * The source's Vue widget (search form · v-calendar month grid · selected-day list) is rebuilt with
  * local state; the visible words are widget chrome (labels, weekday/month names) or runtime values
  * from the feed. The page's authored fallback is the "Event Calendar at a Glance" event-cards rail.
@@ -71,7 +73,7 @@ export default async function decorate(block) {
   let events = [];
   try {
     const resp = await fetch(source);
-    if (resp.ok) ({ events = [] } = await resp.json());
+    if (resp.ok) { const json = await resp.json(); events = json.data || json.events || []; }
   } catch (e) { /* offline — empty calendar */ }
 
   const today = new Date();

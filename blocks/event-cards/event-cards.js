@@ -92,7 +92,8 @@ export default async function decorate(block) {
   try {
     const resp = await fetch('/data/events.json');
     if (!resp.ok) return;
-    const { events = [] } = await resp.json();
+    const json = await resp.json();
+    const events = json.data || json.events || []; // DA sheet rows (or the legacy AEM feed shape)
     const now = Date.now();
     const titles = new Set([...grid.querySelectorAll('.event-title')].map((t) => t.textContent.trim().toLowerCase()));
     events

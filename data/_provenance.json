@@ -1,1 +1,39 @@
-{"writtenBy":"stardust:dynamics (snapshot tier)","writtenAt":"2026-09-18T17:27:24Z","source":"https://www.ustanationalcampus.com","snapshots":{"events.json":{"endpoint":"/usta/events?dataPagePath=/content/dam/nationalcampus/content-fragments/events/national-campus-events&source=contentFragments","items":353,"fields":["eventTitle","eventDescription","eventStartDate","eventEndDate","eventType","eventTags","eventLink","isSponsoredEvent"]},"newsfeed.json":{"endpoint":"/usta/nc/newsfeed?newsType=headline&resultsPerPage=1000&pageNo=1","items":909,"fields":["isAsset","imageLink","description","date","title","link"]},"photogallery-collegiate.json":{"endpoint":"/usta/nc/photogallery?galleryPath=/content/nationalcampus/en/home/events/collegiate/jcr:content/content/photogallery/galleryoneitems&galleryType=filters&serviceType=photogallery","items":10}},"refresh":"node stardust/scripts/dynamics/snapshot-api.mjs (see stardust/dynamic-features-plan.md § D2-b)","ownerDecision":"events feed: enable CORS on the source or move to a DA sheet — until then this snapshot is the interim tier (stardust/dynamic-features.md #1, #2)"}
+{
+ "writtenBy": "stardust:dynamics (snapshot tier)",
+ "writtenAt": "2026-09-18T17:27:24Z",
+ "source": "https://www.ustanationalcampus.com",
+ "snapshots": {
+  "events.json": {
+   "movedTo": "DA sheet /data/events.json (content bus) — owner decision 2026-09-18: events live in a da.live sheet; refresh by editing the sheet at https://da.live/#/aemcoder/sdt-ustanationalcampus/data/events",
+   "columns": [
+    "eventTitle",
+    "eventDescription",
+    "eventStartDate",
+    "eventEndDate",
+    "eventType",
+    "eventTags",
+    "eventLink",
+    "isSponsoredEvent"
+   ],
+   "rows": 353
+  },
+  "newsfeed.json": {
+   "endpoint": "/usta/nc/newsfeed?newsType=headline&resultsPerPage=1000&pageNo=1",
+   "items": 909,
+   "fields": [
+    "isAsset",
+    "imageLink",
+    "description",
+    "date",
+    "title",
+    "link"
+   ]
+  },
+  "photogallery-collegiate.json": {
+   "endpoint": "/usta/nc/photogallery?galleryPath=/content/nationalcampus/en/home/events/collegiate/jcr:content/content/photogallery/galleryoneitems&galleryType=filters&serviceType=photogallery",
+   "items": 10
+  }
+ },
+ "refresh": "node stardust/scripts/dynamics/snapshot-api.mjs (see stardust/dynamic-features-plan.md § D2-b)",
+ "ownerDecision": "events feed: enable CORS on the source or move to a DA sheet — until then this snapshot is the interim tier (stardust/dynamic-features.md #1, #2)"
+}

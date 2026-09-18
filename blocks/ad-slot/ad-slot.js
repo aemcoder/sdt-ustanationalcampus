@@ -62,18 +62,26 @@ export default async function decorate(block) {
   block.setAttribute('aria-label', 'Advertisement');
   block.replaceChildren(skip, wrap, anchor);
 
-  if (media) return;
   try {
     const { default: config } = await import('../../scripts/site-config.js');
-    if (config.gpt?.enabled && window.googletag?.cmd) {
-      const unit = config.gpt.adUnits?.ros;
-      window.googletag.cmd.push(() => {
-        window.googletag.defineSlot(unit, [[728, 90], [320, 50]], id)
-          .addService(window.googletag.pubads());
-        window.googletag.display(id);
-      });
-    }
+    // without GPT the authored creative (or the grey box) stands
+    if (!config.gpt?.enabled) return;
+    // live GPT slot exactly as the source: unit /5681/National_Campus,
+    // size mapping 1024→728×90 / 100→320×50
+    creative.replaceChildren();
+    creative.classList.add('ad-slot-gpt');
+    window.googletag = window.googletag || { cmd: [] };
+    window.googletag.cmd.push(() => {
+      const g = window.googletag;
+      let mapping = g.sizeMapping();
+      (config.gpt.sizeMapping || []).forEach(([vp, size]) => { mapping = mapping.addSize(vp, size); });
+      g.defineSlot(config.gpt.adUnit, config.gpt.sizes || [[320, 50], [728, 90]], id)
+        .defineSizeMapping(mapping.build())
+        .addService(g.pubads())
+        .setTargeting('pos', '');
+      g.display(id);
+    });
   } catch (e) {
-    // site-config unavailable (inline harness) — the static placeholder stands
+    // site-config unavailable (inline harness) — the static creative stands
   }
 }
