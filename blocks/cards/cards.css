@@ -257,3 +257,7 @@ main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-headin
   font-size: 16px;
   line-height: 22.8571px;
 }
+
+.cards.team.landscape .card-text .button-wrapper {
+  margin: 10px 0 30px;
+}
