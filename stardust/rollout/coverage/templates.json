@@ -8,7 +8,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-09-18T20:12:30.091Z",
+  "generatedAt": "2026-09-18T20:22:29.203Z",
   "templates": [
     {
       "id": "en-home-about-holiday-hours-html",
@@ -22,8 +22,8 @@
         "holiday-hours"
       ],
       "delivery": {
-        "verified": 1,
-        "deployed": 0,
+        "verified": 0,
+        "deployed": 1,
         "contentPending": 0,
         "pending": 0
       }
@@ -48,8 +48,8 @@
         "teasers"
       ],
       "delivery": {
-        "verified": 7,
-        "deployed": 0,
+        "verified": 0,
+        "deployed": 7,
         "contentPending": 0,
         "pending": 0
       }
@@ -89,8 +89,8 @@
         "article-text"
       ],
       "delivery": {
-        "verified": 1,
-        "deployed": 0,
+        "verified": 0,
+        "deployed": 1,
         "contentPending": 0,
         "pending": 0
       }
@@ -107,8 +107,8 @@
         "holiday-hours"
       ],
       "delivery": {
-        "verified": 1,
-        "deployed": 0,
+        "verified": 0,
+        "deployed": 1,
         "contentPending": 0,
         "pending": 0
       }
@@ -153,8 +153,8 @@
         "separator-4"
       ],
       "delivery": {
-        "verified": 18,
-        "deployed": 0,
+        "verified": 0,
+        "deployed": 18,
         "contentPending": 0,
         "pending": 0
       }
@@ -1072,8 +1072,8 @@
         "article-body"
       ],
       "delivery": {
-        "verified": 903,
-        "deployed": 0,
+        "verified": 0,
+        "deployed": 903,
         "contentPending": 0,
         "pending": 0
       }
@@ -1099,8 +1099,8 @@
         "useful-information"
       ],
       "delivery": {
-        "verified": 7,
-        "deployed": 0,
+        "verified": 0,
+        "deployed": 7,
         "contentPending": 0,
         "pending": 0
       }

@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:replica",
-    "writtenAt": "2026-09-18T18:07:47.152Z",
+    "writtenAt": "2026-09-18T20:22:29.283Z",
     "stardustVersion": "0.22.1"
   },
   "canon": {
@@ -1246,5 +1246,41 @@
         "Sibling news pages may carry a YouTube embed (#videoData) — not present on this page; variant slot left in the DOM."
       ]
     }
+  },
+  "publishedOrigin": {
+    "regime": "published-origin (source-fidelity-gate.md § The published-origin gate)",
+    "origin": "https://main--sdt-ustanationalcampus--aemcoder.aem.page",
+    "results": {
+      "en-home-html": {
+        "360": "3.00% Δh0 PASS",
+        "1440": "0.97% Δh-1 header 100% footer 99.24% PASS"
+      },
+      "en-home-about-html": {
+        "360": "1.71% Δh0 PASS",
+        "1440": "1.01% Δh0 header 100% footer 99.79% PASS"
+      },
+      "en-home-play-private-lessons-html": {
+        "360": "3.17% Δh2 PASS",
+        "1440": "0.88% Δh0 header 100% footer 99.75% PASS"
+      },
+      "en-home-visit-html": {
+        "360": "16.33% Δh-6 FAIL — service-tiles mobile grid rows differ (residual, follow-up round)",
+        "1440": "0.18% Δh0 PASS"
+      },
+      "en-home-visit-health-and-wellness-hydration-matters-html": {
+        "360": "18.31% Δh+63 FAIL",
+        "1440": "13.30% Δh+43 FAIL — legacy title/table spacing (residual, follow-up round)"
+      },
+      "en-home-news-holiday-hours-html": {
+        "360": "11.08% Δh-6 FAIL — 360 prose pitch (residual)",
+        "1440": "4.47% Δh+16 PASS"
+      }
+    },
+    "reconcileRounds": [
+      "#buttonize: pipeline hoists <a><strong> → button (footer + 6 pages)",
+      "picture-wrapper: p > img selectors → descendant (icon-heading, -949px on private-lessons)",
+      "legacy ad-slot geometry variant",
+      "#112 spacers: zero-width-space paragraphs replace margin stand-ins (legacy richtext)"
+    ]
   }
 }

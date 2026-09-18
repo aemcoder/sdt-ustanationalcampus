@@ -96,3 +96,21 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** stage all documents to DA; once Code Sync is registered → preview/publish (deploy-batch re-run), published-origin gate, rollout verify/optimize/report, dynamics parity replay.
 
 ---
+## 2026-09-18T20:22:30Z — Delivered to EDS preview/live, published-origin reconcile, rollout gates
+
+**Prompt:** *(continuation; user note about unintentional changes from another session)*
+
+**Decisions:**
+- Code Sync was registered outside this session (PAT refreshed by the user at ~20:55 local); code + content preview at `main--sdt-ustanationalcampus--aemcoder.aem.page`. All 943 documents delivered with `deploy-batch` (PUT → preview → live), 938 verified by `verify.mjs`; 5 archive pages needed dead-image omission (source 404s) — 118 dead images omitted across the archive via `news-media-check.mjs`; body h1s demoted to h2 (one h1 per page).
+- Published-origin reconcile round (one budgeted round, anchors-driven): (1) pipeline hoists emphasis out of anchors → link-only paragraphs buttonised (footer +41px) — authored as plain links, footer weight via CSS; (2) `p > img` selectors vs the `<picture>` wrapper — descendant selectors (private-lessons 29.96% → 0.88%); (3) legacy ad-slot geometry variant; (4) spacer restoration: zero-width-space paragraphs (survive the pipeline) replace margin/padding stand-ins in legacy richtext (visit 1440: 6.16% → 0.18%, Δh 0).
+- Published-origin gate: home 0.97 / 3.00 %, about 1.01 / 1.71 %, private-lessons 0.88 / 3.17 %, visit 0.18 % (1440) — all Δh ≤ 2, chrome header 100 %. Residuals for a follow-up round: visit 360 (16.3 %, service-tiles mobile rows), hydration-matters (13.3 % / 18.3 %, +43/+63 px legacy title/table spacing), holiday-hours 360 (11.1 %).
+- Dynamics parity replay 16/16 after aligning checks to the delivered DOM; rollout optimize gate: no P1 (P3 duplicate descriptions are source-faithful duplicates: connect = about, court-booking = book-a-court, both holiday-hours URLs).
+- Query index (`news` sheet) still to be configured by an org admin (stardust/rollout/INDEX-CONFIG.md); news-listing and breadcrumb fall back correctly meanwhile.
+
+**Artifacts touched:** content/** (re-drives), blocks/{header,footer,ad-slot,table}, styles/styles.css, stardust/scripts/{news-media-check,rollout-reconcile,published-gate.sh,legacy-author,news-author,news-accept}.mjs, stardust/rollout/{coverage,dashboard,optimize,site,REPORT.md}, stardust/qa/dynamics-report.md, stardust/dynamics/parity.json, stardust/replica/progress.json (publishedOrigin), stardust/learnings.md, stardust/state.json
+
+**Open questions:** owner decision batch (events feed CORS/sheet, tags + ids, OneTrust domain, Graphik licence); query-index config; follow-up fidelity round on the three residual pages; publish to a production domain.
+
+**Next:** hand-off report.
+
+---

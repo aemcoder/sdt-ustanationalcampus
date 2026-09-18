@@ -47,3 +47,27 @@
 - evidence: legacy USTA pages ship without `<!DOCTYPE>`; quirks mode changes line boxes (bold-only `<p>` 24px vs 35px, table line-height normal); standards mode measured main +48px on /news/campus-pro-shop. The article prototypes mirror quirks mode; EDS delivers standards mode, so the delivered legacy pages need explicit line-height/height rules for those cases (`body.legacy` CSS) and carry a documented residual otherwise.
 - proposed change: `skills/replica/reference/recreation-procedure.md` § CSS lifting — lift `document.compatMode` per template family and record it as a capture fact; `skills/deploy/SKILL.md` § 3 Foundation — name quirks-mode sources as a class whose line-box deltas must be encoded explicitly
 - status: pending
+
+### Pipeline hoists emphasis out of anchors → link-only paragraphs become buttons
+- failure class: silent-render (published-origin only; harness passed)
+- evidence: `<p><a><strong>VIEW HOLIDAY HOURS</strong></a></p>` delivered as `<p><strong><a>…</a></strong></p>` → `decorateButtons` made it `a.button.primary` (footer +41px on every page; 6 content pages). The harness (no pipeline) rendered it as a bold link.
+- proposed change: `skills/deploy/SKILL.md` § The ENCODE contract → Buttons: state that emphasis INSIDE an anchor is normalised to the outside by the pipeline, so a bold standalone link must be styled by the block/section CSS, never authored with `<a><strong>`; add the pattern to `davids-model-lint.mjs` as a 🟡
+- status: pending
+
+### `p > img` selectors silently break under the pipeline's `<picture>` wrapper
+- failure class: silent-render (harness passed with bare `<img>`)
+- evidence: section styles written as `:has(> p > img)` never matched the delivered `<p><picture><img>`; the FAQ icon rendered full-width (+949px on /play/private-lessons). Descendant selectors fixed it.
+- proposed change: `skills/deploy/SKILL.md` § 3 Foundation / § 7 brief — forbid `> img` / `> picture` child combinators in block and section CSS; lint for them; make `build-harness.mjs` wrap authored images in `<picture>` so the harness reproduces the pipeline shape
+- status: pending
+
+### Zero-width-space paragraphs survive the pipeline — an exact spacer mechanism
+- failure class: capture-gap → fix (#112)
+- evidence: `<p>&#8203;</p>` delivered intact (`/drafts/zwsp-test`) while `<p>&nbsp;</p>` and trailing `<br>`s are dropped; one ZWSP paragraph per source blank line reproduced the quirks-mode richtext heights (visit 1440: 6.2% → 0.18%, Δh 0)
+- proposed change: `skills/deploy/SKILL.md` § The ENCODE contract (#112) — replace "model spacer heights as CSS" with "author one `<p>&#8203;</p>` per source blank line (n−1 for a run of n `<br>`)" for legacy/richtext sources; `migrate/reference/content-preservation.md` § paragraph boundaries
+- status: pending
+
+### zsh drops PATH inside for-loops in this harness
+- failure class: instrument-defect
+- evidence: `tr`, `tail`, `grep` "command not found" inside `for … do` in a Bash-tool command; results silently empty
+- proposed change: already in deploy SKILL.md § Deploy (write loops to a script file with absolute binary paths) — surface it in `stardust/SKILL.md` § Setup as a harness-wide rule
+- status: pending

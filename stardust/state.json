@@ -6,12 +6,13 @@
   },
   "site": {
     "originUrl": "https://www.ustanationalcampus.com/",
-    "deployUrl": null,
+    "deployUrl": "https://main--sdt-ustanationalcampus--aemcoder.aem.page",
     "extractedAt": "2026-09-18T16:54:41.268Z",
     "pageCap": 0,
     "totalDiscovered": 75,
     "crawled": 50,
-    "discovery": "BFS depth-4 (no sitemap); 50 live / 25 404 links"
+    "discovery": "BFS depth-4 (no sitemap); 50 live / 25 404 links",
+    "liveUrl": "https://main--sdt-ustanationalcampus--aemcoder.aem.live"
   },
   "direction": {
     "resolvedAt": "2026-09-18T17:02:45Z",
@@ -1405,5 +1406,12 @@
     ],
     "note": "archetypes-only (replica); siblings are authored directly as EDS content by the deploy agents (rollout archetypes-only mode)",
     "migratedAt": "2026-09-18T18:07:47.186Z"
+  },
+  "rollout": {
+    "deployed": 938,
+    "verified": 938,
+    "coverage": "stardust/rollout/coverage/pages.json",
+    "publishedGate": "stardust/replica/gates/*/published.txt",
+    "at": "2026-09-18T20:22:29.280Z"
   }
 }
