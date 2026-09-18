@@ -83,8 +83,18 @@ export default function decorate(block) {
       else panel.setAttribute('aria-hidden', 'true');
     });
   };
+  // xs: the list behaves like the source's <select> — the active tab toggles the list open,
+  // a pick closes it
+  const xs = window.matchMedia('(width <= 767px)');
   tabs.forEach(({ tab }, i) => {
-    tab.addEventListener('click', () => select(i));
+    tab.addEventListener('click', () => {
+      if (xs.matches && tab.classList.contains('active')) {
+        list.classList.toggle('open');
+        return;
+      }
+      select(i);
+      list.classList.remove('open');
+    });
     tab.addEventListener('keydown', (e) => {
       if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
         const n = (i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length;

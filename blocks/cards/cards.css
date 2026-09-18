@@ -252,7 +252,6 @@ main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-headin
 }
 
 .cards.team.landscape .card-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(.button-wrapper) {
-  min-height: 65px;
   margin: 5px 0 10px;
   font-size: 16px;
   line-height: 22.8571px;
@@ -294,3 +293,44 @@ main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-headin
     font-size: 44px;
   }
 }
+
+/* stylelint-disable no-descending-specificity -- variant rules appended after the base rules by design */
+
+/* four: flag / icon cards cap the image at the source's 186px column (BNP qualified teams) */
+.cards.four.icons .card-image {
+  max-width: 186px;
+  margin: 0 auto;
+}
+
+/* team landscape: one fixed 65px description box holds every description paragraph */
+.cards.team.landscape .card-text :is(h3, h4) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(.button-wrapper) {
+  min-height: 65px;
+}
+
+.cards.team.landscape .card-text :is(h3, h4) + :is(p, .prosemirror-editor) ~ :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(.button-wrapper) {
+  margin: -42px 0 29px;
+}
+
+@media (width <= 767px) {
+  .cards.four.icons .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cards.four.icons .card-image {
+    max-width: 69px;
+  }
+
+  .cards.team.landscape .cards-grid {
+    gap: 0;
+  }
+
+  .cards.team.landscape .card {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .cards.team.landscape .card-text {
+    padding-top: 0;
+  }
+}
+/* stylelint-enable no-descending-specificity */

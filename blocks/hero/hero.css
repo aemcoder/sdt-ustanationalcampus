@@ -143,7 +143,15 @@
 
 .hero.boxed.light .hero-lede {
   margin: 0 6px;
+  padding: 0;
+}
+
+.hero.boxed.light .hero-lede :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
   padding: 8px 0;
+}
+
+.hero.boxed.light .hero-actions a.button:not(.accent, .secondary):any-link {
+  height: 56px;
 }
 
 
@@ -359,6 +367,99 @@
 
   .hero.banner.green .hero-lede {
     width: 100%;
+  }
+}
+/* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- variant family appended after the base rules by design */
+
+/* ---- boxed light cols-8: the source nests a padding-left-triple container (text 900 inside the 936 grid) ---- */
+.hero.boxed.light.cols-8 :is(.hero-title, .hero-lede, .hero-extra) {
+  width: calc(100% - 36px);
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.hero.boxed.light .hero-extra h4 {
+  margin: 10px 0;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-black);
+}
+
+/* ---- dark-band (/watch): 49% black scrim band, centred 8/12 title, three white pills in a row, 64px margins ---- */
+.hero.dark-band {
+  margin: 72px 0;
+}
+
+.hero.dark-band .hero-box-wrap {
+  width: 100%;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.hero.dark-band .hero-box {
+  padding: 64px 0;
+  background: rgb(0 0 0 / 49%);
+}
+
+.hero.dark-band .hero-title {
+  width: calc(100% * 8 / 12 - 12px);
+  margin: 0 auto;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.hero.dark-band .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8px 0;
+}
+
+.hero.dark-band .hero-actions :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  width: calc(100% / 3 - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.hero.dark-band .hero-actions a.button:any-link {
+  display: flex;
+  width: 100%;
+  height: 56px;
+  padding: 14px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+@media (width <= 767px) {
+  .hero.boxed.light.cols-8 :is(.hero-title, .hero-lede, .hero-extra) {
+    width: calc(100% - 24px);
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .hero.dark-band {
+    margin: 40px 0;
+  }
+
+  .hero.dark-band .hero-box {
+    padding: 32px 0;
+  }
+
+  .hero.dark-band .hero-title :is(h1, h2, h3) {
+    font-size: 54px;
+  }
+
+  .hero.dark-band .hero-actions {
+    max-width: calc(100% - 24px);
+  }
+
+  .hero.dark-band .hero-actions :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+    width: calc(100% - 12px);
   }
 }
 /* stylelint-enable no-descending-specificity */

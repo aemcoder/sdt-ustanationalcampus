@@ -162,7 +162,7 @@ main .section.columns-container:is(.icon-heading, .icon-heading-grid, .icon-head
 }
 
 /* ---- image-text intro (program pages): 64px margins, photo first, h2 + spacer + prose + centred pill ---- */
-main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon-heading-large)) > .columns-wrapper:not(:has(> .band)) {
+main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon-heading-large)) > .columns-wrapper:not(:has(> .band, > .icon-grid, > .tight, > .legacy-inline)) {
   margin: 64px auto;
 }
 
@@ -281,7 +281,7 @@ main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon
     padding: 24px 12px 16px;
   }
 
-  main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon-heading-large)) > .columns-wrapper:not(:has(> .band)) {
+  main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon-heading-large)) > .columns-wrapper:not(:has(> .band, > .icon-grid, > .tight, > .legacy-inline)) {
     margin: 32px auto;
   }
 
@@ -312,6 +312,84 @@ main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon
 
   .columns.band .columns-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(a.button) {
     width: calc(100% - 12px);
+  }
+}
+/* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- variant rules appended after the base rules by design */
+.columns.band.tall .columns-media {
+  padding: 264px 0;
+}
+
+.columns.band.pb-192 .columns-media {
+  padding-bottom: 192px;
+}
+
+.columns.band .columns-text h5 {
+  margin: 10px 0;
+}
+
+@media (width <= 767px) {
+  .columns.band.tall .columns-media {
+    padding: 136px 0;
+  }
+
+  .columns.band.pb-192 .columns-media {
+    padding-bottom: 96px;
+  }
+
+  /* mobile-image: the source shows the photo above the text on xs */
+  .columns.image-text.mobile-image:not(.band) .columns-media {
+    display: block;
+    order: -1;
+    width: 100%;
+    margin: 0;
+    padding: 8px 6px;
+  }
+}
+/* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- variant rules appended after the base rules by design */
+.columns.band.terracotta {
+  background: #c15642;
+}
+
+/* band narrow-text: the source text column sits in a padding-left/right-triple container (568 of 720) */
+.columns.band.narrow-text .columns-text {
+  padding: 8px 76px;
+}
+
+/* cols-5-7: 5/12 media + 7/12 text */
+.columns.cols-5-7 .columns-row > .columns-col:first-child {
+  width: 41.6667%;
+}
+
+.columns.cols-5-7 .columns-row > .columns-col:last-child {
+  width: 58.3333%;
+}
+
+.columns.image-text.cols-5-7 .columns-row > .columns-media:first-child {
+  width: calc(41.6667% - 12px);
+}
+
+/* program-page cmp-text h3 inside image-text columns is the 56px display face */
+.columns.image-text .columns-text :is(h3, .prosemirror-editor h3) {
+  font-family: var(--font-display);
+  font-size: var(--size-h3-tile);
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-black);
+  text-transform: none;
+}
+
+@media (width <= 767px) {
+  .columns.cols-5-7 .columns-row > .columns-col:first-child,
+  .columns.cols-5-7 .columns-row > .columns-col:last-child {
+    width: 100%;
+  }
+
+  .columns.band.narrow-text .columns-text {
+    padding: 8px 12px;
   }
 }
 /* stylelint-enable no-descending-specificity */

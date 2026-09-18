@@ -192,3 +192,44 @@ main .section.news-listing-container .default-content-wrapper :is(h1, h2) ~ .pro
     font-size: 13px;
   }
 }
+
+/* stylelint-disable no-descending-specificity -- xs rules appended after the base rules by design */
+@media (width <= 767px) {
+  .news-listing .news-grid {
+    width: 330px;
+    margin: 30px auto 17px;
+  }
+
+  /* xs tile text: category + date on one line, title below (source h4.tilehead + span.dateHead, p.tilePara) */
+  .news-listing .news-card-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 12px;
+  }
+
+  .news-listing .news-card-category,
+  .news-listing .news-card-date {
+    flex: 0 0 auto;
+  }
+
+  .news-listing .news-card-category {
+    order: 1;
+  }
+
+  .news-listing .news-card-date {
+    order: 2;
+  }
+
+  .news-listing .news-card-date p {
+    margin: 0 0 11px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .news-listing .news-card-title {
+    order: 3;
+    flex: 1 1 100%;
+  }
+}
+/* stylelint-enable no-descending-specificity */

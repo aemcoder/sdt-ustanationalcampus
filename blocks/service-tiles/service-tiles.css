@@ -372,11 +372,6 @@ main .section.service-tiles-container {
 }
 
 @media (width <= 767px) {
-  /* source .boxTileSmall is a 0-height block on xs (its 10px margin stays) */
-  .service-tiles .service-tile-more a:any-link {
-    display: none;
-  }
-
   main .section.service-tiles-container {
     padding: 76px 0 0;
   }
@@ -431,3 +426,12 @@ main .section.service-tiles-container {
     margin: 29px 0 0;
   }
 }
+
+/* stylelint-disable no-descending-specificity -- xs follow-up appended after the base rules by design */
+@media (width <= 767px) {
+  /* tiles without a "View More" label: the source keeps the empty label's 10px margin */
+  .service-tiles .service-tile-text:not(:has(.service-tile-more)) {
+    padding-bottom: 25px;
+  }
+}
+/* stylelint-enable no-descending-specificity */

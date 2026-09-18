@@ -4,7 +4,7 @@ import fs from 'node:fs'; import path from 'node:path'; import { spawn } from 'n
 const PUB='https://main--sdt-ustanationalcampus--aemcoder.aem.page'; const CONC=+(process.env.CONC||5);
 const st=JSON.parse(fs.readFileSync('stardust/state.json','utf8')); const map=JSON.parse(fs.readFileSync('stardust/.work/pagemap.json','utf8'));
 const arche=new Set(Object.values(st.replica.archetypes).concat(['en-home-about-holiday-hours-html','en-home-news-campus-pro-shop-html']));
-const only=process.argv.slice(2); const pages=st.pages.filter(p=>p.type!=='redirect' && !arche.has(p.slug) && (!only.length||only.includes(p.slug)));
+const only=process.argv.slice(2); const pages=st.pages.filter(p=>p.type!=='redirect' && (process.env.ALL||!arche.has(p.slug)) && (!only.length||only.includes(p.slug)));
 const jobs=[]; for (const p of pages) for (const w of [1440,360]) jobs.push({slug:p.slug,type:p.type,live:p.url,pub:PUB+map[p.slug].path,path:map[p.slug].path,w});
 const outDir='stardust/replica/gates'; const summary=process.env.SUMMARY||'stardust/replica/gates/published-siblings.jsonl';
 const run=(args,log)=>new Promise((res)=>{ const ch=spawn('node',args,{stdio:['ignore','pipe','pipe']}); let out=''; ch.stdout.on('data',d=>out+=d); ch.stderr.on('data',d=>out+=d); ch.on('close',code=>{ if(log) fs.appendFileSync(log,out); res({code,out}); }); });

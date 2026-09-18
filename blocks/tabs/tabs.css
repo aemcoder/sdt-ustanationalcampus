@@ -71,20 +71,52 @@
 }
 
 @media (width <= 767px) {
+  /* xs: the source renders the tab list as one 56px select — show the active tab only, tap to open the list */
+  .tabs {
+    padding: 12px 0 0;
+  }
+
   .tabs .tabs-list {
     flex-direction: column;
     align-items: stretch;
-    padding: 8px 0;
-    border-bottom: 0;
+    padding: 0;
+    border: 1px solid var(--color-rule);
   }
 
   .tabs .tabs-tab {
+    position: relative;
+    min-height: 54px;
     margin-bottom: 0;
+    padding-right: 40px;
     border-bottom: 1px solid var(--color-rule);
   }
 
+  .tabs .tabs-tab:last-child {
+    border-bottom: 0;
+  }
+
+  .tabs .tabs-list:not(.open) .tabs-tab:not(.active) {
+    display: none;
+  }
+
   .tabs .tabs-tab.active {
-    border-bottom: 4px solid var(--color-black);
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .tabs .tabs-tab.active::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--color-black);
+    border-bottom: 2px solid var(--color-black);
+    transform: translateY(-70%) rotate(45deg);
+  }
+
+  .tabs .tabs-list.open .tabs-tab.active::after {
+    transform: translateY(-30%) rotate(225deg);
   }
 }
 
@@ -103,3 +135,18 @@
     margin-bottom: 32px;
   }
 }
+
+/* stylelint-disable no-descending-specificity -- panel typography appended after the base rules by design */
+.tabs .tabs-panel :is(h3, .prosemirror-editor h3) {
+  font-family: var(--font-display);
+  font-size: var(--size-h3-tile);
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-black);
+  text-transform: none;
+}
+
+.tabs .tabs-panel :is(h3, .prosemirror-editor:has(h3)) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: 0;
+}
+/* stylelint-enable no-descending-specificity */

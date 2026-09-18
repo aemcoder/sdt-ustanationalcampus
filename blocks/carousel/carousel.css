@@ -129,3 +129,12 @@
 .carousel.cols-7 {
   width: calc(100% * 7 / 12);
 }
+
+/* stylelint-disable no-descending-specificity -- xs rule appended after the variants by design */
+@media (width <= 767px) {
+  .carousel.wide,
+  .carousel.cols-7 {
+    width: calc(100% - 12px);
+  }
+}
+/* stylelint-enable no-descending-specificity */
