@@ -1438,9 +1438,9 @@ body.content-page main .default-content-wrapper h5 strong {
   font-weight: 700;
 }
 
-/* 24px spacer line + the next h5's 10px top margin (adjacent margins collapse, so the pitch rides one value) */
+/* the source's <p>&nbsp;</p> spacer lines are authored as zero-width-space paragraphs (24px lines), so p carries no margin */
 body.content-page main .default-content-wrapper p {
-  margin: 0 0 34px;
+  margin: 0;
 }
 
 @media (width <= 1199px) {
