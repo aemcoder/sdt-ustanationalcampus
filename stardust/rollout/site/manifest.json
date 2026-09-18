@@ -1,0 +1,19 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/assemble",
+    "writtenAt": "2026-09-18T19:22:45.349Z",
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-09-18T19:22:45.349Z",
+  "host": null,
+  "sitemap": "stardust/rollout/site/sitemap.xml",
+  "robots": "stardust/rollout/site/robots.txt",
+  "fragments": [
+    {
+      "id": "footer",
+      "target": "fragments/footer.html",
+      "canonSource": null,
+      "status": "pending"
+    }
+  ]
+}

@@ -77,3 +77,22 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** conversion agents → local QA → commit → deliver to DA once Code Sync is registered (or deliver content to DA regardless and publish when the site config exists).
 
 ---
+## 2026-09-18T19:23:30Z — EDS conversion complete (author-only), main pushed, DA staging
+
+**Prompt:** *(continuation of the hands-off replica run; user note: another session made unintentional changes)*
+
+**Decisions:**
+- Two conversion agents converted the site: modern family (hero, tile-mosaic, stat-band, cards, teaser, accordion, tabs, carousel, table, columns, event-cards, calendar, ad-slot, embed auto-block; 26 pages) and legacy/content-page family (service-tiles, news-listing, legacy + article-hero section styles; 23 pages + the 892-page archive via `news-author.mjs`). All pages: davids-model-lint 0 🔴, one h1, EW probe 0 dead, eslint/stylelint 0, localize-links check 0.
+- Runtime harness evidence: converted home page vs live capture 1.04 % pixel / Δh −1 at 1440; about/private-lessons section geometry equals the prototypes at both widths.
+- Another session (not this run) committed the agents' in-progress work as branch `first-pages` (20:46) and uploaded /nav, /footer, /about, /play/private-lessons to da.live; audited — consistent with the agents' output, nothing destructive. Committed the finished work on that branch, fast-forwarded `main`, pushed both.
+- `service-tiles` added (legacy card grids hide real copy behind collapse panels → needs JS; supersedes the planned CSS-only cards.legacy). `article-hero` became a default-content section style after the D1 lint advisory.
+- Known residual classes (recorded in stardust/eds-conversion-log.md § Running notes): legacy pages render standards-mode vs the source's quirks mode and lose `<p>&nbsp;</p>` spacers (#112) → shorter prose bands; ad creatives frozen as static images; a handful of sibling-tier bespoke bands authored with the nearest section style (listed by the modern agent); news share modal / collegiate gallery 2nd tab / usta.com proxy content not migrated.
+- Delivery: DA source PUTs proceed now; preview/publish blocked until Code Sync is registered (GH_PAT).
+
+**Artifacts touched:** blocks/*, styles/styles.css, scripts/scripts.js (embed auto-block), icons/*, content/** (943), stardust/eds-conversion-log.md, stardust/.work/deploy/*.log, stardust/rollout/{site,dashboard}, stardust/learnings.md
+
+**Open questions:** Code Sync registration; query-index `news` sheet (stardust/rollout/INDEX-CONFIG.md); owner decision batch; Graphik licence.
+
+**Next:** stage all documents to DA; once Code Sync is registered → preview/publish (deploy-batch re-run), published-origin gate, rollout verify/optimize/report, dynamics parity replay.
+
+---

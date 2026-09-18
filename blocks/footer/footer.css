@@ -168,7 +168,7 @@ footer .site-footer-address a:any-link {
   text-decoration: none;
 }
 
-footer .site-footer-schedule a strong {
+footer .site-footer-schedule a:any-link {
   font-weight: 900;
   text-decoration: underline;
 }
