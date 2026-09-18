@@ -611,7 +611,7 @@ main .section.contact-grey .default-content-wrapper :is(p, .prosemirror-editor):
   display: flex;
   justify-content: center;
   width: calc(100% * 3 / 8);
-  margin: 32px 0;
+  margin: 0;
   padding: 16px 6px;
 }
 
@@ -736,7 +736,7 @@ main .section:is(.program-head, .pad-medium) .default-content-wrapper :is(p, .pr
 
 /* clay CTA band (hub pages): full-bleed terracotta band, one centred accent pill (events "WATCH EVENTS LIVE") */
 main .section.clay-cta {
-  margin-top: 16px;
+  margin-top: 41px; /* 9px transparent separator + margin-top-small 32 */
   background: #c6583f;
 }
 
@@ -745,14 +745,14 @@ main .section.clay-cta > .default-content-wrapper {
   justify-content: center;
   align-items: center;
   max-width: none;
-  min-height: 190px;
-  padding: 12px;
+  min-height: 90px;
+  padding: 17px 12px; /* 9 + 8 above the 56px pill, 8 + 9 below */
 }
 
 /* centred CTA band (hub/program pages): centred heading + prose + pill in a 10/12 column, 64px paddings */
 main .section.cta-band > .default-content-wrapper {
-  width: calc(100% * 10 / 12 - 12px);
-  padding: 64px 0;
+  width: calc(min(100%, 1200px) * 10 / 12 - 12px);
+  padding: 72px 0;
   text-align: center;
 }
 
@@ -763,7 +763,7 @@ main .section.cta-band .default-content-wrapper :is(p, .prosemirror-editor):wher
 main .section.cta-band .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(a.button) {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 33px;
 }
 
 @media (width <= 767px) {
@@ -1988,6 +1988,99 @@ body.legacy main .section.article-hero ~ .section .carousel.gallery .carousel-sl
 
   body.legacy main .section.article-hero ~ .section .carousel.gallery .carousel-slide img {
     height: auto;
+  }
+}
+/* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- section-level rules appended after the template rules by design */
+
+/* ==== sibling-gate round 2 — section-level rules measured on the program / hub pages ==== */
+
+/* program tab sections (`center` + tabs): cmp-container padding 32 above the core-tabs; button component 8 below + 32 + 8 */
+main .section.center.tabs-container {
+  padding-top: 32px;
+}
+
+main .section.tabs-container > .tabs-wrapper + .default-content-wrapper {
+  padding: 8px 0 40px;
+}
+
+/* FAQ accordion sections: cmp-container 32/64 + text 8 */
+main .section.narrow.accordion-container > .default-content-wrapper {
+  padding-top: 40px;
+}
+
+main .section.narrow.accordion-container > .accordion-wrapper {
+  padding-bottom: 72px;
+}
+
+main .section.icon-heading.accordion-container {
+  padding: 40px 0 48px;
+}
+
+/* centred sections centre their columns text too (pathway grids) */
+main .section.center .columns .columns-text {
+  text-align: center;
+}
+
+/* `grey-band` — full-width contact-grey container with 64px paddings (davebailey offerings) */
+main .section.grey-band {
+  padding: 64px 0;
+  background: var(--color-contact-grey);
+}
+
+/* hub cards sections: 8 + 8 + 32 above the heading (text component p8), 8 below it */
+main .section.cards-container:not(.icon-heading, .icon-heading-grid, .icon-heading-large) > .default-content-wrapper:first-child {
+  padding: 48px 0 0;
+}
+
+main .section.cards-container:not(.icon-heading, .icon-heading-grid, .icon-heading-large) > .default-content-wrapper:first-child :is(h2, .prosemirror-editor:has(h2)) {
+  padding: 8px 0;
+}
+
+/* the separator between the two hub card rows is transparent on the source */
+main .section.center .cards-wrapper + .cards-wrapper .cards::before {
+  border-top-color: transparent;
+}
+
+/* event-cards container: cmp-container padding-bottom 32 */
+main .section.event-cards-container {
+  padding-bottom: 32px;
+}
+
+/* /calendar: block sits 40 below the top; the events heading 112 below the widget */
+main .section.calendar-container {
+  padding-top: 40px;
+}
+
+main .section.calendar-container + .section.event-cards-container {
+  padding-top: 104px;
+}
+
+/* trailing app badges: container margin-bottom-small */
+main .section.app-badges:last-child {
+  padding-bottom: 32px;
+}
+
+@media (width <= 767px) {
+  main .section.clay-cta {
+    margin-top: 25px;
+  }
+
+  main .section.event-cards-container {
+    padding-bottom: 16px;
+  }
+
+  main .section.cards-container:not(.icon-heading, .icon-heading-grid, .icon-heading-large) > .default-content-wrapper:first-child {
+    padding-top: 32px;
+  }
+
+  main .section.center .cards-wrapper + .cards-wrapper .cards::before {
+    display: none;
+  }
+
+  main .section.app-badges:last-child {
+    padding-bottom: 16px;
   }
 }
 /* stylelint-enable no-descending-specificity */

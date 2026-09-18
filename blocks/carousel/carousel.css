@@ -124,3 +124,8 @@
 .carousel.hero .carousel-slide {
   padding-bottom: 50px;
 }
+
+/* ---- cols-7: the 7/12 grid column (padel, adult-tennis) ---- */
+.carousel.cols-7 {
+  width: calc(100% * 7 / 12);
+}

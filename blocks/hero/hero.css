@@ -291,3 +291,74 @@
     padding: 64px 0;
   }
 }
+
+/* stylelint-disable no-descending-specificity -- variant families appended after the base rules by design */
+
+/* ---- banner green (free30): 78% forest scrim, centred title / 8-of-12 semibold lede / centred pill ---- */
+.hero.banner.green .hero-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgb(25 70 46 / 78%);
+}
+
+.hero.banner.green .hero-box {
+  text-align: center;
+}
+
+.hero.banner.green .hero-lede {
+  width: calc(100% * 8 / 12);
+  margin: 0 auto;
+}
+
+.hero.banner.green .hero-lede :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  padding: 18px 0;
+  font-family: var(--font-semibold);
+  font-size: 22px;
+  line-height: 1.1;
+}
+
+.hero.banner.green .hero-actions {
+  justify-content: center;
+}
+
+/* ---- title-only hub (/play): 8/12 scrim box, 224 + 2×57 above, cmp padding 32 + text 8 ---- */
+.hero.title-only.hub .hero-box-wrap {
+  width: calc(100% * 8 / 12);
+  margin: 338px 0 32px;
+  padding: 0;
+}
+
+.hero.title-only.hub .hero-box {
+  padding: 40px 0;
+}
+
+.hero.title-only.hub .hero-title {
+  width: auto;
+  margin: 0 6px;
+  padding: 0;
+}
+
+.hero.title-only.hub .hero-lede :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  padding: 0;
+}
+
+@media (width <= 767px) {
+  .hero.boxed.light:is(.cols-7, .cols-8) .hero-box-wrap {
+    width: 100%;
+  }
+
+  .hero.title-only.hub .hero-box-wrap {
+    width: calc(100% * 11 / 12);
+    margin: 226px 0 16px;
+  }
+
+  .hero.title-only.hub .hero-box {
+    padding: 24px 0;
+  }
+
+  .hero.banner.green .hero-lede {
+    width: 100%;
+  }
+}
+/* stylelint-enable no-descending-specificity */

@@ -1,12 +1,16 @@
 /* tabs — values lifted from the live cmp-tabs (meet-our-team 1440: list 88px padding 22/18, tab 22px/48px
    uppercase semibold, 12px side padding; program pages: 18px/38px). Dusty-clay 4px rail, black active bar. */
+.tabs {
+  padding: 12px 0 8px; /* core-tabs wrapper */
+}
+
 .tabs .tabs-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0;
-  padding: 22px 0 18px;
-  border-bottom: 4px solid var(--color-contact-grey);
+  padding: 22px 0 14px;
+  border-bottom: 6px solid var(--color-contact-grey);
 }
 
 .tabs .tabs-tab {
@@ -81,5 +85,21 @@
 
   .tabs .tabs-tab.active {
     border-bottom: 4px solid var(--color-black);
+  }
+}
+
+/* panel display sub-heading (program tabs "Adult Clinics"): the source h3 is the 56px tile size */
+.tabs .tabs-panel :is(h2, .prosemirror-editor h2) {
+  font-size: var(--size-h3-tile);
+}
+
+/* large (team / camps tabs): each panel container ends with the source's margin-bottom-medium */
+.tabs.large .tabs-panel {
+  margin-bottom: 64px;
+}
+
+@media (width <= 767px) {
+  .tabs.large .tabs-panel {
+    margin-bottom: 32px;
   }
 }

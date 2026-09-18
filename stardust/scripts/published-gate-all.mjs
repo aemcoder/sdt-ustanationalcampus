@@ -6,7 +6,7 @@ const st=JSON.parse(fs.readFileSync('stardust/state.json','utf8')); const map=JS
 const arche=new Set(Object.values(st.replica.archetypes).concat(['en-home-about-holiday-hours-html','en-home-news-campus-pro-shop-html']));
 const only=process.argv.slice(2); const pages=st.pages.filter(p=>p.type!=='redirect' && !arche.has(p.slug) && (!only.length||only.includes(p.slug)));
 const jobs=[]; for (const p of pages) for (const w of [1440,360]) jobs.push({slug:p.slug,type:p.type,live:p.url,pub:PUB+map[p.slug].path,path:map[p.slug].path,w});
-const outDir='stardust/replica/gates'; const summary='stardust/replica/gates/published-siblings.jsonl';
+const outDir='stardust/replica/gates'; const summary=process.env.SUMMARY||'stardust/replica/gates/published-siblings.jsonl';
 const run=(args,log)=>new Promise((res)=>{ const ch=spawn('node',args,{stdio:['ignore','pipe','pipe']}); let out=''; ch.stdout.on('data',d=>out+=d); ch.stderr.on('data',d=>out+=d); ch.on('close',code=>{ if(log) fs.appendFileSync(log,out); res({code,out}); }); });
 let i=0, done=0; const results=[];
 async function worker(){ while(i<jobs.length){ const j=jobs[i++]; const G=path.join(outDir,`${j.slug}-${j.w}`); fs.mkdirSync(G,{recursive:true}); const t0=Date.now();

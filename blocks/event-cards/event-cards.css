@@ -34,7 +34,7 @@ main .section.event-cards-container .default-content-wrapper :is(h2, .prosemirro
 
 .event-cards .event-media :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
   margin: 0;
-  padding: 8px 0;
+  padding: 0; /* the source image sits at card p8 + container p32 = 40 from the heading */
   line-height: 0;
 }
 
@@ -92,5 +92,15 @@ main .section.event-cards-container .default-content-wrapper :is(h2, .prosemirro
 
   .event-cards .event-card {
     width: calc(100% - 12px);
+  }
+}
+
+@media (width <= 767px) {
+  .event-cards .event-title :is(h3, h4, .prosemirror-editor :is(h3, h4)) {
+    font-size: 22px;
+  }
+
+  .event-cards .event-date :is(p, h6, .prosemirror-editor :is(p, h6)) {
+    font-size: 16px;
   }
 }

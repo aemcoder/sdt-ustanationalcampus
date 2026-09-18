@@ -203,6 +203,10 @@ main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon
   background: var(--color-contact-grey);
 }
 
+.columns.band.amber {
+  background: #f0aa54;
+}
+
 .columns.band .columns-media {
   position: relative;
   width: 50%;

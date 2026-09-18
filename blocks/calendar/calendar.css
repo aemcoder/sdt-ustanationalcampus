@@ -30,7 +30,7 @@ main .section.calendar-container {
   margin-top: 14px;
 }
 
-.calendar .calendar-field:first-of-type {
+.calendar .calendar-search-title + .calendar-field {
   margin-top: 40px;
 }
 
@@ -65,8 +65,8 @@ main .section.calendar-container {
   align-items: center;
   justify-content: center;
   width: 160px;
-  height: 36px;
-  margin-top: 24px;
+  height: 39px;
+  margin: 25px 0 46px;
   padding: 0 14px;
   border: 0;
   border-radius: 9999px;
@@ -188,8 +188,10 @@ main .section.calendar-container {
 }
 
 .calendar .calendar-events {
+  max-height: 320px; /* the source list is a fixed 320px scroller */
   margin: 0 0 10px 20px;
   padding: 0 10px;
+  overflow-y: auto;
   list-style: none;
 }
 

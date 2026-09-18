@@ -587,3 +587,41 @@ main .section.tile-mosaic-container:is(.icon-heading, .icon-heading-grid, .icon-
   text-decoration: none;
 }
 /* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- instance rules appended after the base rules by design */
+
+/* ---- programs: instance-measured side rows (the source rows are content-driven, split by a 9px transparent separator) ---- */
+.tile-mosaic-wrapper + .tile-mosaic-wrapper {
+  margin-top: 9px;
+}
+
+.tile-mosaic.programs.compact .tile.photo .tile-caption {
+  padding: 0 12px;
+}
+
+@media (width >= 768px) {
+  .tile-mosaic.programs .tile-mosaic-side .tile:nth-child(n + 3) {
+    border-top: 9px solid var(--color-white);
+  }
+
+  .tile-mosaic.programs:not(.compact) .tile-mosaic-main {
+    min-height: 639px;
+  }
+
+  .tile-mosaic.programs:not(.compact) .tile-mosaic-side .tile:nth-child(-n + 2) {
+    min-height: 311px;
+  }
+
+  .tile-mosaic.programs:not(.compact) .tile-mosaic-side .tile:nth-child(n + 3) {
+    min-height: 329px;
+  }
+
+  .tile-mosaic.programs.compact .tile-mosaic-side .tile:nth-child(-n + 2):nth-last-child(n + 3) {
+    min-height: 289px;
+  }
+
+  .tile-mosaic.programs.compact .tile-mosaic-side .tile:nth-child(n + 3) {
+    min-height: 243px;
+  }
+}
+/* stylelint-enable no-descending-specificity */
