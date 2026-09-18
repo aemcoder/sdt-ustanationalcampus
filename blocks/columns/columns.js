@@ -19,13 +19,14 @@ const EMBED_HOSTS = /(^|\.)(youtube\.com|youtu\.be|vimeo\.com|ioncourt\.com)$/;
  * auto-block skips links inside blocks, so the column does it for its own cells).
  */
 function embedCell(cell) {
-  const link = cell.querySelector('p > a[href]:only-child');
+  const link = cell.querySelector('p > a[href]:only-child, :scope > a[href]:only-child');
   if (!link || cell.textContent.trim() !== link.textContent.trim()) return false;
   let url;
   try { url = new URL(link.href); } catch { return false; }
   if (!EMBED_HOSTS.test(url.hostname)) return false;
+  const holder = link.closest('p') || link; // buildBlock moves the link — resolve its holder first
   const embed = buildBlock('embed', { elems: [link] });
-  link.closest('p').replaceWith(embed);
+  holder.replaceWith(embed);
   decorateBlock(embed);
   loadBlock(embed);
   return true;

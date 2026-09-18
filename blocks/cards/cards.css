@@ -241,3 +241,19 @@ main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-headin
   }
 }
 /* stylelint-enable no-descending-specificity */
+
+/* ---- team landscape (book-a-court court teasers): 3:2 photo, 20px text padding, fixed 65px description ---- */
+.cards.team.landscape .card-image img {
+  aspect-ratio: 3 / 2;
+}
+
+.cards.team.landscape .card-text {
+  padding: 20px 20px 0;
+}
+
+.cards.team.landscape .card-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(.button-wrapper) {
+  min-height: 65px;
+  margin: 5px 0 10px;
+  font-size: 16px;
+  line-height: 22.8571px;
+}

@@ -303,6 +303,11 @@ main .section.service-tiles-container {
 }
 
 @media (width <= 991px) {
+  /* keep the text's 63px margin inside the tile so the absolute media sits at the tile top (source .boxTileContent) */
+  .service-tiles .service-tile-content {
+    display: flow-root;
+  }
+
   .service-tiles .service-tile-media {
     position: absolute;
     top: 0;
@@ -367,6 +372,11 @@ main .section.service-tiles-container {
 }
 
 @media (width <= 767px) {
+  /* source .boxTileSmall is a 0-height block on xs (its 10px margin stays) */
+  .service-tiles .service-tile-more a:any-link {
+    display: none;
+  }
+
   main .section.service-tiles-container {
     padding: 76px 0 0;
   }

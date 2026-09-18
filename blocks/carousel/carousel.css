@@ -97,3 +97,30 @@
     width: calc(100% - 12px);
   }
 }
+
+/* ---- natural: slides keep the photo's own ratio inside the cmp-carousel's 8px padding (program pages) ---- */
+.carousel.natural {
+  padding: 8px 0;
+}
+
+.carousel.natural .carousel-slide img {
+  aspect-ratio: auto;
+}
+
+.carousel.natural .carousel-indicators {
+  bottom: 23px;
+}
+
+/* ---- wide: the 8/12 grid column (adult-red-ball, junior-tennis-programs, welcome-letter) ---- */
+.carousel.wide {
+  width: calc(100% * 8 / 12 - 12px);
+}
+
+/* ---- hero (events/collegiate): top-anchored crop, caption 10px higher ---- */
+.carousel.hero .carousel-slide img {
+  object-position: 50% 0;
+}
+
+.carousel.hero .carousel-slide {
+  padding-bottom: 50px;
+}

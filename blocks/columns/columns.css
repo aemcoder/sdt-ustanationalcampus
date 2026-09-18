@@ -37,6 +37,89 @@
   padding: 8px 6px;
 }
 
+/* plain text cells: the source richtext opens with a heading + one blank line before the prose */
+.columns:not(.image-text, .legacy-inline, .icon-grid) .columns-text :is(h1, h2, h3, .prosemirror-editor:has(:is(h1, h2, h3))) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: 24px;
+}
+
+/* ---- icon-grid (feature grid: icon + caption lines, centred; cells share the row) ---- */
+main .section.columns-container > .columns-wrapper:has(> .columns.icon-grid) {
+  margin: 0 auto;
+}
+
+.columns.icon-grid .columns-col {
+  padding: 2px 0;
+  text-align: center;
+}
+
+.columns.icon-grid .columns-col :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img) {
+  margin: 0;
+  padding: 8px 0;
+  line-height: 0;
+}
+
+.columns.icon-grid .columns-col img {
+  width: 86px;
+  height: auto;
+}
+
+.columns.icon-grid .columns-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: 0;
+}
+
+.columns.icon-grid .columns-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  padding-top: 8px;
+}
+
+.columns.icon-grid .columns-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):last-child {
+  padding-bottom: 8px;
+}
+
+/* ---- legacy-inline (legacy richtext layout table: heading cell | small logo cell, shrink-wrapped, no margins) ---- */
+main .section.columns-container > .columns-wrapper:has(> .columns.legacy-inline) {
+  margin: 0 auto;
+}
+
+main .columns.legacy-inline .columns-row {
+  display: table;
+  width: auto;
+  border-spacing: 0;
+}
+
+main .columns.legacy-inline .columns-row > .columns-col {
+  display: table-cell;
+  width: auto;
+  padding: 1px;
+  vertical-align: middle;
+}
+
+main .columns.legacy-inline .columns-media img {
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+main .columns.legacy-inline .columns-text :is(h2, .prosemirror-editor h2) {
+  margin: 10px 0;
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-text);
+  text-transform: none;
+}
+
+main .columns.legacy-inline .columns-text :is(h2, .prosemirror-editor h2) strong {
+  font-weight: 700;
+}
+
+main .columns.legacy-inline .columns-text :is(h2, .prosemirror-editor h2) em {
+  font-style: italic;
+  font-weight: 400;
+}
+
 .columns .columns-media :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
   margin: 0;
   line-height: 0;
@@ -177,6 +260,15 @@ main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon
 }
 
 @media (width <= 767px) {
+  /* plain rows stack on mobile (the source grid is 12/12 per cell below 768); icon grids keep their shares */
+  .columns:not(.icon-grid, .legacy-info, .legacy-inline) .columns-row > .columns-col {
+    width: 100%;
+  }
+
+  .columns.icon-grid .columns-col img {
+    width: 40px;
+  }
+
   main .section.icon-heading-grid .columns .columns-text :is(h3, .prosemirror-editor h3) {
     font-size: 36px;
   }

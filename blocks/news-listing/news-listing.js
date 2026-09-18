@@ -159,11 +159,19 @@ export default function decorate(block) {
   if (!after.textContent.trim()) after.remove();
   block.append(more);
 
+  // xs shows 4 tiles first (source .newsMainWrap); the first "More" reveals the other authored rows
+  const folded = window.matchMedia('(width <= 767px)').matches ? [...grid.children].slice(4) : [];
+  folded.forEach((card) => { card.hidden = true; });
+
   let offset = authored;
   let busy = false;
   let useSnapshot = false;
   const load = async () => {
     if (busy) return;
+    if (folded.length) {
+      folded.splice(0).forEach((card) => { card.hidden = false; });
+      return;
+    }
     busy = true;
     more.classList.add('loading');
     let page = useSnapshot ? null : await fetchIndexPage(offset);
