@@ -1,0 +1,35 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "layout-transition",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/css/en-home-visit-html.css"
+        ],
+        "createdAt": "2026-09-18T20:24:24.300Z",
+        "reason": "replica agent: mirrors the source site's own Bootstrap 3 .collapsing transition (height .35s ease) observed live via motion-observe (stardust/replica/motion/en-home-visit-html.json); recreation must clone the observed mechanism"
+      },
+      {
+        "rule": "layout-transition",
+        "value": "*",
+        "files": [
+          "blocks/service-tiles/service-tiles.css"
+        ],
+        "createdAt": "2026-09-18T20:24:24.312Z",
+        "reason": "legacy conversion agent: the service-tiles collapse panel ports the source's Bootstrap .collapsing height transition (source clientlib-all.css) — replica fidelity, not new motion"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "blocks/news-listing/news-listing.css"
+        ],
+        "createdAt": "2026-09-18T20:24:24.323Z",
+        "reason": "coordinator: L117 is a CSS-triangle arrow glyph (border-left 5px with transparent top/bottom borders) on the 'More' link, mirroring the source news feed's arrow — not a card accent border"
+      }
+    ]
+  }
+}
