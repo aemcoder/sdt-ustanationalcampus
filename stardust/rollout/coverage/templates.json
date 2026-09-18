@@ -1,14 +1,14 @@
 {
   "_provenance": {
     "writtenBy": "stardust:rollout/inventory",
-    "writtenAt": "2026-09-18T18:07:47.397Z",
+    "writtenAt": "2026-09-18T18:18:58.313Z",
     "readArtifacts": [
       "stardust/migrated",
       "stardust/rollout/roster-state.json"
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-09-18T18:07:47.397Z",
+  "generatedAt": "2026-09-18T18:18:58.313Z",
   "templates": [
     {
       "id": "en-home-about-holiday-hours-html",
@@ -1065,17 +1065,16 @@
         "en-home-visit-health-and-wellness-nutrition-for-recovery-html",
         "en-home-visit-health-and-wellness-nutrition-for-tennis-html",
         "en-home-visit-health-and-wellness-sleep-matters-html",
-        "en-home-visit-health-and-wellness-strength-and-conditioning-html",
-        "news-2017-usta-league-national-adult-55-over-6-0-8-0-championships-2"
+        "en-home-visit-health-and-wellness-strength-and-conditioning-html"
       ],
-      "pageCount": 904,
+      "pageCount": 903,
       "blocks": [
         "article-body"
       ],
       "delivery": {
         "verified": 0,
         "deployed": 0,
-        "contentPending": 903,
+        "contentPending": 902,
         "pending": 1
       }
     },

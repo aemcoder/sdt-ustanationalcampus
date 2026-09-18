@@ -31,7 +31,7 @@ function cleanBody(html){
 let n=0, skipped=0; const report=[];
 for (const f of fs.readdirSync(recDir)) { const r=JSON.parse(fs.readFileSync(path.join(recDir,f),'utf8')); if (!/^article/.test(r.shape)) { skipped++; report.push({slug:r.slug,skipped:r.shape}); continue; }
   const src=new URL(r.url).pathname; const map=byLink.get(src); if(!map){ skipped++; report.push({slug:r.slug,skipped:'not in pagemap'}); continue; }
-  let p=map.path; if (seenPaths.has(p) && seenPaths.get(p)!==src) { p=p+'-2'; } seenPaths.set(p,src);
+  let p=map.path; if (seenPaths.has(p) && seenPaths.get(p)!==src) { p=p+'-alt'; } seenPaths.set(p,src);
   const title=r.title||r.titleFallback||r.pageTitle; const desc=(r.bodyText||'').replace(/\s+/g,' ').slice(0,157).replace(/\s\S*$/,'')+(r.bodyText&&r.bodyText.length>157?'…':'');
   const dateOnly=(r.date||'').split('|').pop().trim();
   const meta=[['Title',esc(r.pageTitle||title)],['Description',esc(desc)],['Template','legacy'],['Category',esc(map.category||'News')],['Published Date',esc(dateOnly)],['Author',/\|/.test(r.date||'')?esc(r.date.split('|')[0].trim()):null],['Image',r.image?esc(r.image):null],['Kicker',r.kicker?esc(r.kicker):null]].filter(x=>x[1]);

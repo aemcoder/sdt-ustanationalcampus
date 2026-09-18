@@ -1,0 +1,820 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T18:14:18.498Z",
+    "waitMode": "fast",
+    "waitMs": 1200,
+    "httpStatus": 200
+  },
+  "slug": "en-home-news-making-headlines-html",
+  "url": "https://www.ustanationalcampus.com/en/home/news/making-headlines.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T18:14:18.498Z",
+  "finalUrl": "https://www.ustanationalcampus.com/en/home/news/making-headlines.html",
+  "title": "Making Headlines",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h3",
+      "text": "USTA National Campus"
+    },
+    {
+      "tag": "h2",
+      "text": "MAKING HEADLINES"
+    },
+    {
+      "tag": "h6",
+      "text": "Brian Ormiston, Trina Singian, Tom LaDue | December 29, 2016"
+    },
+    {
+      "tag": "h3",
+      "text": "Campus Hours"
+    },
+    {
+      "tag": "h3",
+      "text": "Address"
+    },
+    {
+      "tag": "h3",
+      "text": "Usta info"
+    },
+    {
+      "tag": "h3",
+      "text": "Usta links"
+    }
+  ],
+  "body": [
+    "Register for Fall Programming! Session runs now - Nov 8.",
+    "PLAY PLAY submenu Programs Private Lessons Adult Camps Summer Camps Book a Court Free30 Dave Bailey Programs",
+    "EVENTS EVENTS submenu Calendar 2026 BNP Paribas World Team Cup",
+    "ABOUT ABOUT submenu Meet Our Team Contact Us Sponsors & Partners USTA National Campus Scholarship",
+    "WATCH WATCH submenu Watch Live Record Your Match",
+    "VISIT VISIT submenu Hotel Booking Sustainability Health & Wellness Shop",
+    "Home >",
+    "News >",
+    "Making Headlines",
+    "USTA's brand new National Campus in Orlando has been receiving media attention from across the country. The facility has earned rave reviews from numerous outlets, and the publicity keeps coming.",
+    "Along with appearing on The Tennis Channel, Telemundo, Univision and networks in Florida, here are just some of the highlights from November and December:",
+    "Orlando Business Journal - Tennis PowerShares Series en route to Orlando as USTA National Campus plans debut",
+    "Tennis World Magazine - The new magnificent tennis center in Orlando to be opened in three months",
+    "WTA - Watch Christina McHale's Exclusive Tour of New USTA Orlando Facility",
+    "Nonahood News - USTA is Opening its National Campus on January 2nd and Invites the Community Along to Play and Celebrate",
+    "WFTV - 64-acre, 100-court USTA facility to open in Orlando Jan. 2",
+    "Orlando Sentinel - National tennis campus to open Jan. 2",
+    "The National Campus also has received headlines from even more top publications since its announcement:",
+    "USA Today - USTA to build new home for American tennis (2014)",
+    "Reuters - Tennis megaplex in central Florida to help sport and region grow (2014)",
+    "Tennis Magazine - USTA National Campus in Lake Nona looks to promote tennis, produce champions (2015)",
+    "Orlando Sentinel - USTA's campus set to anchor Lake Nona sports district (2015)",
+    "El Sentinel - Las futuras estrellas del \"deporte blanco\" entrenarán en Orlando",
+    "Orlando Sentinel - USTA's Lake Nona campus sports 'smart courts,' Italian clay (2016)",
+    "AP/FOX Sports - The Latest: USTA National Campus in Florida opens in January (2016)",
+    "Nonavibe - USTA National Campus will Launch the Next Generation of Tennis Champions (2016)",
+    "Keep checking USTANationalCampus.com for even more coverage of the Home of American Tennis.",
+    "Monday - Friday 7:00 AM - 9:00 PM",
+    "Saturday 7:00 AM - 5:00 PM",
+    "Sunday 7:00 AM - 5:00 PM",
+    "VIEW HOLIDAY HOURS",
+    "10000 USTA Blvd.",
+    "Orlando, FL 32827",
+    "(407) 675-2500",
+    "About",
+    "Careers",
+    "Terms of Use",
+    "Privacy Policy",
+    "Program policies",
+    "Site Map",
+    "USTA.com",
+    "USOPEN.org",
+    "USTAFOUNDATION.com",
+    "PLAYER DEVELOPMENT",
+    "©2026 USTA ALL RIGHTS RESERVED"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Register for Fall Programming",
+      "href": "https://app.courtreserve.com/Online/Events/List/6415/K9INL6ND8Y6415"
+    },
+    {
+      "label": "PLAY",
+      "href": "/en/home/play.html"
+    },
+    {
+      "label": "PLAY submenu",
+      "href": null
+    },
+    {
+      "label": "EVENTS",
+      "href": "/en/home/events.html"
+    },
+    {
+      "label": "EVENTS submenu",
+      "href": null
+    },
+    {
+      "label": "ABOUT",
+      "href": "/en/home/about.html"
+    },
+    {
+      "label": "ABOUT submenu",
+      "href": null
+    },
+    {
+      "label": "WATCH",
+      "href": "/en/home/watch.html"
+    },
+    {
+      "label": "WATCH submenu",
+      "href": null
+    },
+    {
+      "label": "VISIT",
+      "href": "/en/home/visit.html"
+    },
+    {
+      "label": "VISIT submenu",
+      "href": null
+    },
+    {
+      "label": "BOOK NOW",
+      "href": null
+    },
+    {
+      "label": "Home",
+      "href": "/en/home.html"
+    },
+    {
+      "label": "News",
+      "href": "/en/home/news.html"
+    },
+    {
+      "label": "Share",
+      "href": "#shareModal"
+    },
+    {
+      "label": "Orlando Business Journal",
+      "href": "http://www.bizjournals.com/orlando/news/2016/12/06/lake-nona-s-usta-national-campus-to-host-tennis.html"
+    },
+    {
+      "label": "Tennis World Magazine",
+      "href": "http://www.tennisworldusa.org/news/news/Tennis_Stories/39113/the-new-magnificent-tennis-center-in-orlando-to-be-opened-in-three-months/"
+    },
+    {
+      "label": "WTA",
+      "href": "http://www.wtatennis.com/news/article/6171937/title/watch-christina-mchales-exclusive-tour-of-new-usta-orlando-facility"
+    },
+    {
+      "label": "Nonahood News",
+      "href": "https://www.nonahoodnews.com/usta-opens-january-2/"
+    },
+    {
+      "label": "WFTV",
+      "href": "http://www.wftv.com/news/local/64-acre-100-court-usta-facility-to-open-in-orlando-jan-2/465986209"
+    },
+    {
+      "label": "Orlando Sentinel",
+      "href": "http://www.orlandosentinel.com/classified/realestate/os-usta-orlando-open----usta-will-have-an-event-thursday-to-showcase-the-nationa-20161109-story.html"
+    },
+    {
+      "label": "USA Today",
+      "href": "http://www.usatoday.com/story/sports/tennis/2014/05/14/usta-lake-nona-center-american-tennis/9063667/"
+    },
+    {
+      "label": "Reuters",
+      "href": "http://www.reuters.com/article/usa-florida-tennis-idUSL2N0X51TY20150408"
+    },
+    {
+      "label": "Tennis Magazine",
+      "href": "http://www.tennis.com/your-game/2015/11/usta-national-campus-lake-nona-looks-promote-tennis-produce-champions/56801/"
+    },
+    {
+      "label": "Orlando Sentinel",
+      "href": "http://www.orlandosentinel.com/news/breaking-news/os-usta-center-orlando-20150407-story.html"
+    },
+    {
+      "label": "El Sentinel",
+      "href": "http://www.orlandosentinel.com/elsentinel/comunidad/os-tenis-orlando-lake-nona-construccion-20150408-story.html"
+    },
+    {
+      "label": "Orlando Sentinel",
+      "href": "http://www.orlandosentinel.com/classified/realestate/os-usta-lake-nona-campus-20160401-story.html"
+    },
+    {
+      "label": "AP/FOX Sports",
+      "href": "http://www.foxsports.com/tennis/story/the-latest-usta-national-campus-in-florida-opens-in-january-090816"
+    },
+    {
+      "label": "Nonavibe",
+      "href": "http://www.nonavibe.com/fitness/item/74-usta-national-campus-will-launch-the-next-generation-of-tennis-champions"
+    },
+    {
+      "label": "Sign Up for our Newsletter",
+      "href": "https://48188ad2.sibforms.com/serve/MUIFAIlfGVpfzetYeY0ld-o5gJ7N5WLmcwQKCGzls8hZvrp2c6G6GFENvYgX7OWG9VbBtY2di_JbLmqhFm7cL9WkImuoMTLvDsvlJ1OfbDwS5Ed7cOb1BUmMtDWvHaXKoaCYIeDhSiMjqlZ3KCgWnkFu5myttFWj8KLBCu2Pc1kdVOxjo-CfeZK4Skx3Tx4K7ThvcFrrHARYrbZu"
+    },
+    {
+      "label": "VIEW HOLIDAY HOURS",
+      "href": "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html"
+    },
+    {
+      "label": "(407) 675-2500",
+      "href": "tel:4076752500"
+    },
+    {
+      "label": "Show on map",
+      "href": "https://www.google.com/maps/place/USTA+National+Campus/@28.40035,-81.277727,15z/data=!4m5!3m4!1s0x0:0xa93446c27a424f4c!8m2!3d28.40035!4d-81.277727"
+    },
+    {
+      "label": "About",
+      "href": "https://www.usta.com/content/usta/en/home/about-usta.html"
+    },
+    {
+      "label": "Careers",
+      "href": "http://careers.usta.com/"
+    },
+    {
+      "label": "Terms of Use",
+      "href": "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-terms-of-use.html"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-privacy-policy.html"
+    },
+    {
+      "label": "Program policies",
+      "href": "/en/home/news/national-campus-program-policies.html"
+    },
+    {
+      "label": "Site Map",
+      "href": "/en/home/site-map.html"
+    },
+    {
+      "label": "USTA.com",
+      "href": "https://www.usta.com/content/usta/en/home.html"
+    },
+    {
+      "label": "USOPEN.org",
+      "href": "https://www.usopen.org/"
+    },
+    {
+      "label": "USTAFOUNDATION.com",
+      "href": "https://www.ustafoundation.com/"
+    },
+    {
+      "label": "PLAYER DEVELOPMENT",
+      "href": "https://www.playerdevelopment.usta.com/"
+    },
+    {
+      "label": "Book now",
+      "href": "https://usta.courtreserve.com/Online/Events/List/6415/F6SUBQ2NFZ6415"
+    }
+  ],
+  "links": [
+    "https://app.courtreserve.com/Online/Events/List/6415/K9INL6ND8Y6415",
+    "https://www.ustanationalcampus.com/en/home.html",
+    "https://www.ustanationalcampus.com/en/home/play.html",
+    "https://www.ustanationalcampus.com/en/home/play/programs.html",
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html",
+    "https://www.ustanationalcampus.com/en/home/play/tennis/adult-camps.html",
+    "https://www.ustanationalcampus.com/en/home/play/tennis/summer-camps.html",
+    "https://www.ustanationalcampus.com/en/home/play/book-a-court.html",
+    "https://www.ustanationalcampus.com/en/home/play/free30.html",
+    "https://www.ustanationalcampus.com/en/home/play/davebailey.html",
+    "https://www.ustanationalcampus.com/en/home/events.html",
+    "https://www.ustanationalcampus.com/en/home/calendar.html",
+    "https://www.ustanationalcampus.com/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "https://www.ustanationalcampus.com/en/home/about.html",
+    "https://www.ustanationalcampus.com/en/home/about/meet-our-team.html",
+    "https://www.ustanationalcampus.com/en/home/connect.html",
+    "https://www.ustanationalcampus.com/en/home/about/sponsors---partners.html",
+    "https://www.ustanationalcampus.com/en/home/about/usta-national-campus-scholarship.html",
+    "https://www.ustanationalcampus.com/en/home/watch.html",
+    "https://www.ustanationalcampus.com/en/home/watch/save-my-play.html",
+    "https://www.ustanationalcampus.com/en/home/visit.html",
+    "https://www.ustatravel.com/",
+    "https://www.ustanationalcampus.com/en/home/visit/sustainability.html",
+    "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness.html",
+    "https://www.ustaproshop.com/",
+    "https://www.ustanationalcampus.com/en/home/news.html",
+    "https://www.usta.com/About-USTA/Organization/Information/Terms%20of%20Use",
+    "https://www.usta.com/About-USTA/Organization/Information/Privacy%20Policy",
+    "https://twitter.com/usta",
+    "https://www.facebook.com/USTA/",
+    "https://www.instagram.com/USTA/",
+    "https://www.youtube.com/user/tennis",
+    "https://www.ustanationalcampus.com/en/home/news/making-headlines.html#",
+    "https://www.ustanationalcampus.com/en/home/news/making-headlines.html#shareModal",
+    "http://www.bizjournals.com/orlando/news/2016/12/06/lake-nona-s-usta-national-campus-to-host-tennis.html",
+    "http://www.tennisworldusa.org/news/news/Tennis_Stories/39113/the-new-magnificent-tennis-center-in-orlando-to-be-opened-in-three-months/",
+    "http://www.wtatennis.com/news/article/6171937/title/watch-christina-mchales-exclusive-tour-of-new-usta-orlando-facility",
+    "https://www.nonahoodnews.com/usta-opens-january-2/",
+    "http://www.wftv.com/news/local/64-acre-100-court-usta-facility-to-open-in-orlando-jan-2/465986209",
+    "http://www.orlandosentinel.com/classified/realestate/os-usta-orlando-open----usta-will-have-an-event-thursday-to-showcase-the-nationa-20161109-story.html",
+    "http://www.usatoday.com/story/sports/tennis/2014/05/14/usta-lake-nona-center-american-tennis/9063667/",
+    "http://www.reuters.com/article/usa-florida-tennis-idUSL2N0X51TY20150408",
+    "http://www.tennis.com/your-game/2015/11/usta-national-campus-lake-nona-looks-promote-tennis-produce-champions/56801/",
+    "http://www.orlandosentinel.com/news/breaking-news/os-usta-center-orlando-20150407-story.html",
+    "http://www.orlandosentinel.com/elsentinel/comunidad/os-tenis-orlando-lake-nona-construccion-20150408-story.html",
+    "http://www.orlandosentinel.com/classified/realestate/os-usta-lake-nona-campus-20160401-story.html",
+    "http://www.foxsports.com/tennis/story/the-latest-usta-national-campus-in-florida-opens-in-january-090816",
+    "http://www.nonavibe.com/fitness/item/74-usta-national-campus-will-launch-the-next-generation-of-tennis-champions",
+    "https://www.ustanationalcampus.com/en/home/news/making-headlines.html#carousel-example-generic",
+    "https://48188ad2.sibforms.com/serve/MUIFAIlfGVpfzetYeY0ld-o5gJ7N5WLmcwQKCGzls8hZvrp2c6G6GFENvYgX7OWG9VbBtY2di_JbLmqhFm7cL9WkImuoMTLvDsvlJ1OfbDwS5Ed7cOb1BUmMtDWvHaXKoaCYIeDhSiMjqlZ3KCgWnkFu5myttFWj8KLBCu2Pc1kdVOxjo-CfeZK4Skx3Tx4K7ThvcFrrHARYrbZu",
+    "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html",
+    "tel:4076752500",
+    "https://www.google.com/maps/place/USTA+National+Campus/@28.40035,-81.277727,15z/data=!4m5!3m4!1s0x0:0xa93446c27a424f4c!8m2!3d28.40035!4d-81.277727",
+    "https://www.usta.com/content/usta/en/home/about-usta.html",
+    "http://careers.usta.com/",
+    "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-terms-of-use.html",
+    "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-privacy-policy.html",
+    "https://www.ustanationalcampus.com/en/home/news/national-campus-program-policies.html",
+    "https://www.ustanationalcampus.com/en/home/site-map.html",
+    "https://www.usta.com/content/usta/en/home.html",
+    "https://www.usopen.org/",
+    "https://www.ustafoundation.com/",
+    "https://www.playerdevelopment.usta.com/",
+    "https://usta.courtreserve.com/Online/Events/List/6415/F6SUBQ2NFZ6415",
+    "https://www.facebook.com/USTANationalCampus/",
+    "https://www.instagram.com/usta.nationalcampus/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/components/content/common/header/clientlibs/resources/Tennis-Ball.svg",
+        "alt": "",
+        "w": 21,
+        "h": 21
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/components/content/common/header/clientlibs/resources/Cancel-Topnav-Bold.svg",
+        "alt": "Close",
+        "w": 18,
+        "h": 18
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/components/content/common/header/clientlibs/resources/Hamburger-Menu-Black.svg",
+        "alt": "Menu",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/HeaderLogos/national-campus-logo.svg",
+        "alt": "USTA National Campus Logo Home",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/USTANC-Lightbox-Pop-Up_484x557.jpg/_jcr_content/renditions/cq5dam.web.484.557.jpeg",
+        "alt": "headerimage",
+        "w": 484,
+        "h": 557
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/icons_twitter.png",
+        "alt": "/content/dam/nationalcampus/newsletter/icons_twitter.png",
+        "w": 50,
+        "h": 20
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/icons_facebook.png",
+        "alt": "/content/dam/nationalcampus/newsletter/icons_facebook.png",
+        "w": 50,
+        "h": 20
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/icons_instagram.png",
+        "alt": "/content/dam/nationalcampus/newsletter/icons_instagram.png",
+        "w": 50,
+        "h": 20
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/icons_youtube.png",
+        "alt": "/content/dam/nationalcampus/newsletter/icons_youtube.png",
+        "w": 50,
+        "h": 20
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/findUs/twitter.svg",
+        "alt": "Twitter",
+        "w": 20,
+        "h": 17
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/findUs/twitterHover.svg",
+        "alt": "Twitter",
+        "w": 20,
+        "h": 17
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/findUs/facebook.svg",
+        "alt": "Facebook",
+        "w": 11,
+        "h": 22
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/findUs/facebookHover.svg",
+        "alt": "Facebook",
+        "w": 11,
+        "h": 22
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/articleShare/icons_googlePlus.png",
+        "alt": "google",
+        "w": 31,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/articleShare/icons_googlePlus_hover.png",
+        "alt": "google",
+        "w": 31,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/icon-backtop.svg",
+        "alt": "scroll-top",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/herocarousel/Bench.jpg",
+        "alt": "primary-article-image",
+        "w": 1500,
+        "h": 1000
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/national-campus-logo.png",
+        "alt": "USTA National Campus Home",
+        "w": 295,
+        "h": 63
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/map-location-pin.svg",
+        "alt": "",
+        "w": 25,
+        "h": 24
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/facebook.png",
+        "alt": "Facebook",
+        "w": 30,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/instagram.png",
+        "alt": "Instagram",
+        "w": 30,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/youtube.png",
+        "alt": "YouTube",
+        "w": 35,
+        "h": 26
+      }
+    ],
+    "allImgCount": 22,
+    "cssBackgrounds": [],
+    "modals": [
+      "x Share with your friends or copy this link share",
+      "x Share with your friends or copy this link share"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--font-GraphikRegular": "\"Graphik Regular\",Tahoma,sans-serif",
+    "--font-GraphikSemibold": "\"Graphik Semibold\",Tahoma,sans-serif",
+    "--font-GraphikXXCondBold": "\"Graphik XXCond Bold\",Tahoma,sans-serif"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 7,
+    "mainTextLen": 4730,
+    "realImageCount": 22,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6a4.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b662249/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2586,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 13040,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1780,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.ustanationalcampus.com",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/j/collect",
+        "query": [
+          "_gid",
+          "_s",
+          "_slc",
+          "_u",
+          "_v",
+          "a",
+          "cid",
+          "dl",
+          "dt",
+          "gjid",
+          "jid",
+          "sr",
+          "t",
+          "tid",
+          "ul",
+          "v",
+          "vp",
+          "z"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 15,
+        "hits": 1,
+        "example": "https://www.google-analytics.com/j/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "region1.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://region1.google-analytics.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "region1.analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://region1.analytics.google.com/g/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 5
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 3
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 3
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "www.googletagservices.com",
+        "count": 1
+      },
+      {
+        "host": "www.google-analytics.com",
+        "count": 1
+      },
+      {
+        "host": "securepubads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "usta.d2.sc.omtrdc.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 10,
+      "thirdPartyScriptHosts": 8,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/en-home-news-making-headlines-html.png",
+  "renderedHtml": "pages/en-home-news-making-headlines-html.html"
+}
