@@ -117,6 +117,7 @@ function clickThrough(block) {
 
 export default function decorate(block) {
   const rows = [...block.children].map((row) => [...row.children].flatMap(collectNodes));
+  block.classList.add(`side-${block.querySelectorAll('.tile-mosaic-side > .tile').length}`);
   if (block.classList.contains('collage')) decorateCollage(block, rows);
   else decorateMosaic(block, rows);
   clickThrough(block);

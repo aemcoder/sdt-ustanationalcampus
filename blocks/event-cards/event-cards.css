@@ -23,13 +23,13 @@ main .section.event-cards-container .default-content-wrapper :is(h2, .prosemirro
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  padding: 32px 0 64px;
+  padding: 0;
 }
 
 .event-cards .event-card {
   width: calc(25% - 12px);
   margin: 0 6px;
-  padding: 8px 0;
+  padding: 40px 0 72px; /* container 32 + card 8 · card 8 + container 64 — per card, so stacked xs cards keep it */
 }
 
 .event-cards .event-media :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
@@ -87,11 +87,12 @@ main .section.event-cards-container .default-content-wrapper :is(h2, .prosemirro
   }
 
   .event-cards .event-grid {
-    padding: 16px 0 32px;
+    padding: 0;
   }
 
   .event-cards .event-card {
     width: calc(100% - 12px);
+    padding: 24px 0 40px;
   }
 }
 

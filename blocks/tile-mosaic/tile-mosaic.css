@@ -625,3 +625,56 @@ main .section.tile-mosaic-container:is(.icon-heading, .icon-heading-grid, .icon-
   }
 }
 /* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- xs instance rules appended after the base rules by design */
+.tile-mosaic.programs:not(.compact) :is(.tile-panel-text, .tile-panel-copy) {
+  max-width: 593px;
+}
+
+@media (width <= 767px) {
+  /* stacked mosaic: a 9px separator precedes every tile; heights are content-driven per instance (measured live) */
+  .tile-mosaic.programs .tile-mosaic-side .tile {
+    border-top: 9px solid var(--color-white);
+  }
+
+  .tile-mosaic.programs.compact.side-2 .tile-mosaic-main {
+    min-height: 467px;
+  }
+
+  .tile-mosaic.programs.compact.side-2 .tile-mosaic-side .tile.solid {
+    min-height: 292px;
+  }
+
+  .tile-mosaic.programs.compact.side-2 .tile-mosaic-side .tile.photo {
+    min-height: 295px;
+  }
+
+  .tile-mosaic.programs.compact.side-4 .tile-mosaic-main {
+    min-height: 306px;
+  }
+
+  .tile-mosaic.programs.compact.side-4 .tile-mosaic-side .tile:nth-child(1) {
+    min-height: 207px;
+  }
+
+  .tile-mosaic.programs.compact.side-4 .tile-mosaic-side .tile:nth-child(2) {
+    min-height: 215px;
+  }
+
+  .tile-mosaic.programs.compact.side-4 .tile-mosaic-side .tile:nth-child(n + 3) {
+    min-height: 191px;
+  }
+
+  .tile-mosaic.programs:not(.compact).side-4 .tile-mosaic-main {
+    min-height: 397px;
+  }
+
+  .tile-mosaic.programs:not(.compact).side-4 .tile-mosaic-side .tile:nth-child(-n + 3) {
+    min-height: 201px;
+  }
+
+  .tile-mosaic.programs:not(.compact).side-4 .tile-mosaic-side .tile:nth-child(4) {
+    min-height: 210px;
+  }
+}
+/* stylelint-enable no-descending-specificity */

@@ -2030,7 +2030,7 @@ main .section.pad-faq.accordion-container > .default-content-wrapper {
 }
 
 main .section.pad-faq.accordion-container > .accordion-wrapper {
-  padding-bottom: 72px;
+  padding-bottom: 40px;
 }
 
 /* `contact-compact` — contact band whose button paragraph carries no 32px margins (/play/programs, junior-tennis-programs) */
@@ -2073,10 +2073,6 @@ main .section.event-cards-container {
 }
 
 /* /calendar: block sits 40 below the top; the events heading 112 below the widget */
-main .section.calendar-container {
-  padding-top: 40px;
-}
-
 main .section.calendar-container + .section.event-cards-container {
   padding-top: 104px;
 }
@@ -2405,3 +2401,13 @@ body.legacy main > .section > div:where(.table-wrapper, .columns-wrapper:has(> .
   padding: 0 15px;
 }
 /* stylelint-enable no-descending-specificity */
+
+/* `col-10-xs` — the source keeps this section's content in a 10/12 column at xs (meet-our-team) */
+@media (width <= 767px) {
+  main .section.col-10-xs > div {
+    width: calc(100% * 10 / 12);
+    max-width: calc(100% * 10 / 12);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

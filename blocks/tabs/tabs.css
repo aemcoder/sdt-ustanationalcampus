@@ -154,13 +154,13 @@
 /* stylelint-disable no-descending-specificity -- xs accordion rules appended after the base rules by design */
 @media (width <= 767px) {
   /* program core-tabs: the source renders a closed accordion (≈96px headers, no panel) */
-  .tabs:not(.large) .tabs-list,
-  .tabs:not(.large) .tabs-list:not(.open) {
+  .tabs:not(.large, .select) .tabs-list,
+  .tabs:not(.large, .select) .tabs-list:not(.open) {
     border: 0;
   }
 
-  .tabs:not(.large) .tabs-list .tabs-tab,
-  .tabs:not(.large) .tabs-list:not(.open) .tabs-tab:not(.active) {
+  .tabs:not(.large, .select) .tabs-list .tabs-tab,
+  .tabs:not(.large, .select) .tabs-list:not(.open) .tabs-tab:not(.active) {
     display: flex;
     align-items: center;
     min-height: 96px;
@@ -168,7 +168,7 @@
     border-bottom: 1px solid var(--color-rule);
   }
 
-  .tabs:not(.large) .tabs-tab::after {
+  .tabs:not(.large, .select) .tabs-tab::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -180,11 +180,11 @@
     transform: translateY(-70%) rotate(45deg);
   }
 
-  .tabs:not(.large) .tabs-tab.active::after {
+  .tabs:not(.large, .select) .tabs-tab.active::after {
     transform: translateY(-70%) rotate(45deg);
   }
 
-  .tabs:not(.large).expanded .tabs-tab.active::after {
+  .tabs:not(.large, .select).expanded .tabs-tab.active::after {
     transform: translateY(-30%) rotate(225deg);
   }
 

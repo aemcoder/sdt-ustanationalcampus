@@ -38,7 +38,7 @@
 }
 
 /* plain text cells: the source richtext opens with a heading + one blank line before the prose */
-.columns:not(.image-text, .legacy-inline, .icon-grid) .columns-text :is(h1, h2, h3, .prosemirror-editor:has(:is(h1, h2, h3))) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+.columns:not(.image-text, .legacy-inline, .icon-grid) .columns-text :is(h1, h2, .prosemirror-editor:has(:is(h1, h2))) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
   margin-top: 24px;
 }
 
@@ -142,7 +142,7 @@ main .section.icon-heading-grid .columns .columns-text :is(h3, .prosemirror-edit
 }
 
 /* the source's authored `<p>&nbsp;</p>` spacer rows between paragraphs (#112: modelled as CSS, never authored) */
-.columns .columns-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+.columns.image-text .columns-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
   margin-top: 24px;
 }
 

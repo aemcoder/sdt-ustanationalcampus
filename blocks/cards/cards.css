@@ -289,8 +289,12 @@ main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-headin
 }
 
 @media (width <= 767px) {
+  .cards.four .card:not(:has(.card-image, .promo-box)) .card-text {
+    padding: 32px 12px 48px;
+  }
+
   .cards.four .card:not(:has(.card-image, .promo-box)) .card-text :is(h3, .prosemirror-editor h3) {
-    font-size: 44px;
+    font-size: 36px;
   }
 }
 
