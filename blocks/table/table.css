@@ -34,7 +34,7 @@
 
 /* pricing tables follow their 28px semibold title (default content h3) with 8px */
 main .section .default-content-wrapper + .table-wrapper {
-  margin-top: 8px;
+  margin-top: 0;
 }
 
 main .section.table-container .default-content-wrapper :is(h3, .prosemirror-editor h3) {
@@ -48,7 +48,7 @@ main .section.table-container .default-content-wrapper :is(h3, .prosemirror-edit
 }
 
 main .section .table-wrapper + .default-content-wrapper {
-  margin-top: 32px;
+  margin-top: 0;
 }
 
 @media (width <= 767px) {

@@ -835,9 +835,10 @@ body.legacy main > .section > div:where(.default-content-wrapper, .service-tiles
   max-width: 1170px;
 }
 
-/* legacy richtext (.text.parbase): 16px/1.3 #333 prose, 15px gutters; the leading / trailing <p>&nbsp;</p> spacer lines the pipeline drops (#112) ride as padding */
+/* legacy richtext (.text.parbase): 16px/1.3 #333 prose, 15px gutters; leading / trailing spacer lines are authored as
+   zero-width-space paragraphs (#112), so no vertical padding stands in for them */
 body.legacy main .default-content-wrapper {
-  padding: 21px 15px;
+  padding: 0 15px;
 }
 
 body.legacy main .default-content-wrapper p,
@@ -1625,7 +1626,7 @@ main .table.legacy {
   display: table;
   width: auto;
   max-width: 100%;
-  margin: 0 0 21px;
+  margin: 0;
   border: 1px solid #808080;
   border-collapse: separate;
   border-spacing: 0;

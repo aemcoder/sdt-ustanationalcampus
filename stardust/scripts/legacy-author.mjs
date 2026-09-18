@@ -75,7 +75,11 @@ const EXTRACT = `(() => {
     box.querySelectorAll('a').forEach((a) => { const h = a.getAttribute('href') || ''; if (!h || h.startsWith('#') || h.startsWith('javascript')) { a.replaceWith(...a.childNodes); return; } try { a.setAttribute('href', new URL(h, ORIGIN).href); } catch { a.replaceWith(...a.childNodes); } });
     // a lone anchor inside <strong>/<em> would be buttonised by decorateButtons — legacy richtext links are
     // bold LINKS, not buttons: move the emphasis inside the anchor (<a><strong>…</strong></a>)
-    box.querySelectorAll('strong > a, em > a').forEach((a) => { const w = a.parentElement; if (norm(w.textContent) !== norm(a.textContent)) return; const inner = document.createElement(w.tagName.toLowerCase()); inner.append(...a.childNodes); a.append(inner); w.replaceWith(a); });
+    // the pipeline hoists emphasis back OUT of an anchor (<a><strong> → <strong><a>), so a link alone in its paragraph would be
+    // buttonised by decorateButtons either way (published-origin finding). Legacy richtext links are bold LINKS, not buttons:
+    // drop the emphasis on link-only paragraphs (weight residual recorded in the conversion log); keep it inside mixed text.
+    box.querySelectorAll('strong > a, em > a').forEach((a) => { const w = a.parentElement; if (norm(w.textContent) !== norm(a.textContent)) return; const par = w.closest('p, li'); const alone = par && norm(par.textContent) === norm(a.textContent); if (alone) { w.replaceWith(a); return; } const inner = document.createElement(w.tagName.toLowerCase()); inner.append(...a.childNodes); a.append(inner); w.replaceWith(a); });
+    box.querySelectorAll('a > strong, a > em').forEach((e) => { const a = e.parentElement; const par = a.closest('p, li'); if (par && norm(par.textContent) === norm(a.textContent)) e.replaceWith(...e.childNodes); });
     // empty inline wrappers
     box.querySelectorAll('strong, em, a').forEach((n) => { if (norm(n.textContent) === '' && !n.querySelector('img')) { if (n.textContent.length) n.replaceWith(document.createTextNode(' ')); else n.remove(); } });
     // <br> at block edges (layout brs) and <br><br> paragraph breaks

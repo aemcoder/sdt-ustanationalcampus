@@ -8,7 +8,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-09-18T19:56:40.563Z",
+  "generatedAt": "2026-09-18T20:12:30.091Z",
   "templates": [
     {
       "id": "en-home-about-holiday-hours-html",
@@ -1072,10 +1072,10 @@
         "article-body"
       ],
       "delivery": {
-        "verified": 895,
+        "verified": 903,
         "deployed": 0,
         "contentPending": 0,
-        "pending": 8
+        "pending": 0
       }
     },
     {
