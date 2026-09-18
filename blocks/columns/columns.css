@@ -1,33 +1,195 @@
-.columns > div {
+/* stylelint-disable no-descending-specificity -- variant (band) rules follow the default rules */
+
+/* columns — image-text (prose + photo). Values lifted from css/en-home-about-html.css (discover)
+   and css/en-home-play-private-lessons-html.css (intro, camps band). */
+.columns .columns-row {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
-.columns img {
-  width: 100%;
+.columns .columns-col {
+  width: 50%;
 }
 
-.columns > div > div {
-  order: 1;
+.columns .columns-media :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+  line-height: 0;
 }
 
-.columns > div > .columns-img-col {
-  order: 0;
-}
-
-.columns > div > .columns-img-col img {
+.columns .columns-media img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
-@media (width >= 900px) {
-  .columns > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
-  }
+.columns .columns-text :is(h3, .prosemirror-editor h3) {
+  font-family: var(--font-display);
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-black);
+  text-transform: none;
+}
 
-  .columns > div > div {
-    flex: 1;
-    order: unset;
+/* the source's authored `<p>&nbsp;</p>` spacer rows between paragraphs (#112: modelled as CSS, never authored) */
+.columns .columns-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: 24px;
+}
+
+/* ---- image-text under an icon heading (hub pages): section padding 32+8 / 8+8, text col then photo col ---- */
+main .section.columns-container:is(.icon-heading, .icon-heading-grid, .icon-heading-large) {
+  padding: 40px 12px 16px;
+}
+
+.columns.image-text .columns-text {
+  padding: 8px 6px;
+}
+
+.columns.image-text .columns-media {
+  width: calc(50% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+/* ---- image-text intro (program pages): 64px margins, photo first, h2 + spacer + prose + centred pill ---- */
+main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon-heading-large)) > .columns-wrapper:not(:has(> .band)) {
+  margin: 64px auto;
+}
+
+main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon-heading-large)) .columns.image-text:not(.band) {
+  padding: 8px 0;
+}
+
+main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon-heading-large)) .columns.image-text:not(.band) .columns-media {
+  padding: 2px 3.75px;
+}
+
+main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon-heading-large)) .columns.image-text:not(.band) .columns-text {
+  padding: 2px 3.75px;
+}
+
+.columns.image-text .columns-text :is(h2, .prosemirror-editor:has(h2)) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: 24px;
+}
+
+.columns.image-text:not(.band) .columns-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(a.button) {
+  display: flex;
+  justify-content: center;
+  width: calc(50% - 12px);
+  margin: 16px 6px 0;
+  padding: 8px 0;
+}
+
+/* ---- band (program pages): full-bleed colour band, photo half (448px) + vertically centred content half ---- */
+.columns.band .columns-row {
+  align-items: center;
+}
+
+.columns.band.sage {
+  background: var(--color-sage);
+}
+
+.columns.band.clay {
+  background: var(--color-contact-grey);
+}
+
+.columns.band .columns-media {
+  position: relative;
+  width: 50%;
+  margin: 0;
+  padding: 224px 0;
+}
+
+.columns.band .columns-media :is(p, .prosemirror-editor, picture) {
+  position: absolute;
+  inset: 0;
+}
+
+.columns.band .columns-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.columns.band .columns-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  padding: 8px 12px;
+}
+
+.columns.band .columns-text > * {
+  width: calc(100% - 12px);
+  margin: 0 6px;
+}
+
+.columns.band .columns-text :is(h2, .prosemirror-editor:has(h2)) {
+  padding-top: 8px;
+}
+
+.columns.band .columns-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(:has(a.button)) {
+  padding-bottom: 8px;
+}
+
+.columns.band .columns-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(a.button) {
+  display: flex;
+  justify-content: center;
+  width: calc(100% * 2 / 6 - 12px);
+  margin-top: 31px; /* the source's 7px-margin separator row: 8 + 7 + 1 + 7 + 8 */
+  padding: 8px 0;
+}
+
+@media (width <= 1223px) {
+  main .section.columns-container:is(.icon-heading, .icon-heading-grid, .icon-heading-large) > div {
+    max-width: none;
   }
 }
+
+@media (width <= 767px) {
+  .columns .columns-text :is(h3, .prosemirror-editor h3) {
+    font-size: 36px;
+  }
+
+  main .section.columns-container:is(.icon-heading, .icon-heading-grid, .icon-heading-large) {
+    padding: 24px 12px 16px;
+  }
+
+  main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon-heading-large)) > .columns-wrapper:not(:has(> .band)) {
+    margin: 32px auto;
+  }
+
+  .columns.image-text:not(.band) .columns-media {
+    display: none;
+  }
+
+  .columns.image-text .columns-text {
+    width: 100%;
+  }
+
+  .columns.image-text:not(.band) .columns-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(a.button) {
+    width: auto;
+  }
+
+  .columns.band .columns-row {
+    flex-direction: column;
+  }
+
+  .columns.band .columns-media {
+    width: 100%;
+    padding: 112px 0;
+  }
+
+  .columns.band .columns-text {
+    width: 100%;
+  }
+
+  .columns.band .columns-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(a.button) {
+    width: calc(100% - 12px);
+  }
+}
+/* stylelint-enable no-descending-specificity */

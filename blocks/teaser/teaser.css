@@ -1,0 +1,121 @@
+/* stylelint-disable no-descending-specificity -- variant overrides follow the default rules */
+
+/* teaser — values lifted from css/en-home-about-html.css §4 (teaser rows). */
+.teaser {
+  display: flow-root;
+}
+
+.teaser .teaser-media :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+  line-height: 0;
+}
+
+.teaser .teaser-text :is(h3, .prosemirror-editor h3) {
+  font-family: var(--font-display);
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-black);
+  text-transform: none;
+}
+
+/* authored `<p>&nbsp;</p>` spacer rows in the source → 24px (#112) */
+.teaser .teaser-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: 24px;
+}
+
+/* ---- full-width teaser (default): 1/6 photo band + 5/6 text, vertically centred ---- */
+.teaser .teaser-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding: 32px 0 8px;
+}
+
+.teaser .teaser-media {
+  flex: 0 0 auto;
+  width: 16.6667%;
+}
+
+.teaser .teaser-media img {
+  display: block;
+  width: 100%;
+  height: 192px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.teaser:not(.half) .teaser-item:nth-child(2) .teaser-media img {
+  height: 256px;
+}
+
+.teaser:not(.half) .teaser-item:nth-child(2) .teaser-media {
+  padding-top: 8px;
+}
+
+.teaser .teaser-text {
+  flex: 0 0 auto;
+  width: calc(83.3333% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+/* ---- half (two-up): each teaser floats in a 50% column, 1/3 photo + 2/3 text ---- */
+.teaser.half {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.teaser.half .teaser-item {
+  align-items: flex-start;
+  width: 50%;
+  padding: 32px 0 0;
+}
+
+.teaser.half .teaser-media {
+  width: calc(33.3333% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.teaser.half .teaser-media img {
+  height: auto;
+}
+
+.teaser.half .teaser-text {
+  width: calc(66.6667% - 12px);
+}
+
+@media (width <= 767px) {
+  .teaser .teaser-text :is(h3, .prosemirror-editor h3) {
+    font-size: 36px;
+  }
+
+  .teaser .teaser-item {
+    padding: 16px 0 8px;
+  }
+
+  .teaser .teaser-media {
+    display: none;
+  }
+
+  .teaser .teaser-text {
+    width: calc(100% - 12px);
+  }
+
+  .teaser.half .teaser-item {
+    width: 100%;
+    padding: 16px 0 0;
+  }
+
+  .teaser.half .teaser-media {
+    display: block;
+    width: calc(100% - 12px);
+  }
+
+  .teaser.half .teaser-text {
+    width: calc(100% - 12px);
+  }
+}
+/* stylelint-enable no-descending-specificity */

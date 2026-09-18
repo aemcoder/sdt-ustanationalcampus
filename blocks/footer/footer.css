@@ -304,3 +304,9 @@ footer .site-footer-line {
     display: none;
   }
 }
+
+/* legacy template family: the live legacy clientlib collapses the footer link pitch to 43px (12px/21px li) */
+body.legacy footer .site-footer-links li {
+  font-size: 12px;
+  line-height: 21px;
+}

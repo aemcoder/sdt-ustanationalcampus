@@ -1,0 +1,74 @@
+/* tabs — values lifted from the live cmp-tabs (meet-our-team 1440: list 88px padding 22/18, tab 22px/48px
+   uppercase semibold, 12px side padding; program pages: 18px/38px). Dusty-clay 4px rail, black active bar. */
+.tabs .tabs-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 22px 0 18px;
+  border-bottom: 4px solid var(--color-contact-grey);
+}
+
+.tabs .tabs-tab {
+  position: relative;
+  padding: 0 12px;
+  margin-bottom: -4px;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+}
+
+.tabs .tabs-tab.active {
+  border-bottom-color: var(--color-black);
+}
+
+.tabs .tabs-tab :is(p, h2, h3, h4, .prosemirror-editor :is(p, h2, h3, h4)) {
+  margin: 0;
+  font-family: var(--font-semibold);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 38px;
+  color: var(--color-black);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tabs.large .tabs-tab :is(p, h2, h3, h4, .prosemirror-editor :is(p, h2, h3, h4)) {
+  font-size: 22px;
+  line-height: 48px;
+}
+
+.tabs .tabs-panel {
+  display: none;
+  margin-top: 20px;
+}
+
+.tabs .tabs-panel.active {
+  display: block;
+}
+
+/* adopted sections keep their own wrappers; neutralise the page-level section box inside the panel */
+.tabs .tabs-panel > .section {
+  margin: 0;
+}
+
+.tabs .tabs-panel > .section > div {
+  max-width: none;
+}
+
+@media (width <= 767px) {
+  .tabs .tabs-list {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 8px 0;
+    border-bottom: 0;
+  }
+
+  .tabs .tabs-tab {
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .tabs .tabs-tab.active {
+    border-bottom: 4px solid var(--color-black);
+  }
+}

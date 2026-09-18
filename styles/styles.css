@@ -277,6 +277,7 @@ main .section.sage {
 }
 
 main .section.contact-grey {
+  position: relative;
   background: var(--color-contact-grey);
 }
 
@@ -320,8 +321,10 @@ a.button.secondary:any-link {
 
 a.button.accent:any-link {
   height: 56px;
+  min-width: max-content;
   padding: 14px 34px 14px 14px;
   gap: 12px;
+  white-space: nowrap; /* button-core__text: labels never wrap */
   font-size: 18px;
   background: var(--color-black);
   color: var(--color-white);
@@ -409,3 +412,1077 @@ body.legacy main td {
   line-height: 21px;
   color: var(--color-text);
 }
+
+/* stylelint-disable no-descending-specificity -- section styles are grouped by style value, not by specificity */
+
+/* ---- stardust:deploy (modern template family) — section styles + escapes appended by the modern conversion agent ---- */
+
+/* full-bleed by VARIANT: band blocks (columns.band, accordion.band) paint photo + colour edge to edge */
+main > .section > div:has(> .block.band) {
+  max-width: none;
+  margin: 0;
+}
+
+/* accent glyph — the source's button-core_with-icon: a 20px glyph before the label on external, phone and
+   e-mail pills (internal root-relative CTAs — Meet the Team, Learn More — carry none) */
+a.button.accent:is([href^='http'], [href^='tel:'], [href^='mailto:']):any-link::before {
+  content: '';
+  display: block;
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  background: var(--color-white);
+  mask: url('/icons/web.svg') center / contain no-repeat;
+}
+
+a.button.accent[href^='tel:']:any-link::before {
+  mask-image: url('/icons/phone.svg');
+}
+
+a.button.accent[href^='mailto:']:any-link::before {
+  mask-image: url('/icons/envelope.svg');
+}
+
+@media (width <= 767px) {
+  a.button.accent:any-link {
+    width: 100%;
+  }
+}
+
+/* icon heading — default content `<p><img></p><h2>` laid out as one row (the source's cmp-text image-and-paragraph).
+   ONE style value per section (#120): `icon-heading` (60px), `icon-heading-large` (75px), `icon-heading-grid` (hub 1/12 + 11/12
+   columns); a `narrow` section whose prose opens with an image paragraph gets the same row (content-anchored). */
+main .section:is(.icon-heading, .icon-heading-grid, .icon-heading-large) .default-content-wrapper,
+main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) > img) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 8px 0;
+}
+
+main .section:is(.icon-heading, .icon-heading-grid, .icon-heading-large) .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img),
+main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) > img) :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img) {
+  flex: 0 0 auto;
+  margin: 0 10px 0 6px;
+  line-height: 0;
+}
+
+main .section:is(.icon-heading, .icon-heading-grid, .icon-heading-large) .default-content-wrapper img,
+main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) > img) img {
+  width: 60px;
+  height: auto;
+}
+
+main .section.icon-heading-large .default-content-wrapper img {
+  width: 75px;
+}
+
+main .section:is(.icon-heading, .icon-heading-grid, .icon-heading-large) .default-content-wrapper :is(h2, .prosemirror-editor:has(h2)),
+main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) > img) :is(h2, .prosemirror-editor:has(h2)) {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+/* trailing prose under an icon heading (an intro line) drops to its own full-width row */
+main .section:is(.icon-heading, .icon-heading-grid, .icon-heading-large) .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(:has(img)),
+main .section.narrow .default-content-wrapper:has(> :is(p, .prosemirror-editor) > img) :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(:has(img)) {
+  width: calc(100% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+/* grid flavour (hub pages): icon in a 1/12 column, heading in the remaining 11/12 */
+main .section.icon-heading-grid .default-content-wrapper {
+  padding: 0;
+}
+
+main .section.icon-heading-grid .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img) {
+  width: calc(8.3333% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+main .section.icon-heading-grid .default-content-wrapper img {
+  width: 90%;
+}
+
+main .section.icon-heading-grid .default-content-wrapper :is(h2, .prosemirror-editor:has(h2)) {
+  flex: 0 0 auto;
+  width: calc(91.6667% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+@media (width <= 767px) {
+  main .section.icon-heading-grid .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img) {
+    width: calc(16.6667% - 12px);
+  }
+
+  main .section.icon-heading-grid .default-content-wrapper :is(h2, .prosemirror-editor:has(h2)) {
+    width: calc(83.3333% - 12px);
+  }
+}
+
+/* narrow column (program pages: FAQ, policies) — 8/12 offset 2/12 of the viewport, 10/12 offset 1/12 on mobile */
+main .section.narrow > div {
+  max-width: none;
+  width: calc(100% * 8 / 12 - 12px);
+  margin: 0 0 0 calc(100% * 2 / 12 + 6px);
+  padding: 8px 0;
+}
+
+main .section.narrow .default-content-wrapper :is(h2, p, .prosemirror-editor) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: 24px;
+}
+
+@media (width <= 767px) {
+  main .section.narrow > div {
+    width: calc(100% * 10 / 12 - 12px);
+    margin-left: calc(100% / 12 + 6px);
+  }
+}
+
+/* separators — the source's authored separator rows (transparent hr inside padded columns); heights lifted.
+   One token per height (#120): separator 57 · separator-thin 17 · separator-hairline 9 · separator-sage 34 (sage band) */
+main .section:is(.separator, .separator-thin, .separator-hairline, .separator-sage) {
+  display: block;
+  height: 57px; /* 8 + 20 + 1 + 20 + 8 */
+}
+
+main .section.separator-thin {
+  height: 17px; /* 8 + 1 + 8 */
+}
+
+main .section.separator-hairline {
+  height: 9px; /* 4 + 1 + 4 */
+}
+
+main .section.separator-sage {
+  height: 34px; /* 8 + (8 + 2 + 8) + 8 */
+  padding: 8px 0;
+  background: var(--color-white);
+}
+
+main .section.separator-sage::before {
+  content: '';
+  display: block;
+  height: 18px;
+  background: var(--color-sage);
+}
+
+/* contact band — default content h2 + accent CTA on the clay ground, white 16px stripes at the container edges */
+main .section.contact-grey::before,
+main .section.contact-grey::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 16px;
+  height: 100%;
+  background: var(--color-white);
+}
+
+main .section.contact-grey::before {
+  left: calc((100% - 1200px) / 2 - 30px);
+}
+
+main .section.contact-grey::after {
+  right: calc((100% - 1200px) / 2 - 30px);
+}
+
+main .section.contact-grey > .default-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: none;
+  width: calc(100% * 8 / 12);
+  margin: 32px auto;
+  padding: 8px 0;
+}
+
+main .section.contact-grey .default-content-wrapper :is(h2, .prosemirror-editor:has(h2)) {
+  width: calc(100% * 5 / 8);
+  padding: 16px calc(12.5% + 6px) 16px 6px; /* the 4/5 inner column: 1/5 of 5/8 of the row */
+  text-align: center;
+}
+
+main .section.contact-grey .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(a) {
+  display: flex;
+  justify-content: center;
+  width: calc(100% * 3 / 8);
+  margin: 32px 0;
+  padding: 16px 6px;
+}
+
+@media (width <= 767px) {
+  main .section.contact-grey::before,
+  main .section.contact-grey::after {
+    width: 8px;
+  }
+
+  main .section.contact-grey::before {
+    left: calc((100% - 336px) / 2 - 11px);
+  }
+
+  main .section.contact-grey::after {
+    right: calc((100% - 336px) / 2 - 11px);
+  }
+
+  main .section.contact-grey > .default-content-wrapper {
+    width: calc(100% * 10 / 12);
+    margin: 16px auto;
+  }
+
+  main .section.contact-grey .default-content-wrapper :is(h2, .prosemirror-editor:has(h2)),
+  main .section.contact-grey .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(a) {
+    width: 100%;
+    padding-right: 6px;
+  }
+
+  main .section.contact-grey .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(a) {
+    margin: 16px 0;
+  }
+}
+
+/* app badges — centred bold label + App Store / Google Play image links in the middle third */
+main .section.app-badges {
+  padding-top: 32px;
+  background: var(--color-white);
+}
+
+main .section.app-badges > .default-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: none;
+  margin: 0;
+}
+
+main .section.app-badges .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(:has(img)) {
+  width: calc(100% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+main .section.app-badges .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img) {
+  width: calc(100% / 12 - 12px);
+  margin: 8px 6px;
+  padding: 8px 0;
+  line-height: 0;
+}
+
+main .section.app-badges .default-content-wrapper img {
+  width: 100%;
+}
+
+@media (width <= 767px) {
+  main .section.app-badges {
+    padding-top: 16px;
+  }
+
+  main .section.app-badges > .default-content-wrapper {
+    column-gap: 30px; /* the source's two 1/12 gap columns around the badges */
+  }
+
+  main .section.app-badges .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img) {
+    width: calc(100% * 3 / 12 - 12px);
+  }
+}
+/* stylelint-enable no-descending-specificity */
+
+
+/* stylelint-disable no-descending-specificity -- template-family section styles are layered over the shared prose baseline in cascade order */
+
+/* ==== legacy USTA template family + content-page template — section styles owned by the legacy conversion (stardust:deploy) ==== */
+
+/* Bootstrap-3 container model of the legacy clientlib (1170 / 970 / 750 / fluid) — content wrappers only; full-bleed blocks keep their own escape */
+body.legacy main > .section > div:where(.default-content-wrapper, .service-tiles-wrapper, .accordion-wrapper, .columns-wrapper, .table-wrapper, .news-listing-wrapper, .embed-wrapper) {
+  max-width: 1170px;
+}
+
+/* legacy richtext (.text.parbase): 16px/1.3 #333 prose, 15px gutters; the leading / trailing <p>&nbsp;</p> spacer lines the pipeline drops (#112) ride as padding */
+body.legacy main .default-content-wrapper {
+  padding: 21px 15px;
+}
+
+body.legacy main .default-content-wrapper p,
+body.legacy main .default-content-wrapper li,
+body.legacy main .default-content-wrapper td {
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--color-text);
+}
+
+/* paragraph pitch = the one blank richtext line (<p>&nbsp;</p> / <br><br>) the source puts between paragraphs (#112) */
+body.legacy main .default-content-wrapper p {
+  margin: 0 0 21px;
+}
+
+body.legacy main .default-content-wrapper :is(h1, h2, h3) {
+  margin: 10px 0;
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-text);
+  text-transform: none;
+}
+
+body.legacy main .default-content-wrapper h3 {
+  font-size: 16px;
+}
+
+/* `rule` — the section that followed an authored <hr> (bootstrap hr: 20px margins, 1px #eee) */
+main .section.rule > div:first-child {
+  border-top: 1px solid #eee;
+  padding-top: 41px;
+}
+
+body.legacy main .default-content-wrapper :is(h4, h5, h6) {
+  margin: 8px 0 10px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--color-text);
+}
+
+body.legacy main .default-content-wrapper strong {
+  font-weight: 700;
+}
+
+body.legacy main .default-content-wrapper a:any-link {
+  color: var(--color-link);
+  text-decoration: underline;
+}
+
+body.legacy main .default-content-wrapper ul,
+body.legacy main .default-content-wrapper ol {
+  margin: 0 0 10px;
+  padding-left: 40px;
+}
+
+body.legacy main .default-content-wrapper img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* richtext that follows a legacy-heading section (hospitality clientlib pages): #418fde plain links */
+body.legacy main .section.legacy-heading ~ .section .default-content-wrapper a:any-link {
+  color: #418fde;
+  text-decoration: none;
+}
+
+/* `center` — AEM richtext authored with text-align:center (play/tennis intro) */
+main .section.center .default-content-wrapper {
+  text-align: center;
+}
+
+/* `legacy-canvas` — #f5f5f5 full-bleed ground */
+main .section.legacy-canvas {
+  background: var(--color-legacy-canvas);
+}
+
+/* `legacy-heading` — 45px XXCond navy uppercase section title + skewed red dash, 16px Semibold #444 sub-heading (default content, styled in place) */
+main .section.legacy-heading > .default-content-wrapper {
+  padding: 0;
+}
+
+main .section.legacy-heading .default-content-wrapper :is(h1, h2) {
+  position: relative;
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 0.64;
+  letter-spacing: 1.4px;
+  color: var(--color-legacy-navy);
+}
+
+/* the tile-grid title (.guestServiceMainWrap .headingMain) is uppercase; the useful-information / news titles are not */
+main .section.legacy-heading.service-tiles-container .default-content-wrapper :is(h1, h2) {
+  text-transform: uppercase;
+}
+
+main .section.legacy-heading.service-tiles-container .default-content-wrapper :is(h1, h2) ~ :is(h2, h3, p),
+main .section.legacy-heading.service-tiles-container .default-content-wrapper :is(h1, h2) ~ .prosemirror-editor :is(h2, h3, p) {
+  text-transform: none;
+}
+
+main .section.legacy-heading .default-content-wrapper :is(h1, h2)::after {
+  content: "";
+  position: absolute;
+  width: 29px;
+  height: 9px;
+  margin-top: 23px;
+  margin-left: 10px;
+  transform: skew(-30deg);
+  background: var(--color-legacy-red);
+}
+
+/* tagline under the title (h4.subheading / div.tileDescription): the heading or paragraph that FOLLOWS the title —
+   sibling-scoped so the title rule above never paints it, in published and in edit mode (EW2/EW10) */
+main .section.legacy-heading .default-content-wrapper :is(h1, h2) ~ :is(h2, h3, p),
+main .section.legacy-heading .default-content-wrapper :is(h1, h2) ~ .prosemirror-editor :is(h2, h3, p) {
+  position: static;
+  margin: 20px 0 50px;
+  font-family: var(--font-semibold);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: var(--color-legacy-card-text);
+  text-transform: none;
+}
+
+main .section.legacy-heading .default-content-wrapper :is(h1, h2) ~ :is(h2, h3, p)::after,
+main .section.legacy-heading .default-content-wrapper :is(h1, h2) ~ .prosemirror-editor :is(h2, h3, p)::after {
+  content: none;
+}
+
+/* useful-information: legacy heading over an accordion (.usefulInformationMainWrap 70/86, list 53px below the title) */
+main .section.legacy-heading:has(> .accordion-wrapper) {
+  padding: 70px 0 86px;
+}
+
+main .section.legacy-heading > .accordion-wrapper {
+  margin-top: 53px;
+}
+
+/* accordion.legacy — Bootstrap panel-group look (.usefulInformationMainWrap): 1px #979797 rules, 20px Semibold #444 heads, 14px two-column bodies */
+main .accordion.legacy .accordion-items {
+  display: grid; /* one item per row; a grid so the item count reads as a unit list */
+  padding: 0 15px;
+}
+
+main .accordion.legacy .accordion-item {
+  padding: 0 15px;
+  border-bottom: 1px solid #979797;
+}
+
+main .accordion.legacy .accordion-item:first-child {
+  border-top: 1px solid #979797;
+}
+
+main .accordion.legacy .accordion-item + .accordion-item {
+  margin-top: 0;
+}
+
+main .accordion.legacy .accordion-title {
+  margin: 8px 0;
+}
+
+main .accordion.legacy .accordion-title :is(h2, h3, h4, p, .prosemirror-editor :is(h2, h3, h4, p)) {
+  font-family: var(--font-semibold);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2.5;
+  color: var(--color-legacy-card-text);
+  text-transform: capitalize;
+}
+
+main .accordion.legacy .accordion-toggle {
+  width: 20px;
+  height: 10px;
+  margin: 0 15px 0 0;
+  transition: transform 0.4s;
+}
+
+main .accordion.legacy .accordion-item.expanded .accordion-toggle {
+  background-image: url("/icons/chevron-down-desktop.svg");
+  transform: rotate(180deg);
+}
+
+main .accordion.legacy .accordion-panel {
+  border-top: 0;
+}
+
+main .accordion.legacy .accordion-item.expanded .accordion-panel {
+  padding-top: 0;
+}
+
+main .accordion.legacy .accordion-panel-inner {
+  padding: 10px 113px 35px 24px;
+  columns: 2;
+  column-gap: 40px;
+}
+
+main .accordion.legacy .accordion-panel-inner :is(p, .prosemirror-editor),
+main .accordion.legacy .accordion-panel-inner :is(p, .prosemirror-editor) + :is(p, .prosemirror-editor) {
+  margin: 0 0 7px;
+  padding: 0;
+}
+
+main .accordion.legacy .accordion-panel-inner p,
+main .accordion.legacy .accordion-panel-inner li {
+  font-size: 14px;
+  line-height: 1.3;
+  color: var(--color-legacy-card-text);
+}
+
+main .accordion.legacy .accordion-panel-inner :is(h4, h5, h6) {
+  margin: 0 0 7px;
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-legacy-card-text);
+}
+
+main .accordion.legacy .accordion-panel-inner strong {
+  font-family: var(--font-semibold);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+main .accordion.legacy .accordion-panel-inner ul,
+main .accordion.legacy .accordion-panel-inner ol {
+  margin: 0 0 10px;
+  padding-left: 40px;
+  break-inside: avoid;
+}
+
+main .accordion.legacy .accordion-panel-inner a:any-link {
+  color: #418fde;
+  text-decoration: none;
+}
+
+/* columns.legacy-info — navy LOCATION | HOURS band (.campusInformationMainWrap) */
+main .section:has(> .columns-wrapper > .columns.legacy-info) {
+  background: var(--color-legacy-navy);
+  padding: 30px 0 46px;
+}
+
+main .section.columns-container:has(> .columns-wrapper > .columns.legacy-info) > .columns-wrapper {
+  margin: 0 auto;
+}
+
+main .columns.legacy-info .columns-text :is(p, .prosemirror-editor) + :is(p, .prosemirror-editor) {
+  margin-top: 0;
+}
+
+main .columns.legacy-info .columns-row {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+}
+
+main .columns.legacy-info .columns-col {
+  flex: 1 1 50%;
+  padding: 0 15px;
+  text-align: center;
+}
+
+main .columns.legacy-info .columns-col:first-child {
+  border-right: 1px solid rgb(255 255 255 / 37%);
+}
+
+main .columns.legacy-info :is(h2, h3) {
+  margin: 16px 0 15px;
+  padding: 0;
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1.2px;
+  color: #70a5d7;
+  text-transform: uppercase;
+}
+
+main .columns.legacy-info p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.79;
+  color: var(--color-white);
+}
+
+/* `article-hero` — legacy news hero styled in place: <p><picture> · kicker <p> · <h1> · date <p>; 656px cover image, 336px navy scrim, centred white title block 19px from the bottom */
+main .section.article-hero > div {
+  max-width: none;
+  margin: 0;
+}
+
+main .section.article-hero > .default-content-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 656px;
+  padding: 0 15px 19px;
+  overflow: hidden;
+  text-align: center;
+  color: var(--color-white);
+}
+
+main .section.article-hero > .default-content-wrapper::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 336px;
+  background: linear-gradient(to bottom, rgb(0 37 73 / 0%) 0, #00162b 100%);
+}
+
+main .section.article-hero .default-content-wrapper p:has(picture, img) {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  margin: 0;
+  line-height: 0;
+}
+
+main .section.article-hero .default-content-wrapper :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 656px;
+  object-fit: cover;
+}
+
+main .section.article-hero .default-content-wrapper :is(h1, h2, h3, p) {
+  position: relative;
+  z-index: 2;
+}
+
+main .section.article-hero .default-content-wrapper p {
+  margin: 0; /* the source's 10px kicker margin collapses into the title's; flex items don't collapse */
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--color-white);
+}
+
+main .section.article-hero .default-content-wrapper h1 {
+  margin: 10px 0 0;
+  font-family: var(--font-display);
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+main .section.article-hero .default-content-wrapper p:last-child {
+  margin: 8px 0 10px;
+  font-family: var(--font-semibold);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* news article body after the hero (.contentWrap): 800px column, 20px/35px #000, 45px paragraph pitch */
+body.legacy main .section.article-hero ~ .section > div {
+  max-width: 800px;
+}
+
+body.legacy main .section.article-hero ~ .section > .default-content-wrapper {
+  padding: 0;
+  color: var(--color-black);
+}
+
+/* 60px body margin + the 65px share-bar row (.shareImg margin-top 40 + 25px icon — the share modal is not migrated) */
+body.legacy main .section.article-hero + .section > .default-content-wrapper {
+  margin-top: 125px;
+}
+
+
+body.legacy main .section.article-hero ~ .section:last-of-type > div {
+  margin-bottom: 92px;
+}
+
+body.legacy main .section.article-hero ~ .section .default-content-wrapper p {
+  margin: 0 0 45px;
+  font-size: 20px;
+  line-height: 35px;
+  color: var(--color-black);
+}
+
+body.legacy main .section.article-hero ~ .section .default-content-wrapper p:last-child {
+  margin-bottom: 0;
+}
+
+/* h2 falls to the legacy template heading (display 24px/1.1, 10px margins); h3 is the contentWrap 20px/35px navy label */
+body.legacy main .section.article-hero ~ .section .default-content-wrapper h2 {
+  margin: 10px 0;
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-text);
+  text-transform: none;
+}
+
+body.legacy main .section.article-hero ~ .section .default-content-wrapper h3 {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  color: var(--color-legacy-navy);
+  text-transform: uppercase;
+}
+
+body.legacy main .section.article-hero ~ .section .default-content-wrapper strong {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+body.legacy main .section.article-hero ~ .section .default-content-wrapper a:any-link {
+  position: relative;
+  color: #186ccc;
+  text-decoration: none;
+}
+
+body.legacy main .section.article-hero ~ .section .default-content-wrapper a:any-link::after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin: 0 0 1px 8px;
+  border-top: 2px solid currentcolor;
+  border-right: 2px solid currentcolor;
+  transform: rotate(45deg);
+}
+
+body.legacy main .section.article-hero ~ .section .default-content-wrapper ul {
+  margin: 0 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+body.legacy main .section.article-hero ~ .section .default-content-wrapper li {
+  position: relative;
+  padding-left: 24px;
+  font-size: 20px;
+  line-height: 35px;
+  color: var(--color-black);
+}
+
+body.legacy main .section.article-hero ~ .section .default-content-wrapper ul li::before {
+  content: "\2022";
+  position: absolute;
+  top: 9px;
+  left: 0;
+  font-size: 30px;
+  line-height: 16px;
+}
+
+body.legacy main .section.article-hero ~ .section .default-content-wrapper ol {
+  margin: 0 0 10px;
+  padding-left: 40px;
+}
+
+/* `photo-gallery` — navy gallery band (.photogallery-carousel): white legacy heading + sub-text over a carousel */
+main .section.photo-gallery {
+  background: var(--color-legacy-navy);
+  padding: 56px 0 107px;
+  color: var(--color-white);
+}
+
+main .section.photo-gallery > .default-content-wrapper {
+  padding: 0;
+}
+
+main .section.photo-gallery .default-content-wrapper :is(h1, h2) {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 1.4px;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+main .section.photo-gallery .default-content-wrapper :is(h1, h2)::after {
+  content: "";
+  display: inline-block;
+  width: 27px;
+  height: 8px;
+  margin-left: 8px;
+  vertical-align: -3px;
+  transform: skew(-30deg);
+  background: var(--color-legacy-red);
+}
+
+main .section.photo-gallery .default-content-wrapper p {
+  max-width: 50%;
+  margin: 0 0 30px;
+  font-size: 16px;
+  line-height: 1.81;
+  color: var(--color-white);
+}
+
+/* content-page template prose (holiday hours): AEM responsive grid — 24px above the column, 8px container + 8px text-block padding, <p>&nbsp;</p> 24px spacer lines as paragraph pitch */
+body.content-page main .default-content-wrapper {
+  padding: 40px 6px 54px;
+}
+
+body.content-page main .default-content-wrapper h1 {
+  margin: 0 0 26px;
+}
+
+body.content-page main .default-content-wrapper h5 {
+  margin: 10px 0;
+}
+
+body.content-page main .default-content-wrapper h5 strong {
+  font-weight: 700;
+}
+
+/* 24px spacer line + the next h5's 10px top margin (adjacent margins collapse, so the pitch rides one value) */
+body.content-page main .default-content-wrapper p {
+  margin: 0 0 34px;
+}
+
+@media (width <= 1199px) {
+  body.legacy main > .section > div:where(.default-content-wrapper, .service-tiles-wrapper, .accordion-wrapper, .columns-wrapper, .table-wrapper, .news-listing-wrapper, .embed-wrapper) {
+    max-width: 970px;
+  }
+}
+
+@media (width <= 991px) {
+  body.legacy main > .section > div:where(.default-content-wrapper, .service-tiles-wrapper, .accordion-wrapper, .columns-wrapper, .table-wrapper, .news-listing-wrapper, .embed-wrapper) {
+    max-width: 750px;
+  }
+
+  main .section.legacy-heading .default-content-wrapper :is(h1, h2) {
+    font-size: 36px;
+    line-height: 1.08;
+  }
+
+  main .section.legacy-heading .default-content-wrapper :is(h1, h2)::after {
+    width: 21px;
+    height: 6px;
+    margin-top: 27px;
+  }
+
+  main .section.legacy-heading .default-content-wrapper :is(h1, h2) ~ :is(h2, h3, p),
+  main .section.legacy-heading .default-content-wrapper :is(h1, h2) ~ .prosemirror-editor :is(h2, h3, p) {
+    margin: 10px 0 60px;
+    line-height: 1.38;
+  }
+
+  main .section.legacy-heading:has(> .accordion-wrapper) {
+    padding: 72px 0 85px;
+  }
+
+  main .accordion.legacy .accordion-panel-inner {
+    padding: 20px 0 37px;
+  }
+}
+
+@media (width >= 768px) and (width <= 991px) {
+  body.content-page main .default-content-wrapper {
+    max-width: 720px;
+  }
+}
+
+@media (width <= 767px) {
+  body.legacy main > .section > div:where(.default-content-wrapper, .service-tiles-wrapper, .accordion-wrapper, .columns-wrapper, .table-wrapper, .news-listing-wrapper, .embed-wrapper) {
+    max-width: 100%;
+  }
+
+  main .section.legacy-heading .default-content-wrapper :is(h1, h2) {
+    padding: 0 33px 0 18px;
+  }
+
+  main .section.legacy-heading .default-content-wrapper :is(h1, h2)::after {
+    width: 17px;
+    height: 5px;
+    margin-top: 27px;
+    margin-left: 1px;
+  }
+
+  main .section.legacy-heading .default-content-wrapper :is(h1, h2) ~ :is(h2, h3, p),
+  main .section.legacy-heading .default-content-wrapper :is(h1, h2) ~ .prosemirror-editor :is(h2, h3, p) {
+    margin: 10px 0 48px;
+    padding: 0 55px 0 18px;
+  }
+
+  main .section.legacy-heading:has(> .accordion-wrapper) {
+    padding: 57px 0 58px;
+  }
+
+  main .section.legacy-heading:has(> .accordion-wrapper) > div {
+    max-width: 90.4%;
+  }
+
+  main .section.legacy-heading > .accordion-wrapper {
+    margin-top: 25px;
+  }
+
+  main .accordion.legacy .accordion-item + .accordion-item {
+    margin-top: 0;
+  }
+
+  main .accordion.legacy .accordion-header {
+    padding-bottom: 0;
+  }
+
+  main .accordion.legacy .accordion-title {
+    margin: 5px 0 8px;
+  }
+
+  main .accordion.legacy .accordion-title :is(h2, h3, h4, p, .prosemirror-editor :is(h2, h3, h4, p)) {
+    font-size: 20px;
+  }
+
+  main .accordion.legacy .accordion-toggle {
+    width: 20px;
+    height: 10px;
+    margin: 0 5px 0 0;
+    background-image: url("/icons/chevron-down-desktop.svg");
+  }
+
+  main .accordion.legacy .accordion-panel {
+    margin-top: 0;
+  }
+
+  main .accordion.legacy .accordion-panel-inner {
+    padding: 15px 18px 30px 0;
+    columns: 1;
+  }
+
+  main .columns.legacy-info .columns-col {
+    width: 100%;
+  }
+
+  main .section:has(> .columns-wrapper > .columns.legacy-info) {
+    padding: 0 0 29px;
+  }
+
+  main .columns.legacy-info .columns-row {
+    display: block;
+  }
+
+  main .columns.legacy-info .columns-col:first-child {
+    border-right: 0;
+  }
+
+  main .columns.legacy-info .columns-col:first-child::after {
+    content: "";
+    display: block;
+    width: 76%;
+    margin: 19px auto 0;
+    border: 1px solid rgb(255 255 255 / 37%);
+  }
+
+  main .columns.legacy-info :is(h2, h3) {
+    margin: 25px 0 15px;
+  }
+
+  main .section.article-hero > .default-content-wrapper {
+    height: 426px;
+    padding-bottom: 22px;
+  }
+
+  main .section.article-hero > .default-content-wrapper::after {
+    height: 242px;
+  }
+
+  main .section.article-hero .default-content-wrapper :is(picture, img) {
+    height: 426px;
+  }
+
+  main .section.article-hero .default-content-wrapper p:last-child {
+    width: 278px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  body.legacy main .section.article-hero ~ .section > div {
+    max-width: 90.4%;
+  }
+
+  body.legacy main .section.article-hero + .section > .default-content-wrapper {
+    margin-top: 93px; /* 28px + the 65px share-bar row */
+  }
+
+  body.legacy main .section.article-hero ~ .section .default-content-wrapper p {
+    margin-bottom: 17px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  body.legacy main .section.article-hero ~ .section .default-content-wrapper strong,
+  body.legacy main .section.article-hero ~ .section .default-content-wrapper h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  body.legacy main .section.article-hero ~ .section .default-content-wrapper li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  main .section.photo-gallery {
+    padding: 4px 0 66px;
+  }
+
+  main .section.photo-gallery .default-content-wrapper :is(h1, h2) {
+    padding-left: 18px;
+    font-size: 38px;
+    line-height: 0.76;
+    letter-spacing: 1.2px;
+  }
+
+  main .section.photo-gallery .default-content-wrapper p {
+    max-width: none;
+    margin: 0 0 20px;
+    padding-left: 18px;
+    font-size: 14px;
+    line-height: 2.07;
+  }
+
+  body.content-page main .default-content-wrapper {
+    max-width: 336px;
+  }
+}
+/* stylelint-enable no-descending-specificity */
+
+/* Experience Workspace edit mode: accent (em + strong) CTA repaint — the nested mark shape the rules above miss */
+/* stylelint-disable no-descending-specificity -- mark-specific paint follows the generic paint */
+.prosemirror-editor p > :is(em > strong, strong > em) > a:any-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  padding: 14px 34px 14px 14px;
+  gap: 12px;
+  font-family: var(--font-semibold);
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-white);
+  background: var(--color-black);
+  border-radius: 9999px;
+}
+
+.prosemirror-editor p > :is(em > strong, strong > em) > a:is([href^='http'], [href^='tel:'], [href^='mailto:']):any-link::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  background: var(--color-white);
+  mask: url('/icons/web.svg') center / contain no-repeat;
+}
+
+.prosemirror-editor p > :is(em > strong, strong > em) > a[href^='tel:']:any-link::before {
+  mask-image: url('/icons/phone.svg');
+}
+
+.prosemirror-editor p > :is(em > strong, strong > em) > a[href^='mailto:']:any-link::before {
+  mask-image: url('/icons/envelope.svg');
+}
+/* stylelint-enable no-descending-specificity */

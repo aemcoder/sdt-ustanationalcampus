@@ -1,0 +1,423 @@
+/* service-tiles — legacy .guestServiceMainWrap / .boxTile grid + row-spanning collapse panels.
+   Values lifted from stardust/prototypes/css/en-home-visit-html.css (gated 1440 + 360). */
+
+main .section.service-tiles-container {
+  background: var(--color-legacy-canvas);
+  padding: 95px 0 0;
+}
+
+.service-tiles .service-tiles-grid {
+  display: grid;
+  grid-template-columns: 375fr 360fr 375fr; /* bootstrap col-md-4 with 0/15 · 15/15 · 15/0 inner paddings */
+  column-gap: 30px;
+}
+
+.service-tiles .service-tile {
+  order: calc(var(--r3) * 2);
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.service-tiles .service-tile-panel {
+  order: calc(var(--r3) * 2 + 1);
+  grid-column: 1 / -1;
+  position: relative;
+  margin: 0 0 30px;
+  background: var(--color-white);
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+.service-tiles .service-tile-content {
+  position: relative;
+  background: var(--color-white);
+  cursor: pointer;
+  outline-offset: 2px;
+}
+
+.service-tiles .service-tile-media {
+  overflow: hidden;
+  line-height: 0;
+}
+
+.service-tiles .service-tile-media img {
+  display: block;
+  width: 100%;
+  height: 203px;
+}
+
+.service-tiles .service-tile-text {
+  padding: 0 10px 25px;
+}
+
+.service-tiles .service-tile.is-open .service-tile-text {
+  padding-bottom: 23px;
+  border-bottom: 2px solid var(--color-legacy-red);
+}
+
+.service-tiles .service-tile-title :is(h2, h3, h4) {
+  margin: 0 0 10px;
+  padding: 10px 0 0;
+  font-family: var(--font-semibold);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 2;
+  color: var(--color-legacy-card-text);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.service-tiles .service-tile-lede p {
+  margin: 6px 0 0;
+  padding: 0 35px;
+  font-size: 14px;
+  line-height: 1.3;
+  color: var(--color-legacy-card-text);
+}
+
+/* inline "View More" line (the source's .boxTileSmall): hidden ≥992px, shown under the lede below */
+.service-tiles .service-tile-more {
+  display: none;
+}
+
+.service-tiles .service-tile-more p {
+  margin: 10px 0 0;
+  font-family: var(--font-semibold);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.service-tiles .service-tile-more a:any-link {
+  color: var(--color-legacy-navy);
+  text-decoration: none;
+}
+
+/* hover overlay (desktop): the authored "View More" label centred on a navy wash */
+.service-tiles .service-tile-hover {
+  display: none;
+  position: absolute;
+  inset: 0;
+  background: rgb(0 38 73 / 84%);
+}
+
+.service-tiles .service-tile-hover p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-semibold);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--color-white);
+  white-space: nowrap;
+}
+
+.service-tiles .service-tile-content:hover .service-tile-hover,
+.service-tiles .service-tile-content:focus-visible .service-tile-hover {
+  display: block;
+}
+
+/* white pointer arrow under an open tile */
+.service-tiles .service-tile::after {
+  content: "";
+  display: none;
+  width: 0;
+  height: 0;
+  margin: 10px auto 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid var(--color-white);
+}
+
+.service-tiles .service-tile.is-open {
+  margin-bottom: 0;
+}
+
+.service-tiles .service-tile.is-open::after {
+  display: block;
+}
+
+/* detail panel */
+.service-tiles .service-tile-close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 2;
+  width: 21px;
+  height: 21px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.service-tiles .service-tile-close::before,
+.service-tiles .service-tile-close::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 21px;
+  height: 1px;
+  background: var(--color-black);
+  transform: rotate(45deg);
+}
+
+.service-tiles .service-tile-close::after {
+  transform: rotate(-45deg);
+}
+
+.service-tiles .service-tile-detail {
+  display: flex;
+  text-align: left;
+}
+
+.service-tiles .service-tile-detail-media {
+  flex: 0 0 33.3333%;
+  margin: 37px 0 30px;
+  padding: 0 0 0 30px;
+}
+
+.service-tiles .service-tile-detail-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.service-tiles .service-tile-detail-desc {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 37px 0 30px;
+  padding: 0 100px 0 40px;
+}
+
+.service-tiles .service-tile-detail-heading :is(h2, h3, h4) {
+  margin: 4px 0 0;
+  font-family: var(--font-display);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.33;
+  color: var(--color-legacy-card-text);
+  text-transform: capitalize;
+}
+
+.service-tiles .service-tile-detail-sub :is(h5, h6) {
+  margin: 15px 0 0;
+  font-family: var(--font-semibold);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-legacy-card-text);
+}
+
+.service-tiles .service-tile-detail-cols {
+  display: flex;
+  gap: 0 30px;
+}
+
+.service-tiles .service-tile-detail-col {
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 30px 0 0;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--color-legacy-card-text);
+}
+
+.service-tiles .service-tile-detail-col p,
+.service-tiles .service-tile-detail-col li {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--color-legacy-card-text);
+}
+
+.service-tiles .service-tile-detail-col :is(h2, h3, h4, h5, h6) {
+  margin: 10px 0;
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-text);
+}
+
+.service-tiles .service-tile-detail-col strong {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  color: #70a5d7;
+}
+
+.service-tiles .service-tile-detail-col a:any-link {
+  color: #418fde;
+  text-decoration: none;
+}
+
+.service-tiles .service-tile-detail-col ul,
+.service-tiles .service-tile-detail-col ol {
+  margin: 0 0 10px;
+  padding-left: 40px;
+}
+
+.service-tiles .service-tile-detail-col ul li {
+  list-style: disc;
+}
+
+.service-tiles .service-tile-detail-col ol li {
+  list-style: decimal;
+}
+
+@media (width >= 992px) and (width <= 1199px) {
+  main .section.service-tiles-container {
+    padding: 95px 0 60px;
+  }
+
+  .service-tiles .service-tile-media img {
+    height: 167px;
+  }
+
+  .service-tiles .service-tile-lede p {
+    padding: 0 25px;
+  }
+
+  .service-tiles .service-tile-detail-desc {
+    padding: 0 70px 0 30px;
+  }
+
+  .service-tiles .service-tile-detail-sub :is(h5, h6) {
+    margin: 5px 0 0;
+    font-size: 14px;
+  }
+
+  .service-tiles .service-tile-detail-col {
+    margin-top: 15px;
+  }
+}
+
+@media (width <= 991px) {
+  .service-tiles .service-tile-media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  .service-tiles .service-tile-media img {
+    width: auto;
+    height: 113px;
+    margin: 0 auto;
+  }
+
+  .service-tiles .service-tile-text {
+    margin: 56px 0 0;
+    padding: 56px 10px 15px;
+  }
+
+  .service-tiles .service-tile-title :is(h2, h3, h4) {
+    margin: 0;
+    padding: 0;
+  }
+
+  .service-tiles .service-tile-lede p {
+    margin: 0;
+    padding: 0 25px;
+  }
+
+  /* no hover wash on touch layouts; the inline "View More" line shows under the lede */
+  .service-tiles .service-tile-hover,
+  .service-tiles .service-tile-content:hover .service-tile-hover {
+    display: none;
+  }
+
+  .service-tiles .service-tile-more {
+    display: block;
+  }
+
+  .service-tiles .service-tile.is-open .service-tile-text {
+    padding-bottom: 23px;
+    border-bottom: 2px solid var(--color-legacy-red);
+  }
+}
+
+@media (width >= 768px) and (width <= 991px) {
+  main .section.service-tiles-container {
+    padding: 46px 0 30px;
+  }
+
+  .service-tiles .service-tiles-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .service-tiles .service-tile {
+    order: calc(var(--r2) * 2);
+  }
+
+  .service-tiles .service-tile-panel {
+    order: calc(var(--r2) * 2 + 1);
+  }
+}
+
+@media (width <= 767px) {
+  main .section.service-tiles-container {
+    padding: 76px 0 0;
+  }
+
+  .service-tiles .service-tiles-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .service-tiles .service-tile,
+  .service-tiles .service-tile-panel {
+    order: initial;
+  }
+
+  .service-tiles .service-tile-media img {
+    height: 126px;
+  }
+
+  .service-tiles .service-tile-text {
+    margin: 63px 0 0;
+    padding: 63px 10px 15px;
+  }
+
+  .service-tiles .service-tile-close {
+    top: 18px;
+    right: 18px;
+  }
+
+  .service-tiles .service-tile-detail {
+    display: block;
+    padding: 20px 53px 0 18px;
+  }
+
+  .service-tiles .service-tile-detail-media {
+    margin: 0 0 10px;
+    padding: 0;
+  }
+
+  .service-tiles .service-tile-detail-desc {
+    margin: 0 0 34px;
+    padding: 0;
+  }
+
+  .service-tiles .service-tile-detail-sub :is(h5, h6) {
+    margin: 13px 0 0;
+  }
+
+  .service-tiles .service-tile-detail-cols {
+    display: block;
+  }
+
+  .service-tiles .service-tile-detail-col {
+    margin: 29px 0 0;
+  }
+}

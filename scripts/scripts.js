@@ -74,11 +74,31 @@ function buildWidgetAutoBlocks(main) {
 }
 
 /**
+ * Turns a video / live-stream URL alone in its paragraph into an `embed` block (D1: URL-based
+ * content is auto-blocked from a plain link, never authored as a block table).
+ * @param {Element} main The container element
+ */
+function buildEmbedAutoBlocks(main) {
+  const hosts = /(^|\.)(youtube\.com|youtu\.be|vimeo\.com|ioncourt\.com)$/;
+  main.querySelectorAll('p > a[href]:only-child').forEach((link) => {
+    if (link.closest('.embed, .block')) return;
+    const p = link.parentElement;
+    if (p.textContent.trim() !== link.textContent.trim()) return;
+    let url;
+    try { url = new URL(link.href); } catch { return; }
+    if (!hosts.test(url.hostname)) return;
+    const embed = buildBlock('embed', { elems: [link] });
+    p.replaceWith(embed);
+  });
+}
+
+/**
  * Builds all synthetic blocks in a container element.
  * @param {Element} main The container element
  */
 function buildAutoBlocks(main) {
   try {
+    buildEmbedAutoBlocks(main);
     // auto load `*/fragments/*` references
     const fragments = [...main.querySelectorAll('a[href*="/fragments/"]')].filter((f) => !f.closest('.fragment'));
     if (fragments.length > 0) {

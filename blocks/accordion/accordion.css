@@ -1,0 +1,275 @@
+/* stylelint-disable no-descending-specificity -- variant rules follow the default rules */
+
+/* accordion — values lifted from css/en-home-play-private-lessons-html.css (AEM core accordion + usta
+   clientlib, price table, sage band). Chevrons are the source's clientlib icons, served from /icons. */
+.accordion .accordion-items {
+  padding: 0;
+}
+
+.accordion .accordion-item + .accordion-item {
+  margin-top: 10px;
+}
+
+.accordion .accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.accordion .accordion-title {
+  flex: 0 1 auto;
+  margin-bottom: 8px;
+}
+
+.accordion .accordion-title :is(h2, h3, h4, p, .prosemirror-editor :is(h2, h3, h4, p)) {
+  margin: 0;
+  font-family: var(--font-semibold);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.4286;
+  color: var(--color-black);
+  text-align: left;
+  text-transform: none;
+}
+
+.accordion .accordion-toggle {
+  flex: 0 1 auto;
+  width: 36px;
+  height: 36px;
+  margin: 2px 16px 3px 0;
+  padding: 0;
+  border: 0;
+  background: url('/icons/chevron-down-desktop.svg') center / contain no-repeat;
+}
+
+.accordion .accordion-item.expanded .accordion-toggle {
+  background-image: url('/icons/chevron-up-desktop.svg');
+}
+
+.accordion .accordion-panel {
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 1px solid #333;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--color-text);
+  visibility: hidden;
+  transition: max-height 0.4s ease-in-out, visibility 0s 0.4s;
+}
+
+.accordion .accordion-item.expanded .accordion-panel {
+  max-height: 9999px;
+  padding-top: 10px;
+  visibility: visible;
+  transition: max-height 0.4s ease-in-out, visibility 0s;
+}
+
+.accordion .accordion-panel-inner {
+  padding: 8px 0;
+}
+
+.accordion .accordion-panel-inner :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+  padding: 8px 0;
+}
+
+.accordion .accordion-panel-inner :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  padding-top: 24px;
+}
+
+/* ---- pricing: header row + value row grid inside the panel (usta responsive table) ---- */
+.accordion.pricing .accordion-panel-inner {
+  margin: 0 6px;
+  padding: 8px 0 25px; /* + the source's 17px separator row below the table */
+}
+
+.accordion.pricing .price-table {
+  overflow: hidden;
+  border: 1px solid #e1e6e8;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+}
+
+.accordion.pricing .price-row {
+  display: flex;
+  min-height: 56px;
+}
+
+.accordion.pricing .price-row.head {
+  border-bottom: 1px solid #e1e6e8;
+}
+
+.accordion.pricing .price-cell {
+  flex: 1;
+  padding: 16px;
+  overflow-wrap: anywhere;
+}
+
+.accordion.pricing .price-cell :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--color-black);
+}
+
+/* ---- band: full-bleed colour band, content half (left) + photo half (right; first on mobile) ---- */
+.accordion.band {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.accordion.band.sage {
+  background: var(--color-sage);
+}
+
+.accordion.band.clay {
+  background: var(--color-contact-grey);
+}
+
+.accordion.band .band-content {
+  order: 1;
+  width: 50%;
+  padding: 8px 12px;
+}
+
+.accordion.band .band-photo {
+  position: relative;
+  order: 2;
+  width: 50%;
+  padding: 224px 0; /* small + medium + large */
+}
+
+.accordion.band .band-photo :is(p, .prosemirror-editor, picture) {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+}
+
+.accordion.band .band-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.accordion.band .band-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.accordion.band .band-head {
+  width: calc(100% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.accordion.band .accordion-items {
+  width: calc(100% * 5 / 6 - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.accordion.band .band-actions {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 31px; /* the source's 7px-margin separator row: 8 + 7 + 1 + 7 + 8 */
+}
+
+.accordion.band .band-actions :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  display: flex;
+  justify-content: center;
+  width: calc(100% * 2 / 6 - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.accordion.band .band-note {
+  width: calc(100% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.accordion.band .band-note :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+  text-align: left;
+}
+
+@media (width <= 767px) {
+  .accordion .accordion-item + .accordion-item {
+    margin-top: 20px;
+  }
+
+  .accordion .accordion-header {
+    padding-bottom: 9px;
+  }
+
+  .accordion .accordion-title {
+    margin: 0;
+  }
+
+  .accordion .accordion-title :is(h2, h3, h4, p, .prosemirror-editor :is(h2, h3, h4, p)) {
+    font-size: 22px;
+  }
+
+  .accordion .accordion-toggle {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    background-image: url('/icons/chevron-down.svg');
+  }
+
+  .accordion .accordion-item.expanded .accordion-toggle {
+    background-image: url('/icons/chevron-up.svg');
+  }
+
+  .accordion .accordion-panel {
+    margin-top: 9px;
+  }
+
+  .accordion.pricing .price-table {
+    box-shadow: none;
+  }
+
+  .accordion.pricing .price-row {
+    flex-direction: column;
+    padding: 16px 5px;
+  }
+
+  .accordion.pricing .price-cell {
+    width: 100%;
+    padding: 0;
+  }
+
+  .accordion.pricing .price-cell:not(:last-child) {
+    padding-bottom: 16px;
+  }
+
+  .accordion.band .band-content {
+    order: 2;
+    width: 100%;
+  }
+
+  .accordion.band .band-photo {
+    order: 1;
+    width: 100%;
+    padding: 112px 0;
+  }
+
+  .accordion.band .accordion-items {
+    width: calc(100% - 12px);
+  }
+
+  .accordion.band .band-actions :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+    width: calc(100% - 12px);
+  }
+}
+/* stylelint-enable no-descending-specificity */

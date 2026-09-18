@@ -1,37 +1,181 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
-}
-
+/* hero — values lifted from the archetype prototypes (css/en-home-html.css, en-home-about-html.css,
+   en-home-play-private-lessons-html.css). AEM grid model: columns margin 0 6px, component padding 8px 0. */
 .hero {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  display: flow-root;
+  overflow: hidden;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-
-.hero picture {
+.hero .hero-media {
   position: absolute;
-  z-index: -1;
   inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
+  z-index: 0;
+  line-height: 0;
 }
 
-.hero img {
-  object-fit: cover;
+.hero .hero-media :is(picture, img) {
+  display: block;
   width: 100%;
   height: 100%;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+.hero .hero-media img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.hero .hero-box-wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.hero .hero-title :is(h1, h2, h3) {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--size-h1);
+  line-height: 1.1;
+  color: var(--color-white);
+}
+
+.hero .hero-lede :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+}
+
+/* ---- title-only (home): 8px outer padding, media padding 128 + 4×57, 75% panel with a 50% scrim ---- */
+.hero.title-only {
+  padding: 8px 0;
+}
+
+.hero.title-only .hero-box-wrap {
+  width: 75%;
+  margin: 356px 0 32px;
+  padding: 8px 0;
+}
+
+.hero.title-only .hero-box {
+  padding: 9px 0;
+  background: var(--scrim-50);
+}
+
+.hero.title-only .hero-title {
+  width: calc(100% * 8 / 9 - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.hero.title-only .hero-title :is(h1, h2, h3) {
+  line-height: 110px;
+}
+
+/* ---- boxed (hub pages): black 60% box on the left 7/12, title + CTA columns ---- */
+.hero.boxed {
+  padding-top: 96px;
+}
+
+.hero.boxed .hero-box-wrap {
+  width: 58.3333%;
+  margin: 224px 0 32px;
+}
+
+.hero.boxed .hero-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px 12px;
+  background: rgb(0 0 0 / 60%);
+}
+
+.hero.boxed .hero-title {
+  width: calc(100% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.hero.boxed .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.hero.boxed .hero-actions :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  display: block;
+  width: calc(28.5714% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.hero.boxed .hero-actions a.button:any-link,
+.hero.boxed .hero-actions .prosemirror-editor a:any-link {
+  display: flex;
+  width: 100%;
+  min-width: max-content;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: normal;
+  border: 1px solid transparent;
+}
+
+/* ---- boxed light (program pages): white 78% box on the left half, black title + lede ---- */
+.hero.boxed.light {
+  padding: 128px 0 64px;
+}
+
+.hero.boxed.light .hero-box-wrap {
+  width: 50%;
+  margin: 224px 0 0;
+}
+
+.hero.boxed.light .hero-box {
+  display: block;
+  padding: 32px 12px;
+  background: rgb(255 255 255 / 78%);
+}
+
+.hero.boxed.light .hero-title :is(h1, h2, h3) {
+  margin: 0 0 10px;
+  color: var(--color-black);
+}
+
+.hero.boxed.light .hero-lede {
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+@media (width <= 767px) {
+  .hero.title-only .hero-box-wrap {
+    margin: 292px 0 16px;
+  }
+
+  .hero.title-only .hero-title :is(h1, h2, h3) {
+    line-height: 59.4px;
+  }
+
+  .hero.boxed {
+    padding-top: 48px;
+  }
+
+  .hero.boxed .hero-box-wrap {
+    width: 100%;
+    margin: 112px 0 16px;
+  }
+
+  .hero.boxed .hero-box {
+    padding: 16px 12px;
+  }
+
+  .hero.boxed .hero-actions :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+    width: calc(50% - 12px);
+  }
+
+  .hero.boxed.light {
+    padding: 64px 0 32px;
+  }
+
+  .hero.boxed.light .hero-box-wrap {
+    width: 100%;
+    margin: 112px 0 0;
+  }
+
+  .hero.boxed.light .hero-box {
+    padding: 16px 12px;
   }
 }

@@ -1,0 +1,406 @@
+/* stylelint-disable no-descending-specificity -- variant rules follow the default rules */
+
+/* tile-mosaic — values lifted from css/en-home-html.css §3 (mosaic) and css/en-home-about-html.css §3 (events). */
+.tile-mosaic {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.tile-mosaic :is(picture, img) {
+  display: block;
+}
+
+.tile-mosaic .tile-media :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+  line-height: 0;
+}
+
+/* ---- default (home): 1 large tile (50%) + a right column of 2×2 tiles ---- */
+.tile-mosaic .tile-mosaic-main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.tile-mosaic .tile-mosaic-main .tile-media,
+.tile-mosaic .tile.photo .tile-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.tile-mosaic .tile-mosaic-main .tile-media :is(p, .prosemirror-editor, picture),
+.tile-mosaic .tile.photo .tile-media :is(p, .prosemirror-editor, picture) {
+  height: 100%;
+}
+
+.tile-mosaic .tile-mosaic-main .tile-media img,
+.tile-mosaic .tile.photo .tile-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.tile-mosaic .tile-panel {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-left: 12px;
+  background: var(--scrim-50);
+}
+
+.tile-mosaic .tile-panel-text {
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.tile-mosaic .tile-panel-text :is(h2, h3, .prosemirror-editor :is(h2, h3)) {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--size-h2);
+  line-height: 1.1;
+  color: var(--color-white);
+  text-transform: none;
+}
+
+.tile-mosaic .tile-panel-cta {
+  width: calc(100% * 4 / 6);
+  margin: 0 6px;
+  padding: 8px 0 25px;
+}
+
+.tile-mosaic .tile-panel-cta :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  display: block;
+  margin: 0;
+}
+
+.tile-mosaic .tile-panel-cta a.button:any-link {
+  display: flex;
+  width: calc(100% - 12px);
+  min-width: max-content;
+  border: 1px solid var(--color-black);
+}
+
+.tile-mosaic .tile-mosaic-side {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.tile-mosaic .tile {
+  position: relative;
+  width: 50%;
+  padding-left: 8px; /* the source's 8px white left bar */
+}
+
+.tile-mosaic .tile.photo .tile-media {
+  left: 8px;
+}
+
+.tile-mosaic .tile.photo {
+  cursor: pointer;
+}
+
+.tile-mosaic .tile.photo::before {
+  content: '';
+  display: block;
+  height: 169px; /* padding-top small (32) + large (128) + a 9px separator row */
+}
+
+.tile-mosaic .tile.photo .tile-caption {
+  position: relative;
+  z-index: 1;
+  padding-left: 12px;
+  background: var(--scrim-50);
+}
+
+.tile-mosaic .tile-caption-text {
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.tile-mosaic .tile-caption-text :is(h3, .prosemirror-editor h3) {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--size-h3-tile);
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-white);
+  text-align: left;
+  text-transform: none;
+}
+
+.tile-mosaic .tile-caption-text a:any-link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.tile-mosaic .tile.solid .tile-caption {
+  padding: 86px 12px; /* small (32) + the two 7px-margin separator rows (31 + 23) */
+  background: var(--color-usta-blue);
+}
+
+.tile-mosaic .tile.solid .tile-caption-text :is(h3, .prosemirror-editor h3) {
+  text-align: center;
+}
+
+/* the 9px separator row between the two side rows (live: flex baseline drops the first photo tile 2px) */
+.tile-mosaic .tile-mosaic-side .tile:nth-child(2) {
+  margin-top: 2px;
+}
+
+.tile-mosaic .tile-mosaic-side .tile:nth-child(n + 3) {
+  margin-top: 9px;
+}
+
+/* ---- collage (hub events): feature tile 25% + collage 50% + photo 25%, centred ---- */
+.tile-mosaic.collage {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tile-mosaic.collage .tile-wrap.feature {
+  width: 25%;
+}
+
+.tile-mosaic.collage .tile-wrap.collage {
+  width: 50%;
+  padding: 8px 0;
+}
+
+.tile-mosaic.collage .tile-wrap.photo {
+  width: 25%;
+}
+
+.tile-mosaic.collage .tile.feature {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 9px 0 17px; /* the source's 4px- and 8px-padding separator rows */
+  background: #a4ee90;
+}
+
+.tile-mosaic.collage .tile-title {
+  width: calc(100% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.tile-mosaic.collage .tile-title :is(h3, .prosemirror-editor h3) {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-black);
+  text-align: center;
+  text-transform: none;
+}
+
+.tile-mosaic.collage .tile-icon {
+  width: calc(33.3333% - 12px);
+  margin: 0 auto;
+  padding: 8px 0;
+}
+
+.tile-mosaic.collage .tile-icon :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)),
+.tile-mosaic.collage .tile-arrow :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)),
+.tile-mosaic.collage .collage-item :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)),
+.tile-mosaic.collage .tile.photo :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+  line-height: 0;
+}
+
+.tile-mosaic.collage .tile-icon img,
+.tile-mosaic.collage .collage-item img {
+  width: 100%;
+  height: auto;
+}
+
+.tile-mosaic.collage .tile-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 9px;
+}
+
+.tile-mosaic.collage .tile-label {
+  width: calc(66.6667% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.tile-mosaic.collage .tile-label :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--color-black);
+}
+
+.tile-mosaic.collage .tile-arrow {
+  width: calc(33.3333% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.tile-mosaic.collage .tile-arrow img {
+  width: 50%;
+  height: auto;
+}
+
+.tile-mosaic.collage .tile.collage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0 6px;
+}
+
+.tile-mosaic.collage .collage-item {
+  width: calc(33.3333% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.tile-mosaic.collage .tile.photo {
+  position: static;
+  width: 100%;
+  padding: 0;
+  cursor: default;
+}
+
+.tile-mosaic.collage .tile.photo::before {
+  display: none;
+}
+
+.tile-mosaic.collage .tile.photo img {
+  width: 100%;
+  height: 313px; /* 128 + a 57px separator row + 128 */
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+@media (width <= 767px) {
+  .tile-mosaic .tile-mosaic-main {
+    width: 100%;
+    min-height: 355.39px;
+  }
+
+  .tile-mosaic .tile-panel {
+    width: calc(100% * 10 / 12);
+  }
+
+  .tile-mosaic .tile-panel-cta {
+    width: 50%;
+  }
+
+  .tile-mosaic .tile-mosaic-side {
+    width: 100%;
+  }
+
+  .tile-mosaic .tile {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .tile-mosaic .tile.photo .tile-media {
+    left: 0;
+  }
+
+  .tile-mosaic .tile-mosaic-side .tile,
+  .tile-mosaic .tile-mosaic-side .tile:nth-child(2),
+  .tile-mosaic .tile-mosaic-side .tile:nth-child(n + 3) {
+    margin-top: 9px;
+  }
+
+  .tile-mosaic .tile.photo::before {
+    height: 89px; /* mobile: small (16) + large (64) + the 9px separator row */
+  }
+
+  .tile-mosaic .tile.solid .tile-caption {
+    padding: 47px 12px; /* mobile: small (16) + one 7px-margin separator row (31) */
+  }
+
+  .tile-mosaic .tile.solid .tile-caption-text {
+    width: calc(100% * 5 / 12);
+    margin: 0 auto;
+    padding: 8px 6px;
+  }
+
+  .tile-mosaic .tile.solid .tile-caption-text :is(h3, .prosemirror-editor h3) {
+    text-align: left;
+  }
+
+  .tile-mosaic .tile.solid .tile-caption-text a:any-link {
+    text-decoration: none;
+  }
+
+  .tile-mosaic .tile-mosaic-side .tile.photo:nth-child(2) .tile-caption-text {
+    width: calc(100% * 11 / 12);
+    margin: 0 auto;
+    padding: 8px 6px;
+  }
+
+  .tile-mosaic.collage .tile-wrap.feature,
+  .tile-mosaic.collage .tile-wrap.collage,
+  .tile-mosaic.collage .tile-wrap.photo {
+    width: 100%;
+  }
+
+  .tile-mosaic.collage .tile-title :is(h3, .prosemirror-editor h3) {
+    font-size: 36px;
+  }
+
+  .tile-mosaic.collage .tile-label {
+    width: calc(66.6667% - 40px);
+    margin: 0 20px;
+  }
+
+  .tile-mosaic.collage .tile-arrow {
+    width: calc(33.3333% - 40px);
+    margin: 0 20px;
+  }
+
+  .tile-mosaic.collage .collage-item {
+    width: calc(50% - 12px);
+  }
+
+  .tile-mosaic.collage .tile.photo img {
+    height: 185px; /* 64 + 57 + 64 */
+  }
+}
+
+/* the collage variant sits inside the page container (only the home mosaic is full-bleed) */
+main > .section > .tile-mosaic-wrapper:has(> .tile-mosaic.collage) {
+  max-width: var(--content-max);
+  margin: 0 auto;
+}
+
+/* collage under an icon heading (hub events): section 64 + 8 top, panel 32 bottom */
+main .section.tile-mosaic-container:is(.icon-heading, .icon-heading-grid, .icon-heading-large) {
+  padding: 72px 0 32px;
+}
+
+@media (width <= 1223px) {
+  main > .section > .tile-mosaic-wrapper:has(> .tile-mosaic.collage) {
+    max-width: calc(100% - 24px);
+  }
+}
+
+@media (width <= 767px) {
+  main .section.tile-mosaic-container:is(.icon-heading, .icon-heading-grid, .icon-heading-large) {
+    padding: 40px 0 16px;
+  }
+}
+/* stylelint-enable no-descending-specificity */

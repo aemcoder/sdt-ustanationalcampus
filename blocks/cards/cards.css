@@ -1,27 +1,154 @@
-.cards > ul {
-  list-style: none;
+/* stylelint-disable no-descending-specificity -- promo/variant rules follow the default card rules */
+
+/* cards — values lifted from css/en-home-html.css §6 (programs grid + promo card). */
+.cards .cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  list-style: none;
 }
 
-.cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+.cards .card {
+  width: 25%;
+  padding: 8px 0;
 }
 
-.cards .cards-card-body {
-  margin: 16px;
+.cards .card-image {
+  margin: 0 6px;
+  padding: 8px 0;
 }
 
-.cards .cards-card-image {
+.cards .card-image :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
   line-height: 0;
 }
 
-.cards > ul > li img {
+.cards .card-image img {
+  display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  height: auto;
 }
+
+.cards .card-text {
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.cards .card-text :is(h3, h4, h5, .prosemirror-editor :is(h3, h4, h5)) {
+  margin: 10px 0;
+  font-family: var(--font-semibold);
+  font-size: var(--size-h5);
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-black);
+  text-transform: none;
+}
+
+.cards .card-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+}
+
+/* authored `<p>&nbsp;</p>` spacer before the link line (#112) */
+.cards .card-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: 24px;
+}
+
+/* ---- promo card: solid blue, icon + centred copy + inverse button, framed by the source's separator rows ---- */
+.cards .card.promo {
+  padding: 17px 0; /* 8 + a 9px thin separator row */
+}
+
+.cards .promo-box {
+  margin: 0;
+  padding: 24px 12px; /* the 4+7+2+7+4 promo separator rows */
+  background: var(--color-usta-blue);
+  cursor: pointer;
+}
+
+.cards .promo-icon {
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+.cards .promo-icon-box {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cards .promo-icon-box :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+  line-height: 0;
+}
+
+.cards .promo-icon-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cards .promo-text {
+  margin: 0 6px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.cards .promo-text :is(h3, h4, h5, .prosemirror-editor :is(h3, h4, h5)) {
+  margin: 10px 0;
+  font-family: var(--font-semibold);
+  font-size: var(--size-h5);
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-white);
+  text-align: center;
+  text-transform: none;
+}
+
+.cards .promo-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.cards .promo-cta {
+  margin: 24px 6px 0;
+  padding: 8px 0;
+}
+
+.cards .promo-cta :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  display: block;
+  margin: 0;
+}
+
+.cards .promo-cta a.button:any-link {
+  display: flex;
+  width: 100%;
+  min-width: max-content;
+  color: var(--color-link); /* the source's .cmp-text a colour wins over the inverse button's black */
+  border: 1px solid transparent;
+}
+
+/* consecutive card grids in one section: the source's visible thin hairline row between them (4 + 1 + 4) */
+.cards-wrapper + .cards-wrapper .cards::before {
+  content: '';
+  display: block;
+  margin: 4px 6px;
+  border-top: 1px solid #eee;
+}
+
+/* cards under an icon heading (hub/program pages): section 8 + inner 32px paddings */
+main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-heading-large) {
+  padding: 40px 0 32px;
+}
+
+@media (width <= 767px) {
+  .cards .card {
+    width: 100%;
+  }
+
+  main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-heading-large) {
+    padding: 24px 0 16px;
+  }
+}
+/* stylelint-enable no-descending-specificity */
