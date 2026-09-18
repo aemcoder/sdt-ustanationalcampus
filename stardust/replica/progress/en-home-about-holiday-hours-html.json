@@ -1,0 +1,114 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:replica",
+  "writtenAt": "2026-09-18T17:49:14Z",
+  "stardustVersion": "0.22.1"
+ },
+ "archetype": "en-home-about-holiday-hours-html",
+ "url": "https://www.ustanationalcampus.com/en/home/about/holiday-hours.html",
+ "finalUrl": "https://www.ustanationalcampus.com/en/home/about/holiday-hours.html",
+ "prototype": "stardust/prototypes/en-home-about-holiday-hours-html-proposed.html",
+ "css": "stardust/prototypes/css/en-home-news-holiday-hours-html.css",
+ "pageType": "static",
+ "template": "content-page-template",
+ "portations": [
+  {
+   "what": "header height 229/176 on this template (canon 213/160): .top-nav margin 8px 0 (transparent strips) + --header-height override in page CSS",
+   "evidence": "gates/<slug>-1440/gate-iter1.txt (header crop 13.30% → 0.00%), canon-feedback/en-home-about-holiday-hours-html.md"
+  },
+  {
+   "what": "footer partial placed outside #mainContent — live runtime inventory under #mainContent has no footer nodes (content-diff iter1: 25 🟠 EXTRA build-side footer nodes → final: none)",
+   "evidence": "gates/<slug>-1440/content-diff-iter1.txt vs content-diff-final.txt"
+  }
+ ],
+ "motion": {
+  "observed": "0 animations, 0 transitions, 0 class mutations, 0 widget pokes, 0 hover probes (nothing interactive on the page)",
+  "implemented": [],
+  "dead": [],
+  "evidence": "stardust/replica/motion/en-home-about-holiday-hours-html.json"
+ },
+ "instrumentNotes": [],
+ "breakpoints": {
+  "1440": {
+   "iterations": 1,
+   "iterationsNote": "iter1 0.15% (built on the gated sibling CSS); 'final' = verification re-run after footer DOM reparenting, pixel unchanged",
+   "result": {
+    "structuralRed": 0,
+    "contentFindings": "none — 25/25 text nodes, content + roles match",
+    "visualFlags": "none",
+    "pixelPct": 0.15,
+    "heightDelta": 0,
+    "chromeHeaderPct": 0.0,
+    "chromeFooterPct": 0.19,
+    "footerAnchorDeltaH": 0,
+    "pass": true,
+    "regime": "prototype"
+   },
+   "justified": [],
+   "residuals": [
+    {
+     "band": "y 840–895 and y 1880–1935, x 13–64",
+     "pct": 0.15,
+     "cause": "capture-state: live-only OneTrust floating cookie button at the chunk seams (≈4.8k px of the 4247 differing)",
+     "flaggedFor": "delivery"
+    },
+    {
+     "band": "y 1302–1477, x 770–1007",
+     "pct": 0.003,
+     "cause": "glyph-antialiasing in the footer link columns (≈90 px)",
+     "flaggedFor": "user"
+    }
+   ],
+   "captureState": [
+    {
+     "what": "OneTrust floating cookie button (div.ot-floating-button, 50x50, fixed bottom-left) is live-only and repeats at every stitched chunk seam",
+     "where": "x 13–64, bottom of each capture chunk"
+    }
+   ]
+  },
+  "360": {
+   "iterations": 1,
+   "iterationsNote": "iter1 0.70%; 'final' = verification re-run after footer DOM reparenting, pixel unchanged",
+   "result": {
+    "structuralRed": 0,
+    "contentFindings": "none — 25/25 text nodes, content + roles match",
+    "visualFlags": "none",
+    "pixelPct": 0.7,
+    "heightDelta": 0,
+    "chromeHeaderPct": 0.5,
+    "chromeFooterPct": 0.71,
+    "footerAnchorDeltaH": 1,
+    "pass": true,
+    "regime": "prototype"
+   },
+   "justified": [],
+   "residuals": [
+    {
+     "band": "y 840–895 and y 2240–2295, x 3–54",
+     "pct": 0.6,
+     "cause": "capture-state: live-only OneTrust floating cookie button at the chunk seams (≈4.9k px)",
+     "flaggedFor": "delivery"
+    },
+    {
+     "band": "y 40–52 (+ seam repeats 940–952, 1440–1452), x 50–162",
+     "pct": 0.15,
+     "cause": "canon chrome: alert-banner second text line offset ~1px at 360 (canon 360 parity recorded as 'offsets only')",
+     "flaggedFor": "user"
+    },
+    {
+     "band": "y 1836–1847 x 181–294 and y 2107–2118 x 31–159",
+     "pct": 0.14,
+     "cause": "canon chrome: footer text offsets at 360 (canon 360 parity recorded as 'offsets only'); footer anchor h 1143 vs live 1142",
+     "flaggedFor": "user"
+    }
+   ],
+   "captureState": [
+    {
+     "what": "OneTrust floating cookie button (div.ot-floating-button, 50x50, fixed bottom-left) is live-only and repeats at every stitched chunk seam",
+     "where": "x 13–64, bottom of each capture chunk"
+    }
+   ]
+  }
+ },
+ "siblingOf": "en-home-news-holiday-hours-html (shares css/en-home-news-holiday-hours-html.css)"
+}

@@ -1,0 +1,206 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:replica archetype agent",
+  "writtenAt": "2026-09-18T17:58:00Z",
+  "stardustVersion": "0.22.1"
+ },
+ "pageType": "listing",
+ "archetype": "en-home-visit-html",
+ "regime": "prototype",
+ "liveUrl": "https://www.ustanationalcampus.com/en/home/visit.html",
+ "prototype": "stardust/prototypes/en-home-visit-html-proposed.html",
+ "css": "stardust/prototypes/css/en-home-visit-html.css",
+ "js": "stardust/prototypes/js/en-home-visit-html.js",
+ "templateFamily": "legacy (body.page, #mainContent.mainContainerWrap; guestServiceMainWrap / text.parbase / campusInformationMainWrap / usefulInformationMainWrap / adComponentWrapper)",
+ "structure": {
+  "sections": [
+   "guest-services (h3 + red dash, h4 sub, 6 boxTile cards in a float grid + 6 hidden collapse detail panels)",
+   "hotel-shuttle richtext (p&nbsp; / h2 b / p / p a / p&nbsp; x2 \u2014 byte patterns mirrored)",
+   "campus-information navy band (LOCATION | HOURS, 1px rgba(255,255,255,.37) rule; mobile horizontal bar)",
+   "useful-information (h3 + red dash, 4-item Bootstrap collapse accordion with verbatim richtext bodies)",
+   "advertisement (static creative in the 728x90 / 320x50 GPT slot)"
+  ],
+  "contentDiffNodes": "214 = 214 (19 headings, 29 CTAs, 166 body) at both widths"
+ },
+ "breakpoints": {
+  "1440": {
+   "iterations": 3,
+   "verificationReruns": 2,
+   "result": {
+    "structuralRed": 0,
+    "visualFlags": "2 justified",
+    "pixelPct": 0.14,
+    "heightDelta": 0,
+    "chromeHeaderPct": 0.0,
+    "chromeFooterPct": 0.21,
+    "pass": true
+   },
+   "history": [
+    {
+     "iter": 1,
+     "pixelPct": 12.41,
+     "heightDelta": 70,
+     "cause": "canon .content h4/.content p (0,1,1) outranked single-class component rules \u2014 card titles 42px vs 70, accordion heads 32 vs 50, card body 16px vs 14; fixed by scoping every component rule under .content"
+    },
+    {
+     "iter": 2,
+     "pixelPct": 0.29,
+     "heightDelta": 0
+    },
+    {
+     "iter": 3,
+     "pixelPct": 0.27,
+     "heightDelta": 0,
+     "note": "after interaction JS + footer li compensation"
+    },
+    {
+     "iter": "3-verify",
+     "pixelPct": 0.17,
+     "heightDelta": 0,
+     "note": "build-only re-run (live cached) after final CSS; no regression"
+    },
+    {
+     "iter": "final",
+     "pixelPct": 0.14,
+     "heightDelta": 0,
+     "note": "build-only re-run after alert-text/breadcrumb/footer-li family compensation; chrome-parity 1440 header 16/16 + footer 25/25 paired (only sr-only 'submenu' UA button font and BOOK NOW line-height 'normal' \u2014 non-rendering)"
+    }
+   ],
+   "justified": [
+    {
+     "probe": "visual",
+     "flag": "STRETCHED IMAGE x2 (IMG_0633400x238.jpg 400x238->375x203, What-to-Eat_400x238.jpg 400x238->360x203)",
+     "why": "mirrors live: .boxTileImage{height:203px;width:100%} \u2014 the source side reports the identical two flags"
+    },
+    {
+     "probe": "content",
+     "flag": "build 19 img vs source 18 img",
+     "why": "GPT ad iframe on live is rendered as the captured static creative <img> (dynamics row ad-slot: static creative)"
+    }
+   ],
+   "residuals": [
+    {
+     "band": "y 500\u20131000 / 1500\u20132000 / 2500\u20132924",
+     "pct": 0.3,
+     "cause": "capture-state: live-only OneTrust floating cookie button (fixed, 50x50 bottom-left) repeated at each stitch seam; breadcrumb glyph antialiasing at seams",
+     "flaggedFor": "delivery"
+    },
+    {
+     "region": "y 2020\u20132196 (ad slot)",
+     "pct": null,
+     "cause": "occluded on both sides by the bottom-aligned last stitch chunk's fixed-header repeat (2024\u20132237) \u2014 symmetric, not measurable in the stitched capture; creative parity verified against the full-page ground-truth screenshot crop",
+     "flaggedFor": "delivery"
+    }
+   ],
+   "captureState": [
+    {
+     "what": "GPT 728x90 creative (FREE 30 intro session) frozen as assets/ads/en-home-visit-html-728x90.png cropped from stardust/current/assets/screenshots/en-home-visit-html.png",
+     "where": "advertisement"
+    }
+   ],
+   "chromeParity": "gates/en-home-visit-html-1440/chrome-parity-iter3.json (header 16/16, footer 25/25, icons 2/2 + 5/5)"
+  },
+  "360": {
+   "iterations": 3,
+   "result": {
+    "structuralRed": 0,
+    "visualFlags": "1 justified",
+    "pixelPct": 0.53,
+    "heightDelta": 0,
+    "chromeHeaderPct": 0.01,
+    "chromeFooterPct": 0.55,
+    "pass": true
+   },
+   "history": [
+    {
+     "iter": 1,
+     "pixelPct": 4.33,
+     "heightDelta": -18,
+     "cause": "canon footer link rows 22.857px vs live 21px on the legacy body line-height 1.2 (chrome-parity footer: 25/25 paired, +2px/row x 9 rows); 320x50 creative not yet cropped"
+    },
+    {
+     "iter": 2,
+     "pixelPct": 2.9,
+     "heightDelta": -10,
+     "cause": "li line-height:21px still 22px line box (16px strut vs 12px link); strut matched to 12px"
+    },
+    {
+     "iter": 3,
+     "pixelPct": 1.06,
+     "heightDelta": 0
+    },
+    {
+     "iter": "3-verify",
+     "pixelPct": 0.53,
+     "heightDelta": 0,
+     "note": "build-only re-run after header compensation (alert p line-height 1.3, breadcrumb ol vertical-align:top); header band 2.89% -> 0.01%"
+    }
+   ],
+   "justified": [
+    {
+     "probe": "content",
+     "flag": "build 19 img vs source 18 img",
+     "why": "GPT ad iframe rendered as static creative <img> (ad-slot)"
+    }
+   ],
+   "residuals": [
+    {
+     "band": "y 500\u20131000 / 1500\u20132000 / 2500\u20133000 / 4000\u20134332",
+     "pct": 1.3,
+     "cause": "capture-state: live-only OneTrust floating cookie button (fixed 50x50 bottom-left) at each of the 5 stitch seams",
+     "flaggedFor": "delivery"
+    },
+    {
+     "region": "live footer top",
+     "pct": null,
+     "cause": "live nondeterminism: chrome-parity's navigation saw the GPT slot collapsed (footer top 3158 vs 3208 in the stitch/anchor run) \u2014 all 25 footer pairs uniformly +50; not a build delta",
+     "flaggedFor": "delivery"
+    }
+   ],
+   "captureState": [
+    {
+     "what": "GPT 320x50 creative (OUC 'proud to power USTA') frozen as assets/ads/en-home-visit-html-320x50.png cropped from the 360 live stitch",
+     "where": "advertisement"
+    }
+   ],
+   "verificationReruns": 1,
+   "chromeParity": "gates/en-home-visit-html-360/chrome-parity-footer-iter1.json (25/25) + chrome-parity-header-iter3.json (6/6)"
+  }
+ },
+ "canonCompensation": [
+  {
+   "rule": "body.page .site-footer__links li{font-size:12px;line-height:21px}",
+   "why": "legacy family body line-height 1.2 -> live footer link rows 21px (pitch 43) vs canon 22.857 (pitch 44.86); chrome-parity footer@360 25/25 paired, +2px/row x 9 rows = +19px; verified build-side footer 1124 / doc 4332 @360, link tops == live"
+  },
+  {
+   "rule": "body.page .alert-banner__text,body.page .alert-banner__text a{line-height:1.3}",
+   "why": "the alert text is a <p>; legacy family p line-height 1.3 -> live 18.2px @360 vs canon 20px/19.984px (chrome-parity header@360 6/6 paired); quiet at 1440 after the rule"
+  },
+  {
+   "rule": "body.page .breadcrumb ol{vertical-align:top}",
+   "why": "live crumbs at the band top (li y 121 @360, a y 135) vs canon 123/137: the nav line box (42px) rides the inline-flex ol 2px down on this page; measured by chrome-parity header@360 and reproduced build-side (121/135 @360, 184 @1440)"
+  }
+ ],
+ "motion": {
+  "observe": "stardust/replica/motion/en-home-visit-html.json (1 run, 1440: --click #headingone, #headingtwo, card 1 content; --hover card 2 content) + targeted card probe (hover overlay display, click on the real trigger a)",
+  "observed": [
+   "useful-information accordion: Bootstrap 3 collapse \u2014 trigger h4[data-toggle=collapse] -> panel .collapsing (transition height .35s ease) -> .collapse.in; closing .collapsing -> .collapse; trigger gets .collapsed; data-parent closes the open sibling; span.arrowDown.open transform .4s (rotate 180deg); chevron sprite hover background-position 0 0 -> 20px 0; h4 cursor pointer",
+   "guest-services card: hover .boxTileContent -> .boxTileHover display none->block (opacity .84 #002649, 'VIEW MORE'); click the overlay/smallText a -> #boxN .collapsing (height 298 mid-flight -> 413 settled) -> .collapse.in, all group triggers aria-expanded/.collapsed updated, .boxTileText gains .active (2px #ce1126 underline), .boxTileArrow shown; data-parent #guestServiceAccordion closes the open card",
+   "header: no scroll morph (headerTimeline states null at every sample); 0 animations, no entrance classes"
+  ],
+  "implemented": [
+   "js/en-home-visit-html.js: collapse state machine (.collapsing height .35s -> .collapse.in / .collapse, .collapsed on triggers, data-parent accordion, aria-expanded) for both widgets; .ui-acc__chev.open toggle; .gs-card.is-open + .gs-card__text.active hooks; keyboard Enter/Space on role=button headers",
+   "css: .collapsing transition, .ui-acc__chev transition transform .4s + hover sprite offset, .gs-card__content:hover .gs-card__hover{display:block}, .gs-card.is-open .gs-card__arrow{display:block}"
+  ],
+  "dead": [
+   "motion-observe's --click on .boxTileContent (card centre) fired nothing on live \u2014 the trigger is the overlay/smallText <a>, not the content div; confirmed by the targeted probe and implemented accordingly (not a dead class)"
+  ],
+  "behaviourMatch": "headless run against the prototype: #collapseone .collapsing (543px mid) -> .collapse.in 752px, chevron .open, #headingtwo closes #collapseone; card 1 hover overlay display block, click -> #box1 .collapsing 305 -> .collapse.in 423, text .active, arrow display block; card 2 click closes card 1; 0 pageerrors",
+  "pixelRegression": "1440 0.29% (iter2, pre-motion) -> 0.27% (iter3, motion in) -> 0.14% (final); 360 1.06% (iter3, motion in) -> 0.53% (verify)"
+ },
+ "canonFeedback": "stardust/replica/canon-feedback/en-home-visit-html.md",
+ "assets": [
+  "stardust/prototypes/assets/ads/en-home-visit-html-728x90.png (from the 1440 ground-truth screenshot; the stitched live capture has the ad occluded by the last chunk's header repeat)",
+  "stardust/prototypes/assets/ads/en-home-visit-html-320x50.png (from the 360 live stitch)"
+ ]
+}

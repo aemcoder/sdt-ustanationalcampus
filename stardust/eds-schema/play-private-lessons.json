@@ -1,0 +1,587 @@
+{
+ "source": "http://localhost:8793/en-home-play-private-lessons-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Private Lessons"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Step onto our state-of-the-art courts and discover how personalized coaching transforms your game."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "intro",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Unlock Your Full Potential"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Our world-class facility offers expert, personalized instruction tailored to elevate your game, whether you play . Book a dedicated, certified Pro for a session to rapidly improve technique, refine strategy, and accelerate skill development in your chosen racquet sport."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "tennis, pickleball, or padel"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Meet the Team",
+     "href": "/en/home/about/meet-our-team.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "lesson-types",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Lesson Types"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Private Lesson (1:1)"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Associate Head Pro"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Senior Pro"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Staff Pro"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Campus Pro"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "$110.00/hour"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "$110.00/hour"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "$100.00/hour"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "$90.00/hour"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Semi-Private Lesson (2:1)"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Associate Head Pro"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Senior Pro"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Staff Pro"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Campus Pro"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "$60.00/hour"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "$60.00/hour"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "$55.00/hour"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "$50.00/hour"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Small Group Lesson (3:1)"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Associate Head Pro"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Senior Pro"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Staff Pro"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Campus Pro"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "$43.33/hour"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "$43.33/hour"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "$40.00/hour"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "$36.67/hour"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Book Online",
+     "href": "https://app.courtreserve.com/Online/Portal/Index/6415"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Call To Book",
+     "href": "tel:4076752500"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "All lesson prices are listed per player"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 29,
+   "repeats": [
+    {
+     "unitSelector": "DIV.pl-rt",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.pl-btn",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.cmp-accordion__item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 9
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "separator-1",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "camps",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Private Team & Group Camps"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Book a 3-Day Private Team Camp with our National Campus Professionals featuring drills, skills, and tips in a 4:1 player-to-pro environment! Before the training, you will have the opportunity to consult with your camp's lead pro to customize the experience to fit your team's goals."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "LEARN MORE",
+     "href": "/en/home/play/tennis/adult-camps.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "separator-2",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "faq-heading",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Frequently Asked Questions"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "faq",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Does the price of the lesson include the court time?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Yes, absolutely! All of our lesson fees are . You do not need to book or pay for court time separately. We handle the reservation and cost of the court for the duration of your scheduled lesson"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "all-inclusive"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Do I need to form my own group for Semi-Private or Group lessons?"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Yes, both our (2-3 students) and (4+ students) options ."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Semi-Private"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Group Instruction"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "require a pre-existing group"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "I don't have a group, but I'd like to join a small group lesson. What are my options?"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "If you are interested in a small group setting but , please visit our for a list of available clinics, camps, and skill-level-based classes."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "do not currently have a group"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "page"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Programs",
+     "href": "https://www.ustanationalcampus.com/en/home/play/programs.html"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "How far in advance can I book a lesson?"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Lesson requests to the desired lesson date."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "may not be made sooner than two weeks (14 days) prior"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "What is the difference between a standard Group Lesson and a Private Group Camp?"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "The difference is the . are taught by a single instructor (pro) and typically accommodate up to 4 students. are defined as any large group ratio. These are custom-designed, larger sessions."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "instructor-to-student ratio"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Standard Group Lessons"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Private Group Camps",
+     "href": "/en/home/play/tennis/adult-camps.html"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "that requires to maintain quality instruction and a good student-to-proportion"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "more than one instructor (pro)"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Will my card be charged immediately when I book?"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "No, your card is used as a and will not be charged at the time of booking. The card will only be charged or f the lesson is ."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "hold only"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "the day of the lesson,"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "i"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "canceled, or if there is a"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "no-show"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 12,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-accordion__item",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "separator-3",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "cancellation",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Cancellation Policy"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Cancellations must be received at least 24 hours before the lesson to avoid being charged for the full value of the lesson. This policy also applies to lessons booked less than 24 hours before the scheduled time. Requests for lessons may not be made sooner than 2 weeks before the lesson date. Group lessons requiring more than one pro are considered a private group camp."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Read our"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Program Policies & Rain Information",
+     "href": "https://www.ustanationalcampus.com/en/home/news/national-campus-program-policies.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "separator-4",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "contact",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Questions? Contact us."
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "EMAIL",
+     "href": "mailto:nationalcampusprograms@usta.com"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "app",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Download the CourtReserve App"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.pl-app__badge",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

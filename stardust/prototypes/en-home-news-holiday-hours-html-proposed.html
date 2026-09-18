@@ -58,6 +58,7 @@
   <div class="breadcrumb"><div class="breadcrumb__inner"><nav aria-label="Breadcrumb"><ol><li><a href="/en/home.html">Home</a> <span class="divider">&gt;</span></li><li><a href="/en/home/about.html">About USTA National Campus</a> <span class="divider">&gt;</span></li><li class="active">Holiday Hours</li></ol></nav></div></div>
 </header>
 
+<!-- footer sits OUTSIDE #mainContent: the live runtime inventory under #mainContent carries 25 nodes (9 headings, 16 body) and no footer text -->
 <main id="mainContent">
   <div class="content page" data-section="holiday-hours">
     <div class="hh-container">
@@ -93,7 +94,8 @@
       </div>
     </div>
   </div>
-  <div class="footer-slot" data-section="footer">
+</main>
+<div class="footer-slot" data-section="footer">
 <footer class="site-footer">
   <div class="site-footer__container">
     <section class="site-footer__subscription">
@@ -129,7 +131,6 @@
 </footer>
 
   </div>
-</main>
 <script src="js/chrome.js"></script>
 </body>
 </html>

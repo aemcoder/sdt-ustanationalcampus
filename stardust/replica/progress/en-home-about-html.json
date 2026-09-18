@@ -1,0 +1,47 @@
+{
+  "_provenance": { "writtenBy": "stardust:replica (archetype agent)", "writtenAt": "2026-09-18T19:05:00Z", "stardustVersion": "0.22.1" },
+  "pageType": "hub",
+  "archetype": "en-home-about-html",
+  "liveUrl": "https://www.ustanationalcampus.com/en/home/about.html",
+  "prototype": "stardust/prototypes/en-home-about-html-proposed.html",
+  "css": "stardust/prototypes/css/en-home-about-html.css",
+  "regime": "prototype (standalone vs live)",
+  "lift": { "file": "stardust/current/_style-lift-en-home-about-html.json", "deep": "stardust/.work/deeplift-en-home-about-html.json", "widths": [1440, 360], "liveDocH": { "1440": 3495, "360": 5209 } },
+  "sections": ["hero (photo + rgba(0,0,0,.6) box, h1 100px, 2 buttons)", "discover (icon-row h2 76px, h3 56px + 3 p left, photo right — photo hidden at 360)", "events (icon-row h2, intro p, #a4ee90 calendar tile + 6-image collage + jimmyconnors photo band)", "teasers x4 (Collegiate Tennis, Testimonials — img+text halves; Careers, Player Development — photo band + text; photo bands hidden at 360)"],
+  "breakpoints": {
+    "1440": {
+      "iterations": 3,
+      "result": { "structuralRed": 0, "visualFlags": "none", "pixelPct": 0.12, "differingPx": 6020, "heightDelta": 0, "chromeHeaderPct": 0.00, "chromeFooterPct": 0.21, "pass": true },
+      "history": [ { "iter": 1, "pixelPct": 0.15, "heightDelta": 0 }, { "iter": 2, "pixelPct": 0.14, "fix": ".content .about-btn specificity — canon .content a coloured/underlined hero button labels (btn crop 2.12%)" }, { "iter": 3, "pixelPct": 0.12, "fix": ".about-btn__text-content{letter-spacing:normal} (source .button-core__text-content{letter-spacing:0}; label was 14px wider) + srcset 256w/512w on teaser photos; btn crop 0.00%" } ],
+      "justified": [],
+      "residuals": [
+        { "band": "y 800–900, 1700–1800, 3400–3500 (stitch-chunk seams)", "pct": 0.118, "px": 5952, "cause": "capture-state: OneTrust persistent cookie-settings badge (fixed, bottom-left, x<70) rendered in the LIVE stitched capture at every chunk seam; not present in the prototype; not dismissable (it is the post-consent floating button, not a banner)", "flaggedFor": "delivery" },
+        { "region": "footer crop y2767+728", "pct": 0.21, "cause": "same OneTrust badge at the y≈3440 seam (2198 of 2241 px); footer typography/icons match", "flaggedFor": "delivery" },
+        { "band": "scattered", "pct": 0.001, "px": 68, "cause": "glyph antialiasing", "flaggedFor": "user" }
+      ],
+      "captureState": [ { "what": "OneTrust cookie-settings floating badge in live capture at chunk seams", "where": "x 0–70, 3 seams" } ]
+    },
+    "360": {
+      "iterations": 3,
+      "result": { "structuralRed": 0, "visualFlags": "none", "pixelPct": 0.63, "differingPx": 11867, "heightDelta": 0, "chromeHeaderPct": 0.55, "chromeFooterPct": 0.61, "pass": true },
+      "history": [ { "iter": 1, "pixelPct": 1.09, "heightDelta": 0 }, { "iter": 2, "pixelPct": 1.04, "fix": "button specificity (btn crop 7.78% → 4.12%)" }, { "iter": 3, "pixelPct": 0.63, "fix": "letter-spacing reset (btn crop → 0.00%) + srcset so build loads the 512x511 rendition live uses at 360 (collegiate-photo crop 3.19% → 0.00%)" } ],
+      "justified": [],
+      "residuals": [
+        { "band": "y 800–900, 1700–1800, 2600–2700, 3500–3600, 5100–5209 (chunk seams)", "pct": 0.545, "px": 10223, "cause": "capture-state: OneTrust cookie-settings badge in the live stitched capture at 5 chunk seams (x<70)", "flaggedFor": "delivery" },
+        { "region": "footer crop y4067+1142", "pct": 0.61, "cause": "OneTrust badge at the y≈5150 seam (2203 px of 2522) + canon footer offsets (already gated in canon)", "flaggedFor": "delivery" },
+        { "region": "header crop y0+160", "pct": 0.55, "px": 319, "cause": "canon header (gated 'quiet 8/8' at 360); inherited, not this page's CSS", "flaggedFor": "user" },
+        { "band": "testimonials photo y2704+324", "pct": 0.27, "cause": "512x511 rendition resampled to 324x323 on both sides — residual sub-pixel resampling", "flaggedFor": "user" }
+      ],
+      "captureState": [ { "what": "OneTrust cookie-settings floating badge in live capture at chunk seams", "where": "x 0–70, 5 seams" } ]
+    }
+  },
+  "motion": {
+    "observe": "stardust/replica/motion/en-home-about-html.json (1440; 0 animations, 0 transitions, 0 class mutations, headerTimeline null, 5 hover probes)",
+    "observed": [ "hover a.cmp-button.button-core: opacity 1→0.7", "hover .cmp-text a (teaser links): color rgb(3,87,184)→rgb(0,85,140)" ],
+    "implemented": [ ".content .about-btn:hover{opacity:.7} (source .button-core:hover)", ".content .cmp-text a:hover{color:#00558c;text-decoration:underline} (source .cmp-text a:hover)" ],
+    "dead": [ "hover .cmp-container--clickable (calendar tile): no change", "hover teaser containers #container-908d6d4a40 / #container-9078a4607c: no change" ],
+    "verification": { "pixelAfterMotion": { "1440": "6020 px = 0.12% (identical to iter3)", "360": "11867 px = 0.63% (identical to iter3)" }, "behaviourMatch": "build hover: btn opacity 0.7, link color rgb(0,85,140); 0 pageerrors" }
+  },
+  "canonFeedback": "none",
+  "liveHits": { "lift": 2, "deepLift": 2, "motion": 1, "contentDiff": 4, "visualDiff": 4, "stitch": 2, "anchor": 2, "renditionHead": 2 }
+}

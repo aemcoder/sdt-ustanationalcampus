@@ -1,0 +1,211 @@
+{
+ "source": "http://localhost:8793/en-home-about-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "About USTA National Campus"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "MEET THE TEAM",
+     "href": "/en/home/about/meet-our-team.html"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "CONTACT US",
+     "href": "/en/home/connect.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.about-hero__btn-col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "discover",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Discover the Campus"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Who, Why and What We Are"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The USTA is a progressive and diverse not-for-profit organization whose volunteers, professional staff, and financial resources support a single mission: growing tennis to inspire healthier people and communities everywhere."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Located at Lake Nona in Orlando, FL, this groundbreaking facility is designed to enhance the sport at every level and create an unparalleled playing, training, coaching, and educational experience for recreational players, competitive players, coaches, and spectators. More than 100 international, national, and local events and tournaments are scheduled at the facility in 2017."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 4,
+   "repeats": []
+  },
+  {
+   "section": "events",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "USTA National Campus Events"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Exciting things are happening at the USTA National Campus."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "View our full calendar events"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "VIEW CALENDAR"
+    }
+   ],
+   "imgCount": 9,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.collage__item",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "teasers",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Collegiate Tennis"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Headquartered at the USTA National Campus, the Collegiate Center is home to UCF Tennis, College MatchDay, and more."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn More",
+     "href": "/en/home/events/collegiate.html"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Testimonials"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Players and guests are saying great things about their experiences at the USTA National Campus."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Read Reviews",
+     "href": "https://share.google/plWrz8lHPfFEp2zpr"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Careers"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "A diverse, dynamic not-for-profit association dedicated to growing the game of tennis for all, the USTA offers employment opportunities for applicants of different experience levels and in many areas of expertise."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "The National Campus works to enhance the sport at every level and create an unparalleled playing, training, and educational experience."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Take a Swing!",
+     "href": "https://careers-usta.icims.com/jobs/search?ss=1&searchLocation=12781-12793-Lake+Nona&mobile=false&width=998&height=638&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Player Development"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "The USTA National Campus is home to USTA Player Development National Training Headquarters. The Lake Nona-based training center is one of three USTA Player Development Traning Centers in the country."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Player Development works with players at many levels of the pathway from red, orange, and green ball Early Development Campers, promising young juniors, and aspiring professionals in Collegiate Tennis, all the way to the Top American prospects."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Learn more about USTA Player Development",
+     "href": "https://www.playerdevelopment.usta.com/"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 14,
+   "repeats": [
+    {
+     "unitSelector": "DIV.teaser",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

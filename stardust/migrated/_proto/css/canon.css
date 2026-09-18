@@ -1,0 +1,173 @@
+/* stardust:replica canon — USTA National Campus. Values lifted from the live site's
+   computed styles (stardust/current/_style-lift.json, _chrome-lift.json) — never eyeballed.
+   Shared by every archetype prototype; per-archetype CSS lives in css/<slug>.css. */
+@font-face{font-family:'Graphik Regular';src:url(../assets/fonts/Graphik-Regular-App.woff2) format('woff2');font-weight:normal;font-style:normal}
+@font-face{font-family:'Graphik Semibold';src:url(../assets/fonts/Graphik-Semibold-App.woff2) format('woff2');font-weight:normal;font-style:normal}
+@font-face{font-family:'Graphik XXCond Bold';src:url(../assets/fonts/GraphikXXCondensed-Bold-App.woff2) format('woff2');font-weight:normal;font-style:normal}
+
+:root{
+  --color-white:#ffffff;--color-black:#000000;--color-usta-blue:#0373f3;--color-link:#0357b8;--color-sage:#92bfb7;
+  --color-alert:#f0aa54;--color-contact-grey:#dcdfcf;--color-breadcrumb:#f4f4f4;--color-text:#333333;--color-nav-sub:#2456b2;
+  --color-rule:#e6e6e6;--color-rule-strong:#707070;--color-chevron:#6e7277;--color-crumb-divider:#01675a;--color-crumb-active:#3a3a3a;
+  --color-legacy-navy:#002649;--color-legacy-canvas:#f5f5f5;--color-legacy-card-text:#444444;--color-legacy-red:#ce1126;
+  --scrim-50:rgba(0,0,0,.5);--scrim-75:rgba(0,0,0,.75);
+  --font-body:'Graphik Regular',Tahoma,sans-serif;--font-semibold:'Graphik Semibold',Tahoma,sans-serif;--font-display:'Graphik XXCond Bold','Arial Narrow',sans-serif;
+  --header-height:213px;--alert-height:55px;--nav-row:120px;--breadcrumb-h:30px;
+  --gutter:40px;--content-max:1200px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{font-family:Times;font-size:10px;-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--font-body);font-size:16px;line-height:1.42857;color:var(--color-text);background:var(--color-white);padding-top:var(--header-height)}
+img{vertical-align:middle;border:0}
+a{color:var(--color-link);text-decoration:none}
+p{margin:0 0 10px}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:500}
+ul{margin:0;padding:0;list-style:none}
+button{font-family:inherit;cursor:pointer}
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
+
+/* ---- content typography (modern template: .cmp-text) ---- */
+.content h1,.hero-title{font-family:var(--font-display);font-size:100px;line-height:1.1;color:var(--color-black)}
+.content h2{font-family:var(--font-display);font-size:76px;line-height:1.1;color:var(--color-black)}
+.content h3.tile-title{font-family:var(--font-display);font-size:56px;line-height:1.1;color:var(--color-white)}
+.content h4{font-family:var(--font-semibold);font-size:22px;line-height:32px;font-weight:400;color:var(--color-black)}
+.content h5{font-family:var(--font-semibold);font-size:22px;line-height:1.1;font-weight:500;color:var(--color-black)}
+.content h6{font-family:var(--font-semibold);font-size:18px;line-height:1.1;font-weight:500;color:var(--color-black)}
+.content p,.content li{font-family:var(--font-body);font-size:18px;line-height:24px;color:var(--color-black)}
+.content p{margin:0}
+.content a{color:var(--color-link);text-decoration:underline}
+@media (max-width:767px){
+  .content h1,.hero-title{font-size:54px}
+  .content h2{font-size:44px}
+  .content h3.tile-title{font-size:36px}
+  .content h4{font-size:20px;line-height:28px}
+  .content h5{font-size:20px}
+  .content h6{font-size:16px}
+  .content p,.content li{font-size:16px}
+}
+
+/* ---- container model ---- */
+.wrap{width:min(var(--content-max),100% - 24px);margin:0 auto}
+.full-bleed{width:100%}
+.section{display:flow-root}
+.pt-small{padding-top:8px}.pb-small{padding-bottom:8px}.pt-none{padding-top:0}.pb-none{padding-bottom:0}
+
+/* ---- buttons (button-core) ---- */
+.btn{display:inline-flex;align-items:center;justify-content:center;height:40px;padding:14px;font-family:var(--font-semibold);font-size:14px;line-height:1;letter-spacing:1px;text-transform:uppercase;text-decoration:none;color:var(--color-white);background:var(--color-usta-blue);border-radius:3px;transition:opacity .3s}
+.btn:hover{opacity:.7}
+.btn--inverse{background:var(--color-white);color:var(--color-black);font-size:18px}
+.btn--pill{height:56px;padding:14px 34px 14px 14px;font-size:18px;background:var(--color-black);color:var(--color-white);border-radius:9999px;gap:12px}
+.btn--pill .btn-icon{width:28px;height:28px;flex:0 0 auto}
+.btn--square{border-radius:0;letter-spacing:normal;padding:0;width:110px;height:40px}
+
+/* ================= HEADER (fixed; alert banner + nav row + breadcrumb) ================= */
+.site-header{position:fixed;top:0;left:0;right:0;z-index:1000;width:100%;height:var(--header-height);font-family:var(--font-body);font-size:16px;line-height:1.42857;color:var(--color-text)}
+.top-nav{background:var(--color-white);height:calc(var(--header-height) - var(--breadcrumb-h))}
+.alert-banner{display:block;height:var(--alert-height);background:var(--color-alert)}
+.alert-banner.is-hidden{display:none}
+.alert-banner__content{position:relative;display:flex;align-items:center;justify-content:center;height:var(--alert-height);max-width:1440px;margin:0 auto;padding:0 var(--gutter)}
+.alert-banner__icon{display:block;width:22px;height:22px;margin-right:8px}
+.alert-banner__text{margin-right:30px;font-size:18px;line-height:25.7143px;color:var(--color-black)}
+.alert-banner__text p{margin:0}
+.alert-banner__text b{font-weight:700}
+.alert-banner__text a{display:inline-block;font-family:var(--font-semibold);font-weight:400;color:var(--color-black);text-decoration:underline}
+.alert-banner__close{position:absolute;top:18.5px;right:var(--gutter);width:18px;height:18px;padding:0;border:0;background:var(--color-black);-webkit-mask:url(../assets/icons/Cancel-Topnav-Bold.svg) center/contain no-repeat;mask:url(../assets/icons/Cancel-Topnav-Bold.svg) center/contain no-repeat}
+.top-nav__line{height:8px;background:var(--color-white);border-top:1px solid var(--color-rule-strong);border-bottom:1px solid var(--color-rule-strong)}
+.top-nav__content{position:relative;display:flex;align-items:center;height:var(--nav-row);max-width:1440px;margin:0 auto;padding:0 var(--gutter)}
+.top-nav__logo{display:block;width:294px}
+.top-nav__logo-cancel,.top-nav__logo-hamburger{display:none;width:25px;height:24px;padding:0;border:0;background:none}
+.top-nav__logo-cancel img,.top-nav__logo-hamburger img{width:24px;height:24px}
+.top-nav__logo-image{display:inline}
+.top-nav__logo-image img{width:294px;height:76.6094px}
+.main-nav{display:block;margin-left:100px;height:var(--nav-row)}
+.main-nav__list{display:flex;align-items:center;gap:50px;height:var(--nav-row)}
+.main-nav__item{position:relative;display:flex}
+.main-nav__controls{display:flex;align-items:center;gap:5px}
+.main-nav__link{display:block;font-family:var(--font-semibold);font-size:16px;line-height:24px;color:var(--color-black);text-decoration:none;transition:color .3s ease-out}
+.main-nav__link:hover,.main-nav__item:hover>.main-nav__controls .main-nav__link{color:var(--color-nav-sub)}
+.main-nav__toggle{width:18px;height:12px;padding:0;border:0;border-top:12px solid var(--color-chevron);border-left:9px solid transparent;border-right:9px solid transparent;background:none;transition:border-top-color .3s}
+.main-nav__sub{display:none;position:absolute;top:calc(100% + 24px);left:-26px;flex-direction:column;width:246px;padding:12px 20px 36px 26px;background:var(--color-white);box-shadow:0 6px 6px rgba(0,0,0,.16);z-index:5}
+.main-nav__item:hover .main-nav__sub,.main-nav__item.is-open .main-nav__sub{display:flex}
+.main-nav__sub li{display:block;width:200px;height:30px;margin-bottom:15px;border-bottom:1px dashed var(--color-rule)}
+.main-nav__sub li:last-child{height:auto;margin-bottom:0;border-bottom:0}
+.main-nav__sub a{display:inline;font-family:var(--font-body);font-size:16px;font-weight:900;line-height:22.8571px;color:var(--color-nav-sub);text-decoration:none}
+.top-nav__book{margin-left:auto;display:block;width:110px;height:40px;padding:0;border:0;font-family:var(--font-semibold);font-size:14px;font-weight:400;line-height:normal;color:var(--color-white);background:var(--color-usta-blue);text-decoration:none;text-align:center;cursor:pointer}
+.breadcrumb{height:var(--breadcrumb-h);background:var(--color-breadcrumb);border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5}
+.breadcrumb__inner{max-width:1440px;margin:0 auto;padding:0 var(--gutter);font-size:14px;line-height:28px}
+.breadcrumb ol{display:inline-flex;margin:0;padding:0;list-style:none;font-size:10px;font-weight:900;line-height:28px;text-transform:uppercase;color:var(--color-text)}
+.breadcrumb li{display:list-item}
+.breadcrumb a{color:var(--color-nav-sub);text-decoration:underline}
+.breadcrumb .divider{padding:0 8px 0 6px;color:var(--color-crumb-divider)}
+.breadcrumb li.active{color:var(--color-crumb-active)}
+
+@media (max-width:767px){
+  :root{--header-height:160px;--nav-row:60px;--breadcrumb-h:40px;--gutter:15px}
+  .alert-banner__text{font-size:14px;line-height:20px}
+  .alert-banner__icon{width:auto;height:auto;margin-right:13px}
+  .alert-banner__text a{line-height:19.984px}
+  .alert-banner__close{right:15px}
+  .top-nav__line{height:5px}
+  .top-nav__content{justify-content:space-between}
+  .top-nav__logo{display:flex;align-items:center;gap:10px;width:185px}
+  .top-nav__logo-hamburger{display:block}
+  body.menu-open .top-nav__logo-hamburger{display:none}
+  body.menu-open .top-nav__logo-cancel{display:block}
+  .top-nav__logo-image{display:block;width:150px}
+  .top-nav__logo-image img{width:150px;height:39.0781px}
+  .main-nav{position:absolute;top:100%;left:-100%;width:100%;height:100vh;margin:0;padding:0 15px;background:var(--color-white);visibility:hidden;transition:left .3s}
+  body.menu-open .main-nav{left:0;visibility:visible}
+  body.menu-open{overflow:hidden}
+  .main-nav__list{flex-direction:column;align-items:center;gap:0;height:auto}
+  .main-nav__item{flex-direction:column;justify-content:center;width:100%;min-height:51px;border-bottom:1px solid var(--color-rule)}
+  .main-nav__controls{justify-content:space-between;height:50px}
+  .main-nav__item:hover .main-nav__sub{display:none}
+  .main-nav__sub{position:static;width:100%;padding:0 0 12px 15px;box-shadow:none;display:none}
+  .main-nav__item.is-open .main-nav__sub{display:block}
+  .main-nav__link:hover{color:var(--color-black)}
+  .top-nav__book{margin-left:0}
+  .breadcrumb__inner{line-height:40px;display:flex}
+  .breadcrumb ol{line-height:40px}
+}
+
+/* ================= FOOTER (sage) ================= */
+.site-footer{display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--color-sage);font-family:var(--font-body);font-size:16px;line-height:1.42857;color:var(--color-text)}
+.site-footer__container{display:flex;width:100%;max-width:1440px;gap:50px;padding:50px var(--gutter) 0}
+.site-footer__subscription{display:flex;flex:0 0 auto;flex-direction:column;gap:18px;width:300px}
+.site-footer__logo-link{display:block;width:300px;height:63px}
+.site-footer__logo-link img{width:295px;height:63px}
+.site-footer__btn{display:flex;align-items:center;justify-content:center;height:40px;font-family:var(--font-semibold);font-size:14px;line-height:18px;text-transform:uppercase;text-align:center;color:var(--color-white);background:var(--color-black);text-decoration:none}
+.site-footer__subscription-button{width:300px}
+.site-footer__info{display:grid;grid-template-columns:318.531px 127.422px 159.281px 222.969px;grid-template-areas:"schedule links partner booking" "address links partner booking";column-gap:6%;width:1010px}
+.site-footer__schedule{grid-area:schedule}.site-footer__address{grid-area:address}.site-footer__links--usta{grid-area:links}.site-footer__links--partner{grid-area:partner}.site-footer__booking{grid-area:booking}
+.site-footer__heading{margin:0 0 16px;font-family:var(--font-semibold);font-size:16px;font-weight:700;line-height:24px;text-transform:uppercase;color:var(--color-black)}
+.site-footer__schedule>div>p{margin:0 0 22px;font-size:14px;font-weight:700;line-height:21px;text-transform:uppercase;color:var(--color-black)}
+.site-footer__schedule>div>p:last-child{margin-bottom:0}
+.site-footer__schedule a,.site-footer__address a{font-size:12px;font-weight:700;line-height:21px;text-transform:uppercase;color:var(--color-black)}
+.site-footer__schedule a b{font-weight:900}
+.site-footer__address{margin-top:44px}
+.site-footer__address p{margin:0 0 14px;font-size:12px;font-weight:700;line-height:21px;text-transform:uppercase;color:var(--color-black)}
+.site-footer__map{display:flex;align-items:center;gap:10px}
+.site-footer__map a{display:block;text-decoration:underline}
+.site-footer__map img{display:block;width:24.6406px;height:23.7031px;margin-bottom:4px}
+.site-footer__links li{margin-bottom:22px;line-height:22.8571px}
+.site-footer__links li:last-child{margin-bottom:0}
+.site-footer__links a{font-size:12px;font-weight:700;line-height:21px;text-transform:uppercase;color:var(--color-black)}
+.site-footer__booking{width:110px;max-width:225px;text-align:right;justify-self:end}
+.site-footer__booking-button{width:110px;margin-bottom:10px}
+.site-footer__bottom{display:flex;flex-direction:column;align-items:center;width:100%;max-width:1440px;padding:50px var(--gutter) 0}
+.site-footer__social{margin-top:55px}
+.site-footer__social ul{display:flex;align-items:center;justify-content:center;gap:35px}
+.site-footer__social img{width:30px;height:30px}
+.site-footer__social img.yt{width:35px;height:26px}
+.site-footer__copyright{margin:22px 0 40px;font-size:16px;line-height:21px;text-transform:uppercase;color:var(--color-black)}
+.site-footer__copyright p{margin:0}
+.site-footer__line{width:100%;height:10px;background:var(--color-black)}
+@media (max-width:767px){
+  .site-footer{position:relative}
+  .site-footer__container{flex-direction:column;align-items:center;gap:0;width:300px;padding:50px 0 0}
+  .site-footer__line{display:none}
+  .site-footer__info{grid-template-columns:150px 150px;grid-template-areas:"schedule schedule" "address links" "partner booking";column-gap:0;row-gap:4%;width:300px;margin-top:36px}
+  .site-footer__address{margin-top:0}
+  .site-footer__booking{width:110px;justify-self:end}
+  .site-footer__bottom{width:300px;padding:50px 0 0}
+}

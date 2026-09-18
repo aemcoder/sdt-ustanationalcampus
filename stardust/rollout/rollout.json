@@ -1,0 +1,35 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-09-18T17:51:58.558Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.ustanationalcampus.com/",
+    "da": {
+      "org": "",
+      "site": "",
+      "ref": "main"
+    },
+    "liveHost": null
+  },
+  "lastRun": {
+    "at": "2026-09-18T17:51:58.558Z",
+    "pages": {
+      "total": 940,
+      "verified": 0,
+      "deployed": 0,
+      "pending": 7,
+      "contentPending": 933,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 29,
+      "converted": 0,
+      "pending": 29
+    },
+    "verifyFailures": 0
+  }
+}

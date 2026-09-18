@@ -58,3 +58,22 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** collect archetype gate results → migrate siblings → deploy/rollout.
 
 ---
+## 2026-09-18T17:52:14Z — Archetypes gated and approved (hands-off); Path A migrate; conversion agents running
+
+**Prompt:** *(continuation of the hands-off replica run)*
+
+**Decisions:**
+- Six archetype families recreated by parallel agents and gated per breakpoint (1440 / 360, ≤3 iterations, live captures cached): home 0.51 / 1.07 %, about 0.12 / 0.63 %, private-lessons 0.13 / 0.81 %, visit 0.14 / 0.53 %, hydration-matters 0.16 / 0.55 %, holiday-hours ×2 0.15 / 0.70 %; every page 0 structural red, |Δh| ≤ 1 px, chrome bands ≤ 2 % (header 0.00 % on every 1440 run). Approved with `approvedBy: hands-off`.
+- Residual class shared by all pages: the live OneTrust floating consent button repeats at every stitch seam (decided-out tag) — capture-state → delivery.
+- Template-family findings applied to the EDS chrome: content-page header 229 / 176 px with transparent 8 px strips (margin, not padding); legacy family footer link pitch 43 px (12 px / 21 px li), legacy alert-banner line-height 1.3 at 360, breadcrumb `ol{vertical-align:top}`.
+- migrate: Path A only — the gated prototypes copied to `stardust/migrated/` with `_meta.json` (archetypes-only mode); siblings are authored directly as EDS content by two conversion agents (modern family / legacy family), author-only, delivery deferred until Code Sync is registered.
+- rollout inventory built from a delivered-path roster (`stardust/rollout/roster-state.json`, 49 wave-1 pages + 892 wave-2 news articles, representative = archetype slug).
+- Wave-2 pipeline: `news-extract.mjs` → `news-author.mjs` (article-hero as default content + section style, body verbatim, gallery rows, embed URL) → `news-accept.mjs` content-count gate: 429 / 429 pass on the pages crawled so far.
+
+**Artifacts touched:** stardust/prototypes/* (8 prototypes + css/js), stardust/replica/{progress.json, progress/*, gates/*, motion/*, canon-feedback/*}, stardust/migrated/*, stardust/rollout/*, stardust/eds-conversion-log.md, stardust/scripts/{news-extract,news-author,news-accept,replica-merge,migrate-archetypes}.mjs, content/news/* (429), blocks/header/header.css, styles/styles.css, stardust/state.json
+
+**Open questions:** as before (Graphik licence, owner decision batch, Code Sync registration).
+
+**Next:** conversion agents → local QA → commit → deliver to DA once Code Sync is registered (or deliver content to DA regardless and publish when the site config exists).
+
+---

@@ -1,0 +1,53 @@
+{
+  "slug": "en-home-play-private-lessons-html",
+  "type": "program",
+  "renderBranch": "A",
+  "template": "en-home-play-private-lessons-html",
+  "fidelityTier": "archetype",
+  "modules": [
+    "hero",
+    "intro",
+    "lesson-types",
+    "separator-1",
+    "camps",
+    "separator-2",
+    "faq-heading",
+    "faq",
+    "separator-3",
+    "cancellation",
+    "separator-4",
+    "contact",
+    "app"
+  ],
+  "slotsFilled": [],
+  "canonShas": {
+    "header": "9c5605e6149a",
+    "footer": "3b79d5cc40af",
+    "css": "ece24aa0ca7f"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "replica-path-a",
+      "note": "prototype copied verbatim; EDS conversion authored directly from the prototype by the deploy agents"
+    }
+  ],
+  "metadata": {
+    "title": "Private Lesson",
+    "sourceUrl": "https://www.ustanationalcampus.com/en/home/play/private-lessons.html",
+    "path": "/play/private-lessons",
+    "template": null
+  },
+  "gatesPassed": [
+    "source-fidelity-1440",
+    "source-fidelity-360",
+    "content-diff",
+    "visual-diff",
+    "chrome-crop"
+  ],
+  "migratedAt": "2026-09-18T17:51:11.000Z",
+  "designMdSha": "166735de92bc",
+  "designJsonSha": "384204986f04",
+  "sourceCurrentSha": "be86097b1e1e",
+  "sourceProposedSha": "fea86cd56f2a"
+}

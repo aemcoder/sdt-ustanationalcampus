@@ -458,3 +458,25 @@ header .breadcrumb li.active {
     line-height: 40px;
   }
 }
+
+/* content-page-template variant: 8px TRANSPARENT strips above the alert banner and below the nav row
+   (live: the header grid column carries margin — the page shows through at both strips) */
+body.content-page header .top-nav {
+  margin: 8px 0;
+  height: calc(var(--nav-height) - var(--breadcrumb-h) - 16px);
+}
+
+body.content-page header {
+  background: transparent;
+}
+
+/* legacy template family: bootstrap-era base styles under the same chrome (measured by chrome-parity on visit/hydration) */
+body.legacy header .breadcrumb ol {
+  vertical-align: top;
+}
+
+@media (width <= 767px) {
+  body.legacy header .alert-banner-text p {
+    line-height: 1.3;
+  }
+}

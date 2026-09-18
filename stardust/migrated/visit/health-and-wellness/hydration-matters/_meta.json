@@ -1,0 +1,41 @@
+{
+  "slug": "en-home-visit-health-and-wellness-hydration-matters-html",
+  "type": "article",
+  "renderBranch": "A",
+  "template": "en-home-visit-health-and-wellness-hydration-matters-html",
+  "fidelityTier": "archetype",
+  "modules": [
+    "article-body"
+  ],
+  "slotsFilled": [],
+  "canonShas": {
+    "header": "9c5605e6149a",
+    "footer": "3b79d5cc40af",
+    "css": "ece24aa0ca7f"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "replica-path-a",
+      "note": "prototype copied verbatim; EDS conversion authored directly from the prototype by the deploy agents"
+    }
+  ],
+  "metadata": {
+    "title": "Hydration Matters",
+    "sourceUrl": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/hydration-matters.html",
+    "path": "/visit/health-and-wellness/hydration-matters",
+    "template": "legacy"
+  },
+  "gatesPassed": [
+    "source-fidelity-1440",
+    "source-fidelity-360",
+    "content-diff",
+    "visual-diff",
+    "chrome-crop"
+  ],
+  "migratedAt": "2026-09-18T17:51:11.000Z",
+  "designMdSha": "166735de92bc",
+  "designJsonSha": "384204986f04",
+  "sourceCurrentSha": "40268ca18c36",
+  "sourceProposedSha": "a2b6ea3885c9"
+}

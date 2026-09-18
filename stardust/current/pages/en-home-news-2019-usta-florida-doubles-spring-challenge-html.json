@@ -1,0 +1,746 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T17:40:07.078Z",
+    "waitMode": "fast",
+    "waitMs": 1200,
+    "httpStatus": 200
+  },
+  "slug": "en-home-news-2019-usta-florida-doubles-spring-challenge-html",
+  "url": "https://www.ustanationalcampus.com/en/home/news/2019-usta-florida-doubles-spring-challenge.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T17:40:07.078Z",
+  "finalUrl": "https://www.ustanationalcampus.com/en/home/news/2019-usta-florida-doubles-spring-challenge.html",
+  "title": "2019 USTA Florida Doubles Spring Challenge",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h3",
+      "text": "2019 USTA Florida Doubles Spring Challenge"
+    },
+    {
+      "tag": "h2",
+      "text": "Sectional Junior Action Begins Saturday"
+    },
+    {
+      "tag": "h6",
+      "text": "May 24, 2019"
+    },
+    {
+      "tag": "h3",
+      "text": "Campus Hours"
+    },
+    {
+      "tag": "h3",
+      "text": "Address"
+    },
+    {
+      "tag": "h3",
+      "text": "Usta info"
+    },
+    {
+      "tag": "h3",
+      "text": "Usta links"
+    }
+  ],
+  "body": [
+    "Register for Fall Programming! Session runs now - Nov 8.",
+    "PLAY PLAY submenu Programs Private Lessons Adult Camps Summer Camps Book a Court Free30 Dave Bailey Programs",
+    "EVENTS EVENTS submenu Calendar 2026 BNP Paribas World Team Cup",
+    "ABOUT ABOUT submenu Meet Our Team Contact Us Sponsors & Partners USTA National Campus Scholarship",
+    "WATCH WATCH submenu Watch Live Record Your Match",
+    "VISIT VISIT submenu Hotel Booking Sustainability Health & Wellness Shop",
+    "Home >",
+    "News >",
+    "2019 USTA Florida Doubles Spring Challenge",
+    "The busy stretch of junior competition at the USTA National Campus continues with this weekend’s USTA Florida Doubles Spring Challenge. First matches are slated to take to the courts at 9 a.m. Saturday morning with champions to be crowned on Monday.",
+    "All divisions (boys’ and girls’ 12s-18s) are represented in the event; each divisional draw consists of, at most, 32 pairs. The match format for the tournament is the best two-of-three tiebreak sets with a 10-point match tiebreak in lieu of a full third set. There will be a feed-in consolation through the round of 16 plus playoff matches for third and fifth place.",
+    "The duo of Zach Friedland (Hollywood) and Yubel Ubri (Miami Beach), fifth-place finishers one year ago, have earned the No. 1 seed in the boys’ 12s division; they most recently teamed up to finish third at last week’s USTA National Level 2 YellowTennisBall.com Junior Championships. In the boys’ 14s division it is current USTA Florida “Bobby Curtis” boys’ 12s singles champion Nathan Blokhin (Plantation) and Roy Horovitz (Key Biscayne) as the top-seeded tandem. They come into the weekend with momentum after besting the boys’ 12s divisional field in the aforementioned YellowTennisBall.com Junior Championships.",
+    "The new pairing of Sami Ozzor (Daytona Beach) and Ryan Rajakar (Nokomis) have earned top billing in the boys’ 16s competition. Ozzor has put together a solid year through the first five months of 2019, including placing third in the doubles portion at a USTA National Level 2 tournament just last week. Rajakar is making the transition back to junior tournaments after spending the spring focusing on high school tennis, where he played second singles and first doubles for eventual 3A state champions Venice.",
+    "Another new team of Dante Russo (Deerfield Beach) and Logan Zapp (Fleming Island) will look to back up their top seeding in the boys’ 18s. Zapp is also seeking his third doubles championship at the National Campus after prevailing at last year’s USTA Florida Doubles Spring Challenge in the 18s and USTA National Doubles Championships in the 16s.",
+    "The duo of Gabrielle Bassette (Miami) and Reese Calvo (Hallandale Beach) head into Saturday as the girls’ 12s No. 1 seeds. Bassette played second singles and first doubles for the Miami Country Day varsity squad this spring while Calvo made a recent appearance at the National Campus for the USTA Florida March Level 4, taking sixth overall. Chelsea Bluestein (Naples) and Lilly Pleasant (Orlando) have been slotted as the team to beat in the girls’ 14s draw. Bluestein, an eighth-grader, played first singles for Seacrest Country Day this season, so has seen limited USTA junior play in recent months. Meanwhile, Pleasant already owns three titles in 2019, including one in doubles at the USTA Florida Level 5 at Inspiration Academy.",
+    "Checking in as the No. 1 seeds in the girls’ 16s division is the duo of Emma Fernald (Saint Petersburg) and Paige Herremans (Orlando). Fernald got her 2019 off to a hot start, reaching the 16s semifinals of the USTA Florida Level 3 at Lakeland and winning the 18s at the United Tennis Academy Player Championships Level 6. Herremans had a busy few months of high school competition, helping lead the Lake Nona Lions to a runner-up finish at the 4A state championships.",
+    "The experienced tandem of Ayse Can (Weston) and Karly Friedland (Hollywood) is seeded No. 1 in the girls’ 18s. They impressively combined to take home the doubles crown at the Plantation ITF earlier this month while also winning the USTA National Level 3 at Crandon Park in January.",
+    "For more information on the 2019 USTA Florida Doubles Spring Challenge, click here.",
+    "Monday - Friday 7:00 AM - 9:00 PM",
+    "Saturday 7:00 AM - 5:00 PM",
+    "Sunday 7:00 AM - 5:00 PM",
+    "VIEW HOLIDAY HOURS",
+    "10000 USTA Blvd.",
+    "Orlando, FL 32827",
+    "(407) 675-2500",
+    "About",
+    "Careers",
+    "Terms of Use",
+    "Privacy Policy",
+    "Program policies",
+    "Site Map",
+    "USTA.com",
+    "USOPEN.org",
+    "USTAFOUNDATION.com",
+    "PLAYER DEVELOPMENT",
+    "©2026 USTA ALL RIGHTS RESERVED"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Register for Fall Programming",
+      "href": "https://app.courtreserve.com/Online/Events/List/6415/K9INL6ND8Y6415"
+    },
+    {
+      "label": "PLAY",
+      "href": "/en/home/play.html"
+    },
+    {
+      "label": "PLAY submenu",
+      "href": null
+    },
+    {
+      "label": "EVENTS",
+      "href": "/en/home/events.html"
+    },
+    {
+      "label": "EVENTS submenu",
+      "href": null
+    },
+    {
+      "label": "ABOUT",
+      "href": "/en/home/about.html"
+    },
+    {
+      "label": "ABOUT submenu",
+      "href": null
+    },
+    {
+      "label": "WATCH",
+      "href": "/en/home/watch.html"
+    },
+    {
+      "label": "WATCH submenu",
+      "href": null
+    },
+    {
+      "label": "VISIT",
+      "href": "/en/home/visit.html"
+    },
+    {
+      "label": "VISIT submenu",
+      "href": null
+    },
+    {
+      "label": "BOOK NOW",
+      "href": null
+    },
+    {
+      "label": "Home",
+      "href": "/en/home.html"
+    },
+    {
+      "label": "News",
+      "href": "/en/home/news.html"
+    },
+    {
+      "label": "Share",
+      "href": "#shareModal"
+    },
+    {
+      "label": "click here",
+      "href": "https://tennislink.usta.com/tournaments/TournamentHome/Tournament.aspx?T=229252#&&s=0"
+    },
+    {
+      "label": "Sign Up for our Newsletter",
+      "href": "https://48188ad2.sibforms.com/serve/MUIFAIlfGVpfzetYeY0ld-o5gJ7N5WLmcwQKCGzls8hZvrp2c6G6GFENvYgX7OWG9VbBtY2di_JbLmqhFm7cL9WkImuoMTLvDsvlJ1OfbDwS5Ed7cOb1BUmMtDWvHaXKoaCYIeDhSiMjqlZ3KCgWnkFu5myttFWj8KLBCu2Pc1kdVOxjo-CfeZK4Skx3Tx4K7ThvcFrrHARYrbZu"
+    },
+    {
+      "label": "VIEW HOLIDAY HOURS",
+      "href": "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html"
+    },
+    {
+      "label": "(407) 675-2500",
+      "href": "tel:4076752500"
+    },
+    {
+      "label": "Show on map",
+      "href": "https://www.google.com/maps/place/USTA+National+Campus/@28.40035,-81.277727,15z/data=!4m5!3m4!1s0x0:0xa93446c27a424f4c!8m2!3d28.40035!4d-81.277727"
+    },
+    {
+      "label": "About",
+      "href": "https://www.usta.com/content/usta/en/home/about-usta.html"
+    },
+    {
+      "label": "Careers",
+      "href": "http://careers.usta.com/"
+    },
+    {
+      "label": "Terms of Use",
+      "href": "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-terms-of-use.html"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-privacy-policy.html"
+    },
+    {
+      "label": "Program policies",
+      "href": "/en/home/news/national-campus-program-policies.html"
+    },
+    {
+      "label": "Site Map",
+      "href": "/en/home/site-map.html"
+    },
+    {
+      "label": "USTA.com",
+      "href": "https://www.usta.com/content/usta/en/home.html"
+    },
+    {
+      "label": "USOPEN.org",
+      "href": "https://www.usopen.org/"
+    },
+    {
+      "label": "USTAFOUNDATION.com",
+      "href": "https://www.ustafoundation.com/"
+    },
+    {
+      "label": "PLAYER DEVELOPMENT",
+      "href": "https://www.playerdevelopment.usta.com/"
+    },
+    {
+      "label": "Book now",
+      "href": "https://usta.courtreserve.com/Online/Events/List/6415/F6SUBQ2NFZ6415"
+    }
+  ],
+  "links": [
+    "https://app.courtreserve.com/Online/Events/List/6415/K9INL6ND8Y6415",
+    "https://www.ustanationalcampus.com/en/home.html",
+    "https://www.ustanationalcampus.com/en/home/play.html",
+    "https://www.ustanationalcampus.com/en/home/play/programs.html",
+    "https://www.ustanationalcampus.com/en/home/play/private-lessons.html",
+    "https://www.ustanationalcampus.com/en/home/play/tennis/adult-camps.html",
+    "https://www.ustanationalcampus.com/en/home/play/tennis/summer-camps.html",
+    "https://www.ustanationalcampus.com/en/home/play/book-a-court.html",
+    "https://www.ustanationalcampus.com/en/home/play/free30.html",
+    "https://www.ustanationalcampus.com/en/home/play/davebailey.html",
+    "https://www.ustanationalcampus.com/en/home/events.html",
+    "https://www.ustanationalcampus.com/en/home/calendar.html",
+    "https://www.ustanationalcampus.com/en/home/events/2026-bnp-paribas-world-team-cup.html",
+    "https://www.ustanationalcampus.com/en/home/about.html",
+    "https://www.ustanationalcampus.com/en/home/about/meet-our-team.html",
+    "https://www.ustanationalcampus.com/en/home/connect.html",
+    "https://www.ustanationalcampus.com/en/home/about/sponsors---partners.html",
+    "https://www.ustanationalcampus.com/en/home/about/usta-national-campus-scholarship.html",
+    "https://www.ustanationalcampus.com/en/home/watch.html",
+    "https://www.ustanationalcampus.com/en/home/watch/save-my-play.html",
+    "https://www.ustanationalcampus.com/en/home/visit.html",
+    "https://www.ustatravel.com/",
+    "https://www.ustanationalcampus.com/en/home/visit/sustainability.html",
+    "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness.html",
+    "https://www.ustaproshop.com/",
+    "https://www.ustanationalcampus.com/en/home/news.html",
+    "https://www.usta.com/About-USTA/Organization/Information/Terms%20of%20Use",
+    "https://www.usta.com/About-USTA/Organization/Information/Privacy%20Policy",
+    "https://twitter.com/usta",
+    "https://www.facebook.com/USTA/",
+    "https://www.instagram.com/USTA/",
+    "https://www.youtube.com/user/tennis",
+    "https://www.ustanationalcampus.com/en/home/news/2019-usta-florida-doubles-spring-challenge.html#",
+    "https://www.ustanationalcampus.com/en/home/news/2019-usta-florida-doubles-spring-challenge.html#shareModal",
+    "https://tennislink.usta.com/tournaments/TournamentHome/Tournament.aspx?T=229252#&&s=0",
+    "https://www.ustanationalcampus.com/en/home/news/2019-usta-florida-doubles-spring-challenge.html#carousel-example-generic",
+    "https://48188ad2.sibforms.com/serve/MUIFAIlfGVpfzetYeY0ld-o5gJ7N5WLmcwQKCGzls8hZvrp2c6G6GFENvYgX7OWG9VbBtY2di_JbLmqhFm7cL9WkImuoMTLvDsvlJ1OfbDwS5Ed7cOb1BUmMtDWvHaXKoaCYIeDhSiMjqlZ3KCgWnkFu5myttFWj8KLBCu2Pc1kdVOxjo-CfeZK4Skx3Tx4K7ThvcFrrHARYrbZu",
+    "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html",
+    "tel:4076752500",
+    "https://www.google.com/maps/place/USTA+National+Campus/@28.40035,-81.277727,15z/data=!4m5!3m4!1s0x0:0xa93446c27a424f4c!8m2!3d28.40035!4d-81.277727",
+    "https://www.usta.com/content/usta/en/home/about-usta.html",
+    "http://careers.usta.com/",
+    "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-terms-of-use.html",
+    "https://www.usta.com/content/usta/en/home/about-usta/who-we-are/national/usta-privacy-policy.html",
+    "https://www.ustanationalcampus.com/en/home/news/national-campus-program-policies.html",
+    "https://www.ustanationalcampus.com/en/home/site-map.html",
+    "https://www.usta.com/content/usta/en/home.html",
+    "https://www.usopen.org/",
+    "https://www.ustafoundation.com/",
+    "https://www.playerdevelopment.usta.com/",
+    "https://usta.courtreserve.com/Online/Events/List/6415/F6SUBQ2NFZ6415",
+    "https://www.facebook.com/USTANationalCampus/",
+    "https://www.instagram.com/usta.nationalcampus/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/components/content/common/header/clientlibs/resources/Tennis-Ball.svg",
+        "alt": "",
+        "w": 21,
+        "h": 21
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/components/content/common/header/clientlibs/resources/Cancel-Topnav-Bold.svg",
+        "alt": "Close",
+        "w": 18,
+        "h": 18
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/components/content/common/header/clientlibs/resources/Hamburger-Menu-Black.svg",
+        "alt": "Menu",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/HeaderLogos/national-campus-logo.svg",
+        "alt": "USTA National Campus Logo Home",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/USTANC-Lightbox-Pop-Up_484x557.jpg/_jcr_content/renditions/cq5dam.web.484.557.jpeg",
+        "alt": "headerimage",
+        "w": 484,
+        "h": 557
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/icons_twitter.png",
+        "alt": "/content/dam/nationalcampus/newsletter/icons_twitter.png",
+        "w": 50,
+        "h": 20
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/icons_facebook.png",
+        "alt": "/content/dam/nationalcampus/newsletter/icons_facebook.png",
+        "w": 50,
+        "h": 20
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/icons_instagram.png",
+        "alt": "/content/dam/nationalcampus/newsletter/icons_instagram.png",
+        "w": 50,
+        "h": 20
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsletter/icons_youtube.png",
+        "alt": "/content/dam/nationalcampus/newsletter/icons_youtube.png",
+        "w": 50,
+        "h": 20
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/findUs/twitter.svg",
+        "alt": "Twitter",
+        "w": 20,
+        "h": 17
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/findUs/twitterHover.svg",
+        "alt": "Twitter",
+        "w": 20,
+        "h": 17
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/findUs/facebook.svg",
+        "alt": "Facebook",
+        "w": 11,
+        "h": 22
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/findUs/facebookHover.svg",
+        "alt": "Facebook",
+        "w": 11,
+        "h": 22
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/articleShare/icons_googlePlus.png",
+        "alt": "google",
+        "w": 31,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/articleShare/icons_googlePlus_hover.png",
+        "alt": "google",
+        "w": 31,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/etc.clientlibs/nationalcampus/clientlibs/clientlib-site/resources/images/icon-backtop.svg",
+        "alt": "scroll-top",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/newsfeed/junior_new/Junior_032119_primary03.jpg/_jcr_content/renditions/cq5dam.web.4723.2214.jpeg",
+        "alt": "primary-article-image",
+        "w": 3000,
+        "h": 1406
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/national-campus-logo.png",
+        "alt": "USTA National Campus Home",
+        "w": 295,
+        "h": 63
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/map-location-pin.svg",
+        "alt": "",
+        "w": 25,
+        "h": 24
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/facebook.png",
+        "alt": "Facebook",
+        "w": 30,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/instagram.png",
+        "alt": "Instagram",
+        "w": 30,
+        "h": 30
+      },
+      {
+        "src": "https://www.ustanationalcampus.com/content/dam/nationalcampus/footer/youtube.png",
+        "alt": "YouTube",
+        "w": 35,
+        "h": 26
+      }
+    ],
+    "allImgCount": 22,
+    "cssBackgrounds": [],
+    "modals": [
+      "x Share with your friends or copy this link share",
+      "x Share with your friends or copy this link share"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--font-GraphikRegular": "\"Graphik Regular\",Tahoma,sans-serif",
+    "--font-GraphikSemibold": "\"Graphik Semibold\",Tahoma,sans-serif",
+    "--font-GraphikXXCondBold": "\"Graphik XXCond Bold\",Tahoma,sans-serif"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 7,
+    "mainTextLen": 6674,
+    "realImageCount": 22,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/0559fedb-5557-478a-9365-fb08f652f6a4.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0559fedb-5557-478a-9365-fb08f652f6a4/373d3afe-f720-4110-96c7-caf28b662249/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2586,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otFloatingRounded.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 13040,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/v2/otPcPanel.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1780,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCookieSettingsButton.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/6.35.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/6.35.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.ustanationalcampus.com",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 121,
+        "hits": 1,
+        "example": "https://www.ustanationalcampus.com/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/j/collect",
+        "query": [
+          "_gid",
+          "_s",
+          "_slc",
+          "_u",
+          "_v",
+          "a",
+          "cid",
+          "dl",
+          "dt",
+          "gjid",
+          "jid",
+          "sr",
+          "t",
+          "tid",
+          "ul",
+          "v",
+          "vp",
+          "z"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 15,
+        "hits": 1,
+        "example": "https://www.google-analytics.com/j/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "region1.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://region1.google-analytics.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "region1.analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://region1.analytics.google.com/g/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 5
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 3
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 3
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "www.googletagservices.com",
+        "count": 1
+      },
+      {
+        "host": "www.google-analytics.com",
+        "count": 1
+      },
+      {
+        "host": "securepubads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "usta.d2.sc.omtrdc.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 10,
+      "thirdPartyScriptHosts": 8,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/en-home-news-2019-usta-florida-doubles-spring-challenge-html.png",
+  "renderedHtml": "pages/en-home-news-2019-usta-florida-doubles-spring-challenge-html.html"
+}

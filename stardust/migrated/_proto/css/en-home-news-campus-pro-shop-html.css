@@ -1,0 +1,39 @@
+/* stardust:replica — news-article variant page module: photo gallery modal (.photoModal bootstrap modal + carousel on live).
+   Article modules live in css/en-home-visit-health-and-wellness-hydration-matters-html.css (shared archetype CSS).
+   Values from nationalcampus_clientlibs_clientlib-all.css (.modal/.fade/.photoModal/.carousel-* rules) — hidden at t=0. */
+body.modal-open{overflow:hidden}
+.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000;opacity:0;transition:opacity .15s linear}
+.modal-backdrop.in{opacity:.5}
+.photo-modal{display:none;overflow:hidden;position:fixed;top:0;right:0;bottom:0;left:0;z-index:1200;outline:0;opacity:0;transition:opacity .15s linear}
+.photo-modal.in{opacity:1}
+.photo-modal__helper{display:table;height:100%;width:100%;pointer-events:none}
+.photo-modal__dialog{display:table-cell;vertical-align:middle;position:relative;width:100%;margin:10px;transform:translate(0,-25%);transition:transform .3s ease-out}
+.photo-modal.in .photo-modal__dialog{transform:translate(0,0)}
+.photo-modal__content{position:relative;width:100%;margin:0 auto;pointer-events:all;background:0;border:0;border-radius:0;box-shadow:none}
+.photo-modal__header{position:relative;height:30px;padding:0;margin:0 auto;border:0;background:0}
+.photo-modal__close{position:relative;right:20px;top:0;float:right;z-index:1;padding:0;border:0;background:transparent;font-size:30px;line-height:30px;font-weight:normal;color:#fff;opacity:1;cursor:pointer}
+.photo-modal__body{position:relative;padding:0;border-radius:0}
+.photo-carousel{position:relative}
+.photo-carousel__inner{position:relative;overflow:hidden;width:90%;max-width:1170px;margin:0 auto}
+.photo-carousel__item{display:none;position:relative}
+.photo-carousel__item.is-active{display:block}
+.photo-carousel__img{background-color:#072138;text-align:center}
+.photo-carousel__img img{display:block;max-width:100%;height:auto;max-height:656px;object-fit:cover;margin:0 auto}
+.photo-carousel__caption{height:143px;position:relative;left:0;right:0;top:0;padding-bottom:30px;text-align:left;text-shadow:none}
+.photo-carousel__cap-left{width:80%;position:relative;float:left;padding-top:12px}
+.photo-carousel__cap-left h3{color:#70a5d7;font-family:var(--font-body);font-weight:normal;font-size:24px;line-height:20px;letter-spacing:-0.4px;margin:0 0 10px}
+.photo-carousel__cap-left h4{color:#fff;font-family:var(--font-body);font-weight:normal;font-size:14px;line-height:20px;letter-spacing:-0.4px;margin:5px 0 10px}
+.photo-carousel__cap-right{width:20%;position:relative;float:left;padding-top:12px;font-weight:normal;font-size:45px;line-height:59px;color:#70a5d7;text-align:right}
+.photo-carousel__cap-right span{color:#fff}
+.photo-carousel__control{position:absolute;top:50%;transform:translateY(-50%);height:108px;width:50px;background-color:rgba(0,0,0,.46);opacity:1;color:#fff;text-align:center;text-decoration:none}
+.photo-carousel__control--prev{left:0}
+.photo-carousel__control--next{right:0}
+.photo-carousel__glyph{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:'Glyphicons Halflings';font-size:40px;line-height:1;color:#fff}
+@media (max-width:767px){
+  .photo-carousel__inner{width:100%}
+  .photo-carousel__img{height:270px}
+  .photo-carousel__img img{height:270px;max-height:270px}
+  .photo-carousel__caption{padding:20px 20px}
+  .photo-carousel__cap-left{width:100%}
+  .photo-carousel__cap-right{font-size:20px;line-height:42px;text-align:left;padding-top:5px}
+}

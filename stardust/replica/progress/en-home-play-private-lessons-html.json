@@ -1,0 +1,69 @@
+{
+  "_provenance": { "writtenBy": "stardust:replica archetype agent", "writtenAt": "2026-09-18T21:30:00Z", "stardustVersion": "0.22.1", "regime": "prototype (standalone vs live)" },
+  "pageType": "program",
+  "template": "nc---landing-page-template (18 pages)",
+  "archetype": "en-home-play-private-lessons-html",
+  "liveUrl": "https://www.ustanationalcampus.com/en/home/play/private-lessons.html",
+  "outputs": {
+    "html": "stardust/prototypes/en-home-play-private-lessons-html-proposed.html",
+    "css": "stardust/prototypes/css/en-home-play-private-lessons-html.css",
+    "lift": "stardust/current/_style-lift-en-home-play-private-lessons-html.json",
+    "liftScript": "stardust/.work/lift-en-home-play-private-lessons-html.mjs",
+    "motion": "stardust/replica/motion/en-home-play-private-lessons-html.json",
+    "gates": ["stardust/replica/gates/en-home-play-private-lessons-html-1440/", "stardust/replica/gates/en-home-play-private-lessons-html-360/"],
+    "canonFeedback": "stardust/replica/canon-feedback/en-home-play-private-lessons-html.md"
+  },
+  "structure": {
+    "sections": ["hero (photo + rgba(255,255,255,.78) box: h1 + lede)", "intro (image left / h2 + p + pill right, 1200px)", "lesson-types band #92BFB7 (h2, accordion x3 with 4-col price tables, 2 icon pills, italic note; photo right/desktop, top/mobile)", "separator", "camps band #DCDFCF (photo left, h2 + p + pill)", "separator", "faq heading (60px icon + h2)", "faq accordion x6", "separator", "cancellation policy (h2 + 3 p + bold link)", "separator", "contact band #DCDFCF with 16px white stripes + EMAIL pill", "app badges (label + App Store / Google Play)"],
+    "counts": { "headings": "1 h1, 7 h2, 9 h4 (accordion headers)", "accordions": 2, "accordionItems": "3 + 6", "priceTables": 3, "ctas": 8, "images": 4 }
+  },
+  "breakpoints": {
+    "1440": {
+      "iterations": 3,
+      "liveDocHeight": 4405,
+      "result": { "structuralRed": 0, "contentFindings": 0, "visualFlags": "none", "pixelPct": 0.13, "heightDelta": 0, "chromeHeaderPct": 0.00, "chromeFooterPct": 0.21, "pass": true },
+      "history": [
+        { "iter": 1, "pixelPct": 1.06, "heightDelta": 0, "fix": "canon .content a outranked .button-core (labels blue/underlined) -> .content a.button-core; contact band margins collapsed through wrapper (grey 3331-3499 vs live 3299-3531, crop 16.1%) -> display:flow-root" },
+        { "iter": 2, "pixelPct": 0.17, "heightDelta": 0, "fix": "accordion title line-height 40px -> inherited 1.42857 (live title box 39.9844px); contact band crop 16.1% -> 0.00%" },
+        { "iter": 3, "pixelPct": 0.13, "heightDelta": 0, "fix": null }
+      ],
+      "justified": [],
+      "residuals": [
+        { "band": "y 840-896 / 1740-1794 / 4345-4394, x 13-64", "pct": 0.12, "cause": "capture-state: live OneTrust persistent floating button (50x50, fixed bottom-left) repeats at every stitch seam; not page content", "flaggedFor": "delivery" },
+        { "band": "y 3819-3829 (footer link column)", "pct": 0.01, "cause": "canon footer glyph edges (footer crop 0.21% <= 2%)", "flaggedFor": "user" }
+      ],
+      "captureState": [ { "what": "OneTrust floating consent button in live capture", "where": "bottom-left of each 900px chunk" } ]
+    },
+    "360": {
+      "iterations": 2,
+      "liveDocHeight": 5400,
+      "result": { "structuralRed": 0, "contentFindings": 0, "visualFlags": "none", "pixelPct": 0.81, "heightDelta": 0, "chromeHeaderPct": 0.55, "chromeFooterPct": 1.30, "pass": true },
+      "history": [
+        { "iter": 1, "pixelPct": 0.81, "heightDelta": 0, "fix": null },
+        { "iter": 2, "pixelPct": 0.81, "heightDelta": 0, "fix": "none needed - motion re-verification run, byte-identical differing count (15668 px)" }
+      ],
+      "justified": [],
+      "residuals": [
+        { "band": "x 13-64 at y 840, 1740, 2640, 3540, 4440, 5340 (+ alert-banner rows 31-43 at each seam)", "pct": 0.75, "cause": "capture-state: live OneTrust floating button repeated at every stitch seam (6 chunks); alert-banner seam rows are the stitched fixed header on both sides", "flaggedFor": "delivery" }
+      ],
+      "captureState": [ { "what": "OneTrust floating consent button in live capture", "where": "bottom-left of each 900px chunk" } ]
+    }
+  },
+  "contentDiff": { "1440": "iter1: 0 findings, 78/78 nodes (7 h, 8 CTA, 63 body, 4 img)", "360": "iter1: 0 findings, 78/78 nodes; markup unchanged after iteration 1 (all later fixes were CSS values), so both runs measured the final markup" },
+  "motion": {
+    "observeRun": "stardust/replica/motion/en-home-play-private-lessons-html.json (1440; --click both accordions' first button; --hover 3 pills, 1 accordion button, badge links)",
+    "observed": [
+      "accordion click: button += cmp-accordion__button--expanded, panel += cmp-accordion__panel--expanded (4 classMutations, both accordions; data-cmp-single-expansion on both)",
+      "button-core hover: opacity 1 -> 0.7 (3/3 pills; transition none)",
+      "cmp-image__link hover: color #0357b8 -> #23527c (no visible effect, image-only link)"
+    ],
+    "implemented": [
+      "accordion: inline script cloning the AEM core v1 state machine (toggle --expanded/--hidden classes, aria-expanded/aria-hidden, data-cmp-expanded; single expansion collapses siblings); panel max-height .4s ease-in-out transition from source CSS; verified headless at 1440+360: open/sibling-collapse/close/FAQ, 0 pageerrors",
+      ".button-core:hover{opacity:.7}",
+      ".cmp-image__link:hover{color:#23527c}"
+    ],
+    "dead": [ "accordion button hover: no change measured -> no hover rule", "0 animations, 0 transitions fired during scroll traversal; headerTimeline all null (fixed header, no scroll morph) -> no scroll motion" ],
+    "pixelRegression": "360 iter2 (motion present) byte-identical to iter1: 15668 differing px both"
+  },
+  "liveHits": { "lift": 2, "motionObserve": 1, "contentDiff": 2, "visualDiff": 2, "stitch": 2, "anchor": 2, "total": 11 }
+}

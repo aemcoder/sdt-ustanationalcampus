@@ -271,13 +271,6 @@ main .section.legacy {
   background: var(--color-legacy-canvas);
 }
 
-main .section.legacy p,
-main .section.legacy li,
-main .section.legacy td {
-  font-size: 16px;
-  line-height: 22.8571px;
-  color: var(--color-text);
-}
 
 main .section.sage {
   background: var(--color-sage);
@@ -393,4 +386,26 @@ a .prosemirror-editor a:any-link {
   overflow: hidden;
   clip-path: inset(50%);
   border: 0;
+}
+
+/* ---- template-family variants (page metadata `Template: legacy | content-page` → body class via decorateTemplateAndTheme) ---- */
+
+/* content-page-template pages: the header column carries 8px padding above the banner and below the nav row (229 / 176px) */
+body.content-page {
+  --nav-height: 229px;
+}
+
+@media (width <= 767px) {
+  body.content-page {
+    --nav-height: 176px;
+  }
+}
+
+/* legacy USTA template family (visit / news / health pages): 14px/1.5 body, #333 text */
+body.legacy main p,
+body.legacy main li,
+body.legacy main td {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-text);
 }

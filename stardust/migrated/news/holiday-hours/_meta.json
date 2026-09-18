@@ -1,0 +1,42 @@
+{
+  "slug": "en-home-news-holiday-hours-html",
+  "type": "static",
+  "renderBranch": "A",
+  "template": "en-home-news-holiday-hours-html",
+  "fidelityTier": "archetype",
+  "modules": [
+    "holiday-hours",
+    "footer"
+  ],
+  "slotsFilled": [],
+  "canonShas": {
+    "header": "9c5605e6149a",
+    "footer": "3b79d5cc40af",
+    "css": "ece24aa0ca7f"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "replica-path-a",
+      "note": "prototype copied verbatim; EDS conversion authored directly from the prototype by the deploy agents"
+    }
+  ],
+  "metadata": {
+    "title": "Holiday Hours",
+    "sourceUrl": "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html",
+    "path": "/news/holiday-hours",
+    "template": "content-page"
+  },
+  "gatesPassed": [
+    "source-fidelity-1440",
+    "source-fidelity-360",
+    "content-diff",
+    "visual-diff",
+    "chrome-crop"
+  ],
+  "migratedAt": "2026-09-18T17:51:11.000Z",
+  "designMdSha": "166735de92bc",
+  "designJsonSha": "384204986f04",
+  "sourceCurrentSha": "d648c6f81a2d",
+  "sourceProposedSha": "e243d5cae17f"
+}

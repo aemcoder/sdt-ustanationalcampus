@@ -1,0 +1,46 @@
+{
+  "slug": "en-home-html",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": "en-home-html",
+  "fidelityTier": "archetype",
+  "modules": [
+    "hero",
+    "separator",
+    "mosaic",
+    "stats",
+    "sage-strip",
+    "programs"
+  ],
+  "slotsFilled": [],
+  "canonShas": {
+    "header": "9c5605e6149a",
+    "footer": "3b79d5cc40af",
+    "css": "ece24aa0ca7f"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "replica-path-a",
+      "note": "prototype copied verbatim; EDS conversion authored directly from the prototype by the deploy agents"
+    }
+  ],
+  "metadata": {
+    "title": "Home",
+    "sourceUrl": "https://www.ustanationalcampus.com/en/home.html",
+    "path": "/",
+    "template": null
+  },
+  "gatesPassed": [
+    "source-fidelity-1440",
+    "source-fidelity-360",
+    "content-diff",
+    "visual-diff",
+    "chrome-crop"
+  ],
+  "migratedAt": "2026-09-18T17:51:11.000Z",
+  "designMdSha": "166735de92bc",
+  "designJsonSha": "384204986f04",
+  "sourceCurrentSha": "f09eec85d935",
+  "sourceProposedSha": "7103bd7e10b3"
+}

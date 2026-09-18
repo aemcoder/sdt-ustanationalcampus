@@ -1,7 +1,7 @@
 {
   "_provenance": {
-    "writtenBy": "stardust:replica",
-    "writtenAt": "2026-09-18T17:02:45Z",
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-09-18T17:51:11.000Z",
     "stardustVersion": "0.22.1"
   },
   "site": {
@@ -27,7 +27,7 @@
       "url": "https://www.ustanationalcampus.com/en/home.html",
       "title": "Home",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -36,20 +36,47 @@
         {
           "status": "directed",
           "at": "2026-09-18T17:02:45Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T17:48:53.415Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T17:48:53.415Z",
+          "approvedBy": "hands-off",
+          "gate": {
+            "360": {
+              "pixelPct": 1.07,
+              "heightDelta": 0,
+              "structuralRed": 0
+            },
+            "1440": {
+              "pixelPct": 0.51,
+              "heightDelta": -1,
+              "structuralRed": 0
+            }
+          }
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-18T17:51:11.000Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-html.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/en-home-html-proposed.html",
+      "migratedPath": "stardust/migrated/index.html",
+      "fidelityTier": "archetype",
+      "representative": "en-home-html"
     },
     {
       "slug": "en-home-about-holiday-hours-html",
       "url": "https://www.ustanationalcampus.com/en/home/about/holiday-hours.html",
       "title": "Holiday Hours",
       "type": "static",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -58,20 +85,47 @@
         {
           "status": "directed",
           "at": "2026-09-18T17:02:45Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T17:50:31.277Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T17:50:31.277Z",
+          "approvedBy": "hands-off",
+          "gate": {
+            "360": {
+              "pixelPct": 0.7,
+              "heightDelta": 0,
+              "structuralRed": 0
+            },
+            "1440": {
+              "pixelPct": 0.15,
+              "heightDelta": 0,
+              "structuralRed": 0
+            }
+          }
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-18T17:51:11.000Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-about-holiday-hours-html.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/en-home-about-holiday-hours-html-proposed.html",
+      "migratedPath": "stardust/migrated/about/holiday-hours/index.html",
+      "fidelityTier": "archetype",
+      "representative": "en-home-news-holiday-hours-html"
     },
     {
       "slug": "en-home-about-html",
       "url": "https://www.ustanationalcampus.com/en/home/about.html",
       "title": "About USTA National Campus",
       "type": "hub",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -80,13 +134,40 @@
         {
           "status": "directed",
           "at": "2026-09-18T17:02:45Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T17:48:53.415Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T17:48:53.415Z",
+          "approvedBy": "hands-off",
+          "gate": {
+            "360": {
+              "pixelPct": 0.63,
+              "heightDelta": 0,
+              "structuralRed": 0
+            },
+            "1440": {
+              "pixelPct": 0.12,
+              "heightDelta": 0,
+              "structuralRed": 0
+            }
+          }
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-18T17:51:11.000Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-about-html.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/en-home-about-html-proposed.html",
+      "migratedPath": "stardust/migrated/about/index.html",
+      "fidelityTier": "archetype",
+      "representative": "en-home-about-html"
     },
     {
       "slug": "en-home-about-meet-our-team-html",
@@ -108,7 +189,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-about-meet-our-team-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-about-html"
     },
     {
       "slug": "en-home-about-sponsors-partners-html",
@@ -130,7 +212,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-about-sponsors-partners-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-about-usta-national-campus-scholarship-html",
@@ -152,7 +235,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-about-usta-national-campus-scholarship-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-calendar-html",
@@ -174,7 +258,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-calendar-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-about-html"
     },
     {
       "slug": "en-home-collegiate-events-html",
@@ -197,7 +282,8 @@
       "currentStatePath": "stardust/current/pages/en-home-collegiate-events-html.json",
       "prototypePath": null,
       "migratedPath": null,
-      "note": "proxied usta.com College Tennis page with usta.com chrome; finalUrl https://www.usta.com/en/home/play/college-tennis.html"
+      "note": "proxied usta.com College Tennis page with usta.com chrome; finalUrl https://www.usta.com/en/home/play/college-tennis.html",
+      "representative": "en-home-visit-html"
     },
     {
       "slug": "en-home-connect-html",
@@ -219,7 +305,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-connect-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-about-html"
     },
     {
       "slug": "en-home-events-2026-bnp-paribas-world-team-cup-html",
@@ -241,7 +328,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-events-2026-bnp-paribas-world-team-cup-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-events-collegiate-html",
@@ -263,7 +351,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-events-collegiate-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-html"
     },
     {
       "slug": "en-home-events-html",
@@ -285,7 +374,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-events-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-about-html"
     },
     {
       "slug": "en-home-news-2019-collegiate-winter-wild-card-html",
@@ -307,7 +397,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-news-2019-collegiate-winter-wild-card-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-news-campus-pro-shop-html",
@@ -329,14 +420,15 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-news-campus-pro-shop-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-news-holiday-hours-html",
       "url": "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html",
       "title": "Holiday Hours",
       "type": "static",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -345,13 +437,40 @@
         {
           "status": "directed",
           "at": "2026-09-18T17:02:45Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T17:50:31.277Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T17:50:31.277Z",
+          "approvedBy": "hands-off",
+          "gate": {
+            "360": {
+              "pixelPct": 0.7,
+              "heightDelta": 0,
+              "structuralRed": 0
+            },
+            "1440": {
+              "pixelPct": 0.15,
+              "heightDelta": 0,
+              "structuralRed": 0
+            }
+          }
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-18T17:51:11.000Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-news-holiday-hours-html.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/en-home-news-holiday-hours-html-proposed.html",
+      "migratedPath": "stardust/migrated/news/holiday-hours/index.html",
+      "fidelityTier": "archetype",
+      "representative": "en-home-news-holiday-hours-html"
     },
     {
       "slug": "en-home-news-html",
@@ -373,7 +492,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-news-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-html"
     },
     {
       "slug": "en-home-news-masteruhistory-html",
@@ -395,7 +515,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-news-masteruhistory-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-news-national-campus-program-policies-html",
@@ -417,7 +538,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-news-national-campus-program-policies-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-play-book-a-court-html",
@@ -439,7 +561,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-book-a-court-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-court-booking-html",
@@ -461,7 +584,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-court-booking-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-davebailey-html",
@@ -483,7 +607,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-davebailey-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-events-and-leagues-html",
@@ -505,7 +630,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-events-and-leagues-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-play-free30-html",
@@ -527,7 +653,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-free30-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-html",
@@ -549,7 +676,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-about-html"
     },
     {
       "slug": "en-home-play-nemours-family-zone-html",
@@ -591,7 +719,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-pickleball-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-play-padel-html",
@@ -613,14 +742,15 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-play-padel-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-private-lessons-html",
       "url": "https://www.ustanationalcampus.com/en/home/play/private-lessons.html",
       "title": "Private Lesson",
       "type": "program",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -629,13 +759,40 @@
         {
           "status": "directed",
           "at": "2026-09-18T17:02:45Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T17:48:53.415Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T17:48:53.415Z",
+          "approvedBy": "hands-off",
+          "gate": {
+            "360": {
+              "pixelPct": 0.81,
+              "heightDelta": 0,
+              "structuralRed": 0
+            },
+            "1440": {
+              "pixelPct": 0.13,
+              "heightDelta": 0,
+              "structuralRed": 0
+            }
+          }
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-18T17:51:11.000Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-private-lessons-html.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/en-home-play-private-lessons-html-proposed.html",
+      "migratedPath": "stardust/migrated/play/private-lessons/index.html",
+      "fidelityTier": "archetype",
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-programs-adult-tennis-html",
@@ -657,7 +814,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-programs-adult-tennis-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-programs-html",
@@ -679,7 +837,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-programs-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-programs-junior-tennis-programs-html",
@@ -701,7 +860,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-programs-junior-tennis-programs-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-tennis-adult-camps-html",
@@ -723,7 +883,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-tennis-adult-camps-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-tennis-adult-red-ball-html",
@@ -745,7 +906,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-tennis-adult-red-ball-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-tennis-html",
@@ -767,7 +929,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-tennis-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-html"
     },
     {
       "slug": "en-home-play-tennis-junior-programming-welcome-letter-html",
@@ -789,7 +952,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-tennis-junior-programming-welcome-letter-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-play-tennis-summer-camps-html",
@@ -811,7 +975,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-play-tennis-summer-camps-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-about-html"
     },
     {
       "slug": "en-home-visit-health-and-wellness-breakfast-the-most-important-meal-of-the-day-html",
@@ -833,7 +998,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-breakfast-the-most-important-meal-of-the-day-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-visit-health-and-wellness-fluid-loss-and-body-weight-html",
@@ -855,7 +1021,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-fluid-loss-and-body-weight-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-visit-health-and-wellness-html",
@@ -877,14 +1044,15 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-html"
     },
     {
       "slug": "en-home-visit-health-and-wellness-hydration-matters-html",
       "url": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/hydration-matters.html",
       "title": "Hydration Matters",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -893,13 +1061,40 @@
         {
           "status": "directed",
           "at": "2026-09-18T17:02:45Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T17:50:31.277Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T17:50:31.277Z",
+          "approvedBy": "hands-off",
+          "gate": {
+            "360": {
+              "pixelPct": 0.55,
+              "heightDelta": 0,
+              "structuralRed": 0
+            },
+            "1440": {
+              "pixelPct": 0.16,
+              "heightDelta": 0,
+              "structuralRed": 0
+            }
+          }
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-18T17:51:11.000Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-hydration-matters-html.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/en-home-visit-health-and-wellness-hydration-matters-html-proposed.html",
+      "migratedPath": "stardust/migrated/visit/health-and-wellness/hydration-matters/index.html",
+      "fidelityTier": "archetype",
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-visit-health-and-wellness-macronutrient-breakdown-carbohydrates-html",
@@ -921,7 +1116,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-macronutrient-breakdown-carbohydrates-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-visit-health-and-wellness-macronutrient-breakdown-html",
@@ -943,7 +1139,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-macronutrient-breakdown-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-visit-health-and-wellness-nutrition-for-recovery-html",
@@ -965,7 +1162,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-nutrition-for-recovery-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-visit-health-and-wellness-nutrition-for-tennis-html",
@@ -987,7 +1185,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-nutrition-for-tennis-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-visit-health-and-wellness-sleep-matters-html",
@@ -1009,7 +1208,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-sleep-matters-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-visit-health-and-wellness-strength-and-conditioning-html",
@@ -1031,14 +1231,15 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-visit-health-and-wellness-strength-and-conditioning-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
     },
     {
       "slug": "en-home-visit-html",
       "url": "https://www.ustanationalcampus.com/en/home/visit.html",
       "title": "Visit Us",
       "type": "listing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1047,13 +1248,40 @@
         {
           "status": "directed",
           "at": "2026-09-18T17:02:45Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T17:48:53.415Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T17:48:53.415Z",
+          "approvedBy": "hands-off",
+          "gate": {
+            "360": {
+              "pixelPct": 1.06,
+              "heightDelta": 0,
+              "structuralRed": 0
+            },
+            "1440": {
+              "pixelPct": 0.17,
+              "heightDelta": 0,
+              "structuralRed": 0
+            }
+          }
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-18T17:51:11.000Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-visit-html.json",
-      "prototypePath": null,
-      "migratedPath": null
+      "prototypePath": "stardust/prototypes/en-home-visit-html-proposed.html",
+      "migratedPath": "stardust/migrated/visit/index.html",
+      "fidelityTier": "archetype",
+      "representative": "en-home-visit-html"
     },
     {
       "slug": "en-home-visit-sustainability-html",
@@ -1075,7 +1303,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-visit-sustainability-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-visit-html"
     },
     {
       "slug": "en-home-watch-html",
@@ -1097,7 +1326,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-watch-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     },
     {
       "slug": "en-home-watch-save-my-play-html",
@@ -1119,7 +1349,8 @@
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-watch-save-my-play-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": null,
+      "representative": "en-home-play-private-lessons-html"
     }
   ],
   "replica": {
@@ -1135,5 +1366,48 @@
       1440,
       360
     ]
+  },
+  "migrate": {
+    "selfContained": false,
+    "outputDir": "stardust/migrated",
+    "pageMap": [
+      {
+        "sourceUrl": "/en/home.html",
+        "outputPath": "index.html",
+        "slug": "en-home-html"
+      },
+      {
+        "sourceUrl": "/en/home/about/holiday-hours.html",
+        "outputPath": "about/holiday-hours/index.html",
+        "slug": "en-home-about-holiday-hours-html"
+      },
+      {
+        "sourceUrl": "/en/home/about.html",
+        "outputPath": "about/index.html",
+        "slug": "en-home-about-html"
+      },
+      {
+        "sourceUrl": "/en/home/news/holiday-hours.html",
+        "outputPath": "news/holiday-hours/index.html",
+        "slug": "en-home-news-holiday-hours-html"
+      },
+      {
+        "sourceUrl": "/en/home/play/private-lessons.html",
+        "outputPath": "play/private-lessons/index.html",
+        "slug": "en-home-play-private-lessons-html"
+      },
+      {
+        "sourceUrl": "/en/home/visit/health-and-wellness/hydration-matters.html",
+        "outputPath": "visit/health-and-wellness/hydration-matters/index.html",
+        "slug": "en-home-visit-health-and-wellness-hydration-matters-html"
+      },
+      {
+        "sourceUrl": "/en/home/visit.html",
+        "outputPath": "visit/index.html",
+        "slug": "en-home-visit-html"
+      }
+    ],
+    "note": "archetypes-only (replica); siblings are authored directly as EDS content by the deploy agents (rollout archetypes-only mode)",
+    "migratedAt": "2026-09-18T17:51:11.000Z"
   }
 }
