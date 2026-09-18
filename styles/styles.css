@@ -611,7 +611,7 @@ main .section.contact-grey .default-content-wrapper :is(p, .prosemirror-editor):
   display: flex;
   justify-content: center;
   width: calc(100% * 3 / 8);
-  margin: 0;
+  margin: 32px 0;
   padding: 16px 6px;
 }
 
@@ -2024,13 +2024,18 @@ main .section.tabs-container > .tabs-wrapper + .default-content-wrapper {
   padding: 8px 0 40px;
 }
 
-/* FAQ accordion sections: cmp-container 32/64 + text 8 */
-main .section.narrow.accordion-container > .default-content-wrapper {
+/* `pad-faq` — FAQ accordion sections inside a cmp-container 32/64 (+ text 8) */
+main .section.pad-faq.accordion-container > .default-content-wrapper {
   padding-top: 40px;
 }
 
-main .section.narrow.accordion-container > .accordion-wrapper {
+main .section.pad-faq.accordion-container > .accordion-wrapper {
   padding-bottom: 72px;
+}
+
+/* `contact-compact` — contact band whose button paragraph carries no 32px margins (/play/programs, junior-tennis-programs) */
+main .section.contact-grey.contact-compact .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(a) {
+  margin: 0;
 }
 
 main .section.icon-heading.accordion-container {
@@ -2076,10 +2081,6 @@ main .section.calendar-container + .section.event-cards-container {
   padding-top: 104px;
 }
 
-/* trailing app badges: container margin-bottom-small */
-main .section.app-badges:last-child {
-  padding-bottom: 32px;
-}
 
 @media (width <= 767px) {
   main .section.clay-cta {
@@ -2098,7 +2099,7 @@ main .section.app-badges:last-child {
     display: none;
   }
 
-  main .section.app-badges:last-child {
+  main .section.pad-bottom-32 {
     padding-bottom: 16px;
   }
 }
@@ -2228,7 +2229,7 @@ main .section.cta-dark-green a.button:any-link {
 }
 
 /* `faq-pad` — icon-heading FAQ inside a p64/32 container */
-main .section.faq-pad {
+main .section.faq-pad.accordion-container {
   padding: 72px 0 40px;
 }
 
@@ -2355,7 +2356,7 @@ main .section.display-h3 :is(.default-content-wrapper, .columns) :is(h3, .prosem
     width: calc(100% - 12px);
   }
 
-  main .section.faq-pad {
+  main .section.faq-pad.accordion-container {
     padding: 40px 0 24px;
   }
 
@@ -2392,6 +2393,11 @@ main .section.legacy-h-large .default-content-wrapper h3 {
   margin: 7.5px 0 10px;
   font-size: 20px;
   line-height: 1.1;
+}
+
+/* a rule section that opens with the legacy-inline layout table keeps the hr's 20px above */
+main .section.rule.columns-container > .columns-wrapper:has(> .columns.legacy-inline) {
+  margin-top: 20px;
 }
 
 /* legacy tables / inline layout tables sit inside the 15px container gutters */

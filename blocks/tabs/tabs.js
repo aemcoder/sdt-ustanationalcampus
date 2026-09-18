@@ -88,6 +88,13 @@ export default function decorate(block) {
   const xs = window.matchMedia('(width <= 767px)');
   tabs.forEach(({ tab }, i) => {
     tab.addEventListener('click', () => {
+      if (xs.matches && !block.classList.contains('large')) {
+        // closed accordion: tapping the open header closes it, tapping another opens that panel
+        const reopen = !(block.classList.contains('expanded') && tab.classList.contains('active'));
+        select(i);
+        block.classList.toggle('expanded', reopen);
+        return;
+      }
       if (xs.matches && tab.classList.contains('active')) {
         list.classList.toggle('open');
         return;
