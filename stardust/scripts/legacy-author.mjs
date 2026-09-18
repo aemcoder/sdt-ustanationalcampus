@@ -82,16 +82,22 @@ const EXTRACT = `(() => {
     const blocks = 'p, h1, h2, h3, h4, h5, h6, li, td, th';
     box.querySelectorAll(blocks).forEach((b) => {
       const trimEdge = (dirFirst) => { let guard = 0; while (guard++ < 20) { let n = dirFirst ? b.firstChild : b.lastChild; while (n && ((n.nodeType === 3 && norm(n.textContent) === '') || (n.nodeType === 1 && ['STRONG', 'EM', 'A'].includes(n.tagName) && norm(n.textContent) === '' && !n.querySelector('br, img')))) { const nx = dirFirst ? n.nextSibling : n.previousSibling; n.remove(); n = nx; } if (!n) return; if (n.nodeType === 1 && n.tagName === 'BR') { n.remove(); continue; } if (n.nodeType === 1 && ['STRONG', 'EM', 'A'].includes(n.tagName)) { const inner = dirFirst ? n.firstChild : n.lastChild; if (inner && inner.nodeType === 1 && inner.tagName === 'BR') { inner.remove(); continue; } if (inner && inner.nodeType === 3 && norm(inner.textContent) === '') { inner.remove(); continue; } } return; } };
-      trimEdge(true); trimEdge(false);
+      trimEdge(true);
+      // trailing <br> run: the quirks-mode source renders n-1 blank lines after the block — restore them as zero-width-space
+      // paragraphs (they survive the pipeline; verified on /drafts/zwsp-test); then trim the brs
+      if (b.tagName === 'P') { let k = 0; let n = b.lastChild; while (n && ((n.nodeType === 3 && norm(n.textContent) === '') || (n.nodeType === 1 && n.tagName === 'BR'))) { if (n.nodeType === 1) k += 1; n = n.previousSibling; } for (let i = 1; i < k; i += 1) { const sp = document.createElement('p'); sp.innerHTML = '&#8203;'; b.after(sp); } }
+      trimEdge(false);
     });
     // split paragraphs on consecutive <br>s
     box.querySelectorAll('p').forEach((p) => {
       const html = p.innerHTML; if (!/<br\\s*\\/?>(\\s|&nbsp;)*<br\\s*\\/?>/i.test(html)) return;
-      const parts = html.split(/(?:<br\\s*\\/?>(?:\\s|&nbsp;)*){2,}/i).map((x) => x.replace(/^(\\s|&nbsp;|<br\\s*\\/?>)+|(\\s|&nbsp;|<br\\s*\\/?>)+$/gi, '')).filter((x) => norm(x.replace(/<[^>]+>/g, '')) !== '' || /<img/.test(x));
-      const frag = document.createDocumentFragment(); parts.forEach((h) => { const q = document.createElement('p'); q.innerHTML = h; frag.append(q); }); p.replaceWith(frag);
+      const tokens = html.split(/((?:<br\\s*\\/?>(?:\\s|&nbsp;)*){2,})/i);
+      const frag = document.createDocumentFragment();
+      tokens.forEach((t, i) => { if (i % 2 === 1) { const k = (t.match(/<br/gi) || []).length; for (let j = 1; j < k; j += 1) { const sp = document.createElement('p'); sp.innerHTML = '&#8203;'; frag.append(sp); } return; } const x = t.replace(/^(\\s|&nbsp;|<br\\s*\\/?>)+|(\\s|&nbsp;|<br\\s*\\/?>)+$/gi, ''); if (norm(x.replace(/<[^>]+>/g, '')) !== '' || /<img/.test(x)) { const q = document.createElement('p'); q.innerHTML = x; frag.append(q); } });
+      p.replaceWith(frag);
     });
     // drop whitespace-only blocks
-    box.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li').forEach((b) => { if (isBlank(b)) b.remove(); });
+    box.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li').forEach((b) => { if (!isBlank(b)) return; if (b.tagName === 'P' && b.innerHTML !== '&#8203;' && b.innerHTML !== '\u200b') { b.innerHTML = '&#8203;'; return; } if (b.tagName !== 'P') b.remove(); });
     box.querySelectorAll('ul, ol').forEach((l) => { if (!l.querySelector('li')) l.remove(); });
     // stray text nodes / inline nodes directly under the root → wrap in <p>
     [...box.childNodes].forEach((n) => { if ((n.nodeType === 3 && norm(n.textContent) !== '') || (n.nodeType === 1 && ['STRONG', 'EM', 'A', 'BR'].includes(n.tagName))) { if (n.nodeType === 1 && n.tagName === 'BR') { n.remove(); return; } const p = document.createElement('p'); n.replaceWith(p); p.append(n); } else if (n.nodeType === 3) n.remove(); });
@@ -330,8 +336,8 @@ function cleanNewsBody(html) {
   h = h.replace(/<\/?(div|span|section|article|font|center|u|sup)[^>]*>/g, '');
   h = h.replace(/\s(style|class|id|dir|lang|align|width|height|border|cellpadding|cellspacing|valign|bgcolor|onclick|target|rel|title|data-[a-z-]+)="[^"]*"/g, '');
   h = h.replace(/<b>/g, '<strong>').replace(/<\/b>/g, '</strong>').replace(/<i>/g, '<em>').replace(/<\/i>/g, '</em>');
-  h = h.replace(/<p>(\s|&nbsp;|<br\s*\/?>)*<\/p>/g, '').replace(/<h([1-6])>(\s|&nbsp;|<br\s*\/?>)*<\/h\1>/g, '');
-  h = h.replace(/<br\s*\/?>\s*(?=<\/(p|h[1-6]|li)>)/g, '').replace(/(<(p|h[1-6]|li)>)\s*<br\s*\/?>/g, '$1');
+  h = h.replace(/<p>(\s|&nbsp;|<br\s*\/?>)*<\/p>/g, '<p>&#8203;</p>').replace(/<h([1-6])>(\s|&nbsp;|<br\s*\/?>)*<\/h\1>/g, '');
+  h = h.replace(/((?:<br\s*\/?>\s*)+)<\/p>/g, (m, brs) => '</p>' + '<p>&#8203;</p>'.repeat((brs.match(/<br/g) || []).length)).replace(/<br\s*\/?>\s*(?=<\/(h[1-6]|li)>)/g, '').replace(/(<(p|h[1-6]|li)>)\s*<br\s*\/?>/g, '$1');
   h = h.replace(/<h1[\s>]/g, '<h2>').replace(/<\/h1>/g, '</h2>');
   h = fixLinks(h);
   return h.replace(/\n{3,}/g, '\n\n').trim();

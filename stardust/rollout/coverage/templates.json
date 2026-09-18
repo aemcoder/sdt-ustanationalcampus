@@ -8,7 +8,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-09-18T18:18:58.313Z",
+  "generatedAt": "2026-09-18T19:56:40.563Z",
   "templates": [
     {
       "id": "en-home-about-holiday-hours-html",
@@ -22,10 +22,10 @@
         "holiday-hours"
       ],
       "delivery": {
-        "verified": 0,
+        "verified": 1,
         "deployed": 0,
         "contentPending": 0,
-        "pending": 1
+        "pending": 0
       }
     },
     {
@@ -48,10 +48,10 @@
         "teasers"
       ],
       "delivery": {
-        "verified": 0,
+        "verified": 7,
         "deployed": 0,
-        "contentPending": 6,
-        "pending": 1
+        "contentPending": 0,
+        "pending": 0
       }
     },
     {
@@ -89,9 +89,9 @@
         "article-text"
       ],
       "delivery": {
-        "verified": 0,
+        "verified": 1,
         "deployed": 0,
-        "contentPending": 1,
+        "contentPending": 0,
         "pending": 0
       }
     },
@@ -107,10 +107,10 @@
         "holiday-hours"
       ],
       "delivery": {
-        "verified": 0,
+        "verified": 1,
         "deployed": 0,
         "contentPending": 0,
-        "pending": 1
+        "pending": 0
       }
     },
     {
@@ -153,10 +153,10 @@
         "separator-4"
       ],
       "delivery": {
-        "verified": 0,
+        "verified": 18,
         "deployed": 0,
-        "contentPending": 17,
-        "pending": 1
+        "contentPending": 0,
+        "pending": 0
       }
     },
     {
@@ -1072,10 +1072,10 @@
         "article-body"
       ],
       "delivery": {
-        "verified": 0,
+        "verified": 895,
         "deployed": 0,
-        "contentPending": 902,
-        "pending": 1
+        "contentPending": 0,
+        "pending": 8
       }
     },
     {
@@ -1099,10 +1099,10 @@
         "useful-information"
       ],
       "delivery": {
-        "verified": 0,
+        "verified": 7,
         "deployed": 0,
-        "contentPending": 6,
-        "pending": 1
+        "contentPending": 0,
+        "pending": 0
       }
     }
   ]

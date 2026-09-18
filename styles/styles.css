@@ -848,9 +848,10 @@ body.legacy main .default-content-wrapper td {
   color: var(--color-text);
 }
 
-/* paragraph pitch = the one blank richtext line (<p>&nbsp;</p> / <br><br>) the source puts between paragraphs (#112) */
+/* legacy richtext paragraphs carry no margin (quirks-mode source); the blank lines the source draws with <p>&nbsp;</p> /
+   <br><br> are authored as zero-width-space spacer paragraphs (#112 — they survive the pipeline, verified on /drafts/zwsp-test) */
 body.legacy main .default-content-wrapper p {
-  margin: 0 0 21px;
+  margin: 0;
 }
 
 body.legacy main .default-content-wrapper :is(h1, h2, h3) {
