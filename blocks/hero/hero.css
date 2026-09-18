@@ -146,6 +146,84 @@
   padding: 8px 0;
 }
 
+
+/* ---- boxed light geometry variants: the source container's padding / grid-column classes, measured live per page
+   (stardust/.work/hero-live.json). Defaults = the private-lessons archetype (pt 128, pb 64, box 6/12, margin 224). ---- */
+.hero.boxed.light.pt-0 {
+  padding-top: 0;
+}
+
+.hero.boxed.light.pt-64 {
+  padding-top: 64px;
+}
+
+.hero.boxed.light.pt-192 {
+  padding-top: 192px;
+}
+
+.hero.boxed.light.pb-0 {
+  padding-bottom: 0;
+}
+
+.hero.boxed.light.pb-32 {
+  padding-bottom: 32px;
+}
+
+.hero.boxed.light.cols-7 .hero-box-wrap {
+  width: 58.3333%;
+}
+
+.hero.boxed.light.cols-8 .hero-box-wrap {
+  width: 66.6667%;
+}
+
+.hero.boxed.light.mt-192 .hero-box-wrap {
+  margin-top: 192px;
+}
+
+/* ---- banner (free30, sponsors): white title over the photo, no panel; 1200px container, 128px vertical padding ---- */
+/* stylelint-disable-next-line no-descending-specificity -- variant family, follows the boxed rules by design */
+.hero.banner {
+  padding: 128px 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.hero.banner .hero-box-wrap {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8px 12px;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.hero.banner .hero-box {
+  padding: 8px 0;
+}
+
+.hero.banner .hero-title {
+  padding: 8px 0;
+}
+
+.hero.banner .hero-title :is(h1, h2, h3) {
+  color: var(--color-white);
+}
+
+.hero.banner .hero-lede :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  padding: 8px 0;
+  color: var(--color-white);
+}
+
+.hero.banner .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 12px;
+  padding: 8px 0;
+}
+
+.hero.banner .hero-actions :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+}
+
 @media (width <= 767px) {
   .hero.title-only .hero-box-wrap {
     margin: 292px 0 16px;
@@ -183,5 +261,33 @@
 
   .hero.boxed.light .hero-box {
     padding: 16px 12px;
+  }
+
+  .hero.boxed.light.pt-0 {
+    padding-top: 0;
+  }
+
+  .hero.boxed.light.pt-64 {
+    padding-top: 32px;
+  }
+
+  .hero.boxed.light.pt-192 {
+    padding-top: 96px;
+  }
+
+  .hero.boxed.light.pb-0 {
+    padding-bottom: 0;
+  }
+
+  .hero.boxed.light.pb-32 {
+    padding-bottom: 16px;
+  }
+
+  .hero.boxed.light.mt-192 .hero-box-wrap {
+    margin-top: 96px;
+  }
+
+  .hero.banner {
+    padding: 64px 0;
   }
 }

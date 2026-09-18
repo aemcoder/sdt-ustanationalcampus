@@ -12,6 +12,31 @@
   width: 50%;
 }
 
+/* equal shares per row: the source grid splits each row across its cells */
+.columns .columns-row-1 > .columns-col {
+  width: 100%;
+}
+
+.columns .columns-row-3 > .columns-col {
+  width: 33.3333%;
+}
+
+.columns .columns-row-4 > .columns-col {
+  width: 25%;
+}
+
+.columns .columns-row-5 > .columns-col {
+  width: 20%;
+}
+
+.columns .columns-row-6 > .columns-col {
+  width: 16.6667%;
+}
+
+.columns .columns-embed {
+  padding: 8px 6px;
+}
+
 .columns .columns-media :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
   margin: 0;
   line-height: 0;
