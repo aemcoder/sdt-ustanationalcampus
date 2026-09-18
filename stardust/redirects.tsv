@@ -6,7 +6,7 @@
 /en/home/about/sponsors---partners.html	/about/sponsors-partners	program
 /en/home/about/usta-national-campus-scholarship.html	/about/usta-national-campus-scholarship	program
 /en/home/calendar.html	/calendar	hub
-/en/home/collegiate/events.html	/collegiate/events	unique
+/en/home/collegiate/events.html	https://usta.com/college	redirect-external (source 301s to usta.com/college; mirrored 2026-09-19)
 /en/home/connect.html	/connect	hub
 /en/home/events/2026-bnp-paribas-world-team-cup.html	/events/2026-bnp-paribas-world-team-cup	program
 /en/home/events/collegiate.html	/events/collegiate	listing

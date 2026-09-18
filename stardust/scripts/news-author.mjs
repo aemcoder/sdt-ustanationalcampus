@@ -47,10 +47,11 @@ for (const f of fs.readdirSync(recDir)) { const r=JSON.parse(fs.readFileSync(pat
   // `kicker`) and the small 20px line in <h3> (extracted as `title`) — the visual title is the h2, so swap; the DOM
   // order of the two (small-above-big vs big-above-small) is read from the captured page so the hero keeps it.
   let title=r.title||r.titleFallback||r.pageTitle; let kicker=r.kicker||''; let kickerBelow=false;
-  if (/^article-video/.test(r.shape||'') && r.kicker && r.title) {
-    [title,kicker]=[r.kicker,r.title];
-    try { const src=fs.readFileSync(path.join('stardust/current/pages',r.slug+'.html'),'utf8'); const tt=(src.match(/<div class="textTitle">([\s\S]*?)<\/div>/)||[])[1]||''; const i2=tt.search(/<h2[\s>]/), i3=tt.search(/<h3[\s>]/); kickerBelow = i2>=0 && i3>=0 && i2<i3; } catch { /* keep default order */ }
-  }
+  if (/^article-video/.test(r.shape||'') && r.kicker && r.title) [title,kicker]=[r.kicker,r.title];
+  // the DOM order of the two hero lines (small-above-big vs big-above-small) is read from the captured page for EVERY
+  // shape — 125 of the 872 archive pages put the big h2 line first (sibling gate finding, G-news R3)
+  if (kicker) { try { const src=fs.readFileSync(path.join('stardust/current/pages',r.slug+'.html'),'utf8'); const tt=(src.match(/<div class="textTitle">([\s\S]*?)<\/div>/)||[])[1]||''; const i2=tt.search(/<h2[\s>]/), i3=tt.search(/<h3[\s>]/); kickerBelow = i2>=0 && i3>=0 && i2<i3; } catch { /* keep default order */ } }
+
   const desc=(r.bodyText||'').replace(/\s+/g,' ').slice(0,157).replace(/\s\S*$/,'')+(r.bodyText&&r.bodyText.length>157?'…':'');
   const dateOnly=(r.date||'').split('|').pop().trim();
   const meta=[['Title',esc(r.pageTitle||title)],['Description',esc(desc)],['Template','legacy'],['Category',esc(map.category||'News')],['Published Date',esc(dateOnly)],['Author',/\|/.test(r.date||'')?esc(r.date.split('|')[0].trim()):null],['Image',r.image?esc(r.image):null],['Kicker',kicker?esc(kicker):null]].filter(x=>x[1]);
