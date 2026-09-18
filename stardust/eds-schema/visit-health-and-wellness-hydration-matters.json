@@ -1,0 +1,207 @@
+{
+ "source": "http://localhost:8793/en-home-visit-health-and-wellness-hydration-matters-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "article-body",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Hydration Matters"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Hydration is one of the most important components of athletic performance. It is especially important for tennis players since the sport is usually played in hot, humid weather, and without a time limit. Unfortunately, a ‘one-size-fits-all’ approach doesn’t work for hydration. Why? Sweat rate and sweat sodium concentration vary dramatically between individuals. It’s these two variables that help determine your unique hydration needs."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "What is sweat rate?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "If you’ve ever heard someone say they’re a “heavy sweater” or a “light sweater,” they’re referring to their sweat rate. This is simply the amount of sweat lost over a period of time. But this variable changes dramatically depending on temperature, location, and intensity of activity. Skiing in January in Colorado is likely to produce a much lower sweat rate than running in August in Florida. Ready to determine your sweat rate? The easiest way to do so is by weighing yourself before and after exercise. Follow these four simple steps: (1) empty bladder; (2) weigh in before exercise; (3) exercise for one hour; (4) weigh in after exercise. Assuming you did not use the bathroom or consume any fluids during exercise, your weight loss is your sweat rate (1 pound = 16 fluid ounces)."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "What is sweat sodium concentration?"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Sodium is the main electrolyte lost in sweat and the amount lost varies dramatically from athlete to athlete. Athletes can lose as little as 200 mg/L to as much as 2000 mg/L of sodium in their sweat. Believe it or not, the average person loses about 920 mg/L! Ready to determine your sweat sodium concentration? Unlike sweat rate, sweat sodium concentration is highly genetic and doesn’t really change throughout life. This means that once you’ve been tested, there’s no need to be retested—it’s one and done! your test today."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Why does hydration matter?"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Improper hydration and electrolyte replenishment can have a negative impact on performance. In fact, as little as a 2% loss of body weight due to dehydration can cause cramps, nausea and vomiting, fatigue, headaches, dizziness, mental changes, and hyponatremia. Adopt a fluid plan and drink according to a schedule to avoid these complications."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "When?"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "What?"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "How much?"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Before"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "2-3 hours prior"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "water"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": ">16 oz."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "15-30 minutes prior"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "8 oz."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "During"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "every 15-20 minutes"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "water + sports drink"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "4-8 oz."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "After"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "for every pound lost"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "water"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "16-24 oz"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TR.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TD.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TD.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TD.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TD.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

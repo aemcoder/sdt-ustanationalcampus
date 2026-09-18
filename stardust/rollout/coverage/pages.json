@@ -1,14 +1,14 @@
 {
   "_provenance": {
     "writtenBy": "stardust:rollout/inventory",
-    "writtenAt": "2026-09-18T17:51:58.558Z",
+    "writtenAt": "2026-09-18T18:07:47.397Z",
     "readArtifacts": [
       "stardust/migrated",
       "stardust/rollout/roster-state.json"
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-09-18T17:51:58.558Z",
+  "generatedAt": "2026-09-18T18:07:47.397Z",
   "pages": [
     {
       "slug": "en-home-about-holiday-hours-html",
@@ -6559,16 +6559,16 @@
       "slug": "en-home-news-campus-pro-shop-html",
       "path": "/news/campus-pro-shop",
       "title": "Campus Pro Shop",
-      "templateId": "en-home-visit-health-and-wellness-hydration-matters-html",
-      "representative": "en-home-visit-health-and-wellness-hydration-matters-html",
+      "templateId": "en-home-news-campus-pro-shop-html",
       "source": {
-        "migratedHtml": null,
-        "metaJson": null,
-        "sourceHash": "sha256:a84fdc0c9d9e752df23daaf3713a7df26557436a207046972bdc92526e2f2465",
-        "currentStatePath": "stardust/current/pages/en-home-news-campus-pro-shop-html.json"
+        "migratedHtml": "stardust/migrated/news/campus-pro-shop/index.html",
+        "metaJson": "stardust/migrated/news/campus-pro-shop/_meta.json",
+        "sourceHash": "sha256:44b8242b2ba88e219048e99ea8ca9be068de86deb8bb3ca874365da93a92e952"
       },
       "blocks": [
-        "article-body"
+        "article-hero",
+        "article-share",
+        "article-text"
       ],
       "delivery": {
         "status": "content-pending",

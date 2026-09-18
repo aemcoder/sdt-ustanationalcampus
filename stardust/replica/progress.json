@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:replica",
-    "writtenAt": "2026-09-18T17:50:31.277Z",
+    "writtenAt": "2026-09-18T18:07:47.152Z",
     "stardustVersion": "0.22.1"
   },
   "canon": {
@@ -1041,7 +1041,7 @@
       "breakpoints": {
         "360": {
           "iterations": 3,
-          "iterationNotes": "iter1 5.24% Δh -18 (footer 1124→1143: legacy li pitch 43 vs canon 44.86); iter2 4.33% Δh -10 (li strut 16px vs 12px link); iter3 1.65% Δh 0 PASS. Then chrome-parity (styles first) on header named 3 legacy-template deltas (alert p line-height 18.2, BOOK NOW 16.8, 4-crumb trail wrapping + ol 2px baseline drop); one pixel re-capture labelled 'chromeverify' (not a geometry iteration) confirmed 0.55% Δh 0.",
+          "iterationNotes": "iter1 5.24% Δh -18 (footer 1124→1143: legacy li pitch 43 vs canon 44.86); iter2 4.33% Δh -10 (li strut 16px vs 12px link); iter3 1.65% Δh 0 PASS. Then chrome-parity (styles first) on header named 3 legacy-template deltas (alert p line-height 18.2, BOOK NOW 16.8, 4-crumb trail wrapping + ol 2px baseline drop); one pixel re-capture labelled 'chromeverify' (not a geometry iteration) confirmed 0.55% Δh 0. A second verification re-capture ('quirksverify') after the doctype change was byte-identical (5923 px).",
           "result": {
             "structuralRed": 0,
             "visualFlags": "1 justified",
@@ -1078,8 +1078,8 @@
           "captureState": []
         },
         "1440": {
-          "iterations": 2,
-          "iterationNotes": "iter1 0.47% Δh0 PASS on first render; iter2 = pixel re-run after the legacy chrome compensation rules (footer li pitch) landed for 360 — number moved 0.47→0.16%, footer crop 0.84→0.21%",
+          "iterations": 3,
+          "iterationNotes": "iter1 0.47% Δh0 PASS on first render; iter2 = pixel re-run after the legacy chrome compensation rules (footer li pitch) landed for 360 — number moved 0.47→0.16%, footer crop 0.84→0.21%; iter3 = byte-identical re-run after the quirks-mode markup change (4130 px)",
           "result": {
             "structuralRed": 0,
             "visualFlags": "1 justified",
@@ -1123,6 +1123,127 @@
         "Lifted: h2 24px/26.4px 'Graphik XXCond Bold' #333; p 16px/1.3 #333; container 1170/970/750/100% with 15px gutters (rule, not px); table line-height normal (row 28px).",
         "Sibling page carries a YouTube embed (not built here — variant note for the archetype).",
         "Final content/visual-diff = iter1 runs (markup unchanged after iter1; only CSS values changed)."
+      ],
+      "renderingMode": "quirks (no doctype) — mirrors the live legacy template pages (no doctype; the modern template has one). Switched after iter2/iter3; both breakpoints re-measured byte-identical (1440: 4130 px = 0.16%; 360: 5923 px = 0.55%) — inert on this page, load-bearing on the news-hero sibling.",
+      "finalProbes": {
+        "contentDiff": "gates/<slug>-{1440,360}/content-diff-final.txt — none (25/25, 8/8 editable)",
+        "visualDiff": "gates/<slug>-{1440,360}/visual-diff-final.txt — IMAGERY GAP only (justified), mainHeight 855/855 and 1724/1724"
+      }
+    },
+    "en-home-news-campus-pro-shop-html": {
+      "pageType": "article",
+      "archetype": "en-home-news-campus-pro-shop-html",
+      "variantOf": "en-home-visit-health-and-wellness-hydration-matters-html",
+      "liveUrl": "https://www.ustanationalcampus.com/en/home/news/campus-pro-shop.html",
+      "prototype": "stardust/prototypes/en-home-news-campus-pro-shop-html-proposed.html",
+      "css": [
+        "stardust/prototypes/css/en-home-visit-health-and-wellness-hydration-matters-html.css (shared article modules: .news-*)",
+        "stardust/prototypes/css/en-home-news-campus-pro-shop-html.css (photo modal only)"
+      ],
+      "template": "legacy USTA news article (.articleTextDetailImageComp: 656px cover hero + 336px navy scrim + centered white h3/h2/h6 pinned 19px from the bottom; share bar; 800px .contentWrap 20px/35px; 550px gallery teaser)",
+      "renderingMode": "quirks (no doctype) — mirrors the live legacy template pages, which ship without a doctype. Standards mode measured main +48px at 1440 (bold-only <p> 35px instead of 24px, share bar 29 instead of 25). Delivery note: an EDS build (standards mode) must emulate these heights explicitly.",
+      "breakpoints": {
+        "360": {
+          "iterations": 1,
+          "iterationNotes": "free build-side rect probe before the first stitch found -24px (body <a> keeps 20px/31px at mobile: -7; last <p> keeps the 17px mobile margin: -17) — fixed from the lift, then iter1 0.59% Δh0 PASS.",
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "1 justified",
+            "pixelPct": 0.59,
+            "heightDelta": 0,
+            "headerBandPct": 0.01,
+            "footerBandPct": 1.08,
+            "pass": true
+          },
+          "contentDiff": {
+            "source": "25 text nodes — 3 headings, 5 eyebrows, 3 CTAs, 14 body; 3 img / 21 editable",
+            "build": "identical",
+            "findings": "none"
+          },
+          "justified": [
+            {
+              "probe": "visual",
+              "flag": "STRETCHED IMAGE cq5dam.web.1600.750.jpeg 1600x750 → 360x426",
+              "why": "flagged on BOTH sides — intentional object-fit:cover hero crop, mirrored"
+            }
+          ],
+          "residuals": [
+            {
+              "band": "y 3500–3745",
+              "pct": 2.5,
+              "cause": "footer social icons + copyright antialiasing (chrome canon; footer crop 1.08%)",
+              "flaggedFor": "user"
+            }
+          ],
+          "captureState": []
+        },
+        "1440": {
+          "iterations": 3,
+          "iterationNotes": "iter1 0.15% Δh0 PASS (after quirks-mode switch, before first stitch); glyph font warned (live .woff2/.woff byte-mangled) → TTF; iter2 0.14% Δh0; iter3 = byte-identical re-run (8131 px) after mobile-only CSS edits.",
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "none",
+            "pixelPct": 0.14,
+            "heightDelta": 0,
+            "headerBandPct": 0,
+            "footerBandPct": 0.21,
+            "pass": true
+          },
+          "contentDiff": {
+            "source": "25 text nodes — 3 headings, 3 CTAs, 19 body; 3 img / 21 editable",
+            "build": "identical",
+            "findings": "none"
+          },
+          "justified": [],
+          "residuals": [
+            {
+              "band": "y 4000–4154",
+              "pct": 1,
+              "cause": "footer copyright/social glyph antialiasing",
+              "flaggedFor": "user"
+            },
+            {
+              "band": "y 500–1000 / 1500–2000 / 2500–3000",
+              "pct": 0.3,
+              "cause": "hero JPEG decode + body text antialiasing",
+              "flaggedFor": "user"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "Glyphicons Halflings .woff2/.woff on the live origin are byte-mangled (UTF-8 replacement bytes in the WOFF header); live Chrome falls through to the .ttf — prototype ships the TTF",
+              "where": "assets/fonts/glyphicons-halflings-regular.ttf"
+            }
+          ]
+        }
+      },
+      "motion": {
+        "observed": "stardust/replica/motion/en-home-news-campus-pro-shop-html.json — 0 animations; click '.galleryIcon a' → body.modal-open, .modal-backdrop.fade.in (opacity .15s), .modal.fade.in (opacity .15s) + .modal-dialog transform .3s; hover .imgGalWrap / .shareImg a: no change; header timeline static",
+        "implemented": [
+          {
+            "what": "photo gallery modal (11 slides from #photoData, captions + n/11 counter, prev/next, close ×, backdrop click, Esc)",
+            "mechanism": "same class state machine (body.modal-open, .fade→.in, backdrop .5, dialog translate(0,-25%)→0 .3s ease-out), inline script in the page; verified build-side: opens/closes, 1/11→2/11, zero pageerrors (stardust/.work/replica/modal-check.mjs)"
+          }
+        ],
+        "dead": [
+          {
+            "what": ".scrollTop back-to-top button",
+            "why": "display:none on live at t=0; no runtime mutation recorded → mirrored hidden, no behaviour"
+          },
+          {
+            "what": "carousel slide animation",
+            "why": "no control click observed live → slides swap without invented easing"
+          },
+          {
+            "what": "#shareModal (AddThis share dialog)",
+            "why": "not clicked in the observation run; anchor mirrored (href=#shareModal), dialog not built — third-party AddThis widget"
+          }
+        ]
+      },
+      "notes": [
+        "Hero scrim lifted from the live element's background-image layer list: linear-gradient(rgba(0,37,73,0) 0, #00162b 100%), 336px (242px mobile), bottom-anchored.",
+        "Container model encoded as rules: hero 656/426px fixed heights; body max-width 800 (90.4% at mobile); gallery 550px fixed (also at mobile, as live).",
+        "Sibling news pages may carry a YouTube embed (#videoData) — not present on this page; variant slot left in the DOM."
       ]
     }
   }

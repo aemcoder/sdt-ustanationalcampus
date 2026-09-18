@@ -1,0 +1,43 @@
+{
+  "slug": "en-home-news-campus-pro-shop-html",
+  "type": "article",
+  "renderBranch": "A",
+  "template": "en-home-news-campus-pro-shop-html",
+  "fidelityTier": "archetype",
+  "modules": [
+    "article-hero",
+    "article-share",
+    "article-text"
+  ],
+  "slotsFilled": [],
+  "canonShas": {
+    "header": "9c5605e6149a",
+    "footer": "3b79d5cc40af",
+    "css": "ece24aa0ca7f"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "replica-path-a",
+      "note": "prototype copied verbatim; EDS conversion authored directly from the prototype by the deploy agents"
+    }
+  ],
+  "metadata": {
+    "title": "Campus Pro Shop",
+    "sourceUrl": "https://www.ustanationalcampus.com/en/home/news/campus-pro-shop.html",
+    "path": "/news/campus-pro-shop",
+    "template": "legacy"
+  },
+  "gatesPassed": [
+    "source-fidelity-1440",
+    "source-fidelity-360",
+    "content-diff",
+    "visual-diff",
+    "chrome-crop"
+  ],
+  "migratedAt": "2026-09-18T18:07:47.186Z",
+  "designMdSha": "166735de92bc",
+  "designJsonSha": "384204986f04",
+  "sourceCurrentSha": "297bad0d856e",
+  "sourceProposedSha": "6d31aeee896a"
+}

@@ -1,0 +1,1193 @@
+{
+ "source": "http://localhost:8793/en-home-visit-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "guest-services",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Guest Services"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Some of the great services at the USTA National Campus"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Book Your Travel"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "For all your air, hotel, and transportation travel needs"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "View More",
+     "href": "#box1"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "View More",
+     "href": "#box1"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Book Your Travel"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "For all your travel needs, visit to take advantage of our discounted rates. If assistance is needed, please contact USTA Travel:"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Hotel Accommodations:"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "USTA Travel",
+     "href": "https://www.ustatravel.com/"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Email:"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "info@ustatravel.com",
+     "href": "mailto:info@ustatravel.com"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "1-844-932-USTA"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Phone:"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Website:"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "www.ustatravel.com",
+     "href": "http://www.ustatravel.com/"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Contact Pegasus Transportation for all your motorcoach and 14-passenger van needs. With a fleet of over 30 motorcoaches and 5 vans (all equipped with GPS, Wifi, and wheelchair accessibility available), Pegasus will provide an elevated customer experience for National Campus guests. To book a charter bus or van, email Pegasus Bus at or call 407-812-8812 and reference to get our discounted rates."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Motorcoach Bus & Multi-passenger Vans:"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "USTA@Pegasusbus.com",
+     "href": "mailto:usta@pegasusbus.com"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "USTA"
+    },
+    {
+     "role": "heading",
+     "order": 20,
+     "text": "Nemours"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Nemours is dedicated to life-changing medical care and research."
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "View More",
+     "href": "#box2"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "View More",
+     "href": "#box2"
+    },
+    {
+     "role": "heading",
+     "order": 24,
+     "text": "Nemours Children's Hospital"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Nemours is a nonprofit pediatric health system dedicated to life-changing medical care and research. Check out some health and wellness tips ."
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "here",
+     "href": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness.html"
+    },
+    {
+     "role": "heading",
+     "order": 27,
+     "text": "OUC - The Reliable One"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "OUC is the second largest municipal utility in Florida"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "View More",
+     "href": "#box3"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "View More",
+     "href": "#box3"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "OUC - The Reliable One"
+    },
+    {
+     "role": "heading",
+     "order": 32,
+     "text": "OUC is the second largest municipal utility in Florida"
+    },
+    {
+     "role": "heading",
+     "order": 33,
+     "text": "Pro Shop & Racquet Bar"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Located within the Welcome Center."
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "View More",
+     "href": "#box4"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "View More",
+     "href": "#box4"
+    },
+    {
+     "role": "heading",
+     "order": 37,
+     "text": "Pro Shop & Racquet Bar"
+    },
+    {
+     "role": "heading",
+     "order": 38,
+     "text": "Located within the Welcome Center"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Features a Racquet Bar – racquet stringing and customization center."
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "for more information on the Campus Pro Shop & Racquet Bar."
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "CLICK HERE",
+     "href": "https://www.ustanationalcampus.com/en/home/news/campus-pro-shop.html"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Hours:"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Mondays-Saturdays: 8:00 a.m. - 8:00 p.m."
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Sundays: 8:00 a.m. - 5:00 p.m."
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Prices"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Stringing: $28 per frame"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Matching: $40 per frame"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Gripping: Free"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Grip Build-Up: $10 per frame"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Bumper Kits: $10 per frame"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Tennis and Pickleball - $10 for 3 days; $25 for 1 month Padel - $20 for 1 day; $75 for 2 weeks"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Racquet Demos:"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "* All demo fees get credited to the purchase of your racquet at the conclusion of the program. All demos must stay on Campus."
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Consultation: By Appointment"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "CONTACT THE PRO SHOP"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Lindsey Bercovici - Manager"
+    },
+    {
+     "role": "heading",
+     "order": 57,
+     "text": "Net Post Grill"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Located inside the Welcome Center"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "View More",
+     "href": "#box5"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "View More",
+     "href": "#box5"
+    },
+    {
+     "role": "heading",
+     "order": 61,
+     "text": "Net Post Grill"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "open daily with varying hours."
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "The Net Post Grill"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "located inside the Welcome Center, is run in partnership with Puff 'n Stuff. It is"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": ","
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "and are full-service concession areas located at the Tournament Administration building and Collegiate Center."
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Courtside Café"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Collegiate Café"
+    },
+    {
+     "role": "heading",
+     "order": 69,
+     "text": "Lake Nona"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Visit this masterfully planned community"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "View More",
+     "href": "#box6"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "View More",
+     "href": "#box6"
+    },
+    {
+     "role": "heading",
+     "order": 73,
+     "text": "Lake Nona"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "The USTA National Campus is located within the large-scale, master-planned Lake Nona community, one of the best-selling communities in the nation known for its leading innovation and culture of collaboration that aims to inspire human potential. Within the community, you’ll find there’s plenty to keep you active off the courts - from shopping and restaurants to arts and culture and 44 miles of trails. Explore our beautiful neighborhoods, sprawling parks and recreational opportunities, as well as the impressive hubs for business, technology, sports and performance, and medical advancements throughout the award-winning Lake Nona community. Welcome to the neighborhood!"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "Click here to discover Lake Nona.",
+     "href": "https://www.lakenona.com/"
+    }
+   ],
+   "imgCount": 18,
+   "editableTexts": 60,
+   "repeats": [
+    {
+     "unitSelector": "DIV.gs-card",
+     "count": 6,
+     "unit": {
+      "headings": 3,
+      "ctas": 6,
+      "imgs": 3,
+      "textRuns": 18
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hotel-shuttle",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "USTA Hotel Shuttle"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Beep provides free transportation from select Lake Nona hotels to the USTA National Campus for specified tournaments throughout the year. Guests traveling to the Campus should look for the shuttle when boarding."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "North Route"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "More information here.",
+     "href": "https://lakenona.ridefreebee.com/#/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "campus-information",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Location"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "USTA National Campus"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "10000 USTA Blvd., Orlando, Fl 32827"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Hours"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Monday - Friday: 7:00 AM - 9:00 PM"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Saturday & Sunday: 7:00 AM - 5:00 PM"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ci__col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "useful-information",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Useful Information"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Directions and Parking",
+     "href": ""
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Toll Route from Orlando International Airport (Approximately 10 Minutes)"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Follow signs for South Exit / SR-417"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "After approximately 3 miles keep left to SR-417 N / Orlando / Daytona Beach"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "After 2 miles, keep right for Exit 19: Lake Nona Blvd"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "From Exit: turn Left onto Lake Nona Blvd"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "After 1.40 miles, turn left onto Wellspring Drive"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "After 0.52 miles, turn right onto USTA Blvd."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Non-Toll Route from Orlando International Airport (Approximately 15 Minutes)"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Follow signs for South Exit"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Take Boggy Creek Rd South past SR-417"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Turn left on to Lake Nona Blvd (toward Medical City)"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Proceed past Medical City and SR-417"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Turn left on to Wellspring Drive"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "After .5 miles turn right onto USTA Blvd."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "From Theme Parks / Tampa"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Take SR-417 North toward Orlando / Daytona Beach"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Proceed past Orlando International Airport, take Exit 19: Lake Nona Blvd"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "From Exit: turn Left onto Lake Nona Blvd"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "After 1.40 miles, turn left onto Wellspring Drive"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "After 0.52 miles, turn right onto USTA Blvd."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "From Space Coast"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Take SR-528 West toward Orlando"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Take SR-417 South toward Tampa / Disney World"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Take Exit 19: Lake Nona Blvd"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "From Exit: turn right onto Lake Nona Blvd"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "After 1.40 miles, turn left onto Wellspring Drive"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "After 0.52 miles, turn right onto USTA Blvd."
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Parking"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Free on-site parking is available at the USTA National Campus (excluding select special events)."
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Transportation"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Contact Pegasus Transportation for all your motorcoach and 14-passenger van needs. With a fleet of over 30 motorcoaches and 5 vans (all equipped with GPS, Wifi, and wheelchair accessibility available), Pegasus will provide an elevated customer experience for National Campus guests. To book a charter bus or van, email Pegasus Bus at or call 407-812-8812 and reference to get our discounted rates."
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "USTA@Pegasusbus.com",
+     "href": "mailto:usta@pegasusbus.com"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "USTA"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Additionally, there is also a LYNX bus stop located at the intersection of Wellspring Drive and USTA Boulevard. The FastLink 407 runs Monday through Saturday and includes stop at Kissimmee Intermodal Station, Orlando International Airport, Nemours Children’s Hospital and VA Medical Hospital."
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Click here for full schedule",
+     "href": "http://www.golynx.com/maps-schedules/routes-detail.stml?portalProcess_dd_0_1_1=showPublicPosting&calendar_entry_id=3229"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Rates are $2.00 for a Single Route Single Ride pass and $4.50 for a Fixed Route All-Day pass. A Fixed Route 7-Day pass can be purchased for $16.00 and a Fixed Route 30-Day pass is available for $50.00."
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "Click here to purchase tickets",
+     "href": "http://www.golynx.com/buy-tickets/"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "FAQ",
+     "href": ""
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Yes, it is open to the public. Opening day was Jan. 2, 2017."
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Is the USTA National Campus a public facility, and when did it open?"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Visit:"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "How can I contact someone to learn more about the campus?"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "www.ustanationalcampus.com",
+     "href": "http://www.ustanationalcampus.com"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Call: (407) 675-2500 or toll-free (844) USA-TNNS"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "The National Campus is located at 10000 USTA Blvd., Orlando, FL 32827 in the Lake Nona community. The campus sits adjacent to the Orlando International Airport and about 20 minutes from Orlando’s theme parks and Convention Center."
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Where is the National Campus located?"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Located on over 64 acres, the National Campus features with live streaming capability."
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "How big is the USTA National Campus?"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "98 tennis courts"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "lighted"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "The National Campus features a wide array of amenities including an expansive retail pro shop, racquet stringing, a full-service restaurant and cafe, concession stands, and pavilions throughout the grounds with shade, restrooms and water bottle filling stations."
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "What amenities can I expect to find at the National Campus?"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "The National Campus is open Monday – Friday 7:30 AM-9:00 PM, Saturday & Sunday 7:30 AM-5:00PM"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "What are the Hours of operation at the National Campus?"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "The National Campus features several “neighborhoods” to meet a wide variety of playing needs."
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "What court surfaces are featured at the National Campus?"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "is closed to the public. It features a total of 20 courts which include eight DecoTurf acrylic cushion courts, six European Terre Davis red clay courts, and six indoor Rebound Ace acrylic cushion courts."
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "The Player Development Center"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "area features 32 Har-Tru Hydro-Courts (sub-irrigated) green clay courts and 20 Plexicushion acrylic cushion hard courts. Included in this area are two Championship Courts with seating for 500."
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "The Team USA & Leagues"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "area is for young players and adults learning the game that features eight 36-foot courts. These courts allow players to learn and play the game more quickly and easily."
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "The Nemours Family Zone"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": ", which is the home of the University of Central Florida men’s and women’s tennis programs, includes 12 Plexicushion acrylic cushion hard courts with seating for 1200. The venue also hosts a variety of other college tennis events throughout the year including the televised College MatchDay series."
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "The Collegiate Center"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "At this time, the National Campus has no plans to offer a membership. There is an hourly court rental fee and courts can be reserved online 48 hours in advance. A variety of tennis programs and camps are offered for kids and adults of all ages and levels. These are offered to the public and can be found on ."
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Do I need a membership for the National Campus and will there be tennis programs offered?"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "USTANationalCampus.com",
+     "href": "https://reserve.ustanationalcampus.com/"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "The Courtside Café and Net Post Grille are open to all players and guests of the Campus and offer a wide range of food and beverage options. There are also concession stands and vending options that provide healthy snacks."
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Will there be food & beverage available on the Campus?"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "Quick Facts",
+     "href": ""
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Overall Site"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "The Campus is open to the public and serves all levels of play for all ages!"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "The Campus hours are Monday – Friday 7:30 AM-9:00 PM, Saturday 7:30 AM-2:00PM, and closed on Sundays."
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "There is an hourly court rental fee and the courts may be reserved online 48 hours in advance."
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "A robust tennis program for kids and adults of all ages and levels is offered."
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "With 64+ acres and 100 lighted tennis courts, the National Tennis Campus is possibly the largest tennis facility in the world, although large in scale, the Campus is made up of smaller very functional neighborhoods."
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "The USTA National Campus serves as the epi-center for tennis innovation, providing opportunities for the testing and growth of new and emerging technologies and serving as a lab for sports science."
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "It is home to USTA-U, a “tennis university” developing a pipeline of future coaches, teaching professionals and tournament directors while raising the standards for event management, coaching, officiating and the customer experience."
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "As the Home to American Tennis, the Campus is home to several Pro Circuit events giving our aspiring American professionals an ideal venue to showcase and develop their talent."
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "The USTA’s Community Tennis and Player Development Divisions has their headquarters at the Campus."
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "The Campus also is home to the national training center for USTA-certified officials. The site is used to develop innovative methods for teaching, evaluating and certifying officials."
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Player Development/adidas Performance Center/Lodge/Training areas"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "The Player Development area is closed to the public."
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "This area features 20 courts including eight DecoTurf acrylic cushion courts, six European Terre Davis red clay courts (over 450 tons of imported Italian red clay) and six Rebound Ace indoor courts."
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "The 14 outdoor courts feature high-mast lighting and the 6 indoor courts feature LED lighting."
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "The six indoor courts include a viewing area and will be available to the public to book at certain times. In addition, they will be used during inclement weather to allow events to be completed."
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "There is a player lodge which can house up to 40 players participating in Player Development training programs."
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "The adidas Performance Center building features a 2nd floor “open office space”, an athletic training area which includes a strength & conditioning area, a 350 foot Sportsbase straight track, a sand pit, indoor and outdoor workout areas, and hot/cold soaking tubs."
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "Team USA/Tournament Administration/League Area"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "These areas feature 32 Har-Tru Hydro-Courts (watered from underground) green clay courts and 20 Plexicushion acrylic cushion courts (Team USA)."
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "It includes two Championship Courts with seating for approximately 500 each."
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "A Courtside Café with patio seating is located in front of the Tournament Administration building."
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Nemours Family Zone"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "This area is for young players and adults learning the game that features eight 36-foot and eight 60-foot Rebound Ace courts. These courts allow players to learn and play the game more quickly and easily."
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "IT/Technology"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "The facility incorporates the latest technology to provide an unparalleled playing, training, and educational experience for players, coaches, officials, administrators and spectators. The campus has an in-house TV network allowing for messaging and programming to be seen throughout the campus. In addition, PlaySight is the official livestreaming and court analytics partner of the campus."
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "26 courts are PlaySight smart courts and all 58 courts can be livestreamed."
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "USTA Welcome Center"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "Everyone; players, guests, fans and visitors are introduced to the Campus by entering the Welcome Center; this is where the customer experience begins."
+    },
+    {
+     "role": "body",
+     "order": 101,
+     "text": "This 50,000 Sq. ft. LEED certified USTA office building opened in July 2016. This modern building includes the players check-in area, a large pro shop, locker rooms, and the Net Post Grill (with seating both indoors and outdoors) on the 1st floor. USTA administrative offices occupy the 2nd floor and will utilize an “open office space” concept."
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "Collegiate"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "This area, which is the home of the University of Central Florida men’s and women’s varsity tennis programs, includes 12 Plexicushion acrylic cushion courts so two matches can be played simultaneously. The venue also hosts a variety of other college tennis events."
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "It features a pavilion for concessions, public restrooms, team locker rooms, coaches offices, and an area for trainers and officials."
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "The courts are equipped with high-mast lighting for televised events and have elevated seating for 1,200 fans."
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "Over 300 college dual matches are played on campus."
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "In addition to hosting collegiate events, these courts are also used when the Campus hosts large hardcourt tournaments and league championships."
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "Prohibited Items",
+     "href": ""
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "Prohibited items at the USTA National Campus"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "Please refrain from:"
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "Bringing outside food and beverage in coolers larger than 13 gallons"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "Swimming or fishing in ponds"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "Smoking or using e-cigarettes"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "Prohibited Items:"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "Video recording devices"
+    },
+    {
+     "role": "body",
+     "order": 116,
+     "text": "Pets (except service animals)"
+    },
+    {
+     "role": "body",
+     "order": 117,
+     "text": "Weapons of any kind or objects that appear to be weapons"
+    },
+    {
+     "role": "body",
+     "order": 118,
+     "text": "Unmanned aerial vehicles (drones)"
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "Skateboards, scooters, hoverboards, roller blades, and bicycles"
+    },
+    {
+     "role": "body",
+     "order": 120,
+     "text": "Any other items as determined by USTA that may be potentially harmful or disruptive"
+    },
+    {
+     "role": "body",
+     "order": 121,
+     "text": "Rules and Regulations:"
+    },
+    {
+     "role": "body",
+     "order": 122,
+     "text": "Patrons shall at all times wear appropriate tennis attire on court (including shirts and tennis shoes) and comply with proper tennis etiquette"
+    },
+    {
+     "role": "body",
+     "order": 123,
+     "text": "Tennis instruction may be given only by USTA professional staff (unless otherwise approved by USTA)"
+    },
+    {
+     "role": "body",
+     "order": 124,
+     "text": "USTA reserves the right to cancel court time for any reason at its discretion"
+    },
+    {
+     "role": "body",
+     "order": 125,
+     "text": "Attendance is at your own risk"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "RECORDING NOTICE"
+    },
+    {
+     "role": "body",
+     "order": 127,
+     "text": "BY ENTERING THE USTA NATIONAL CAMPUS YOU VOLUNTARILY CONSENT TO BE PHOTOGRAPHED, FILMED AND/OR OTHERWISE RECORDED FOR ANY USE AND WAIVE ALL RIGHTS YOU MAY HAVE TO ANY CLAIMS FOR PAYMENT OR ROYALTIES IN CONNECTION WITH ANY EXHIBITION, BROADCAST, OR OTHER DISPLAY OF THESE MATERIALS."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 55,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ui-acc__item",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 4,
+      "imgs": 0,
+      "textRuns": 38
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "advertisement",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

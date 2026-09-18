@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:migrate",
-    "writtenAt": "2026-09-18T17:51:11.000Z",
+    "writtenAt": "2026-09-18T18:07:47.186Z",
     "stardustVersion": "0.22.1"
   },
   "site": {
@@ -405,7 +405,7 @@
       "url": "https://www.ustanationalcampus.com/en/home/news/campus-pro-shop.html",
       "title": "Campus Pro Shop",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -414,14 +414,40 @@
         {
           "status": "directed",
           "at": "2026-09-18T17:02:45Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T18:07:47.152Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T18:07:47.152Z",
+          "approvedBy": "hands-off",
+          "gate": {
+            "360": {
+              "pixelPct": 0.59,
+              "heightDelta": 0,
+              "structuralRed": 0
+            },
+            "1440": {
+              "pixelPct": 0.14,
+              "heightDelta": 0,
+              "structuralRed": 0
+            }
+          }
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-18T18:07:47.186Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/en-home-news-campus-pro-shop-html.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "representative": "en-home-visit-health-and-wellness-hydration-matters-html"
+      "prototypePath": "stardust/prototypes/en-home-news-campus-pro-shop-html-proposed.html",
+      "migratedPath": "stardust/migrated/news/campus-pro-shop/index.html",
+      "representative": "en-home-visit-health-and-wellness-hydration-matters-html",
+      "fidelityTier": "archetype"
     },
     {
       "slug": "en-home-news-holiday-hours-html",
@@ -1372,42 +1398,12 @@
     "outputDir": "stardust/migrated",
     "pageMap": [
       {
-        "sourceUrl": "/en/home.html",
-        "outputPath": "index.html",
-        "slug": "en-home-html"
-      },
-      {
-        "sourceUrl": "/en/home/about/holiday-hours.html",
-        "outputPath": "about/holiday-hours/index.html",
-        "slug": "en-home-about-holiday-hours-html"
-      },
-      {
-        "sourceUrl": "/en/home/about.html",
-        "outputPath": "about/index.html",
-        "slug": "en-home-about-html"
-      },
-      {
-        "sourceUrl": "/en/home/news/holiday-hours.html",
-        "outputPath": "news/holiday-hours/index.html",
-        "slug": "en-home-news-holiday-hours-html"
-      },
-      {
-        "sourceUrl": "/en/home/play/private-lessons.html",
-        "outputPath": "play/private-lessons/index.html",
-        "slug": "en-home-play-private-lessons-html"
-      },
-      {
-        "sourceUrl": "/en/home/visit/health-and-wellness/hydration-matters.html",
-        "outputPath": "visit/health-and-wellness/hydration-matters/index.html",
-        "slug": "en-home-visit-health-and-wellness-hydration-matters-html"
-      },
-      {
-        "sourceUrl": "/en/home/visit.html",
-        "outputPath": "visit/index.html",
-        "slug": "en-home-visit-html"
+        "sourceUrl": "/en/home/news/campus-pro-shop.html",
+        "outputPath": "news/campus-pro-shop/index.html",
+        "slug": "en-home-news-campus-pro-shop-html"
       }
     ],
     "note": "archetypes-only (replica); siblings are authored directly as EDS content by the deploy agents (rollout archetypes-only mode)",
-    "migratedAt": "2026-09-18T17:51:11.000Z"
+    "migratedAt": "2026-09-18T18:07:47.186Z"
   }
 }

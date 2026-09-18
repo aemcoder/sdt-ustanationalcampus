@@ -1,14 +1,14 @@
 {
   "_provenance": {
     "writtenBy": "stardust:rollout/inventory",
-    "writtenAt": "2026-09-18T17:51:58.558Z",
+    "writtenAt": "2026-09-18T18:07:47.397Z",
     "readArtifacts": [
       "stardust/migrated",
       "stardust/rollout/roster-state.json"
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-09-18T17:51:58.558Z",
+  "generatedAt": "2026-09-18T18:07:47.397Z",
   "templates": [
     {
       "id": "en-home-about-holiday-hours-html",
@@ -74,6 +74,25 @@
         "deployed": 0,
         "contentPending": 0,
         "pending": 1
+      }
+    },
+    {
+      "id": "en-home-news-campus-pro-shop-html",
+      "representativeSlug": "en-home-news-campus-pro-shop-html",
+      "pages": [
+        "en-home-news-campus-pro-shop-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "article-hero",
+        "article-share",
+        "article-text"
+      ],
+      "delivery": {
+        "verified": 0,
+        "deployed": 0,
+        "contentPending": 1,
+        "pending": 0
       }
     },
     {
@@ -414,7 +433,6 @@
         "en-home-news-cacciatore-vs-hohmann-crowley-vs-wolfberg-headline-finals-day-html",
         "en-home-news-campus-cruise-with-emilio-nava-html",
         "en-home-news-campus-hosts-fall-open-events-in-2020-html",
-        "en-home-news-campus-pro-shop-html",
         "en-home-news-campus-reopens-its-doors-html",
         "en-home-news-campus-spotlight-html",
         "en-home-news-campusprogramregistrationchange-html",
@@ -1050,14 +1068,14 @@
         "en-home-visit-health-and-wellness-strength-and-conditioning-html",
         "news-2017-usta-league-national-adult-55-over-6-0-8-0-championships-2"
       ],
-      "pageCount": 905,
+      "pageCount": 904,
       "blocks": [
         "article-body"
       ],
       "delivery": {
         "verified": 0,
         "deployed": 0,
-        "contentPending": 904,
+        "contentPending": 903,
         "pending": 1
       }
     },

@@ -64,7 +64,7 @@
 .content .news-body p:last-child{margin-bottom:0}
 .content .news-body p:empty{display:none}
 .content .news-body b,.content .news-body strong{font-weight:bold;text-transform:uppercase;font-size:20px;line-height:24px}
-.content .news-body a{color:#186ccc;text-decoration:none;position:relative}
+.content .news-body a{color:#186ccc;text-decoration:none;position:relative;font-size:20px;line-height:31px} /* lifted: the body link keeps 20px/31px at every width (mobile p rule shrinks b/i/u, not a) */
 .content .news-body a::after{content:"\e258";position:relative;top:1px;right:-5px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:400;line-height:1;font-size:13px;-webkit-font-smoothing:antialiased}
 .content .news-body ul{position:relative;list-style:none;padding:0;margin:0 0 10px}
 .content .news-body ul li{font-size:20px;line-height:35px;color:#000;display:list-item;padding-left:24px;position:relative}
@@ -92,7 +92,7 @@
   .content .news-hero__title h6{width:278px;font-size:14px;line-height:18px;margin:0 auto}
   .news-body{width:90.4%;margin:28px auto 0}
   .content .news-body p{margin-bottom:17px;font-size:16px;line-height:24px}
-  .content .news-body p:last-child{margin-bottom:0}
+  .content .news-body p:last-child{margin-bottom:17px} /* the higher-specificity mobile rule wins over p:last-child on live (gallery y1998 = 1935+17+46) */
   .content .news-body b,.content .news-body strong,.content .news-body i,.content .news-body u{font-size:16px}
   .content .news-body ul li{font-size:16px;line-height:24px}
   .news-gallery__scrim{height:100px}
@@ -101,8 +101,10 @@
   .content .news-gallery__cta a::after{font-size:10px}
 }
 
-/* Glyphicons Halflings — harvested from the live clientlib (chevron \e258 after body links / gallery CTA) */
-@font-face{font-family:'Glyphicons Halflings';src:url(../assets/fonts/glyphicons-halflings-regular.woff2) format('woff2');font-weight:normal;font-style:normal}
+/* Glyphicons Halflings — harvested from the live clientlib (chevron \e258 after body links / gallery CTA). The live .woff2/.woff
+   files are byte-mangled (UTF-8 replacement bytes in the WOFF header → FontFace status error); live Chrome falls through to the
+   .ttf, so the TTF is the face that actually renders on live and the one shipped here. */
+@font-face{font-family:'Glyphicons Halflings';src:url(../assets/fonts/glyphicons-halflings-regular.ttf) format('truetype');font-weight:normal;font-style:normal}
 
 /* ---- legacy-template chrome compensation (see stardust/replica/canon-feedback/<slug>.md) ----
    On body.page (legacy clientlib) the footer link <li> is 21px tall (the link's 12px/21px line box), pitch 43px —

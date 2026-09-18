@@ -1,0 +1,163 @@
+{
+ "source": "http://localhost:8793/en-home-about-holiday-hours-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "holiday-hours",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "2026 Holiday Hours"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Monday, Memorial Day"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "May 25:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "7:00am - 5:00pm"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Friday, Observation of Independence Day"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "July 3:"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "7:00am - 5:00pm"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Monday, Labor Day"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "September 7:"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "7:00am - 4:00pm"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Thursday, Thanksgiving"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "November 26:"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "CLOSED"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Friday,"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "November 27"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "7:00am - 4:00pm"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Thursday, Christmas Eve"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "December 24:"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "7:00am - 1:00pm"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Friday, Christmas"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "December 25:"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "CLOSED"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "Saturday,"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "December 26"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "7:00am - 7:00pm"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 17,
+   "repeats": [
+    {
+     "unitSelector": "DIV.text-block",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "H5.",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}
