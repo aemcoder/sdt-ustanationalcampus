@@ -71,3 +71,16 @@
 - evidence: `tr`, `tail`, `grep` "command not found" inside `for … do` in a Bash-tool command; results silently empty
 - proposed change: already in deploy SKILL.md § Deploy (write loops to a script file with absolute binary paths) — surface it in `stardust/SKILL.md` § Setup as a harness-wide rule
 - status: pending
+
+
+### Sheets need the .json extension in the admin preview path
+- failure class: api-dependency
+- evidence: DA sheet PUT 201, but `POST /preview/…/redirects` → 404; `POST /preview/…/redirects.json` → 200 (same for /data/events.json)
+- proposed change: `skills/dynamics/reference/off-origin-data.md` § sheet-backed data and `deploy/da-deploy-protocol.md` — sheets keep their extension in preview/publish calls
+- status: pending
+
+### Two helix-query indices with the same target file overwrite each other
+- failure class: index-empty
+- evidence: default + news indices both targeting /query-index.json produced 898 rows of which 896 news (default rows lost); separate targets fixed it (940 + 897)
+- proposed change: `skills/dynamics/reference/listings.md` § query-index mechanics — one target per index on config-service sites
+- status: pending

@@ -1,7 +1,7 @@
 {
  "_provenance": {
   "writtenBy": "stardust:dynamics check",
-  "writtenAt": "2026-09-18T20:11:13.482Z",
+  "writtenAt": "2026-09-18T20:55:58.217Z",
   "origin": "https://main--sdt-ustanationalcampus--aemcoder.aem.page",
   "parity": "stardust/dynamics/parity.json"
  },
@@ -14,8 +14,8 @@
    "type": "dom-count",
    "pass": true,
    "detail": "5 × header .main-nav-item (min 5)",
-   "thirdParty": "",
-   "ms": 2069,
+   "thirdParty": "cdn.cookielaw.org:200×19 assets.adobedtm.com:200×8 connect.facebook.net:200×4 securepubads.g.doubleclick.net:200×7 www.googletagmanager.com:200×4 dpm.demdex.net:200×4 usta.demdex.net:200×1 region1.google-analytics.com:204×1 cm.g.doubleclick.net:302×2 usta.d2.sc.omtrdc.net:200×1 unitedstatestennisas.tt.omtrdc.net:200×1 cm.everesttech.net:302×1",
+   "ms": 61444,
    "environmentLimit": null
   },
   {
@@ -26,8 +26,8 @@
    "type": "dom-count",
    "pass": true,
    "detail": "19 × header .main-nav-sub li (min 19)",
-   "thirdParty": "",
-   "ms": 1794,
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1 ad.doubleclick.net:204×1 pagead2.googlesyndication.com:204×1",
+   "ms": 2068,
    "environmentLimit": null
   },
   {
@@ -38,8 +38,8 @@
    "type": "dom-count",
    "pass": true,
    "detail": "1 × header .alert-banner (min 1)",
-   "thirdParty": "",
-   "ms": 1799,
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1 pagead2.googlesyndication.com:204×1",
+   "ms": 2037,
    "environmentLimit": null
   },
   {
@@ -50,8 +50,8 @@
    "type": "dom-count",
    "pass": true,
    "detail": "9 × .accordion .accordion-item (min 9)",
-   "thirdParty": "",
-   "ms": 1837,
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1",
+   "ms": 2156,
    "environmentLimit": null
   },
   {
@@ -62,8 +62,8 @@
    "type": "dom-count",
    "pass": true,
    "detail": "6 × .tabs [role=tab], .tabs button (min 2)",
-   "thirdParty": "",
-   "ms": 2005,
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1",
+   "ms": 2147,
    "environmentLimit": null
   },
   {
@@ -74,68 +74,80 @@
    "type": "dom-count",
    "pass": true,
    "detail": "11 × .carousel img (min 10)",
-   "thirdParty": "",
-   "ms": 2210,
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1 pagead2.googlesyndication.com:204×1",
+   "ms": 2510,
    "environmentLimit": null
   },
   {
    "feature": "event calendar (month grid + search) over the events snapshot",
    "id": "events-feed",
    "class": "A",
-   "status": "interim (snapshot tier)",
+   "status": "done — events live in the da.live sheet /data/events (owner decision 2026-09-18)",
    "type": "fetch-json",
    "pass": true,
-   "detail": "200 · 2 rows · keys size,events",
+   "detail": "200 · 353 rows · keys total,offset,limit,data,:type",
    "thirdParty": "",
-   "ms": 1896,
+   "ms": 2146,
    "environmentLimit": null
   },
   {
    "feature": "event calendar (month grid + search) over the events snapshot",
    "id": "events-feed",
    "class": "A",
-   "status": "interim (snapshot tier)",
+   "status": "done — events live in the da.live sheet /data/events (owner decision 2026-09-18)",
    "type": "dom-count",
    "pass": true,
    "detail": "1 × .calendar form.calendar-search (min 1)",
-   "thirdParty": "",
-   "ms": 2121,
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1 pagead2.googlesyndication.com:204×1",
+   "ms": 2245,
+   "environmentLimit": null
+  },
+  {
+   "feature": "event calendar (month grid + search) over the events snapshot",
+   "id": "events-feed",
+   "class": "A",
+   "status": "done — events live in the da.live sheet /data/events (owner decision 2026-09-18)",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "19 × .calendar [class*=\"event\"] (min 5)",
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1 pagead2.googlesyndication.com:204×1",
+   "ms": 2054,
    "environmentLimit": null
   },
   {
    "feature": "Event Calendar at a Glance rails",
    "id": "event-cards",
    "class": "A",
-   "status": "interim (authored rows + snapshot top-up)",
+   "status": "done — authored rows + sheet top-up",
    "type": "dom-count",
    "pass": true,
    "detail": "4 × .event-cards .event-card (min 4)",
-   "thirdParty": "",
-   "ms": 1992,
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1 pagead2.googlesyndication.com:204×1",
+   "ms": 2050,
    "environmentLimit": null
   },
   {
    "feature": "news listing (document-first + query index + snapshot top-up)",
    "id": "newsfeed",
    "class": "L",
-   "status": "done (index sheet pending — falls back to the snapshot)",
+   "status": "done — /news/query-index.json (897 rows) + snapshot fallback",
    "type": "dom-count",
    "pass": true,
    "detail": "8 × .news-listing .news-item (min 8)",
-   "thirdParty": "",
-   "ms": 2320,
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1 pagead2.googlesyndication.com:204×1",
+   "ms": 2415,
    "environmentLimit": null
   },
   {
    "feature": "news listing (document-first + query index + snapshot top-up)",
    "id": "newsfeed",
    "class": "L",
-   "status": "done (index sheet pending — falls back to the snapshot)",
+   "status": "done — /news/query-index.json (897 rows) + snapshot fallback",
    "type": "fetch-json",
    "pass": true,
-   "detail": "200 · 1 rows",
+   "detail": "200 · 10 rows · keys total,offset,limit,data,columns,:type",
    "thirdParty": "",
-   "ms": 2081,
+   "ms": 2237,
    "environmentLimit": null
   },
   {
@@ -146,8 +158,8 @@
    "type": "dom-count",
    "pass": true,
    "detail": "11 × .carousel img (min 10)",
-   "thirdParty": "",
-   "ms": 1799,
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1 pagead2.googlesyndication.com:204×1",
+   "ms": 2034,
    "environmentLimit": null
   },
   {
@@ -158,8 +170,8 @@
    "type": "dom-count",
    "pass": true,
    "detail": "1 × .embed.embed-ioncourt (min 1)",
-   "thirdParty": "",
-   "ms": 2029,
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1",
+   "ms": 2062,
    "environmentLimit": null
   },
   {
@@ -170,20 +182,32 @@
    "type": "dom-count",
    "pass": true,
    "detail": "1 × .embed, a[href*=\"youtu\"] (min 1)",
-   "thirdParty": "",
-   "ms": 2031,
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1",
+   "ms": 2247,
    "environmentLimit": null
   },
   {
    "feature": "GPT ads / OneTrust / Adobe Launch / Google tags",
    "id": "tags",
    "class": "T",
-   "status": "scaffolded-awaiting-owner",
-   "type": "consent-gate",
+   "status": "done — OneTrust, Adobe Launch, GA4/Ads, Facebook pixel, GPT ported with the source ids (owner decision 2026-09-18: port all tags)",
+   "type": "dom-count",
    "pass": true,
-   "detail": "no request to 5 gated host pattern(s) before consent",
-   "thirdParty": "",
-   "ms": 5789,
+   "detail": "1 × #onetrust-banner-sdk (min 1)",
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1 pagead2.googlesyndication.com:204×1",
+   "ms": 2072,
+   "environmentLimit": null
+  },
+  {
+   "feature": "GPT ads / OneTrust / Adobe Launch / Google tags",
+   "id": "tags",
+   "class": "T",
+   "status": "done — OneTrust, Adobe Launch, GA4/Ads, Facebook pixel, GPT ported with the source ids (owner decision 2026-09-18: port all tags)",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .ad-slot .ad-slot-gpt (min 1)",
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1 pagead2.googlesyndication.com:204×1",
+   "ms": 2033,
    "environmentLimit": null
   },
   {
@@ -194,8 +218,8 @@
    "type": "dom-count",
    "pass": true,
    "detail": "2 × main a[href*='usta.com/en/home/play/college-tennis'] (min 1)",
-   "thirdParty": "",
-   "ms": 2011,
+   "thirdParty": "cdn.cookielaw.org:200×10 securepubads.g.doubleclick.net:200×4 assets.adobedtm.com:200×4 connect.facebook.net:200×2 www.googletagmanager.com:200×2 unitedstatestennisas.tt.omtrdc.net:200×1 www.google.com:200×1",
+   "ms": 2219,
    "environmentLimit": null
   }
  ]

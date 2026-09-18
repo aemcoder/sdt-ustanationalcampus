@@ -114,3 +114,21 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** hand-off report.
 
 ---
+## 2026-09-18T20:55:59Z — Owner decisions applied
+
+**Prompt:** decisions: events → DA sheet; port all tags; configure the index directly; load the redirects; GH_PAT refreshed.
+
+**Decisions:**
+- Events: DA sheet `/data/events` (353 rows, flat columns) published to preview + live; calendar and event-cards read the sheet shape (`data[]`, legacy `events[]` fallback); code-bus snapshot removed. Calendar renders 19 sheet events on the published origin.
+- Tags: OneTrust (auto-block + stub), Adobe Launch (+ digitalData skeleton), GA4 ×2 + Ads, Facebook pixel, GPT (`/5681/National_Campus`, source size mapping, live slots replacing the frozen creatives) — all enabled in `scripts/site-config.js`, loaded by `scripts/delayed.js` in the source's order. Verified on the published home: banner visible, `_satellite`, `gtag`, `fbq`, GPT slot 728×90, the source's third-party host set, 0 console errors.
+- Index: config-service API still 403 for the DA token, but `helix-query.yaml` is honoured — bulk reindex 946/946; news index moved to `/news/query-index.json` after a same-target collision.
+- Redirects: `/redirects.json` sheet (945 rows) live; 301 verified.
+- Sheets need `.json` in the preview/publish path (learning recorded).
+
+**Artifacts touched:** helix-query.yaml, scripts/{site-config,delayed}.js, blocks/{ad-slot,calendar,event-cards,news-listing,header}, data/_provenance.json (events.json removed), DA: /redirects.json, /data/events.json; stardust/{dynamics/parity.json, dynamic-features.md, rollout/REPORT.md, rollout/INDEX-CONFIG.md, learnings.md, qa/dynamics-report.md}
+
+**Open questions:** Graphik licence; OneTrust domain allow-list for production; residual fidelity round (visit@360, hydration, holiday@360); production domain.
+
+**Next:** none pending — hand-off.
+
+---

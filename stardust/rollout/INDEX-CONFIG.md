@@ -1,3 +1,5 @@
+> **Resolved 2026-09-18:** `helix-query.yaml` at the repo root IS honoured by this site (bulk reindex `POST /index/…/main/*` processed 946 pages). The news index has its own target `/news/query-index.json` — two indices sharing one target file collided (the later one overwrote the default rows).
+
 # Query index configuration (org admin, tools.aem.live)
 
 `helix-query.yaml` is retired for this org (AGENTS.md); the index lives in the config service. The `news-listing`

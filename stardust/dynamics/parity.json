@@ -1,10 +1,10 @@
 {
   "_provenance": {
     "writtenBy": "stardust:dynamics",
-    "writtenAt": "2026-09-18T20:10:37.389Z",
+    "writtenAt": "2026-09-18T20:54:19.591Z",
     "note": "checks aligned to the delivered block DOM (event-cards .event-card, news-listing .news-item, embed.embed-ioncourt, calendar form) after the first replay"
   },
-  "method": "chrome interactions rebuilt in blocks/header (hamburger, dropdown toggles, alert close); accordion/tabs/carousel as Block Collection blocks; events/newsfeed/gallery fed from code-bus JSON snapshots (interim tier); embeds passed through as URL paragraphs; third-party tags scaffolded disabled in scripts/site-config.js",
+  "method": "chrome interactions rebuilt in blocks/header; accordion/tabs/carousel as Block Collection blocks; events from a da.live sheet (/data/events.json); news listing from /news/query-index.json (helix-query.yaml) with snapshot fallback; embeds passed through; all source tags ported via scripts/site-config.js + delayed.js",
   "features": [
     {
       "id": "nav-menu",
@@ -108,24 +108,26 @@
       "class": "A",
       "pages": 1,
       "disposition": "data-fed",
-      "reproducibility": "needs-business-decision",
-      "status": "interim (snapshot tier)",
-      "snapshot": "2026-09-18T17:54:26Z",
-      "owner": "enable CORS on /usta/events for the new host or move events to a DA sheet",
+      "reproducibility": "self",
+      "status": "done — events live in the da.live sheet /data/events (owner decision 2026-09-18)",
       "verifiedBy": "353 events in data/events.json; grid renders the current month",
       "checks": [
         {
           "type": "fetch-json",
           "url": "/data/events.json",
-          "expectKeys": [
-            "events"
-          ]
+          "minRows": 300
         },
         {
           "type": "dom-count",
           "path": "/calendar",
           "selector": ".calendar form.calendar-search",
           "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/calendar",
+          "selector": ".calendar [class*=\"event\"]",
+          "min": 5
         }
       ]
     },
@@ -135,9 +137,8 @@
       "class": "A",
       "pages": 4,
       "disposition": "data-fed",
-      "reproducibility": "needs-business-decision",
-      "status": "interim (authored rows + snapshot top-up)",
-      "owner": "same as events-feed",
+      "reproducibility": "self",
+      "status": "done — authored rows + sheet top-up",
       "checks": [
         {
           "type": "dom-count",
@@ -154,7 +155,7 @@
       "pages": 1,
       "disposition": "index-backed",
       "reproducibility": "self",
-      "status": "done (index sheet pending — falls back to the snapshot)",
+      "status": "done — /news/query-index.json (897 rows) + snapshot fallback",
       "verifiedBy": "8 authored rows; load-more from /query-index.json news sheet (configured at tools.aem.live) else /data/newsfeed.json (909)",
       "checks": [
         {
@@ -165,8 +166,8 @@
         },
         {
           "type": "fetch-json",
-          "url": "/data/newsfeed.json",
-          "minRows": 1
+          "url": "/news/query-index.json?limit=10",
+          "minRows": 8
         }
       ]
     },
@@ -227,20 +228,20 @@
       "class": "T",
       "pages": 941,
       "disposition": "embed-passthrough",
-      "reproducibility": "needs-business-decision",
-      "status": "scaffolded-awaiting-owner",
-      "owner": "which tags run on the new host + ids (scripts/site-config.js); OneTrust domain",
+      "reproducibility": "self",
+      "status": "done — OneTrust, Adobe Launch, GA4/Ads, Facebook pixel, GPT ported with the source ids (owner decision 2026-09-18: port all tags)",
       "checks": [
         {
-          "type": "consent-gate",
+          "type": "dom-count",
           "path": "/",
-          "forbiddenHosts": [
-            "cookielaw.org",
-            "adobedtm.com",
-            "googletagservices.com",
-            "doubleclick.net",
-            "google-analytics.com"
-          ]
+          "selector": "#onetrust-banner-sdk",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".ad-slot .ad-slot-gpt",
+          "min": 1
         }
       ]
     },

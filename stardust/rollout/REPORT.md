@@ -45,13 +45,13 @@ Prototype regime (before conversion): every archetype ≤ 1.07 % at both widths,
 - Ad creatives frozen as static images (GPT disabled).
 - OneTrust floating consent button repeats in every live stitched capture (decided-out tag) — 0.2–0.7 % per page.
 
-## Owner decisions (stardust/dynamic-features.md § Decision batch)
-1. Events feed: enable CORS on `/usta/events` for the new host or move events to a DA sheet (interim: `/data/events.json` snapshot, 353 events).
-2. Tags: GPT ads, OneTrust (add the new domain), Adobe Launch, Google — ids in `scripts/site-config.js`, all disabled.
-3. Segmentation: decided-out unless section personalisation is wanted.
-4. Graphik font licence on the new host (`fonts/LICENSING.md`).
-5. Query index `news` sheet at tools.aem.live (`stardust/rollout/INDEX-CONFIG.md`) — news-listing and breadcrumbs fall back meanwhile.
-6. Redirects: `stardust/redirects.tsv` (source URL space `/en/home/*.html` → `/*`) to be loaded into the site's redirects sheet.
+## Owner decisions — resolved 2026-09-18
+1. Events → da.live sheet `/data/events` (content bus), blocks read it; the code-bus snapshot was removed.
+2. All source tags ported (OneTrust, Adobe Launch, GA4/Ads, Facebook pixel, GPT live slots) — verified on the published home. Add the new domain in OneTrust for production.
+3. Query index configured via `helix-query.yaml` (works on this site): default 940 rows, news 897 rows.
+4. Redirects sheet `/redirects.json` (945 rows) published; 301s verified on aem.page and aem.live.
+5. `GH_PAT` refreshed by the user.
+Still open: Graphik licence confirmation; the three residual fidelity pages; production domain.
 
 ## Ledgers
 `stardust/rollout/coverage/pages.json` · `stardust/rollout/dashboard/index.html` · `stardust/.work/delivery/deploy-ledger.json` (+ redrive ledgers) · `stardust/learnings.md` (12 pending entries) · `stardust/journal.md`
