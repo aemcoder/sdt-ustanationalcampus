@@ -74,7 +74,9 @@ export default async function decorate(block) {
     window.googletag.cmd.push(() => {
       const g = window.googletag;
       let mapping = g.sizeMapping();
-      (config.gpt.sizeMapping || []).forEach(([vp, size]) => { mapping = mapping.addSize(vp, size); });
+      (config.gpt.sizeMapping || []).forEach(([vp, size]) => {
+        mapping = mapping.addSize(vp, size);
+      });
       g.defineSlot(config.gpt.adUnit, config.gpt.sizes || [[320, 50], [728, 90]], id)
         .defineSizeMapping(mapping.build())
         .addService(g.pubads())

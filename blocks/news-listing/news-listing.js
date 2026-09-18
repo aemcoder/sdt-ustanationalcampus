@@ -10,7 +10,7 @@
  *   1. picture (optional — the source feed has image-less items)
  *   2. <p> category · <p> date
  *   3. <h3><a href="/news/…">title</a></h3>
- * Load more: GET /query-index.json?sheet=news (offset/limit) — rows {path, title, description,
+ * Load more: GET /news/query-index.json (offset/limit) — rows {path, title, description,
  * image, category|kicker, published-date|date}; falls back to the snapshot /data/newsfeed.json
  * (feedData rows {link, title=category, description, date, imageLink}) when the index has no
  * news sheet.
@@ -100,7 +100,7 @@ function buildCard(item) {
 
 async function fetchIndexPage(offset) {
   try {
-    const resp = await fetch(`/query-index.json?sheet=news&offset=${offset}&limit=${PAGE}`);
+    const resp = await fetch(`/news/query-index.json?offset=${offset}&limit=${PAGE}`);
     if (!resp.ok) return null;
     const json = await resp.json();
     const sheet = json[':type'] === 'multi-sheet' ? json.news : json;

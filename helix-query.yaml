@@ -32,7 +32,7 @@ indices:
       - '/news/**'
     exclude:
       - '/news/holiday-hours'
-    target: /query-index.json
+    target: /news/query-index.json
     properties:
       title:
         select: head > meta[property="og:title"]
