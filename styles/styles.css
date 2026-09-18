@@ -545,7 +545,7 @@ main .section.narrow .default-content-wrapper :is(h2, p, .prosemirror-editor) + 
 
 /* separators — the source's authored separator rows (transparent hr inside padded columns); heights lifted.
    One token per height (#120): separator 57 · separator-thin 17 · separator-hairline 9 · separator-sage 34 (sage band) */
-main .section:is(.separator, .separator-thin, .separator-hairline, .separator-sage, .separator-clay) {
+main .section:is(.separator, .separator-thin, .separator-hairline, .separator-sage, .separator-clay, .separator-margin) {
   display: block;
   height: 57px; /* 8 + 20 + 1 + 20 + 8 */
 }
@@ -2542,6 +2542,111 @@ body.legacy main .section.carousel-container .carousel.gallery .carousel-slide :
   body.legacy main:has(.carousel.gallery) .section.article-hero ~ .section .default-content-wrapper p,
   body.legacy main:has(.embed-wrapper) .section.article-hero ~ .section .default-content-wrapper p {
     margin-bottom: 17px;
+  }
+}
+/* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- tokens appended after the template rules by design */
+main .section.faq-pad > .accordion-wrapper > .accordion {
+  width: 1088px;
+  margin-left: 6px;
+}
+
+/* `tabs-rule` — tabs inside hr-framed container (BNP): 8 + 20 + 1 + 12 + 20 above, 21 + 28 below */
+main .section.tabs-rule > .tabs-wrapper {
+  padding: 49px 0 41px;
+}
+
+/* `pad-16-48` — overrides pad-medium: p8 + cmp 0/32 + text 8 */
+main .section.pad-medium.pad-16-48 > div {
+  padding-top: 16px;
+  padding-bottom: 48px;
+}
+
+/* `title-block` — modern title container: 32 + 8 above, 10 + 8 + 10 + 57 below */
+main .section.title-block > div {
+  padding: 40px 0 85px;
+}
+
+main .section.text-block > div {
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+/* `gallery-tabs` — the live 2-tab strip authored as a plain list after the gallery sub-text */
+main .section.photo-gallery.gallery-tabs .default-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main .section.photo-gallery.gallery-tabs .default-content-wrapper :is(h1, h2) {
+  grid-column: 1 / -1;
+}
+
+main .section.photo-gallery.gallery-tabs .default-content-wrapper p {
+  max-width: none;
+}
+
+main .section.photo-gallery.gallery-tabs .default-content-wrapper ul {
+  margin: 3px 0 10px;
+  padding: 0;
+  font-family: var(--font-semibold);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+  letter-spacing: 0.5px;
+  color: var(--color-white);
+  text-align: right;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+main .section.photo-gallery.gallery-tabs .default-content-wrapper li {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+main .section.photo-gallery.gallery-tabs .default-content-wrapper li:first-child {
+  border-radius: 29px;
+  background: var(--color-white);
+  color: #002649;
+}
+
+@media (width <= 767px) {
+  main .section.faq-pad > .accordion-wrapper > .accordion {
+    width: auto;
+    margin-left: 0;
+  }
+
+  main .section.tabs-rule > .tabs-wrapper {
+    padding: 61px 0 41px;
+  }
+
+  main .section.pad-medium.pad-16-48 > div {
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+
+  main .section.title-block > div {
+    padding-top: 24px;
+  }
+
+  main .section.app-badges .default-content-wrapper img {
+    width: 92px;
+  }
+
+  main .section.photo-gallery.gallery-tabs .default-content-wrapper {
+    display: block;
+  }
+
+  main .section.photo-gallery .default-content-wrapper :is(h1, h2) {
+    margin-bottom: 9px;
+  }
+
+  main .section.photo-gallery.gallery-tabs .default-content-wrapper ul {
+    margin: 0 0 23px;
+    padding: 0 0 0 18px;
+    text-align: left;
   }
 }
 /* stylelint-enable no-descending-specificity */

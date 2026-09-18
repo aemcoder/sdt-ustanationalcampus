@@ -338,13 +338,35 @@ main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon
     padding-bottom: 96px;
   }
 
-  /* mobile-image: the source shows the photo above the text on xs */
+  /* mobile-image: the source shows the photo on xs in the authored order; mobile-image-first puts it above the text */
   .columns.image-text.mobile-image:not(.band) .columns-media {
     display: block;
-    order: -1;
     width: 100%;
     margin: 0;
     padding: 8px 6px;
+  }
+
+  .columns.image-text.mobile-image.mobile-image-first:not(.band) .columns-media {
+    order: -1;
+  }
+
+  /* band photo half on xs keeps the photo's natural ratio (live 360×1126/2000 = 208 on adult-red-ball) */
+  .columns.band .columns-media {
+    padding: 0;
+  }
+
+  .columns.band .columns-media :is(p, .prosemirror-editor, picture) {
+    position: static;
+  }
+
+  .columns.band .columns-media img {
+    position: static;
+    height: auto;
+    aspect-ratio: auto;
+  }
+
+  .columns.band .columns-text {
+    padding: 24px 12px;
   }
 }
 /* stylelint-enable no-descending-specificity */
@@ -389,7 +411,7 @@ main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon
   }
 
   .columns.band.narrow-text .columns-text {
-    padding: 8px 12px;
+    padding: 8px 18px;
   }
 }
 /* stylelint-enable no-descending-specificity */
@@ -415,7 +437,7 @@ main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon
   }
 
   .columns.pathway .columns-col + .columns-col {
-    margin-top: 49px;
+    margin-top: 0;
   }
 }
 /* stylelint-enable no-descending-specificity */

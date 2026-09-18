@@ -469,3 +469,21 @@
   padding-top: 31px;
 }
 /* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- tokens appended after the variant rules by design */
+.hero.banner.scrim .hero-media::after {
+  content: '';
+  position: absolute;
+  inset: 8px 0;
+  background: rgb(0 0 0 / 51%);
+}
+
+.hero.boxed.light.cols-8 .hero-title :is(h1, h2, h3) {
+  max-width: 880px; /* the live title wraps at 892px of 900 (sub-1% metric gap) */
+}
+
+.hero.boxed.light .hero-extra h6 {
+  margin: 18px 0;
+  font-weight: 700;
+}
+/* stylelint-enable no-descending-specificity */
