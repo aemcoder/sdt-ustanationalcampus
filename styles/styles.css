@@ -1622,13 +1622,6 @@ body.content-page main .default-content-wrapper p {
     margin-bottom: 45px;
   }
 
-  main .section.news-listing-container .default-content-wrapper :is(h1, h2) {
-    line-height: 24px;
-  }
-
-  main .section.news-listing-container .default-content-wrapper :is(h1, h2) ~ :is(h2, h3, p) {
-    line-height: 25.34px;
-  }
 
   body.legacy main .section.article-hero ~ .section .default-content-wrapper strong,
   body.legacy main .section.article-hero ~ .section .default-content-wrapper h3 {
@@ -2360,19 +2353,6 @@ main .section.display-h3 :is(.default-content-wrapper, .columns) :is(h3, .prosem
     padding: 32px 0;
   }
 
-  main .section.photo-gallery .carousel.gallery {
-    width: 100%;
-  }
-
-  main .section.photo-gallery .carousel.gallery .carousel-slide picture {
-    height: auto;
-  }
-
-  main .section.photo-gallery .carousel.gallery .carousel-slide img {
-    width: 100%;
-    height: auto;
-    margin: 0;
-  }
 }
 /* stylelint-enable no-descending-specificity */
 
@@ -2411,3 +2391,42 @@ body.legacy main > .section > div:where(.table-wrapper, .columns-wrapper:has(> .
     margin-right: auto;
   }
 }
+
+/* stylelint-disable no-descending-specificity -- tokens appended after the template rules by design */
+
+/* `text-block` — modern richtext with 28px h4 (book-a-court hours) */
+main .section.text-block .default-content-wrapper h4 {
+  margin: 10px 0;
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+main .section.text-block .default-content-wrapper ul {
+  margin-bottom: 10px;
+}
+
+@media (width <= 767px) {
+  main .section.text-block .default-content-wrapper h4 {
+    font-size: 22px;
+  }
+
+  main .section.text-block.pad-medium > div {
+    padding: 65px 0 40px;
+  }
+
+  main .section.photo-gallery .carousel.gallery {
+    width: 300px;
+  }
+
+  main .section.photo-gallery .carousel.gallery .carousel-slide picture {
+    height: 229px;
+  }
+
+  main .section.photo-gallery .carousel.gallery .carousel-slide img {
+    width: 298px;
+    height: 143px;
+    margin: 1px;
+    object-fit: fill;
+  }
+}
+/* stylelint-enable no-descending-specificity */

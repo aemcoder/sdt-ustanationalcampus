@@ -338,3 +338,9 @@ main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-headin
   }
 }
 /* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- variant rule appended after the base rules by design */
+.cards.team.landscape a.button.accent::before {
+  display: none;
+}
+/* stylelint-enable no-descending-specificity */

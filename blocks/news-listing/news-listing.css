@@ -233,3 +233,16 @@ main .section.news-listing-container .default-content-wrapper :is(h1, h2) ~ .pro
   }
 }
 /* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- xs head rules must follow the block's own xs block */
+@media (width <= 767px) {
+  /* xs head: title 38/24.32, tagline 14/25.34 (source h3.tileTitle / .tileDescription) */
+  main .section.news-listing-container .default-content-wrapper :is(h1, h2) {
+    line-height: 24px;
+  }
+
+  main .section.news-listing-container .default-content-wrapper :is(h1, h2) ~ :is(h2, h3, p) {
+    line-height: 25.34px;
+  }
+}
+/* stylelint-enable no-descending-specificity */
