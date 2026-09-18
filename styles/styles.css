@@ -2114,7 +2114,7 @@ main .section.label-note .default-content-wrapper :is(p, .prosemirror-editor):wh
 
 /* `gradient-cta` — blue→sand 50° gradient band, 8/12 centred copy, accent pill */
 main .section.gradient-cta {
-  margin: 160px 0 128px; /* dark band m64 + an empty 32px container + m64 */
+  margin: 96px 0 128px;
   background: linear-gradient(50deg, rgb(3 115 243) 0%, rgb(255 239 190) 100%);
 }
 
@@ -2306,7 +2306,7 @@ main .section.display-h3 :is(.default-content-wrapper, .columns) :is(h3, .prosem
   }
 
   main .section.gradient-cta {
-    margin: 96px 0 64px;
+    margin: 64px 0;
   }
 
   main .section.gradient-cta > .default-content-wrapper {
@@ -2486,6 +2486,62 @@ main .section.pad-64 {
   main .section.text-block .default-content-wrapper li {
     font-size: 18px;
     line-height: 24px;
+  }
+}
+/* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- tokens + gallery template rules appended after the template rules by design */
+
+/* `separator-margin` — a separator row that models a container margin-top-small (32 + 8 + 8 + 9 = 57) which halves on xs */
+main .section.separator-margin {
+  height: 57px;
+}
+
+/* `h5-pitch` — richtext h5 rows carry 10px margins on the source (program-page copy) */
+main .section.h5-pitch :is(.default-content-wrapper, .columns) h5 {
+  margin: 10px 0;
+}
+
+/* news gallery pages (H1–H3): the gallery title h2 is the modal's title on the source — never rendered inline */
+body.legacy main .section.carousel-container > .default-content-wrapper:has(> h2:only-child) {
+  display: none;
+}
+
+body.legacy main .section:has(+ .section.carousel-container) .default-content-wrapper p:last-child {
+  margin-bottom: 0;
+}
+
+body.legacy main .section.carousel-container > .carousel-wrapper {
+  display: flow-root;
+}
+
+body.legacy main .section.carousel-container .carousel.gallery .carousel-slide {
+  position: relative;
+  height: 550px;
+}
+
+body.legacy main .section.carousel-container .carousel.gallery .carousel-slide img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+body.legacy main .section.carousel-container .carousel.gallery .carousel-slide :is(p, .prosemirror-editor):not(:has(img)) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media (width <= 767px) {
+  main .section.separator-margin {
+    height: 16px;
+  }
+
+  /* gallery / video article bodies keep the 17px xs pitch (source .articleText), unlike .contentWrap pages */
+  body.legacy main:has(.carousel.gallery) .section.article-hero ~ .section .default-content-wrapper p,
+  body.legacy main:has(.embed-wrapper) .section.article-hero ~ .section .default-content-wrapper p {
+    margin-bottom: 17px;
   }
 }
 /* stylelint-enable no-descending-specificity */
