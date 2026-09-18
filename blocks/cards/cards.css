@@ -151,4 +151,93 @@ main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-headin
     padding: 24px 0 16px;
   }
 }
+
+/* ---- team (meet-our-team) and register (adult-camps) variants: the live cmp-teaser card skin ---- */
+.cards.team .cards-grid,
+.cards.register .cards-grid {
+  gap: 24px 16px;
+  padding: 8px 6px;
+}
+
+.cards.team .card,
+.cards.register .card {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 48px) / 4);
+  padding: 0;
+  border: 1px solid rgb(0 0 0 / 5%);
+  border-radius: 4px;
+  background: var(--color-white);
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 50%);
+}
+
+.cards.register .cards-grid {
+  gap: 30px;
+}
+
+.cards.register .card {
+  width: calc((100% - 60px) / 3);
+}
+
+.cards.team .card-image,
+.cards.register .card-image {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.cards.team .card-image img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.cards.team .card-text,
+.cards.register .card-text {
+  margin: 0;
+  padding: 4px 20px 10px;
+}
+
+.cards.team .card-text :is(h3, h4, .prosemirror-editor :is(h3, h4)),
+.cards.register .card-text :is(h3, h4, .prosemirror-editor :is(h3, h4)) {
+  margin: 16px 0;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+/* the short black dash under the name / camp title */
+.cards.team .card-text :is(h3, h4, .prosemirror-editor:has(:is(h3, h4)))::after,
+.cards.register .card-text :is(h3, h4, .prosemirror-editor:has(:is(h3, h4)))::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-top: 16px;
+  background: var(--color-black);
+}
+
+.cards.team .card-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)),
+.cards.register .card-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 5px 0 10px;
+  font-size: 18px;
+  line-height: 25.7143px;
+}
+
+.cards.team .card-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)),
+.cards.register .card-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: -5px;
+}
+
+.cards.register .card-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(a.button) {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 20px;
+}
+
+@media (width <= 767px) {
+  .cards.team .card,
+  .cards.register .card {
+    width: 100%;
+  }
+}
 /* stylelint-enable no-descending-specificity */

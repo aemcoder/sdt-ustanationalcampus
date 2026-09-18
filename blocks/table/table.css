@@ -1,0 +1,72 @@
+/* table — values lifted from the live usta responsive table (private-lessons / davebailey 1440). */
+.table {
+  overflow: hidden;
+  border: 1px solid #e1e6e8;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+}
+
+.table .table-row {
+  display: flex;
+  min-height: 56px;
+}
+
+.table .table-row:not(:last-child) {
+  border-bottom: 1px solid #e1e6e8;
+}
+
+.table .table-row.shaded {
+  background: #f2f2f2;
+}
+
+.table .table-cell {
+  flex: 1;
+  padding: 16px;
+  overflow-wrap: anywhere;
+}
+
+.table .table-cell :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--color-black);
+}
+
+/* pricing tables follow their 28px semibold title (default content h3) with 8px */
+main .section .default-content-wrapper + .table-wrapper {
+  margin-top: 8px;
+}
+
+main .section.table-container .default-content-wrapper :is(h3, .prosemirror-editor h3) {
+  margin: 0 6px;
+  padding: 8px 0;
+  font-family: var(--font-semibold);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+}
+
+main .section .table-wrapper + .default-content-wrapper {
+  margin-top: 32px;
+}
+
+@media (width <= 767px) {
+  .table {
+    box-shadow: none;
+  }
+
+  .table .table-row {
+    flex-direction: column;
+    padding: 16px 5px;
+  }
+
+  .table .table-cell {
+    width: 100%;
+    padding: 0;
+  }
+
+  .table .table-cell:not(:last-child) {
+    padding-bottom: 16px;
+  }
+}

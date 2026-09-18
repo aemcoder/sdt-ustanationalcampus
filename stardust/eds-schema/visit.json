@@ -217,7 +217,7 @@
     {
      "role": "body",
      "order": 39,
-     "text": "Features a Racquet Bar – racquet stringing and customization center."
+     "text": "Features a Racquet Bar \u2013 racquet stringing and customization center."
     },
     {
      "role": "body",
@@ -360,12 +360,12 @@
     {
      "role": "body",
      "order": 67,
-     "text": "Courtside Café"
+     "text": "Courtside Caf\u00e9"
     },
     {
      "role": "body",
      "order": 68,
-     "text": "Collegiate Café"
+     "text": "Collegiate Caf\u00e9"
     },
     {
      "role": "heading",
@@ -397,7 +397,7 @@
     {
      "role": "body",
      "order": 74,
-     "text": "The USTA National Campus is located within the large-scale, master-planned Lake Nona community, one of the best-selling communities in the nation known for its leading innovation and culture of collaboration that aims to inspire human potential. Within the community, you’ll find there’s plenty to keep you active off the courts - from shopping and restaurants to arts and culture and 44 miles of trails. Explore our beautiful neighborhoods, sprawling parks and recreational opportunities, as well as the impressive hubs for business, technology, sports and performance, and medical advancements throughout the award-winning Lake Nona community. Welcome to the neighborhood!"
+     "text": "The USTA National Campus is located within the large-scale, master-planned Lake Nona community, one of the best-selling communities in the nation known for its leading innovation and culture of collaboration that aims to inspire human potential. Within the community, you\u2019ll find there\u2019s plenty to keep you active off the courts - from shopping and restaurants to arts and culture and 44 miles of trails. Explore our beautiful neighborhoods, sprawling parks and recreational opportunities, as well as the impressive hubs for business, technology, sports and performance, and medical advancements throughout the award-winning Lake Nona community. Welcome to the neighborhood!"
     },
     {
      "role": "cta",
@@ -417,47 +417,6 @@
       "ctas": 6,
       "imgs": 3,
       "textRuns": 18
-     },
-     "uniform": false
-    }
-   ]
-  },
-  {
-   "section": "hotel-shuttle",
-   "items": [
-    {
-     "role": "body",
-     "order": 0,
-     "text": "USTA Hotel Shuttle"
-    },
-    {
-     "role": "body",
-     "order": 1,
-     "text": "Beep provides free transportation from select Lake Nona hotels to the USTA National Campus for specified tournaments throughout the year. Guests traveling to the Campus should look for the shuttle when boarding."
-    },
-    {
-     "role": "body",
-     "order": 2,
-     "text": "North Route"
-    },
-    {
-     "role": "cta",
-     "order": 3,
-     "text": "More information here.",
-     "href": "https://lakenona.ridefreebee.com/#/"
-    }
-   ],
-   "imgCount": 0,
-   "editableTexts": 3,
-   "repeats": [
-    {
-     "unitSelector": "P.",
-     "count": 5,
-     "unit": {
-      "headings": 0,
-      "ctas": 0,
-      "imgs": 0,
-      "textRuns": 0
      },
      "uniform": false
     }
@@ -696,7 +655,7 @@
     {
      "role": "body",
      "order": 35,
-     "text": "Additionally, there is also a LYNX bus stop located at the intersection of Wellspring Drive and USTA Boulevard. The FastLink 407 runs Monday through Saturday and includes stop at Kissimmee Intermodal Station, Orlando International Airport, Nemours Children’s Hospital and VA Medical Hospital."
+     "text": "Additionally, there is also a LYNX bus stop located at the intersection of Wellspring Drive and USTA Boulevard. The FastLink 407 runs Monday through Saturday and includes stop at Kissimmee Intermodal Station, Orlando International Airport, Nemours Children\u2019s Hospital and VA Medical Hospital."
     },
     {
      "role": "cta",
@@ -755,7 +714,7 @@
     {
      "role": "body",
      "order": 46,
-     "text": "The National Campus is located at 10000 USTA Blvd., Orlando, FL 32827 in the Lake Nona community. The campus sits adjacent to the Orlando International Airport and about 20 minutes from Orlando’s theme parks and Convention Center."
+     "text": "The National Campus is located at 10000 USTA Blvd., Orlando, FL 32827 in the Lake Nona community. The campus sits adjacent to the Orlando International Airport and about 20 minutes from Orlando\u2019s theme parks and Convention Center."
     },
     {
      "role": "body",
@@ -795,7 +754,7 @@
     {
      "role": "body",
      "order": 54,
-     "text": "The National Campus is open Monday – Friday 7:30 AM-9:00 PM, Saturday & Sunday 7:30 AM-5:00PM"
+     "text": "The National Campus is open Monday \u2013 Friday 7:30 AM-9:00 PM, Saturday & Sunday 7:30 AM-5:00PM"
     },
     {
      "role": "body",
@@ -805,7 +764,7 @@
     {
      "role": "body",
      "order": 56,
-     "text": "The National Campus features several “neighborhoods” to meet a wide variety of playing needs."
+     "text": "The National Campus features several \u201cneighborhoods\u201d to meet a wide variety of playing needs."
     },
     {
      "role": "body",
@@ -845,7 +804,7 @@
     {
      "role": "body",
      "order": 64,
-     "text": ", which is the home of the University of Central Florida men’s and women’s tennis programs, includes 12 Plexicushion acrylic cushion hard courts with seating for 1200. The venue also hosts a variety of other college tennis events throughout the year including the televised College MatchDay series."
+     "text": ", which is the home of the University of Central Florida men\u2019s and women\u2019s tennis programs, includes 12 Plexicushion acrylic cushion hard courts with seating for 1200. The venue also hosts a variety of other college tennis events throughout the year including the televised College MatchDay series."
     },
     {
      "role": "body",
@@ -871,7 +830,7 @@
     {
      "role": "body",
      "order": 69,
-     "text": "The Courtside Café and Net Post Grille are open to all players and guests of the Campus and offer a wide range of food and beverage options. There are also concession stands and vending options that provide healthy snacks."
+     "text": "The Courtside Caf\u00e9 and Net Post Grille are open to all players and guests of the Campus and offer a wide range of food and beverage options. There are also concession stands and vending options that provide healthy snacks."
     },
     {
      "role": "body",
@@ -897,7 +856,7 @@
     {
      "role": "body",
      "order": 74,
-     "text": "The Campus hours are Monday – Friday 7:30 AM-9:00 PM, Saturday 7:30 AM-2:00PM, and closed on Sundays."
+     "text": "The Campus hours are Monday \u2013 Friday 7:30 AM-9:00 PM, Saturday 7:30 AM-2:00PM, and closed on Sundays."
     },
     {
      "role": "body",
@@ -922,7 +881,7 @@
     {
      "role": "body",
      "order": 79,
-     "text": "It is home to USTA-U, a “tennis university” developing a pipeline of future coaches, teaching professionals and tournament directors while raising the standards for event management, coaching, officiating and the customer experience."
+     "text": "It is home to USTA-U, a \u201ctennis university\u201d developing a pipeline of future coaches, teaching professionals and tournament directors while raising the standards for event management, coaching, officiating and the customer experience."
     },
     {
      "role": "body",
@@ -932,7 +891,7 @@
     {
      "role": "body",
      "order": 81,
-     "text": "The USTA’s Community Tennis and Player Development Divisions has their headquarters at the Campus."
+     "text": "The USTA\u2019s Community Tennis and Player Development Divisions has their headquarters at the Campus."
     },
     {
      "role": "body",
@@ -972,7 +931,7 @@
     {
      "role": "body",
      "order": 89,
-     "text": "The adidas Performance Center building features a 2nd floor “open office space”, an athletic training area which includes a strength & conditioning area, a 350 foot Sportsbase straight track, a sand pit, indoor and outdoor workout areas, and hot/cold soaking tubs."
+     "text": "The adidas Performance Center building features a 2nd floor \u201copen office space\u201d, an athletic training area which includes a strength & conditioning area, a 350 foot Sportsbase straight track, a sand pit, indoor and outdoor workout areas, and hot/cold soaking tubs."
     },
     {
      "role": "body",
@@ -992,7 +951,7 @@
     {
      "role": "body",
      "order": 93,
-     "text": "A Courtside Café with patio seating is located in front of the Tournament Administration building."
+     "text": "A Courtside Caf\u00e9 with patio seating is located in front of the Tournament Administration building."
     },
     {
      "role": "body",
@@ -1032,7 +991,7 @@
     {
      "role": "body",
      "order": 101,
-     "text": "This 50,000 Sq. ft. LEED certified USTA office building opened in July 2016. This modern building includes the players check-in area, a large pro shop, locker rooms, and the Net Post Grill (with seating both indoors and outdoors) on the 1st floor. USTA administrative offices occupy the 2nd floor and will utilize an “open office space” concept."
+     "text": "This 50,000 Sq. ft. LEED certified USTA office building opened in July 2016. This modern building includes the players check-in area, a large pro shop, locker rooms, and the Net Post Grill (with seating both indoors and outdoors) on the 1st floor. USTA administrative offices occupy the 2nd floor and will utilize an \u201copen office space\u201d concept."
     },
     {
      "role": "body",
@@ -1042,7 +1001,7 @@
     {
      "role": "body",
      "order": 103,
-     "text": "This area, which is the home of the University of Central Florida men’s and women’s varsity tennis programs, includes 12 Plexicushion acrylic cushion courts so two matches can be played simultaneously. The venue also hosts a variety of other college tennis events."
+     "text": "This area, which is the home of the University of Central Florida men\u2019s and women\u2019s varsity tennis programs, includes 12 Plexicushion acrylic cushion courts so two matches can be played simultaneously. The venue also hosts a variety of other college tennis events."
     },
     {
      "role": "body",
@@ -1189,5 +1148,39 @@
    "editableTexts": 0,
    "repeats": []
   }
- ]
+ ],
+ "defaultContentSections": [
+  {
+   "section": "hotel-shuttle",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "USTA Hotel Shuttle"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Beep provides free transportation from select Lake Nona hotels to the USTA National Campus for specified tournaments throughout the year. Guests traveling to the Campus should look for the shuttle when boarding."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "North Route"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "More information here.",
+     "href": "https://lakenona.ridefreebee.com/#/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [],
+   "defaultContent": true,
+   "note": "prose (.text.parbase richtext) \u2014 default content; the 5 <p> are paragraphs, not repeat units"
+  }
+ ],
+ "note": "hotel-shuttle (.text.parbase prose) is DEFAULT CONTENT (D1) \u2014 listed under defaultContentSections so qa-gate's order-based section\u2192block match holds (one block per remaining section)."
 }

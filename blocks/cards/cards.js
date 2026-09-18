@@ -6,7 +6,8 @@
  *   A card whose link is a CTA (`<em><a>`) renders as the solid-blue PROMO card
  *   (icon · title · copy · inverse button). A flattened single cell (DA) is segmented on the
  *   per-card heading boundary (#52).
- * Variants: `four` (4-up photo cards), `team`, `register`, `event` (sibling pages).
+ * Variants: `four` (4-up photo cards), `team` (meet-our-team: photo · h3 name · em title lines),
+ *   `register` (adult-camps: h3 dates · p · accent pill — never promo-detected).
  * Every authored element is MOVED into its card wrapper (EW1/EW2); no text is copied.
  */
 function collectNodes(cell) {
@@ -58,7 +59,7 @@ export default function decorate(block) {
     const media = nodes.filter(isMedia);
     const ctas = nodes.filter(isCta);
     const texts = nodes.filter((n) => !isMedia(n) && !ctas.includes(n));
-    if (ctas.length) {
+    if (ctas.length && !block.matches('.register, .team')) {
       li.className = 'card promo';
       const promo = div('promo-box');
       if (media.length) promo.append(div('promo-icon', div('promo-icon-box', ...media)));
@@ -68,7 +69,8 @@ export default function decorate(block) {
     } else {
       li.className = 'card';
       if (media.length) li.append(div('card-image', ...media));
-      li.append(div('card-text', ...texts));
+      // team/register cards keep their CTA paragraph(s) after the copy (moved, EW3)
+      li.append(div('card-text', ...texts, ...ctas));
     }
     grid.append(li);
   });

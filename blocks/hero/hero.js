@@ -24,8 +24,14 @@ export default function decorate(block) {
   const heading = block.querySelector('h1, h2, h3');
   const paragraphs = [...block.querySelectorAll('p')]
     .filter((p) => !p.querySelector('picture, img') && p.textContent.trim());
-  const ctas = paragraphs.filter((p) => p.querySelector('a'));
-  const ledes = paragraphs.filter((p) => !p.querySelector('a'));
+  // a CTA is a paragraph that IS a link (buttonized, or link text == paragraph text);
+  // a paragraph that merely contains a link ("PLEASE NOTE … Fill out this form.") is lede copy
+  const isCta = (p) => {
+    const a = p.querySelector('a');
+    return !!a && (a.classList.contains('button') || a.textContent.trim() === p.textContent.trim());
+  };
+  const ctas = paragraphs.filter(isCta);
+  const ledes = paragraphs.filter((p) => !isCta(p));
   const extras = [...block.querySelectorAll('ul, ol, h4, h5, h6, blockquote')];
 
   const mediaWrap = document.createElement('div');

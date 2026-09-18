@@ -23,7 +23,8 @@
   height: auto;
 }
 
-.columns .columns-text :is(h3, .prosemirror-editor h3) {
+/* hub pages (under an icon-heading-grid heading) render the column h3 as a display heading (about "Who, Why…") */
+main .section.icon-heading-grid .columns .columns-text :is(h3, .prosemirror-editor h3) {
   font-family: var(--font-display);
   font-size: 56px;
   font-weight: 500;
@@ -151,7 +152,7 @@ main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon
 }
 
 @media (width <= 767px) {
-  .columns .columns-text :is(h3, .prosemirror-editor h3) {
+  main .section.icon-heading-grid .columns .columns-text :is(h3, .prosemirror-editor h3) {
     font-size: 36px;
   }
 

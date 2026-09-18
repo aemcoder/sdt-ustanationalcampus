@@ -70,14 +70,14 @@ const EXTRACT = `(() => {
     // heading demotion (inside tiles / accordion bodies)
     if (opts.demoteTo) box.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach((h) => { const n = document.createElement(opts.demoteTo); n.append(...h.childNodes); h.replaceWith(n); });
     // attributes: keep href / src / alt only
-    box.querySelectorAll('*').forEach((el) => { [...el.attributes].forEach((a) => { if (!['href', 'src', 'alt', 'data-embed'].includes(a.name)) el.removeAttribute(a.name); }); });
+    box.querySelectorAll('*').forEach((el) => { [...el.attributes].forEach((a) => { if (!['href', 'src', 'alt', 'data-embed', 'rowspan', 'colspan'].includes(a.name)) el.removeAttribute(a.name); }); });
     box.querySelectorAll('img').forEach((img) => { const src = img.getAttribute('src') || img.getAttribute('data-src') || ''; img.setAttribute('src', new URL(src.replace(/ /g, '%20'), ORIGIN).href); if (!img.getAttribute('alt')) img.setAttribute('alt', ''); img.closest('a') || (img.parentElement && img.parentElement.tagName === 'P') || (() => { const p = document.createElement('p'); img.replaceWith(p); p.append(img); })(); });
     box.querySelectorAll('a').forEach((a) => { const h = a.getAttribute('href') || ''; if (!h || h.startsWith('#') || h.startsWith('javascript')) { a.replaceWith(...a.childNodes); return; } try { a.setAttribute('href', new URL(h, ORIGIN).href); } catch { a.replaceWith(...a.childNodes); } });
     // a lone anchor inside <strong>/<em> would be buttonised by decorateButtons — legacy richtext links are
     // bold LINKS, not buttons: move the emphasis inside the anchor (<a><strong>…</strong></a>)
     box.querySelectorAll('strong > a, em > a').forEach((a) => { const w = a.parentElement; if (norm(w.textContent) !== norm(a.textContent)) return; const inner = document.createElement(w.tagName.toLowerCase()); inner.append(...a.childNodes); a.append(inner); w.replaceWith(a); });
     // empty inline wrappers
-    box.querySelectorAll('strong, em, a').forEach((n) => { if (norm(n.textContent) === '' && !n.querySelector('img')) n.remove(); });
+    box.querySelectorAll('strong, em, a').forEach((n) => { if (norm(n.textContent) === '' && !n.querySelector('img')) { if (n.textContent.length) n.replaceWith(document.createTextNode(' ')); else n.remove(); } });
     // <br> at block edges (layout brs) and <br><br> paragraph breaks
     const blocks = 'p, h1, h2, h3, h4, h5, h6, li, td, th';
     box.querySelectorAll(blocks).forEach((b) => {
@@ -99,7 +99,8 @@ const EXTRACT = `(() => {
     box.querySelectorAll('table').forEach((t) => {
       const rows = [...t.querySelectorAll('tr')]; const grid = []; const spans = {};
       rows.forEach((tr, r) => { grid[r] = grid[r] || []; let c = 0; [...tr.children].forEach((td) => { while (grid[r][c] !== undefined) c += 1; const rs = parseInt(td.getAttribute('rowspan') || '1', 10); const cs = parseInt(td.getAttribute('colspan') || '1', 10); const html = td.innerHTML; for (let i = 0; i < rs; i += 1) { grid[r + i] = grid[r + i] || []; for (let j = 0; j < cs; j += 1) grid[r + i][c + j] = html; } c += cs; }); });
-      const blk = document.createElement('div'); blk.className = 'table';
+      // a one-row table is a LAYOUT table (heading | sponsor logo) → columns; real data tables → table
+      const blk = document.createElement('div'); blk.className = grid.length === 1 ? 'columns' : 'table legacy';
       grid.forEach((cells) => { const row = document.createElement('div'); cells.forEach((h) => { const cell = document.createElement('div'); cell.innerHTML = h; cell.querySelectorAll('*').forEach((el) => { [...el.attributes].forEach((a) => { if (!['href', 'src', 'alt'].includes(a.name)) el.removeAttribute(a.name); }); }); cell.querySelectorAll('br').forEach((b) => b.remove()); if (norm(cell.textContent) === '' && !cell.querySelector('img')) cell.innerHTML = ''; row.append(cell); }); blk.append(row); });
       t.replaceWith(blk);
     });
@@ -237,7 +238,9 @@ function emitTiles(s, level) {
     }
     return `<div>${cells.join('')}</div>`;
   });
-  const head = `<h${level}>${esc(s.heading)}</h${level}>\n${s.sub ? `<p>${esc(s.sub)}</p>\n` : ''}`;
+  // the tagline under the title is a heading in the source (h4.subheading) — authored as the next level down
+  const sub = level + 1;
+  const head = `<h${level}>${esc(s.heading)}</h${level}>\n${s.sub ? `<h${sub}>${esc(s.sub)}</h${sub}>\n` : ''}`;
   return section(`${head}<div class="service-tiles">\n${rows.join('\n')}\n</div>\n`, 'legacy-heading');
 }
 function emitInfo(s) {
@@ -338,12 +341,20 @@ function authorNews(slug) {
   const json = JSON.parse(fs.readFileSync(`stardust/current/pages/${slug}.json`, 'utf8'));
   // the video/gallery variant of news-extract carries the visually SMALL line (h3, 20px) in `title` and the
   // BIG line (h2, 60px uppercase) in `kicker` — the hero shows kicker small / title big, so swap for that shape
-  let { title, kicker } = r;
-  if (/^article-video/.test(r.shape) && r.kicker) [title, kicker] = [r.kicker, r.title];
+  let { title, kicker } = r; let kickerBelow = false;
+  if (/^article-video/.test(r.shape) && r.kicker) {
+    [title, kicker] = [r.kicker, r.title];
+    // DOM order of the two hero lines (h2 big / h3 small) decides whether the small line sits above or below
+    const src = fs.readFileSync(`stardust/current/pages/${slug}.html`, 'utf8');
+    const tt = (src.match(/<div class="textTitle">([\s\S]*?)<\/div>/) || [])[1] || '';
+    const i2 = tt.search(/<h2[\s>]/); const i3 = tt.search(/<h3[\s>]/);
+    kickerBelow = i2 >= 0 && i3 >= 0 && i2 < i3;
+  }
   const desc = descOf((r.bodyText || strip(r.bodyHtml || '')));
   const dateOnly = (r.date || '').split('|').pop().trim();
   const meta = [['Title', json.title || r.pageTitle || title], ['Description', desc], ['Template', 'legacy'], ['Category', map.category || 'News'], ['Published Date', dateOnly], ['Author', /\|/.test(r.date || '') ? r.date.split('|')[0].trim() : null], ['Image', r.image || null], ['Kicker', kicker || null]];
-  const hero = `${r.image ? `<p><img src="${esc(r.image)}" alt="${esc(r.imageAlt || title)}"></p>\n` : ''}${kicker ? `<p>${esc(kicker)}</p>\n` : ''}<h1>${esc(title)}</h1>\n${r.date ? `<p>${esc(r.date)}</p>\n` : ''}`;
+  const kickerP = kicker ? `<p>${esc(kicker)}</p>\n` : '';
+  const hero = `${r.image ? `<p><img src="${esc(r.image)}" alt="${esc(r.imageAlt || title)}"></p>\n` : ''}${kickerBelow ? '' : kickerP}<h1>${esc(title)}</h1>\n${kickerBelow ? kickerP : ''}${r.date ? `<p>${esc(r.date)}</p>\n` : ''}`;
   const sections = [section(hero, 'article-hero'), section(`${cleanNewsBody(r.bodyHtml || '')}\n`)];
   if (r.video) { const v = r.video.replace('/embed/', '/watch?v='); sections.push(section(`<p><a href="${esc(v)}">${esc(v)}</a></p>\n`)); }
   if (r.gallery && r.gallery.length) sections.push(section(`${r.galleryTitle ? `<h2>${esc(r.galleryTitle)}</h2>\n` : ''}<div class="carousel gallery">\n${r.gallery.map((g) => `<div><div><img src="${esc(g.src)}" alt="${esc(g.caption || '')}"></div><div>${g.caption ? `<p>${esc(g.caption)}</p>` : ''}</div></div>`).join('\n')}\n</div>\n`));

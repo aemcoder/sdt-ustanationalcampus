@@ -1,0 +1,358 @@
+{
+ "source": "http://localhost:8793/en-home-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Welcome to the USTA National Campus"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "separator",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "mosaic",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Meet Our Team"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "SHOW ME",
+     "href": "/en/home/about/meet-our-team.html"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Book a Court"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Book a Court",
+     "href": "/en/home/play/court-booking.html"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Reserve a Court"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Book a Court",
+     "href": "/en/home/play/court-booking.html"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Adult Camps"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Summer Camps"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Programs"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Private Lessons"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.mosaic__tile",
+     "count": 6,
+     "unit": {
+      "headings": 2,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "stats",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "100"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "FULLY LIT COURTS"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "84"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "LIVESTREAMED COURTS"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "300+"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "EVENTS"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "49"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "DIFFERENT PROGRAMS"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.stats__col",
+     "count": 4,
+     "unit": {
+      "headings": 2,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "sage-strip",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "programs",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Programs"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Junior Tennis"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Our recreational and competitive pathways help players ages 4-17 develop a passion for tennis in a fun environment."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn More",
+     "href": "/en/home/play/programs/junior-tennis-programs.html"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Adult Tennis"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Get healthy and socialize by playing tennis with our cardio and instructional tennis programs. Adult programs are open to all levels and offer daily options."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn More",
+     "href": "https://www.ustanationalcampus.com/en/home/play/programs/adult-tennis.html"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Performance Academy"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Focused on high level tournament youth players competing in state, sectional, and/or national USTA tournaments."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn More",
+     "href": "/en/home/play/high-performance1.html"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "GET STARTED WITH A FREE 30"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "New players can book a free 30-minute intro session to get tips and program recommendations"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "BOOK A FREE SESSION",
+     "href": "/en/home/play/free30.html"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Pickleball"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Learn the basics or take your game to the next level with skill-building programs and various match play opportunities."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Learn More",
+     "href": "https://www.ustanationalcampus.com/en/home/play/pickleball.html"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Padel"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Discover our new programs, improve your skills with private lessons, or compete in a league—all on our world-class courts."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Learn More",
+     "href": "/en/home/play/play-padel.html"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Red Ball Tennis for Adults Community Drop-In"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Our community drop-in is designed for absolute beginners, making it fun and easy to fall in love with tennis."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "free"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Learn More",
+     "href": "https://www.ustanationalcampus.com/en/home/play/tennis/adult-red-ball.html"
+    },
+    {
+     "role": "heading",
+     "order": 23,
+     "text": "Dave Bailey Tennis Movement and Footwork"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Footwork program integrates agility drills, plyometrics, and tennis-specific movements to enhance speed, coordination, and overall athletic performance."
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Learn More",
+     "href": "/en/home/play/davebailey.html"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Skip Advertisement",
+     "href": "#skipAd-div-gpt-ad-1789749974506"
+    },
+    {
+     "role": "heading",
+     "order": 27,
+     "text": "Advertisement"
+    }
+   ],
+   "imgCount": 9,
+   "editableTexts": 25,
+   "repeats": [
+    {
+     "unitSelector": "DIV.programs__grid",
+     "count": 2,
+     "unit": {
+      "headings": 4,
+      "ctas": 4,
+      "imgs": 4,
+      "textRuns": 12
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.card",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.card",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

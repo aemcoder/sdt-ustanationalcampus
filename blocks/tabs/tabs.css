@@ -11,6 +11,7 @@
 
 .tabs .tabs-tab {
   position: relative;
+  flex: 1 1 0;
   padding: 0 12px;
   margin-bottom: -4px;
   border-bottom: 4px solid transparent;
@@ -30,6 +31,7 @@
   color: var(--color-black);
   text-align: center;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .tabs.large .tabs-tab :is(p, h2, h3, h4, .prosemirror-editor :is(p, h2, h3, h4)) {
@@ -44,6 +46,15 @@
 
 .tabs .tabs-panel.active {
   display: block;
+}
+
+/* prose panels: the source's `<p>&nbsp;</p>` rows between paragraphs / before the next sub-heading (#112) */
+.tabs .tabs-panel :is(p, ul, .prosemirror-editor):where(:not(.prosemirror-editor *)) + :is(p, h2, h3, h4, ul, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: 24px;
+}
+
+.tabs .tabs-panel :is(h2, h3, h4, .prosemirror-editor:has(:is(h2, h3, h4))) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: 8px;
 }
 
 /* adopted sections keep their own wrappers; neutralise the page-level section box inside the panel */

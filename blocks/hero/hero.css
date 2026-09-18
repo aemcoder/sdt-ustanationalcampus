@@ -67,6 +67,12 @@
   line-height: 110px;
 }
 
+.hero.title-only .hero-lede :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0 6px;
+  padding: 8px 0;
+  color: var(--color-white);
+}
+
 /* ---- boxed (hub pages): black 60% box on the left 7/12, title + CTA columns ---- */
 .hero.boxed {
   padding-top: 96px;

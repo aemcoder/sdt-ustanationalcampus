@@ -545,7 +545,7 @@ main .section.narrow .default-content-wrapper :is(h2, p, .prosemirror-editor) + 
 
 /* separators — the source's authored separator rows (transparent hr inside padded columns); heights lifted.
    One token per height (#120): separator 57 · separator-thin 17 · separator-hairline 9 · separator-sage 34 (sage band) */
-main .section:is(.separator, .separator-thin, .separator-hairline, .separator-sage) {
+main .section:is(.separator, .separator-thin, .separator-hairline, .separator-sage, .separator-clay) {
   display: block;
   height: 57px; /* 8 + 20 + 1 + 20 + 8 */
 }
@@ -690,6 +690,139 @@ main .section.app-badges .default-content-wrapper img {
     width: calc(100% * 3 / 12 - 12px);
   }
 }
+
+/* program-page head — default content h1 (6/12 column) · p · accent CTA below the fixed header:
+   the source's margin-top small+medium+large (224) + padding-top-small (8) */
+main .section.program-head > .default-content-wrapper {
+  padding-top: 232px;
+}
+
+main .section.program-head .default-content-wrapper :is(h1, .prosemirror-editor:has(h1)) {
+  width: calc(50% - 12px);
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+main .section.program-head .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0 6px;
+  padding: 8px 0;
+}
+
+/* medium band spacing (the source's padding-top/bottom-medium containers) */
+main .section.pad-medium > div {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+/* prose paragraphs in modern default-content sections: the source's `<p>&nbsp;</p>` rows between paragraphs (#112) */
+main .section:is(.program-head, .pad-medium) .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) + :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: 24px;
+}
+
+@media (width <= 767px) {
+  main .section.program-head > .default-content-wrapper {
+    padding-top: 120px;
+  }
+
+  main .section.program-head .default-content-wrapper :is(h1, .prosemirror-editor:has(h1)) {
+    width: calc(100% - 12px);
+  }
+
+  main .section.pad-medium > div {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+/* clay CTA band (hub pages): full-bleed terracotta band, one centred accent pill (events "WATCH EVENTS LIVE") */
+main .section.clay-cta {
+  margin-top: 16px;
+  background: #c6583f;
+}
+
+main .section.clay-cta > .default-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: none;
+  min-height: 190px;
+  padding: 12px;
+}
+
+/* centred CTA band (hub/program pages): centred heading + prose + pill in a 10/12 column, 64px paddings */
+main .section.cta-band > .default-content-wrapper {
+  width: calc(100% * 10 / 12 - 12px);
+  padding: 64px 0;
+  text-align: center;
+}
+
+main .section.cta-band .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin-top: 24px;
+}
+
+main .section.cta-band .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(a.button) {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+@media (width <= 767px) {
+  main .section.cta-band > .default-content-wrapper {
+    padding: 32px 0;
+  }
+}
+
+/* dusty-clay rule (program pages: separator--background--dusty-clay 4+1+4 inside the 1200 container) */
+main .section.separator-clay {
+  height: 9px;
+}
+
+main .section.separator-clay::before {
+  content: '';
+  display: block;
+  max-width: var(--content-max);
+  height: 9px;
+  margin: 0 auto;
+  background: var(--color-contact-grey);
+}
+
+/* logo grid (sponsors): default-content linked logo paragraphs in a 3-column grid inside a 10/12 column */
+main .section.logo-grid > .default-content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 24px;
+  align-items: center;
+  width: calc(100% * 10 / 12 - 12px);
+  padding: 32px 0;
+}
+
+main .section.logo-grid .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  margin: 0;
+  padding: 8px;
+}
+
+main .section.logo-grid .default-content-wrapper img {
+  max-width: 100%;
+  max-height: 200px;
+  width: auto;
+}
+
+main .section.logo-grid .default-content-wrapper :is(h2, h3, p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(:has(img)) {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+@media (width <= 767px) {
+  main .section.logo-grid > .default-content-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    width: calc(100% - 24px);
+  }
+}
+
 /* stylelint-enable no-descending-specificity */
 
 
@@ -1484,5 +1617,303 @@ body.content-page main .default-content-wrapper p {
 
 .prosemirror-editor p > :is(em > strong, strong > em) > a[href^='mailto:']:any-link::before {
   mask-image: url('/icons/envelope.svg');
+}
+
+/* table.legacy — the legacy richtext data table (HTML table border=1 cellpadding=3, 16px, natural width; stays a table on mobile) */
+main .table.legacy {
+  display: table;
+  width: auto;
+  max-width: 100%;
+  margin: 0 0 21px;
+  border: 1px solid #808080;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  font-size: 16px;
+  line-height: normal;
+  color: var(--color-text);
+}
+
+main .table.legacy .table-row,
+main .table.legacy .table-row.shaded {
+  display: table-row;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+main .table.legacy .table-cell {
+  display: table-cell;
+  width: auto;
+  padding: 3px;
+  border: 1px solid #808080;
+  background: transparent;
+  font-size: 16px;
+  line-height: normal;
+  color: var(--color-text);
+  text-align: left;
+  vertical-align: middle;
+}
+
+main .table.legacy .table-cell :is(p, .prosemirror-editor) {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: normal;
+}
+
+main .table.legacy .table-cell strong {
+  font-weight: 700;
+}
+
+/* carousel.hero — the legacy .ncCarouselWrap hero carousel (656px full-bleed cover slides, caption bottom-left in the 1170 column, red ring dots) */
+main .section.carousel-container:has(> .carousel-wrapper > .carousel.hero) > .carousel-wrapper {
+  max-width: none;
+  margin: 0;
+}
+
+main .carousel.hero {
+  width: 100%;
+  height: 656px;
+  overflow: hidden;
+  background: var(--color-white);
+}
+
+main .carousel.hero .carousel-slide.active {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 656px;
+  padding-bottom: 40px;
+}
+
+main .carousel.hero .carousel-slide :is(p, .prosemirror-editor):has(img) {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: auto;
+  margin: 0;
+}
+
+main .carousel.hero .carousel-slide img {
+  width: 100%;
+  height: 656px;
+  aspect-ratio: auto;
+  object-fit: cover;
+}
+
+main .carousel.hero .carousel-slide::before {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  z-index: 1;
+  height: 45%;
+  background: linear-gradient(to bottom, rgb(6 20 63 / 0%) 0, #06143f 80%);
+}
+
+main .carousel.hero .carousel-slide :is(h2, h3, p):not(:has(img)) {
+  position: relative;
+  z-index: 2;
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto 12px;
+  color: var(--color-white);
+  text-align: left;
+}
+
+main .carousel.hero .carousel-slide h2 {
+  font-family: var(--font-display);
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.9px;
+}
+
+main .carousel.hero .carousel-slide p:not(:has(img)) {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+main .carousel.hero .carousel-slide p.button-wrapper {
+  display: block;
+  margin-bottom: 10px;
+}
+
+main .carousel.hero .carousel-slide a.button {
+  display: inline-block;
+  height: auto;
+  padding: 10px 15px;
+  border: 1px solid var(--color-legacy-red);
+  border-radius: 3px;
+  background: transparent;
+  font-family: var(--font-semibold);
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: 0.5px;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+main .carousel.hero .carousel-slide a.button:hover {
+  border-color: #70a5d7;
+}
+
+main .carousel.hero .carousel-indicators {
+  right: auto;
+  bottom: 64px;
+  left: 59%;
+  width: 58%;
+  justify-content: flex-end;
+  transform: translateX(-51%);
+}
+
+main .carousel.hero .carousel-indicators li {
+  margin: 1px 10px 1px 0;
+}
+
+main .carousel.hero .carousel-indicator {
+  width: 10px;
+  height: 10px;
+  border-color: var(--color-legacy-red);
+  background: transparent;
+}
+
+main .carousel.hero .carousel-indicator[aria-current="true"] {
+  background: var(--color-legacy-red);
+}
+
+main .carousel.hero .carousel-prev,
+main .carousel.hero .carousel-next {
+  top: 0;
+  z-index: 3;
+  width: 7%;
+  height: 100%;
+  border-radius: 0;
+  opacity: 0;
+  transform: none;
+}
+
+main .carousel.hero .carousel-prev:hover,
+main .carousel.hero .carousel-next:hover,
+main .carousel.hero .carousel-prev:focus-visible,
+main .carousel.hero .carousel-next:focus-visible {
+  opacity: 1;
+}
+
+/* photo-gallery carousel — legacy .photogallery-carousel: 1170×558 slides, vertical white ring dots on the right, light-blue caption */
+main .section.photo-gallery .carousel.gallery {
+  width: 100%;
+}
+
+main .section.photo-gallery .carousel.gallery .carousel-slide.active {
+  position: relative;
+}
+
+main .section.photo-gallery .carousel.gallery .carousel-slide img {
+  height: 558px;
+  aspect-ratio: auto;
+  object-fit: cover;
+}
+
+main .section.photo-gallery .carousel.gallery .carousel-slide :is(p, .prosemirror-editor):not(:has(img)) {
+  margin: 13px 0 0;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #70a5d7;
+}
+
+main .section.photo-gallery .carousel.gallery .carousel-prev,
+main .section.photo-gallery .carousel.gallery .carousel-next {
+  display: none;
+}
+
+main .section.photo-gallery .carousel.gallery .carousel-indicators {
+  inset: 279px 10px auto auto;
+  flex-direction: column;
+  width: auto;
+  transform: translateY(-50%);
+}
+
+main .section.photo-gallery .carousel.gallery .carousel-indicators li {
+  margin: 5px 0;
+}
+
+main .section.photo-gallery .carousel.gallery .carousel-indicator {
+  width: 10px;
+  height: 10px;
+  border-color: var(--color-white);
+  background: transparent;
+}
+
+main .section.photo-gallery .carousel.gallery .carousel-indicator[aria-current="true"] {
+  background: var(--color-white);
+}
+
+/* news-body gallery (.imageGallery): full column width, 550px cover, 46/43 margins */
+body.legacy main .section.article-hero ~ .section .carousel.gallery {
+  width: 100%;
+  margin: 46px 0 43px;
+}
+
+body.legacy main .section.article-hero ~ .section .carousel.gallery .carousel-slide img {
+  height: 550px;
+  aspect-ratio: auto;
+  object-fit: cover;
+}
+
+body.legacy main .section.article-hero ~ .section .carousel.gallery .carousel-slide :is(p, .prosemirror-editor):not(:has(img)) {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-black);
+}
+
+@media (width <= 767px) {
+  main .table.legacy .table-row,
+  main .table.legacy .table-row.shaded {
+    display: table-row;
+  }
+
+  main .table.legacy .table-cell {
+    display: table-cell;
+    width: auto;
+  }
+
+  main .carousel.hero,
+  main .carousel.hero .carousel-slide.active {
+    height: 662px;
+  }
+
+  main .carousel.hero .carousel-slide.active {
+    padding-bottom: 25px;
+  }
+
+  main .carousel.hero .carousel-slide img {
+    height: 662px;
+  }
+
+  main .carousel.hero .carousel-indicators {
+    bottom: 15px;
+  }
+
+  main .section.photo-gallery .carousel.gallery .carousel-slide img {
+    height: 229px;
+  }
+
+  main .section.photo-gallery .carousel.gallery .carousel-slide :is(p, .prosemirror-editor):not(:has(img)) {
+    margin: 23px 0 0;
+    padding: 0 40px 0 18px;
+  }
+
+  main .section.photo-gallery .carousel.gallery .carousel-indicators {
+    top: 115px;
+  }
+
+  body.legacy main .section.article-hero ~ .section .carousel.gallery .carousel-slide img {
+    height: auto;
+  }
 }
 /* stylelint-enable no-descending-specificity */

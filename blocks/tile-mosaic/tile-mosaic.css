@@ -403,4 +403,187 @@ main .section.tile-mosaic-container:is(.icon-heading, .icon-heading-grid, .icon-
     padding: 40px 0 16px;
   }
 }
+
+/* ---- programs (hub pages): large tile + 2-up side tiles with scrim captions; solid blue tile with a footer ---- */
+.tile-mosaic.programs .tile-mosaic-main {
+  min-height: 522px; /* the source's padding-top medium + large above the panel */
+}
+
+.tile-mosaic.programs .tile-mosaic-main .tile-panel {
+  padding: 8px 12px 24px;
+}
+
+.tile-mosaic.programs .tile-panel-text :is(h1, h2, h3, .prosemirror-editor :is(h1, h2, h3)) {
+  font-family: var(--font-display);
+  font-size: 56px;
+  line-height: 1.1;
+  color: var(--color-white);
+}
+
+.tile-mosaic.programs .tile-panel-copy {
+  margin: 0 6px;
+}
+
+.tile-mosaic.programs .tile-panel-copy :is(h5, h6, .prosemirror-editor :is(h5, h6)) {
+  margin: 10px 0;
+  font-family: var(--font-semibold);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+.tile-mosaic.programs .tile-panel-copy :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0 0 10px;
+  color: var(--color-white);
+}
+
+.tile-mosaic.programs .tile-panel-cta {
+  width: auto;
+  padding: 8px 0;
+}
+
+.tile-mosaic.programs .tile-panel-cta a.button:any-link {
+  display: inline-flex;
+  width: auto;
+  font-size: 18px;
+  line-height: 20px;
+  border-color: transparent;
+}
+
+.tile-mosaic.programs .tile-mosaic-side {
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.tile-mosaic.programs .tile-mosaic-side .tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-self: stretch;
+  min-height: 261px;
+  padding-left: 0;
+  border-left: 8px solid var(--color-white);
+  overflow: hidden;
+}
+
+.tile-mosaic.programs .tile-mosaic-side .tile:nth-child(2),
+.tile-mosaic.programs .tile-mosaic-side .tile:nth-child(n + 3) {
+  margin-top: 0;
+}
+
+.tile-mosaic.programs .tile-mosaic-side .tile:nth-child(n + 3) {
+  border-top: 8px solid var(--color-white);
+}
+
+.tile-mosaic.programs .tile.photo .tile-media {
+  left: 0;
+}
+
+.tile-mosaic.programs .tile.photo::before {
+  display: none;
+}
+
+.tile-mosaic.programs .tile.photo .tile-caption {
+  padding: 8px 12px;
+}
+
+/* side-tile captions: display headings on the programs hub; `compact` (events hub) = 22px semibold uppercase */
+.tile-mosaic.programs .tile-caption-text :is(h2, h3, h4, .prosemirror-editor :is(h2, h3, h4)) {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-white);
+  text-transform: none;
+}
+
+.tile-mosaic.programs.compact .tile-caption-text :is(h2, h3, h4, .prosemirror-editor :is(h2, h3, h4)) {
+  margin: 10px 0;
+  font-family: var(--font-semibold);
+  font-size: 22px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.tile-mosaic.programs .tile-caption-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0 0 10px;
+  color: var(--color-white);
+}
+
+.tile-mosaic.programs .tile.solid {
+  justify-content: space-between;
+  background: var(--color-usta-blue);
+}
+
+.tile-mosaic.programs .tile.solid .tile-caption {
+  padding: 62px 12px 32px;
+  background: var(--color-usta-blue);
+}
+
+.tile-mosaic.programs .tile.solid .tile-caption-text :is(h2, h3, .prosemirror-editor :is(h2, h3)) {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 76px;
+  line-height: 1.1;
+  color: var(--color-white);
+  text-align: center;
+  text-transform: none;
+}
+
+.tile-mosaic.programs .tile-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 45px 18px;
+  background: rgb(0 0 0 / 75%);
+}
+
+.tile-mosaic.programs .tile-footer :is(h3, h4, h5, h6, .prosemirror-editor :is(h3, h4, h5, h6)) {
+  margin: 10px 0;
+  font-family: var(--font-semibold);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+.tile-mosaic.programs .tile-footer :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+  margin: 0;
+  line-height: 0;
+}
+
+.tile-mosaic.programs .tile-footer img {
+  width: 24px;
+  height: auto;
+}
+
+@media (width <= 767px) {
+  .tile-mosaic.programs .tile {
+    border-left: 0;
+    border-top: 8px solid var(--color-white);
+  }
+
+  .tile-mosaic.programs .tile-panel-text :is(h2, h3, .prosemirror-editor :is(h2, h3)) {
+    font-size: 36px;
+  }
+
+  .tile-mosaic.programs .tile.solid .tile-caption-text :is(h2, h3, .prosemirror-editor :is(h2, h3)) {
+    font-size: 44px;
+  }
+}
+
+/* linked tiles: the heading anchor is the real link; the whole tile navigates (source: clickable containers) */
+.tile-mosaic .linked {
+  cursor: pointer;
+}
+
+.tile-mosaic.programs :is(.tile-panel-text, .tile-caption-text) a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
 /* stylelint-enable no-descending-specificity */
