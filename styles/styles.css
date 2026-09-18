@@ -793,14 +793,14 @@ main .section.logo-grid > .default-content-wrapper {
   gap: 0;
   align-items: center;
   width: calc(100% * 10 / 12 - 12px);
-  padding: 32px 0 40px;
+  padding: 8px 0 40px;
 }
 
 main .section.logo-grid .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img) {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 204px;
+  min-height: 220px;
   margin: 0;
   padding: 8px;
 }
@@ -818,7 +818,7 @@ main .section.logo-grid .default-content-wrapper :is(h2, h3, p, .prosemirror-edi
 
 @media (width <= 767px) {
   main .section.logo-grid .default-content-wrapper :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):has(img) {
-    min-height: 116px;
+    min-height: 132px;
   }
 
   main .section.logo-grid .default-content-wrapper img {
@@ -829,7 +829,7 @@ main .section.logo-grid .default-content-wrapper :is(h2, h3, p, .prosemirror-edi
   main .section.logo-grid > .default-content-wrapper {
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    padding: 8px 0;
+    padding: 8px 0 24px;
   }
 }
 
@@ -2114,7 +2114,7 @@ main .section.label-note .default-content-wrapper :is(p, .prosemirror-editor):wh
 
 /* `gradient-cta` — blue→sand 50° gradient band, 8/12 centred copy, accent pill */
 main .section.gradient-cta {
-  margin: 96px 0 128px;
+  margin: 160px 0 128px; /* dark band m64 + an empty 32px container + m64 */
   background: linear-gradient(50deg, rgb(3 115 243) 0%, rgb(255 239 190) 100%);
 }
 
@@ -2218,8 +2218,14 @@ main .section.cta-dark-green a.button:any-link {
 }
 
 /* `faq-pad` — icon-heading FAQ inside a p64/32 container */
-main .section.faq-pad.accordion-container {
+main .section.faq-pad.accordion-container,
+main .section.icon-heading.faq-pad.accordion-container {
   padding: 72px 0 40px;
+}
+
+/* icon-heading section inside a m32/64 container (save-my-play support) */
+main .section.icon-heading.pad-medium:not(.accordion-container) {
+  padding: 40px 0 72px;
 }
 
 main .section.faq-pad > .accordion-wrapper {
@@ -2300,7 +2306,7 @@ main .section.display-h3 :is(.default-content-wrapper, .columns) :is(h3, .prosem
   }
 
   main .section.gradient-cta {
-    margin: 64px 0;
+    margin: 96px 0 64px;
   }
 
   main .section.gradient-cta > .default-content-wrapper {
@@ -2345,8 +2351,13 @@ main .section.display-h3 :is(.default-content-wrapper, .columns) :is(h3, .prosem
     width: calc(100% - 12px);
   }
 
-  main .section.faq-pad.accordion-container {
+  main .section.faq-pad.accordion-container,
+  main .section.icon-heading.faq-pad.accordion-container {
     padding: 40px 0 24px;
+  }
+
+  main .section.icon-heading.pad-medium:not(.accordion-container) {
+    padding: 24px 0 40px;
   }
 
   main .section.results-band {
@@ -2427,6 +2438,54 @@ main .section.text-block .default-content-wrapper ul {
     height: 143px;
     margin: 1px;
     object-fit: fill;
+  }
+}
+/* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- tokens appended after the template rules by design */
+
+/* `clay-ground` — 79% clay ground under a 1200 container (BNP "Plan Your Visit"): image 488 centred | text 700 */
+main .section.clay-ground {
+  background: rgb(220 223 207 / 79%);
+}
+
+main .section.clay-ground > .columns-wrapper {
+  margin: 40px auto;
+}
+
+main .section.clay-ground .columns.image-text .columns-media {
+  align-self: center;
+  width: calc(488px - 12px);
+}
+
+main .section.clay-ground .columns.image-text .columns-text {
+  width: calc(100% - 488px);
+  padding-top: 40px;
+}
+
+/* `pad-64` — section inside a p64/64 container */
+main .section.pad-64 {
+  padding: 64px 0;
+}
+
+@media (width <= 767px) {
+  main .section.clay-ground > .columns-wrapper {
+    margin: 24px auto;
+  }
+
+  main .section.clay-ground .columns.image-text .columns-media,
+  main .section.clay-ground .columns.image-text .columns-text {
+    width: 100%;
+    padding-top: 8px;
+  }
+
+  main .section.pad-64 {
+    padding: 32px 0;
+  }
+
+  main .section.text-block .default-content-wrapper li {
+    font-size: 18px;
+    line-height: 24px;
   }
 }
 /* stylelint-enable no-descending-specificity */

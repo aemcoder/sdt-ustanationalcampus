@@ -463,3 +463,9 @@
   }
 }
 /* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- token appended after the variant rules by design */
+.hero.boxed.light.sep .hero-actions {
+  padding-top: 31px;
+}
+/* stylelint-enable no-descending-specificity */

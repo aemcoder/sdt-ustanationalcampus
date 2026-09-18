@@ -312,12 +312,12 @@ main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-headin
 }
 
 .cards.team.landscape .card-text :is(h3, h4) + :is(p, .prosemirror-editor) ~ :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)):not(.button-wrapper) {
-  margin: -42px 0 29px;
+  margin: -42px 0 19px;
 }
 
 @media (width <= 767px) {
-  .cards.four.icons .cards-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .cards.four.icons .card {
+    width: 50%;
   }
 
   .cards.four.icons .card-image {
@@ -342,5 +342,21 @@ main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-headin
 /* stylelint-disable no-descending-specificity -- variant rule appended after the base rules by design */
 .cards.team.landscape a.button.accent::before {
   display: none;
+}
+/* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- variant follow-ups appended after the base rules by design */
+.cards.team.landscape .cards-grid {
+  padding: 0 6px;
+}
+
+@media (width <= 767px) {
+  .cards.team.landscape .cards-grid {
+    padding: 0;
+  }
+
+  .cards.team.landscape .card-text :is(h3, h4) {
+    margin-bottom: 8px;
+  }
 }
 /* stylelint-enable no-descending-specificity */

@@ -393,3 +393,29 @@ main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon
   }
 }
 /* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- variant rules appended after the base rules by design */
+
+/* pathway (adult-tennis levels): each cell is a container p8 + text p8, h5 titles, 49px transparent separator between rows */
+.columns.pathway .columns-text {
+  padding: 16px 0;
+}
+
+.columns.pathway .columns-text :is(h5, .prosemirror-editor h5) {
+  margin: 10px 0;
+}
+
+.columns.pathway .columns-row + .columns-row {
+  margin-top: 49px;
+}
+
+@media (width <= 767px) {
+  .columns.pathway .columns-row + .columns-row {
+    margin-top: 0;
+  }
+
+  .columns.pathway .columns-col + .columns-col {
+    margin-top: 49px;
+  }
+}
+/* stylelint-enable no-descending-specificity */
