@@ -280,7 +280,7 @@ main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-headin
 
 .cards.four .card:not(:has(.card-image, .promo-box)) .card-text a:any-link {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* team tiles: 8 + 16 spacer + 8 between rows */
@@ -364,5 +364,38 @@ main .section.cards-container:is(.icon-heading, .icon-heading-grid, .icon-headin
 /* stylelint-disable no-descending-specificity -- variant rules appended after the base rules by design */
 .cards.register.spaced .card {
   padding: 8px 0;
+}
+/* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- xs team rules appended after the base rules by design */
+@media (width <= 767px) {
+  /* team tiles at xs: 228px centred teasers, 16px apart, 20px inner padding, 20/28 titles, 16px copy */
+  .cards.team .cards-grid {
+    gap: 16px 0;
+    padding: 8px 0;
+  }
+
+  .cards.team .card {
+    width: 228px;
+    margin: 0 auto;
+  }
+
+  .cards.team .card-text {
+    padding: 0 20px 10px;
+  }
+
+  .cards.team .card-text :is(h3, h4, .prosemirror-editor :is(h3, h4)) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .cards.team .card-text :is(h3, h4, .prosemirror-editor:has(:is(h3, h4)))::after {
+    display: none;
+  }
+
+  .cards.team .card-text :is(p, .prosemirror-editor):where(:not(.prosemirror-editor *)) {
+    font-size: 16px;
+    line-height: 22.8571px;
+  }
 }
 /* stylelint-enable no-descending-specificity */

@@ -2650,3 +2650,15 @@ main .section.photo-gallery.gallery-tabs .default-content-wrapper li:first-child
   }
 }
 /* stylelint-enable no-descending-specificity */
+
+/* stylelint-disable no-descending-specificity -- xs follow-up appended after the template rules by design */
+@media (width <= 767px) {
+  main .section.cards-container .cards-wrapper + .cards-wrapper {
+    margin-top: 0;
+  }
+
+  main .section.cards-container .cards-wrapper + .cards-wrapper .cards::before {
+    display: none;
+  }
+}
+/* stylelint-enable no-descending-specificity */
