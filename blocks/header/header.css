@@ -219,6 +219,18 @@ header .main-nav-item.is-open .main-nav-sub {
   display: flex;
 }
 
+/* hover bridge: the dropdown hangs 24px below the item, so the pointer would leave the
+   li (and drop :hover) while crossing the gap — an invisible strip on the sub-list keeps the
+   hover surface contiguous from the link down to the first sub-link */
+header .main-nav-sub::before {
+  content: '';
+  position: absolute;
+  top: -24px;
+  left: 0;
+  right: 0;
+  height: 24px;
+}
+
 header .top-nav-tools p {
   margin: 0;
 }
@@ -434,6 +446,10 @@ header .breadcrumb li.active {
 
   header .main-nav-item:hover .main-nav-sub {
     display: none;
+  }
+
+  header .main-nav-sub::before {
+    content: none;
   }
 
 

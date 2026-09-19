@@ -144,3 +144,15 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Artifacts:** stardust/scripts/{published-gate-all,section-probe,section-report,sbs,trim-black,gate-report}.mjs; stardust/.work/agents/BRIEF.md + *-report.md + *-css-requests.md; stardust/replica/siblings-final.json; REPORT.md § Sibling published-origin pixel gate.
 
 **Next:** the open 360 runs need a mobile mode decision for the calendar block (events list) and per-page tab behaviour tokens; the open 1440 runs are in-section pixel residuals (renditions, wraps, live drift) — a further round per page with the same instruments.
+
+---
+
+## 2026-09-19 — desktop dropdown collapses before a sub-link can be clicked
+
+**Prompt:** "the menu expands on hover but it is not possible to click on one of the links because when mouse moves out the menu collapses. verify and fix."
+
+**What happened:** reproduced on the deployed home with a Playwright pointer walk: the dropdown opens on `li:hover`, but `.main-nav-sub` is absolutely positioned 24px below the 24px-tall `li`, so the pointer leaves the `li` 1px below the link and the menu closes; no sub-link was reachable on any of the five dropdowns. Fixed in `blocks/header/header.css` with an invisible `::before` strip on the sub-list bridging the gap (hover surface contiguous, geometry unchanged), turned off in the ≤767px query where the sub-list is static. Verified with the same probe served against the local files: all five dropdowns stay open along the 38px path and a sub-link click navigates.
+
+**Artifacts:** blocks/header/header.css; stardust/scripts/nav-hover-path.mjs (reusable probe, exit 2 on collapse); learnings.md entry; note proposed for the stardust plugin (deploy § 6 chrome + qa rendered check).
+
+**Next:** commit + push so the deployed origin picks up the fix; re-run `node stardust/scripts/nav-hover-path.mjs` against aem.page after publish.
