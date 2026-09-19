@@ -335,18 +335,31 @@ main .section.columns-container:not(:is(.icon-heading, .icon-heading-grid, .icon
   }
 
   .columns.band.pb-192 .columns-media {
-    padding-bottom: 96px;
+    padding: 112px 0 96px;
+  }
+
+  .columns.band:is(.tall, .pb-192) .columns-media :is(p, .prosemirror-editor, picture) {
+    position: absolute;
+    inset: 0;
+  }
+
+  .columns.band:is(.tall, .pb-192) .columns-media img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    aspect-ratio: auto;
+    object-fit: cover;
   }
 
   /* mobile-image: the source shows the photo on xs in the authored order; mobile-image-first puts it above the text */
-  .columns.image-text.mobile-image:not(.band) .columns-media {
+  .columns.image-text:is(.mobile-image, .mobile-image-first):not(.band) .columns-media {
     display: block;
     width: 100%;
     margin: 0;
     padding: 8px 6px;
   }
 
-  .columns.image-text.mobile-image.mobile-image-first:not(.band) .columns-media {
+  .columns.image-text.mobile-image-first:not(.band) .columns-media {
     order: -1;
   }
 

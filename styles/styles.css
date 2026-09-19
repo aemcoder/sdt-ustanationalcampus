@@ -2047,11 +2047,11 @@ main .section.grey-band {
 }
 
 /* hub cards sections: 8 + 8 + 32 above the heading (text component p8), 8 below it */
-main .section.cards-container:not(.icon-heading, .icon-heading-grid, .icon-heading-large) > .default-content-wrapper:first-child {
+main > .section.cards-container:not(.icon-heading, .icon-heading-grid, .icon-heading-large) > .default-content-wrapper:first-child {
   padding: 48px 0 0;
 }
 
-main .section.cards-container:not(.icon-heading, .icon-heading-grid, .icon-heading-large) > .default-content-wrapper:first-child :is(h2, .prosemirror-editor:has(h2)) {
+main > .section.cards-container:not(.icon-heading, .icon-heading-grid, .icon-heading-large) > .default-content-wrapper:first-child :is(h2, .prosemirror-editor:has(h2)) {
   padding: 8px 0;
 }
 
@@ -2080,7 +2080,7 @@ main .section.calendar-container + .section.event-cards-container {
     padding-bottom: 16px;
   }
 
-  main .section.cards-container:not(.icon-heading, .icon-heading-grid, .icon-heading-large) > .default-content-wrapper:first-child {
+  main > .section.cards-container:not(.icon-heading, .icon-heading-grid, .icon-heading-large) > .default-content-wrapper:first-child {
     padding-top: 32px;
   }
 
