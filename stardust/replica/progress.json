@@ -1,1286 +1,1293 @@
 {
-  "_provenance": {
-    "writtenBy": "stardust:replica",
-    "writtenAt": "2026-09-18T20:22:29.283Z",
+ "_provenance": {
+  "writtenBy": "stardust:replica",
+  "writtenAt": "2026-09-18T20:22:29.283Z",
+  "stardustVersion": "0.22.1"
+ },
+ "canon": {
+  "chromeParity": {
+   "360": "header quiet 8/8; footer 25/25 paired, offsets only",
+   "1440": "quiet (header 18/18, footer 25/25 texts; 2/2 + 5/5 icons)"
+  },
+  "liveReference": "https://www.ustanationalcampus.com/en/home/play/programs.html",
+  "evidence": "stardust/replica/gates/chrome-1440/, chrome-360/"
+ },
+ "archetypes": {
+  "en-home-about-html": {
+   "_provenance": {
+    "writtenBy": "stardust:replica (archetype agent)",
+    "writtenAt": "2026-09-18T19:05:00Z",
     "stardustVersion": "0.22.1"
-  },
-  "canon": {
-    "chromeParity": {
-      "360": "header quiet 8/8; footer 25/25 paired, offsets only",
-      "1440": "quiet (header 18/18, footer 25/25 texts; 2/2 + 5/5 icons)"
-    },
-    "liveReference": "https://www.ustanationalcampus.com/en/home/play/programs.html",
-    "evidence": "stardust/replica/gates/chrome-1440/, chrome-360/"
-  },
-  "archetypes": {
-    "en-home-about-html": {
-      "_provenance": {
-        "writtenBy": "stardust:replica (archetype agent)",
-        "writtenAt": "2026-09-18T19:05:00Z",
-        "stardustVersion": "0.22.1"
-      },
-      "pageType": "hub",
-      "archetype": "en-home-about-html",
-      "liveUrl": "https://www.ustanationalcampus.com/en/home/about.html",
-      "prototype": "stardust/prototypes/en-home-about-html-proposed.html",
-      "css": "stardust/prototypes/css/en-home-about-html.css",
-      "regime": "prototype (standalone vs live)",
-      "lift": {
-        "file": "stardust/current/_style-lift-en-home-about-html.json",
-        "deep": "stardust/.work/deeplift-en-home-about-html.json",
-        "widths": [
-          1440,
-          360
-        ],
-        "liveDocH": {
-          "360": 5209,
-          "1440": 3495
-        }
-      },
-      "sections": [
-        "hero (photo + rgba(0,0,0,.6) box, h1 100px, 2 buttons)",
-        "discover (icon-row h2 76px, h3 56px + 3 p left, photo right — photo hidden at 360)",
-        "events (icon-row h2, intro p, #a4ee90 calendar tile + 6-image collage + jimmyconnors photo band)",
-        "teasers x4 (Collegiate Tennis, Testimonials — img+text halves; Careers, Player Development — photo band + text; photo bands hidden at 360)"
-      ],
-      "breakpoints": {
-        "360": {
-          "iterations": 3,
-          "result": {
-            "structuralRed": 0,
-            "visualFlags": "none",
-            "pixelPct": 0.63,
-            "differingPx": 11867,
-            "heightDelta": 0,
-            "chromeHeaderPct": 0.55,
-            "chromeFooterPct": 0.61,
-            "pass": true
-          },
-          "history": [
-            {
-              "iter": 1,
-              "pixelPct": 1.09,
-              "heightDelta": 0
-            },
-            {
-              "iter": 2,
-              "pixelPct": 1.04,
-              "fix": "button specificity (btn crop 7.78% → 4.12%)"
-            },
-            {
-              "iter": 3,
-              "pixelPct": 0.63,
-              "fix": "letter-spacing reset (btn crop → 0.00%) + srcset so build loads the 512x511 rendition live uses at 360 (collegiate-photo crop 3.19% → 0.00%)"
-            }
-          ],
-          "justified": [],
-          "residuals": [
-            {
-              "band": "y 800–900, 1700–1800, 2600–2700, 3500–3600, 5100–5209 (chunk seams)",
-              "pct": 0.545,
-              "px": 10223,
-              "cause": "capture-state: OneTrust cookie-settings badge in the live stitched capture at 5 chunk seams (x<70)",
-              "flaggedFor": "delivery"
-            },
-            {
-              "region": "footer crop y4067+1142",
-              "pct": 0.61,
-              "cause": "OneTrust badge at the y≈5150 seam (2203 px of 2522) + canon footer offsets (already gated in canon)",
-              "flaggedFor": "delivery"
-            },
-            {
-              "region": "header crop y0+160",
-              "pct": 0.55,
-              "px": 319,
-              "cause": "canon header (gated 'quiet 8/8' at 360); inherited, not this page's CSS",
-              "flaggedFor": "user"
-            },
-            {
-              "band": "testimonials photo y2704+324",
-              "pct": 0.27,
-              "cause": "512x511 rendition resampled to 324x323 on both sides — residual sub-pixel resampling",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "OneTrust cookie-settings floating badge in live capture at chunk seams",
-              "where": "x 0–70, 5 seams"
-            }
-          ]
-        },
-        "1440": {
-          "iterations": 3,
-          "result": {
-            "structuralRed": 0,
-            "visualFlags": "none",
-            "pixelPct": 0.12,
-            "differingPx": 6020,
-            "heightDelta": 0,
-            "chromeHeaderPct": 0,
-            "chromeFooterPct": 0.21,
-            "pass": true
-          },
-          "history": [
-            {
-              "iter": 1,
-              "pixelPct": 0.15,
-              "heightDelta": 0
-            },
-            {
-              "iter": 2,
-              "pixelPct": 0.14,
-              "fix": ".content .about-btn specificity — canon .content a coloured/underlined hero button labels (btn crop 2.12%)"
-            },
-            {
-              "iter": 3,
-              "pixelPct": 0.12,
-              "fix": ".about-btn__text-content{letter-spacing:normal} (source .button-core__text-content{letter-spacing:0}; label was 14px wider) + srcset 256w/512w on teaser photos; btn crop 0.00%"
-            }
-          ],
-          "justified": [],
-          "residuals": [
-            {
-              "band": "y 800–900, 1700–1800, 3400–3500 (stitch-chunk seams)",
-              "pct": 0.118,
-              "px": 5952,
-              "cause": "capture-state: OneTrust persistent cookie-settings badge (fixed, bottom-left, x<70) rendered in the LIVE stitched capture at every chunk seam; not present in the prototype; not dismissable (it is the post-consent floating button, not a banner)",
-              "flaggedFor": "delivery"
-            },
-            {
-              "region": "footer crop y2767+728",
-              "pct": 0.21,
-              "cause": "same OneTrust badge at the y≈3440 seam (2198 of 2241 px); footer typography/icons match",
-              "flaggedFor": "delivery"
-            },
-            {
-              "band": "scattered",
-              "pct": 0.001,
-              "px": 68,
-              "cause": "glyph antialiasing",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "OneTrust cookie-settings floating badge in live capture at chunk seams",
-              "where": "x 0–70, 3 seams"
-            }
-          ]
-        }
-      },
-      "motion": {
-        "observe": "stardust/replica/motion/en-home-about-html.json (1440; 0 animations, 0 transitions, 0 class mutations, headerTimeline null, 5 hover probes)",
-        "observed": [
-          "hover a.cmp-button.button-core: opacity 1→0.7",
-          "hover .cmp-text a (teaser links): color rgb(3,87,184)→rgb(0,85,140)"
-        ],
-        "implemented": [
-          ".content .about-btn:hover{opacity:.7} (source .button-core:hover)",
-          ".content .cmp-text a:hover{color:#00558c;text-decoration:underline} (source .cmp-text a:hover)"
-        ],
-        "dead": [
-          "hover .cmp-container--clickable (calendar tile): no change",
-          "hover teaser containers #container-908d6d4a40 / #container-9078a4607c: no change"
-        ],
-        "verification": {
-          "pixelAfterMotion": {
-            "360": "11867 px = 0.63% (identical to iter3)",
-            "1440": "6020 px = 0.12% (identical to iter3)"
-          },
-          "behaviourMatch": "build hover: btn opacity 0.7, link color rgb(0,85,140); 0 pageerrors"
-        }
-      },
-      "canonFeedback": "none",
-      "liveHits": {
-        "lift": 2,
-        "deepLift": 2,
-        "motion": 1,
-        "contentDiff": 4,
-        "visualDiff": 4,
-        "stitch": 2,
-        "anchor": 2,
-        "renditionHead": 2
-      }
-    },
-    "en-home-html": {
-      "_provenance": {
-        "writtenBy": "stardust:replica",
-        "writtenAt": "2026-09-18T18:40:00Z",
-        "stardustVersion": "0.22.1",
-        "regime": "prototype (standalone vs live)"
-      },
-      "pageType": "landing",
-      "archetype": "en-home-html",
-      "liveUrl": "https://www.ustanationalcampus.com/en/home.html",
-      "prototype": "stardust/prototypes/en-home-html-proposed.html",
-      "css": "stardust/prototypes/css/en-home-html.css",
-      "sections": [
-        "hero",
-        "separator",
-        "mosaic (1 large + 4 small tiles; 2 hidden live variants mirrored)",
-        "stats (4)",
-        "sage-strip",
-        "programs (heading + 4 photo cards/promo + hr + 4 photo cards + hr + ad slot)"
-      ],
-      "breakpoints": {
-        "360": {
-          "iterations": 1,
-          "result": {
-            "structuralRed": 0,
-            "visualFlags": "2 justified",
-            "pixelPct": 1.07,
-            "heightDelta": 0,
-            "liveDocH": 6699,
-            "buildDocH": 6699,
-            "chrome": {
-              "headerPct": 0.55,
-              "footerPct": 0.67
-            },
-            "pass": true
-          },
-          "justified": [
-            {
-              "probe": "content",
-              "flag": "🟡 MISSING BODY 'googletag.cmd.push(...)'",
-              "why": "same as 1440"
-            },
-            {
-              "probe": "visual",
-              "flag": "SURFACE/GROUND MISMATCH heading 'Programs'",
-              "why": "same pairing artefact as 1440"
-            },
-            {
-              "probe": "visual",
-              "flag": "FLUSH-LEFT h1 at x6",
-              "why": "mirrors live (lift @360: h1 x=6)"
-            }
-          ],
-          "residuals": [
-            {
-              "band": "y 3000-3500",
-              "pct": 4.68,
-              "cause": "1px vertical sub-pixel drift on the Performance Academy card (512x257 image renders 324x162.56; rounding differs per side), self-correcting at the promo card; mixed texture = text edges",
-              "flaggedFor": "none"
-            },
-            {
-              "band": "y 500-1000",
-              "pct": 1.51,
-              "cause": "SHOW ME button 132px wide vs live 160.8px at 360 (no source rule found in harvested CSS; desktop width matches at 460)",
-              "flaggedFor": "user"
-            },
-            {
-              "band": "y 6500-6699",
-              "pct": 3.08,
-              "cause": "live-only OneTrust floating consent shield repeating at chunk seams",
-              "flaggedFor": "none"
-            },
-            {
-              "band": "ad slot 320x50",
-              "pct": "within 0.2% band",
-              "cause": "capture-state: GPT creative not capturable (static slot box)",
-              "flaggedFor": "delivery"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "style-lift @360 recorded 3 lazy images (Performance Academy, Red Ball, promo icon) as 1x1 placeholders (324x324 squares, docH 7089); the settled gate capture loaded them (docH 6699) — prototype uses the real images",
-              "where": "programs cards"
-            }
-          ],
-          "encodedWithoutSourceRule": [
-            {
-              "value": ".mosaic__main min-height 355.39px @360",
-              "why": "lifted tile height; no CSS rule found (likely JS/Target-set equal-height); at 1440 the tile stretches to the right column (505.19px) naturally"
-            }
-          ],
-          "probes": {
-            "contentDiff": "gates/en-home-html-360/content-diff-iter1.txt",
-            "visualDiff": "gates/en-home-html-360/visual-diff-iter1.txt",
-            "pixel": "gates/en-home-html-360/gate-iter1.txt",
-            "chrome": "gates/en-home-html-360/chrome-header-diff.png, chrome-footer-diff.png"
-          }
-        },
-        "1440": {
-          "iterations": 2,
-          "result": {
-            "structuralRed": 0,
-            "visualFlags": "2 justified",
-            "pixelPct": 0.51,
-            "heightDelta": -1,
-            "liveDocH": 3673,
-            "buildDocH": 3674,
-            "chrome": {
-              "headerPct": 0,
-              "footerPct": 0.67
-            },
-            "pass": true
-          },
-          "iterationLog": [
-            {
-              "iter": 1,
-              "pixelPct": 6.84,
-              "heightDelta": -1,
-              "hotBands": "y0-1000 (19.7%, 27.1%)",
-              "cause": ".hero__media measured 626px not 658px: title-panel margin-bottom collapsed through the padding-only parent, rescaling the cover photo",
-              "fix": "display:flow-root on .hero__media"
-            },
-            {
-              "iter": 2,
-              "pixelPct": 0.51,
-              "heightDelta": -1,
-              "hotBands": "none (max 1.8%)"
-            }
-          ],
-          "justified": [
-            {
-              "probe": "content",
-              "flag": "🟡 MISSING BODY 'googletag.cmd.push(...)'",
-              "why": "live inline GPT <script> text inventoried as body copy; no prototype script (ad slot is static)"
-            },
-            {
-              "probe": "visual",
-              "flag": "SURFACE/GROUND MISMATCH heading 'Programs' white vs black",
-              "why": "text-keyed pairing artefact: both sides carry a white h3 'Programs' (mosaic tile) and a black h2 'Programs' (section heading)"
-            },
-            {
-              "probe": "visual",
-              "flag": "FLUSH-LEFT h1 at x6",
-              "why": "mirrors live (lift: h1 rect x=6, 8/9-column inside a 75% panel)"
-            }
-          ],
-          "residuals": [
-            {
-              "band": "y 2742-2946",
-              "pct": 3.3,
-              "cause": "instrument: fixed header repeated at a stitch-chunk seam, offset by the -1px doc-height delta; header band itself 0.00%",
-              "flaggedFor": "none"
-            },
-            {
-              "band": "y 2803-2893 (ad slot 728x90)",
-              "pct": "within 1.6% band",
-              "cause": "capture-state: third-party GPT creative not capturable; rendered as a static #f2f2f2 728x90 slot box",
-              "flaggedFor": "delivery"
-            },
-            {
-              "band": "y 3500-3673",
-              "pct": 1.8,
-              "cause": "live-only OneTrust floating consent shield (#ot-sdk-btn-floating, fixed 50x50 at bottom-left) repeating at chunk seams",
-              "flaggedFor": "none"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "GPT ad iframe /5681/National_Campus (728x90) — creative served third-party, not in the capture",
-              "where": "programs > ad slot"
-            },
-            {
-              "what": "OneTrust floating consent button visible in live capture (not content)",
-              "where": "fixed bottom-left"
-            }
-          ],
-          "probes": {
-            "contentDiff": "gates/en-home-html-1440/content-diff-iter1.txt (final: no markup change after iter1)",
-            "visualDiff": "gates/en-home-html-1440/visual-diff-iter1.txt",
-            "pixel": "gates/en-home-html-1440/gate-iter2.txt",
-            "chrome": "gates/en-home-html-1440/chrome-header-diff.png, chrome-footer-diff.png"
-          }
-        }
-      },
-      "motion": {
-        "evidence": "stardust/replica/motion/en-home-html.json (pre-existing; not re-run)",
-        "observed": [
-          "nav link hover color -> #2456b2 (color .3s ease-out)",
-          "a.cmp-button:hover opacity .7",
-          "toggle-button border-top-color .3s"
-        ],
-        "implemented": [
-          "nav link hover + toggle transition (canon.css .main-nav__link/.main-nav__toggle)",
-          "button hover opacity .7 (canon.css .btn:hover, applied to SHOW ME + BOOK A FREE SESSION)"
-        ],
-        "dead": [
-          "cmp-container--clickable hover: measured no change -> no hover rule",
-          "0 animations, 0 class mutations -> no motion.js"
-        ],
-        "verification": {
-          "360": "1.07% / 25881 px identical to gated run",
-          "1440": "0.51% / 27019 px identical to gated run"
-        },
-        "notImplemented": [
-          "clickable tile navigation (role=button containers) — not probed with --click; outbound tile CTAs remain real links"
-        ]
-      },
-      "canonFeedback": "none required; canon .content h4 (22px/32px) is overridden in page CSS for the 12px italic ad title (.content .ad-slot__title)",
-      "liveHits": {
-        "360": "content-diff 1, visual-diff 1, stitch 1 (cached), anchor 1 (cached)",
-        "1440": "content-diff 1, visual-diff 1, stitch 1 (cached), anchor 1 (cached)"
-      }
-    },
-    "en-home-play-private-lessons-html": {
-      "_provenance": {
-        "writtenBy": "stardust:replica archetype agent",
-        "writtenAt": "2026-09-18T21:30:00Z",
-        "stardustVersion": "0.22.1",
-        "regime": "prototype (standalone vs live)"
-      },
-      "pageType": "program",
-      "template": "nc---landing-page-template (18 pages)",
-      "archetype": "en-home-play-private-lessons-html",
-      "liveUrl": "https://www.ustanationalcampus.com/en/home/play/private-lessons.html",
-      "outputs": {
-        "html": "stardust/prototypes/en-home-play-private-lessons-html-proposed.html",
-        "css": "stardust/prototypes/css/en-home-play-private-lessons-html.css",
-        "lift": "stardust/current/_style-lift-en-home-play-private-lessons-html.json",
-        "liftScript": "stardust/.work/lift-en-home-play-private-lessons-html.mjs",
-        "motion": "stardust/replica/motion/en-home-play-private-lessons-html.json",
-        "gates": [
-          "stardust/replica/gates/en-home-play-private-lessons-html-1440/",
-          "stardust/replica/gates/en-home-play-private-lessons-html-360/"
-        ],
-        "canonFeedback": "stardust/replica/canon-feedback/en-home-play-private-lessons-html.md"
-      },
-      "structure": {
-        "sections": [
-          "hero (photo + rgba(255,255,255,.78) box: h1 + lede)",
-          "intro (image left / h2 + p + pill right, 1200px)",
-          "lesson-types band #92BFB7 (h2, accordion x3 with 4-col price tables, 2 icon pills, italic note; photo right/desktop, top/mobile)",
-          "separator",
-          "camps band #DCDFCF (photo left, h2 + p + pill)",
-          "separator",
-          "faq heading (60px icon + h2)",
-          "faq accordion x6",
-          "separator",
-          "cancellation policy (h2 + 3 p + bold link)",
-          "separator",
-          "contact band #DCDFCF with 16px white stripes + EMAIL pill",
-          "app badges (label + App Store / Google Play)"
-        ],
-        "counts": {
-          "headings": "1 h1, 7 h2, 9 h4 (accordion headers)",
-          "accordions": 2,
-          "accordionItems": "3 + 6",
-          "priceTables": 3,
-          "ctas": 8,
-          "images": 4
-        }
-      },
-      "breakpoints": {
-        "360": {
-          "iterations": 2,
-          "liveDocHeight": 5400,
-          "result": {
-            "structuralRed": 0,
-            "contentFindings": 0,
-            "visualFlags": "none",
-            "pixelPct": 0.81,
-            "heightDelta": 0,
-            "chromeHeaderPct": 0.55,
-            "chromeFooterPct": 1.3,
-            "pass": true
-          },
-          "history": [
-            {
-              "iter": 1,
-              "pixelPct": 0.81,
-              "heightDelta": 0,
-              "fix": null
-            },
-            {
-              "iter": 2,
-              "pixelPct": 0.81,
-              "heightDelta": 0,
-              "fix": "none needed - motion re-verification run, byte-identical differing count (15668 px)"
-            }
-          ],
-          "justified": [],
-          "residuals": [
-            {
-              "band": "x 13-64 at y 840, 1740, 2640, 3540, 4440, 5340 (+ alert-banner rows 31-43 at each seam)",
-              "pct": 0.75,
-              "cause": "capture-state: live OneTrust floating button repeated at every stitch seam (6 chunks); alert-banner seam rows are the stitched fixed header on both sides",
-              "flaggedFor": "delivery"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "OneTrust floating consent button in live capture",
-              "where": "bottom-left of each 900px chunk"
-            }
-          ]
-        },
-        "1440": {
-          "iterations": 3,
-          "liveDocHeight": 4405,
-          "result": {
-            "structuralRed": 0,
-            "contentFindings": 0,
-            "visualFlags": "none",
-            "pixelPct": 0.13,
-            "heightDelta": 0,
-            "chromeHeaderPct": 0,
-            "chromeFooterPct": 0.21,
-            "pass": true
-          },
-          "history": [
-            {
-              "iter": 1,
-              "pixelPct": 1.06,
-              "heightDelta": 0,
-              "fix": "canon .content a outranked .button-core (labels blue/underlined) -> .content a.button-core; contact band margins collapsed through wrapper (grey 3331-3499 vs live 3299-3531, crop 16.1%) -> display:flow-root"
-            },
-            {
-              "iter": 2,
-              "pixelPct": 0.17,
-              "heightDelta": 0,
-              "fix": "accordion title line-height 40px -> inherited 1.42857 (live title box 39.9844px); contact band crop 16.1% -> 0.00%"
-            },
-            {
-              "iter": 3,
-              "pixelPct": 0.13,
-              "heightDelta": 0,
-              "fix": null
-            }
-          ],
-          "justified": [],
-          "residuals": [
-            {
-              "band": "y 840-896 / 1740-1794 / 4345-4394, x 13-64",
-              "pct": 0.12,
-              "cause": "capture-state: live OneTrust persistent floating button (50x50, fixed bottom-left) repeats at every stitch seam; not page content",
-              "flaggedFor": "delivery"
-            },
-            {
-              "band": "y 3819-3829 (footer link column)",
-              "pct": 0.01,
-              "cause": "canon footer glyph edges (footer crop 0.21% <= 2%)",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "OneTrust floating consent button in live capture",
-              "where": "bottom-left of each 900px chunk"
-            }
-          ]
-        }
-      },
-      "contentDiff": {
-        "360": "iter1: 0 findings, 78/78 nodes; markup unchanged after iteration 1 (all later fixes were CSS values), so both runs measured the final markup",
-        "1440": "iter1: 0 findings, 78/78 nodes (7 h, 8 CTA, 63 body, 4 img)"
-      },
-      "motion": {
-        "observeRun": "stardust/replica/motion/en-home-play-private-lessons-html.json (1440; --click both accordions' first button; --hover 3 pills, 1 accordion button, badge links)",
-        "observed": [
-          "accordion click: button += cmp-accordion__button--expanded, panel += cmp-accordion__panel--expanded (4 classMutations, both accordions; data-cmp-single-expansion on both)",
-          "button-core hover: opacity 1 -> 0.7 (3/3 pills; transition none)",
-          "cmp-image__link hover: color #0357b8 -> #23527c (no visible effect, image-only link)"
-        ],
-        "implemented": [
-          "accordion: inline script cloning the AEM core v1 state machine (toggle --expanded/--hidden classes, aria-expanded/aria-hidden, data-cmp-expanded; single expansion collapses siblings); panel max-height .4s ease-in-out transition from source CSS; verified headless at 1440+360: open/sibling-collapse/close/FAQ, 0 pageerrors",
-          ".button-core:hover{opacity:.7}",
-          ".cmp-image__link:hover{color:#23527c}"
-        ],
-        "dead": [
-          "accordion button hover: no change measured -> no hover rule",
-          "0 animations, 0 transitions fired during scroll traversal; headerTimeline all null (fixed header, no scroll morph) -> no scroll motion"
-        ],
-        "pixelRegression": "360 iter2 (motion present) byte-identical to iter1: 15668 differing px both"
-      },
-      "liveHits": {
-        "lift": 2,
-        "motionObserve": 1,
-        "contentDiff": 2,
-        "visualDiff": 2,
-        "stitch": 2,
-        "anchor": 2,
-        "total": 11
-      }
-    },
-    "en-home-visit-html": {
-      "_provenance": {
-        "writtenBy": "stardust:replica archetype agent",
-        "writtenAt": "2026-09-18T17:58:00Z",
-        "stardustVersion": "0.22.1"
-      },
-      "pageType": "listing",
-      "archetype": "en-home-visit-html",
-      "regime": "prototype",
-      "liveUrl": "https://www.ustanationalcampus.com/en/home/visit.html",
-      "prototype": "stardust/prototypes/en-home-visit-html-proposed.html",
-      "css": "stardust/prototypes/css/en-home-visit-html.css",
-      "js": "stardust/prototypes/js/en-home-visit-html.js",
-      "templateFamily": "legacy (body.page, #mainContent.mainContainerWrap; guestServiceMainWrap / text.parbase / campusInformationMainWrap / usefulInformationMainWrap / adComponentWrapper)",
-      "structure": {
-        "sections": [
-          "guest-services (h3 + red dash, h4 sub, 6 boxTile cards in a float grid + 6 hidden collapse detail panels)",
-          "hotel-shuttle richtext (p&nbsp; / h2 b / p / p a / p&nbsp; x2 — byte patterns mirrored)",
-          "campus-information navy band (LOCATION | HOURS, 1px rgba(255,255,255,.37) rule; mobile horizontal bar)",
-          "useful-information (h3 + red dash, 4-item Bootstrap collapse accordion with verbatim richtext bodies)",
-          "advertisement (static creative in the 728x90 / 320x50 GPT slot)"
-        ],
-        "contentDiffNodes": "214 = 214 (19 headings, 29 CTAs, 166 body) at both widths"
-      },
-      "breakpoints": {
-        "360": {
-          "iterations": 3,
-          "result": {
-            "structuralRed": 0,
-            "visualFlags": "1 justified",
-            "pixelPct": 0.53,
-            "heightDelta": 0,
-            "chromeHeaderPct": 0.01,
-            "chromeFooterPct": 0.55,
-            "pass": true
-          },
-          "history": [
-            {
-              "iter": 1,
-              "pixelPct": 4.33,
-              "heightDelta": -18,
-              "cause": "canon footer link rows 22.857px vs live 21px on the legacy body line-height 1.2 (chrome-parity footer: 25/25 paired, +2px/row x 9 rows); 320x50 creative not yet cropped"
-            },
-            {
-              "iter": 2,
-              "pixelPct": 2.9,
-              "heightDelta": -10,
-              "cause": "li line-height:21px still 22px line box (16px strut vs 12px link); strut matched to 12px"
-            },
-            {
-              "iter": 3,
-              "pixelPct": 1.06,
-              "heightDelta": 0
-            },
-            {
-              "iter": "3-verify",
-              "pixelPct": 0.53,
-              "heightDelta": 0,
-              "note": "build-only re-run after header compensation (alert p line-height 1.3, breadcrumb ol vertical-align:top); header band 2.89% -> 0.01%"
-            }
-          ],
-          "justified": [
-            {
-              "probe": "content",
-              "flag": "build 19 img vs source 18 img",
-              "why": "GPT ad iframe rendered as static creative <img> (ad-slot)"
-            }
-          ],
-          "residuals": [
-            {
-              "band": "y 500–1000 / 1500–2000 / 2500–3000 / 4000–4332",
-              "pct": 1.3,
-              "cause": "capture-state: live-only OneTrust floating cookie button (fixed 50x50 bottom-left) at each of the 5 stitch seams",
-              "flaggedFor": "delivery"
-            },
-            {
-              "region": "live footer top",
-              "pct": null,
-              "cause": "live nondeterminism: chrome-parity's navigation saw the GPT slot collapsed (footer top 3158 vs 3208 in the stitch/anchor run) — all 25 footer pairs uniformly +50; not a build delta",
-              "flaggedFor": "delivery"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "GPT 320x50 creative (OUC 'proud to power USTA') frozen as assets/ads/en-home-visit-html-320x50.png cropped from the 360 live stitch",
-              "where": "advertisement"
-            }
-          ],
-          "verificationReruns": 1,
-          "chromeParity": "gates/en-home-visit-html-360/chrome-parity-footer-iter1.json (25/25) + chrome-parity-header-iter3.json (6/6)"
-        },
-        "1440": {
-          "iterations": 3,
-          "verificationReruns": 2,
-          "result": {
-            "structuralRed": 0,
-            "visualFlags": "2 justified",
-            "pixelPct": 0.14,
-            "heightDelta": 0,
-            "chromeHeaderPct": 0,
-            "chromeFooterPct": 0.21,
-            "pass": true
-          },
-          "history": [
-            {
-              "iter": 1,
-              "pixelPct": 12.41,
-              "heightDelta": 70,
-              "cause": "canon .content h4/.content p (0,1,1) outranked single-class component rules — card titles 42px vs 70, accordion heads 32 vs 50, card body 16px vs 14; fixed by scoping every component rule under .content"
-            },
-            {
-              "iter": 2,
-              "pixelPct": 0.29,
-              "heightDelta": 0
-            },
-            {
-              "iter": 3,
-              "pixelPct": 0.27,
-              "heightDelta": 0,
-              "note": "after interaction JS + footer li compensation"
-            },
-            {
-              "iter": "3-verify",
-              "pixelPct": 0.17,
-              "heightDelta": 0,
-              "note": "build-only re-run (live cached) after final CSS; no regression"
-            },
-            {
-              "iter": "final",
-              "pixelPct": 0.14,
-              "heightDelta": 0,
-              "note": "build-only re-run after alert-text/breadcrumb/footer-li family compensation; chrome-parity 1440 header 16/16 + footer 25/25 paired (only sr-only 'submenu' UA button font and BOOK NOW line-height 'normal' — non-rendering)"
-            }
-          ],
-          "justified": [
-            {
-              "probe": "visual",
-              "flag": "STRETCHED IMAGE x2 (IMG_0633400x238.jpg 400x238->375x203, What-to-Eat_400x238.jpg 400x238->360x203)",
-              "why": "mirrors live: .boxTileImage{height:203px;width:100%} — the source side reports the identical two flags"
-            },
-            {
-              "probe": "content",
-              "flag": "build 19 img vs source 18 img",
-              "why": "GPT ad iframe on live is rendered as the captured static creative <img> (dynamics row ad-slot: static creative)"
-            }
-          ],
-          "residuals": [
-            {
-              "band": "y 500–1000 / 1500–2000 / 2500–2924",
-              "pct": 0.3,
-              "cause": "capture-state: live-only OneTrust floating cookie button (fixed, 50x50 bottom-left) repeated at each stitch seam; breadcrumb glyph antialiasing at seams",
-              "flaggedFor": "delivery"
-            },
-            {
-              "region": "y 2020–2196 (ad slot)",
-              "pct": null,
-              "cause": "occluded on both sides by the bottom-aligned last stitch chunk's fixed-header repeat (2024–2237) — symmetric, not measurable in the stitched capture; creative parity verified against the full-page ground-truth screenshot crop",
-              "flaggedFor": "delivery"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "GPT 728x90 creative (FREE 30 intro session) frozen as assets/ads/en-home-visit-html-728x90.png cropped from stardust/current/assets/screenshots/en-home-visit-html.png",
-              "where": "advertisement"
-            }
-          ],
-          "chromeParity": "gates/en-home-visit-html-1440/chrome-parity-iter3.json (header 16/16, footer 25/25, icons 2/2 + 5/5)"
-        }
-      },
-      "canonCompensation": [
-        {
-          "rule": "body.page .site-footer__links li{font-size:12px;line-height:21px}",
-          "why": "legacy family body line-height 1.2 -> live footer link rows 21px (pitch 43) vs canon 22.857 (pitch 44.86); chrome-parity footer@360 25/25 paired, +2px/row x 9 rows = +19px; verified build-side footer 1124 / doc 4332 @360, link tops == live"
-        },
-        {
-          "rule": "body.page .alert-banner__text,body.page .alert-banner__text a{line-height:1.3}",
-          "why": "the alert text is a <p>; legacy family p line-height 1.3 -> live 18.2px @360 vs canon 20px/19.984px (chrome-parity header@360 6/6 paired); quiet at 1440 after the rule"
-        },
-        {
-          "rule": "body.page .breadcrumb ol{vertical-align:top}",
-          "why": "live crumbs at the band top (li y 121 @360, a y 135) vs canon 123/137: the nav line box (42px) rides the inline-flex ol 2px down on this page; measured by chrome-parity header@360 and reproduced build-side (121/135 @360, 184 @1440)"
-        }
-      ],
-      "motion": {
-        "observe": "stardust/replica/motion/en-home-visit-html.json (1 run, 1440: --click #headingone, #headingtwo, card 1 content; --hover card 2 content) + targeted card probe (hover overlay display, click on the real trigger a)",
-        "observed": [
-          "useful-information accordion: Bootstrap 3 collapse — trigger h4[data-toggle=collapse] -> panel .collapsing (transition height .35s ease) -> .collapse.in; closing .collapsing -> .collapse; trigger gets .collapsed; data-parent closes the open sibling; span.arrowDown.open transform .4s (rotate 180deg); chevron sprite hover background-position 0 0 -> 20px 0; h4 cursor pointer",
-          "guest-services card: hover .boxTileContent -> .boxTileHover display none->block (opacity .84 #002649, 'VIEW MORE'); click the overlay/smallText a -> #boxN .collapsing (height 298 mid-flight -> 413 settled) -> .collapse.in, all group triggers aria-expanded/.collapsed updated, .boxTileText gains .active (2px #ce1126 underline), .boxTileArrow shown; data-parent #guestServiceAccordion closes the open card",
-          "header: no scroll morph (headerTimeline states null at every sample); 0 animations, no entrance classes"
-        ],
-        "implemented": [
-          "js/en-home-visit-html.js: collapse state machine (.collapsing height .35s -> .collapse.in / .collapse, .collapsed on triggers, data-parent accordion, aria-expanded) for both widgets; .ui-acc__chev.open toggle; .gs-card.is-open + .gs-card__text.active hooks; keyboard Enter/Space on role=button headers",
-          "css: .collapsing transition, .ui-acc__chev transition transform .4s + hover sprite offset, .gs-card__content:hover .gs-card__hover{display:block}, .gs-card.is-open .gs-card__arrow{display:block}"
-        ],
-        "dead": [
-          "motion-observe's --click on .boxTileContent (card centre) fired nothing on live — the trigger is the overlay/smallText <a>, not the content div; confirmed by the targeted probe and implemented accordingly (not a dead class)"
-        ],
-        "behaviourMatch": "headless run against the prototype: #collapseone .collapsing (543px mid) -> .collapse.in 752px, chevron .open, #headingtwo closes #collapseone; card 1 hover overlay display block, click -> #box1 .collapsing 305 -> .collapse.in 423, text .active, arrow display block; card 2 click closes card 1; 0 pageerrors",
-        "pixelRegression": "1440 0.29% (iter2, pre-motion) -> 0.27% (iter3, motion in) -> 0.14% (final); 360 1.06% (iter3, motion in) -> 0.53% (verify)"
-      },
-      "canonFeedback": "stardust/replica/canon-feedback/en-home-visit-html.md",
-      "assets": [
-        "stardust/prototypes/assets/ads/en-home-visit-html-728x90.png (from the 1440 ground-truth screenshot; the stitched live capture has the ad occluded by the last chunk's header repeat)",
-        "stardust/prototypes/assets/ads/en-home-visit-html-320x50.png (from the 360 live stitch)"
-      ]
-    },
-    "en-home-about-holiday-hours-html": {
-      "_provenance": {
-        "writtenBy": "stardust:replica",
-        "writtenAt": "2026-09-18T17:49:14Z",
-        "stardustVersion": "0.22.1"
-      },
-      "archetype": "en-home-about-holiday-hours-html",
-      "url": "https://www.ustanationalcampus.com/en/home/about/holiday-hours.html",
-      "finalUrl": "https://www.ustanationalcampus.com/en/home/about/holiday-hours.html",
-      "prototype": "stardust/prototypes/en-home-about-holiday-hours-html-proposed.html",
-      "css": "stardust/prototypes/css/en-home-news-holiday-hours-html.css",
-      "pageType": "static",
-      "template": "content-page-template",
-      "portations": [
-        {
-          "what": "header height 229/176 on this template (canon 213/160): .top-nav margin 8px 0 (transparent strips) + --header-height override in page CSS",
-          "evidence": "gates/<slug>-1440/gate-iter1.txt (header crop 13.30% → 0.00%), canon-feedback/en-home-about-holiday-hours-html.md"
-        },
-        {
-          "what": "footer partial placed outside #mainContent — live runtime inventory under #mainContent has no footer nodes (content-diff iter1: 25 🟠 EXTRA build-side footer nodes → final: none)",
-          "evidence": "gates/<slug>-1440/content-diff-iter1.txt vs content-diff-final.txt"
-        }
-      ],
-      "motion": {
-        "observed": "0 animations, 0 transitions, 0 class mutations, 0 widget pokes, 0 hover probes (nothing interactive on the page)",
-        "implemented": [],
-        "dead": [],
-        "evidence": "stardust/replica/motion/en-home-about-holiday-hours-html.json"
-      },
-      "instrumentNotes": [],
-      "breakpoints": {
-        "360": {
-          "iterations": 1,
-          "iterationsNote": "iter1 0.70%; 'final' = verification re-run after footer DOM reparenting, pixel unchanged",
-          "result": {
-            "structuralRed": 0,
-            "contentFindings": "none — 25/25 text nodes, content + roles match",
-            "visualFlags": "none",
-            "pixelPct": 0.7,
-            "heightDelta": 0,
-            "chromeHeaderPct": 0.5,
-            "chromeFooterPct": 0.71,
-            "footerAnchorDeltaH": 1,
-            "pass": true,
-            "regime": "prototype"
-          },
-          "justified": [],
-          "residuals": [
-            {
-              "band": "y 840–895 and y 2240–2295, x 3–54",
-              "pct": 0.6,
-              "cause": "capture-state: live-only OneTrust floating cookie button at the chunk seams (≈4.9k px)",
-              "flaggedFor": "delivery"
-            },
-            {
-              "band": "y 40–52 (+ seam repeats 940–952, 1440–1452), x 50–162",
-              "pct": 0.15,
-              "cause": "canon chrome: alert-banner second text line offset ~1px at 360 (canon 360 parity recorded as 'offsets only')",
-              "flaggedFor": "user"
-            },
-            {
-              "band": "y 1836–1847 x 181–294 and y 2107–2118 x 31–159",
-              "pct": 0.14,
-              "cause": "canon chrome: footer text offsets at 360 (canon 360 parity recorded as 'offsets only'); footer anchor h 1143 vs live 1142",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "OneTrust floating cookie button (div.ot-floating-button, 50x50, fixed bottom-left) is live-only and repeats at every stitched chunk seam",
-              "where": "x 13–64, bottom of each capture chunk"
-            }
-          ]
-        },
-        "1440": {
-          "iterations": 1,
-          "iterationsNote": "iter1 0.15% (built on the gated sibling CSS); 'final' = verification re-run after footer DOM reparenting, pixel unchanged",
-          "result": {
-            "structuralRed": 0,
-            "contentFindings": "none — 25/25 text nodes, content + roles match",
-            "visualFlags": "none",
-            "pixelPct": 0.15,
-            "heightDelta": 0,
-            "chromeHeaderPct": 0,
-            "chromeFooterPct": 0.19,
-            "footerAnchorDeltaH": 0,
-            "pass": true,
-            "regime": "prototype"
-          },
-          "justified": [],
-          "residuals": [
-            {
-              "band": "y 840–895 and y 1880–1935, x 13–64",
-              "pct": 0.15,
-              "cause": "capture-state: live-only OneTrust floating cookie button at the chunk seams (≈4.8k px of the 4247 differing)",
-              "flaggedFor": "delivery"
-            },
-            {
-              "band": "y 1302–1477, x 770–1007",
-              "pct": 0.003,
-              "cause": "glyph-antialiasing in the footer link columns (≈90 px)",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "OneTrust floating cookie button (div.ot-floating-button, 50x50, fixed bottom-left) is live-only and repeats at every stitched chunk seam",
-              "where": "x 13–64, bottom of each capture chunk"
-            }
-          ]
-        }
-      },
-      "siblingOf": "en-home-news-holiday-hours-html (shares css/en-home-news-holiday-hours-html.css)"
-    },
-    "en-home-news-holiday-hours-html": {
-      "_provenance": {
-        "writtenBy": "stardust:replica",
-        "writtenAt": "2026-09-18T17:49:14Z",
-        "stardustVersion": "0.22.1"
-      },
-      "archetype": "en-home-news-holiday-hours-html",
-      "url": "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html",
-      "finalUrl": "https://www.ustanationalcampus.com/en/home/about/holiday-hours.html (302; identical #mainContent)",
-      "prototype": "stardust/prototypes/en-home-news-holiday-hours-html-proposed.html",
-      "css": "stardust/prototypes/css/en-home-news-holiday-hours-html.css",
-      "pageType": "static",
-      "template": "content-page-template",
-      "portations": [
-        {
-          "what": "header height 229/176 on this template (canon 213/160): .top-nav margin 8px 0 (transparent strips) + --header-height override in page CSS",
-          "evidence": "gates/en-home-news-holiday-hours-html-1440/gate-iter1.txt (header crop 13.30% → 0.00%), canon-feedback/en-home-news-holiday-hours-html.md"
-        },
-        {
-          "what": "footer partial placed outside #mainContent — live runtime inventory under #mainContent has no footer nodes (content-diff iter1: 25 🟠 EXTRA build-side footer nodes → final: none)",
-          "evidence": "gates/en-home-news-holiday-hours-html-1440/content-diff-iter1.txt vs content-diff-final.txt"
-        }
-      ],
-      "motion": {
-        "observed": "0 animations, 0 transitions, 0 class mutations, 0 widget pokes, 0 hover probes (nothing interactive on the page)",
-        "implemented": [],
-        "dead": [],
-        "evidence": "stardust/replica/motion/en-home-news-holiday-hours-html.json"
-      },
-      "instrumentNotes": [
-        "1440 iter1 content-diff/visual-diff first attempt failed with ERR_MODULE_NOT_FOUND playwright while node_modules was being reinstalled concurrently — re-run, not counted"
-      ],
-      "breakpoints": {
-        "360": {
-          "iterations": 2,
-          "iterationsNote": "iter1 1.37% → iter2 0.70%; 'final' = verification re-run after footer DOM reparenting, pixel unchanged",
-          "result": {
-            "structuralRed": 0,
-            "contentFindings": "none — 25/25 text nodes, content + roles match",
-            "visualFlags": "none",
-            "pixelPct": 0.7,
-            "heightDelta": 0,
-            "chromeHeaderPct": 0.5,
-            "chromeFooterPct": 0.71,
-            "footerAnchorDeltaH": 1,
-            "pass": true,
-            "regime": "prototype"
-          },
-          "justified": [],
-          "residuals": [
-            {
-              "band": "y 840–895 and y 2240–2295, x 3–54",
-              "pct": 0.6,
-              "cause": "capture-state: live-only OneTrust floating cookie button at the chunk seams (≈4.9k px)",
-              "flaggedFor": "delivery"
-            },
-            {
-              "band": "y 40–52 (+ seam repeats 940–952, 1440–1452), x 50–162",
-              "pct": 0.15,
-              "cause": "canon chrome: alert-banner second text line offset ~1px at 360 (canon 360 parity recorded as 'offsets only')",
-              "flaggedFor": "user"
-            },
-            {
-              "band": "y 1836–1847 x 181–294 and y 2107–2118 x 31–159",
-              "pct": 0.14,
-              "cause": "canon chrome: footer text offsets at 360 (canon 360 parity recorded as 'offsets only'); footer anchor h 1143 vs live 1142",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "OneTrust floating cookie button (div.ot-floating-button, 50x50, fixed bottom-left) is live-only and repeats at every stitched chunk seam",
-              "where": "x 13–64, bottom of each capture chunk"
-            }
-          ]
-        },
-        "1440": {
-          "iterations": 3,
-          "iterationsNote": "iter1 5.49% (header +8/+8 on this template) → iter2 0.57% (header 229) → iter3 0.15% (transparent strips); 'final' = verification re-run after footer DOM reparenting, pixel unchanged",
-          "result": {
-            "structuralRed": 0,
-            "contentFindings": "none — 25/25 text nodes, content + roles match",
-            "visualFlags": "none",
-            "pixelPct": 0.15,
-            "heightDelta": 0,
-            "chromeHeaderPct": 0,
-            "chromeFooterPct": 0.19,
-            "footerAnchorDeltaH": 0,
-            "pass": true,
-            "regime": "prototype"
-          },
-          "justified": [],
-          "residuals": [
-            {
-              "band": "y 840–895 and y 1880–1935, x 13–64",
-              "pct": 0.15,
-              "cause": "capture-state: live-only OneTrust floating cookie button at the chunk seams (≈4.8k px of the 4247 differing)",
-              "flaggedFor": "delivery"
-            },
-            {
-              "band": "y 1302–1477, x 770–1007",
-              "pct": 0.003,
-              "cause": "glyph-antialiasing in the footer link columns (≈90 px)",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "OneTrust floating cookie button (div.ot-floating-button, 50x50, fixed bottom-left) is live-only and repeats at every stitched chunk seam",
-              "where": "x 13–64, bottom of each capture chunk"
-            }
-          ]
-        }
-      }
-    },
-    "en-home-visit-health-and-wellness-hydration-matters-html": {
-      "pageType": "article",
-      "archetype": "en-home-visit-health-and-wellness-hydration-matters-html",
-      "liveUrl": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/hydration-matters.html",
-      "prototype": "stardust/prototypes/en-home-visit-health-and-wellness-hydration-matters-html-proposed.html",
-      "css": "stardust/prototypes/css/en-home-visit-health-and-wellness-hydration-matters-html.css",
-      "template": "legacy USTA (body.page, #mainContent.mainContainerWrap, .text.parbase > .nc-cmp-container richtext)",
-      "breakpoints": {
-        "360": {
-          "iterations": 3,
-          "iterationNotes": "iter1 5.24% Δh -18 (footer 1124→1143: legacy li pitch 43 vs canon 44.86); iter2 4.33% Δh -10 (li strut 16px vs 12px link); iter3 1.65% Δh 0 PASS. Then chrome-parity (styles first) on header named 3 legacy-template deltas (alert p line-height 18.2, BOOK NOW 16.8, 4-crumb trail wrapping + ol 2px baseline drop); one pixel re-capture labelled 'chromeverify' (not a geometry iteration) confirmed 0.55% Δh 0. A second verification re-capture ('quirksverify') after the doctype change was byte-identical (5923 px).",
-          "result": {
-            "structuralRed": 0,
-            "visualFlags": "1 justified",
-            "pixelPct": 0.55,
-            "heightDelta": 0,
-            "headerBandPct": 0.12,
-            "footerBandPct": 0.58,
-            "pass": true
-          },
-          "contentDiff": {
-            "source": "25 text nodes / 8 editable",
-            "build": "25 text nodes / 8 editable",
-            "findings": "none"
-          },
-          "chromeParity": {
-            "footer": "gates/en-home-visit-health-and-wellness-hydration-matters-html-360/chrome-parity-iter3.txt (quiet 25/25 texts, 5/5 icons)",
-            "header": "gates/…-360/chrome-parity-hdr-iter3.txt (quiet 10/10 texts, 3/3 icons)"
-          },
-          "justified": [
-            {
-              "probe": "visual",
-              "flag": "IMAGERY GAP 21 vs 9 imgs",
-              "why": "same as 1440 — hidden chrome-level imgs outside #mainContent"
-            }
-          ],
-          "residuals": [
-            {
-              "band": "y 500–1000 / 1500–2000 / 2500–3000",
-              "pct": 1,
-              "cause": "glyph-antialiasing (body text + footer text edges)",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": []
-        },
-        "1440": {
-          "iterations": 3,
-          "iterationNotes": "iter1 0.47% Δh0 PASS on first render; iter2 = pixel re-run after the legacy chrome compensation rules (footer li pitch) landed for 360 — number moved 0.47→0.16%, footer crop 0.84→0.21%; iter3 = byte-identical re-run after the quirks-mode markup change (4130 px)",
-          "result": {
-            "structuralRed": 0,
-            "visualFlags": "1 justified",
-            "pixelPct": 0.16,
-            "heightDelta": 0,
-            "headerBandPct": 0,
-            "footerBandPct": 0.21,
-            "pass": true
-          },
-          "contentDiff": {
-            "source": "25 text nodes / 8 editable",
-            "build": "25 text nodes / 8 editable",
-            "findings": "none"
-          },
-          "justified": [
-            {
-              "probe": "visual",
-              "flag": "IMAGERY GAP 21 vs 9 imgs",
-              "why": "live counts hidden chrome-level imgs (mega-menu, consent, modals) outside #mainContent; main has 0 imgs on both sides; chrome is canon (already gated)"
-            }
-          ],
-          "residuals": [
-            {
-              "band": "y 1500–1796",
-              "pct": 0.5,
-              "cause": "glyph-antialiasing in footer text (thin-edge texture)",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": []
-        }
-      },
-      "canonFeedback": "stardust/replica/canon-feedback/en-home-visit-health-and-wellness-hydration-matters-html.md — legacy template (body.page) renders the shared footer/header with a different base cascade: footer link li 21px (pitch 43), alert text 14px/18.2px at mobile, BOOK NOW line-height 16.8px; plus a generic canon defect: long breadcrumb trails shrink+wrap in the inline-flex ol at 360 and the ol baseline-drops 2px. Compensated in the page CSS under body.page.",
-      "motion": {
-        "observed": "stardust/replica/motion/en-home-visit-health-and-wellness-hydration-matters-html.json — 0 animations, 0 transitions, 0 class mutations, header timeline static",
-        "implemented": [],
-        "dead": []
-      },
-      "notes": [
-        "Content: verbatim innerHTML of the live .nc-cmp-container (10 <p>, h2 with <b><br> pattern, table border=1 cellpadding=3 cellspacing=0 with rowspans, 3 trailing <p>&nbsp;</p>) — AEM byte patterns preserved.",
-        "Lifted: h2 24px/26.4px 'Graphik XXCond Bold' #333; p 16px/1.3 #333; container 1170/970/750/100% with 15px gutters (rule, not px); table line-height normal (row 28px).",
-        "Sibling page carries a YouTube embed (not built here — variant note for the archetype).",
-        "Final content/visual-diff = iter1 runs (markup unchanged after iter1; only CSS values changed)."
-      ],
-      "renderingMode": "quirks (no doctype) — mirrors the live legacy template pages (no doctype; the modern template has one). Switched after iter2/iter3; both breakpoints re-measured byte-identical (1440: 4130 px = 0.16%; 360: 5923 px = 0.55%) — inert on this page, load-bearing on the news-hero sibling.",
-      "finalProbes": {
-        "contentDiff": "gates/<slug>-{1440,360}/content-diff-final.txt — none (25/25, 8/8 editable)",
-        "visualDiff": "gates/<slug>-{1440,360}/visual-diff-final.txt — IMAGERY GAP only (justified), mainHeight 855/855 and 1724/1724"
-      }
-    },
-    "en-home-news-campus-pro-shop-html": {
-      "pageType": "article",
-      "archetype": "en-home-news-campus-pro-shop-html",
-      "variantOf": "en-home-visit-health-and-wellness-hydration-matters-html",
-      "liveUrl": "https://www.ustanationalcampus.com/en/home/news/campus-pro-shop.html",
-      "prototype": "stardust/prototypes/en-home-news-campus-pro-shop-html-proposed.html",
-      "css": [
-        "stardust/prototypes/css/en-home-visit-health-and-wellness-hydration-matters-html.css (shared article modules: .news-*)",
-        "stardust/prototypes/css/en-home-news-campus-pro-shop-html.css (photo modal only)"
-      ],
-      "template": "legacy USTA news article (.articleTextDetailImageComp: 656px cover hero + 336px navy scrim + centered white h3/h2/h6 pinned 19px from the bottom; share bar; 800px .contentWrap 20px/35px; 550px gallery teaser)",
-      "renderingMode": "quirks (no doctype) — mirrors the live legacy template pages, which ship without a doctype. Standards mode measured main +48px at 1440 (bold-only <p> 35px instead of 24px, share bar 29 instead of 25). Delivery note: an EDS build (standards mode) must emulate these heights explicitly.",
-      "breakpoints": {
-        "360": {
-          "iterations": 1,
-          "iterationNotes": "free build-side rect probe before the first stitch found -24px (body <a> keeps 20px/31px at mobile: -7; last <p> keeps the 17px mobile margin: -17) — fixed from the lift, then iter1 0.59% Δh0 PASS.",
-          "result": {
-            "structuralRed": 0,
-            "visualFlags": "1 justified",
-            "pixelPct": 0.59,
-            "heightDelta": 0,
-            "headerBandPct": 0.01,
-            "footerBandPct": 1.08,
-            "pass": true
-          },
-          "contentDiff": {
-            "source": "25 text nodes — 3 headings, 5 eyebrows, 3 CTAs, 14 body; 3 img / 21 editable",
-            "build": "identical",
-            "findings": "none"
-          },
-          "justified": [
-            {
-              "probe": "visual",
-              "flag": "STRETCHED IMAGE cq5dam.web.1600.750.jpeg 1600x750 → 360x426",
-              "why": "flagged on BOTH sides — intentional object-fit:cover hero crop, mirrored"
-            }
-          ],
-          "residuals": [
-            {
-              "band": "y 3500–3745",
-              "pct": 2.5,
-              "cause": "footer social icons + copyright antialiasing (chrome canon; footer crop 1.08%)",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": []
-        },
-        "1440": {
-          "iterations": 3,
-          "iterationNotes": "iter1 0.15% Δh0 PASS (after quirks-mode switch, before first stitch); glyph font warned (live .woff2/.woff byte-mangled) → TTF; iter2 0.14% Δh0; iter3 = byte-identical re-run (8131 px) after mobile-only CSS edits.",
-          "result": {
-            "structuralRed": 0,
-            "visualFlags": "none",
-            "pixelPct": 0.14,
-            "heightDelta": 0,
-            "headerBandPct": 0,
-            "footerBandPct": 0.21,
-            "pass": true
-          },
-          "contentDiff": {
-            "source": "25 text nodes — 3 headings, 3 CTAs, 19 body; 3 img / 21 editable",
-            "build": "identical",
-            "findings": "none"
-          },
-          "justified": [],
-          "residuals": [
-            {
-              "band": "y 4000–4154",
-              "pct": 1,
-              "cause": "footer copyright/social glyph antialiasing",
-              "flaggedFor": "user"
-            },
-            {
-              "band": "y 500–1000 / 1500–2000 / 2500–3000",
-              "pct": 0.3,
-              "cause": "hero JPEG decode + body text antialiasing",
-              "flaggedFor": "user"
-            }
-          ],
-          "captureState": [
-            {
-              "what": "Glyphicons Halflings .woff2/.woff on the live origin are byte-mangled (UTF-8 replacement bytes in the WOFF header); live Chrome falls through to the .ttf — prototype ships the TTF",
-              "where": "assets/fonts/glyphicons-halflings-regular.ttf"
-            }
-          ]
-        }
-      },
-      "motion": {
-        "observed": "stardust/replica/motion/en-home-news-campus-pro-shop-html.json — 0 animations; click '.galleryIcon a' → body.modal-open, .modal-backdrop.fade.in (opacity .15s), .modal.fade.in (opacity .15s) + .modal-dialog transform .3s; hover .imgGalWrap / .shareImg a: no change; header timeline static",
-        "implemented": [
-          {
-            "what": "photo gallery modal (11 slides from #photoData, captions + n/11 counter, prev/next, close ×, backdrop click, Esc)",
-            "mechanism": "same class state machine (body.modal-open, .fade→.in, backdrop .5, dialog translate(0,-25%)→0 .3s ease-out), inline script in the page; verified build-side: opens/closes, 1/11→2/11, zero pageerrors (stardust/.work/replica/modal-check.mjs)"
-          }
-        ],
-        "dead": [
-          {
-            "what": ".scrollTop back-to-top button",
-            "why": "display:none on live at t=0; no runtime mutation recorded → mirrored hidden, no behaviour"
-          },
-          {
-            "what": "carousel slide animation",
-            "why": "no control click observed live → slides swap without invented easing"
-          },
-          {
-            "what": "#shareModal (AddThis share dialog)",
-            "why": "not clicked in the observation run; anchor mirrored (href=#shareModal), dialog not built — third-party AddThis widget"
-          }
-        ]
-      },
-      "notes": [
-        "Hero scrim lifted from the live element's background-image layer list: linear-gradient(rgba(0,37,73,0) 0, #00162b 100%), 336px (242px mobile), bottom-anchored.",
-        "Container model encoded as rules: hero 656/426px fixed heights; body max-width 800 (90.4% at mobile); gallery 550px fixed (also at mobile, as live).",
-        "Sibling news pages may carry a YouTube embed (#videoData) — not present on this page; variant slot left in the DOM."
-      ]
+   },
+   "pageType": "hub",
+   "archetype": "en-home-about-html",
+   "liveUrl": "https://www.ustanationalcampus.com/en/home/about.html",
+   "prototype": "stardust/prototypes/en-home-about-html-proposed.html",
+   "css": "stardust/prototypes/css/en-home-about-html.css",
+   "regime": "prototype (standalone vs live)",
+   "lift": {
+    "file": "stardust/current/_style-lift-en-home-about-html.json",
+    "deep": "stardust/.work/deeplift-en-home-about-html.json",
+    "widths": [
+     1440,
+     360
+    ],
+    "liveDocH": {
+     "360": 5209,
+     "1440": 3495
     }
-  },
-  "publishedOrigin": {
-    "regime": "published-origin (source-fidelity-gate.md § The published-origin gate)",
-    "origin": "https://main--sdt-ustanationalcampus--aemcoder.aem.page",
-    "results": {
-      "en-home-html": {
-        "360": "3.00% Δh0 PASS",
-        "1440": "0.97% Δh-1 header 100% footer 99.24% PASS"
+   },
+   "sections": [
+    "hero (photo + rgba(0,0,0,.6) box, h1 100px, 2 buttons)",
+    "discover (icon-row h2 76px, h3 56px + 3 p left, photo right \u2014 photo hidden at 360)",
+    "events (icon-row h2, intro p, #a4ee90 calendar tile + 6-image collage + jimmyconnors photo band)",
+    "teasers x4 (Collegiate Tennis, Testimonials \u2014 img+text halves; Careers, Player Development \u2014 photo band + text; photo bands hidden at 360)"
+   ],
+   "breakpoints": {
+    "360": {
+     "iterations": 3,
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.63,
+      "differingPx": 11867,
+      "heightDelta": 0,
+      "chromeHeaderPct": 0.55,
+      "chromeFooterPct": 0.61,
+      "pass": true
+     },
+     "history": [
+      {
+       "iter": 1,
+       "pixelPct": 1.09,
+       "heightDelta": 0
       },
-      "en-home-about-html": {
-        "360": "1.71% Δh0 PASS",
-        "1440": "1.01% Δh0 header 100% footer 99.79% PASS"
+      {
+       "iter": 2,
+       "pixelPct": 1.04,
+       "fix": "button specificity (btn crop 7.78% \u2192 4.12%)"
       },
-      "en-home-play-private-lessons-html": {
-        "360": "3.17% Δh2 PASS",
-        "1440": "0.88% Δh0 header 100% footer 99.75% PASS"
-      },
-      "en-home-visit-html": {
-        "360": "16.33% Δh-6 FAIL — service-tiles mobile grid rows differ (residual, follow-up round)",
-        "1440": "0.18% Δh0 PASS"
-      },
-      "en-home-visit-health-and-wellness-hydration-matters-html": {
-        "360": "18.31% Δh+63 FAIL",
-        "1440": "13.30% Δh+43 FAIL — legacy title/table spacing (residual, follow-up round)"
-      },
-      "en-home-news-holiday-hours-html": {
-        "360": "11.08% Δh-6 FAIL — 360 prose pitch (residual)",
-        "1440": "4.47% Δh+16 PASS"
+      {
+       "iter": 3,
+       "pixelPct": 0.63,
+       "fix": "letter-spacing reset (btn crop \u2192 0.00%) + srcset so build loads the 512x511 rendition live uses at 360 (collegiate-photo crop 3.19% \u2192 0.00%)"
       }
+     ],
+     "justified": [],
+     "residuals": [
+      {
+       "band": "y 800\u2013900, 1700\u20131800, 2600\u20132700, 3500\u20133600, 5100\u20135209 (chunk seams)",
+       "pct": 0.545,
+       "px": 10223,
+       "cause": "capture-state: OneTrust cookie-settings badge in the live stitched capture at 5 chunk seams (x<70)",
+       "flaggedFor": "delivery"
+      },
+      {
+       "region": "footer crop y4067+1142",
+       "pct": 0.61,
+       "cause": "OneTrust badge at the y\u22485150 seam (2203 px of 2522) + canon footer offsets (already gated in canon)",
+       "flaggedFor": "delivery"
+      },
+      {
+       "region": "header crop y0+160",
+       "pct": 0.55,
+       "px": 319,
+       "cause": "canon header (gated 'quiet 8/8' at 360); inherited, not this page's CSS",
+       "flaggedFor": "user"
+      },
+      {
+       "band": "testimonials photo y2704+324",
+       "pct": 0.27,
+       "cause": "512x511 rendition resampled to 324x323 on both sides \u2014 residual sub-pixel resampling",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "OneTrust cookie-settings floating badge in live capture at chunk seams",
+       "where": "x 0\u201370, 5 seams"
+      }
+     ]
     },
-    "reconcileRounds": [
-      "#buttonize: pipeline hoists <a><strong> → button (footer + 6 pages)",
-      "picture-wrapper: p > img selectors → descendant (icon-heading, -949px on private-lessons)",
-      "legacy ad-slot geometry variant",
-      "#112 spacers: zero-width-space paragraphs replace margin stand-ins (legacy richtext)"
+    "1440": {
+     "iterations": 3,
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.12,
+      "differingPx": 6020,
+      "heightDelta": 0,
+      "chromeHeaderPct": 0,
+      "chromeFooterPct": 0.21,
+      "pass": true
+     },
+     "history": [
+      {
+       "iter": 1,
+       "pixelPct": 0.15,
+       "heightDelta": 0
+      },
+      {
+       "iter": 2,
+       "pixelPct": 0.14,
+       "fix": ".content .about-btn specificity \u2014 canon .content a coloured/underlined hero button labels (btn crop 2.12%)"
+      },
+      {
+       "iter": 3,
+       "pixelPct": 0.12,
+       "fix": ".about-btn__text-content{letter-spacing:normal} (source .button-core__text-content{letter-spacing:0}; label was 14px wider) + srcset 256w/512w on teaser photos; btn crop 0.00%"
+      }
+     ],
+     "justified": [],
+     "residuals": [
+      {
+       "band": "y 800\u2013900, 1700\u20131800, 3400\u20133500 (stitch-chunk seams)",
+       "pct": 0.118,
+       "px": 5952,
+       "cause": "capture-state: OneTrust persistent cookie-settings badge (fixed, bottom-left, x<70) rendered in the LIVE stitched capture at every chunk seam; not present in the prototype; not dismissable (it is the post-consent floating button, not a banner)",
+       "flaggedFor": "delivery"
+      },
+      {
+       "region": "footer crop y2767+728",
+       "pct": 0.21,
+       "cause": "same OneTrust badge at the y\u22483440 seam (2198 of 2241 px); footer typography/icons match",
+       "flaggedFor": "delivery"
+      },
+      {
+       "band": "scattered",
+       "pct": 0.001,
+       "px": 68,
+       "cause": "glyph antialiasing",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "OneTrust cookie-settings floating badge in live capture at chunk seams",
+       "where": "x 0\u201370, 3 seams"
+      }
+     ]
+    }
+   },
+   "motion": {
+    "observe": "stardust/replica/motion/en-home-about-html.json (1440; 0 animations, 0 transitions, 0 class mutations, headerTimeline null, 5 hover probes)",
+    "observed": [
+     "hover a.cmp-button.button-core: opacity 1\u21920.7",
+     "hover .cmp-text a (teaser links): color rgb(3,87,184)\u2192rgb(0,85,140)"
+    ],
+    "implemented": [
+     ".content .about-btn:hover{opacity:.7} (source .button-core:hover)",
+     ".content .cmp-text a:hover{color:#00558c;text-decoration:underline} (source .cmp-text a:hover)"
+    ],
+    "dead": [
+     "hover .cmp-container--clickable (calendar tile): no change",
+     "hover teaser containers #container-908d6d4a40 / #container-9078a4607c: no change"
+    ],
+    "verification": {
+     "pixelAfterMotion": {
+      "360": "11867 px = 0.63% (identical to iter3)",
+      "1440": "6020 px = 0.12% (identical to iter3)"
+     },
+     "behaviourMatch": "build hover: btn opacity 0.7, link color rgb(0,85,140); 0 pageerrors"
+    }
+   },
+   "canonFeedback": "none",
+   "liveHits": {
+    "lift": 2,
+    "deepLift": 2,
+    "motion": 1,
+    "contentDiff": 4,
+    "visualDiff": 4,
+    "stitch": 2,
+    "anchor": 2,
+    "renditionHead": 2
+   }
+  },
+  "en-home-html": {
+   "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-09-18T18:40:00Z",
+    "stardustVersion": "0.22.1",
+    "regime": "prototype (standalone vs live)"
+   },
+   "pageType": "landing",
+   "archetype": "en-home-html",
+   "liveUrl": "https://www.ustanationalcampus.com/en/home.html",
+   "prototype": "stardust/prototypes/en-home-html-proposed.html",
+   "css": "stardust/prototypes/css/en-home-html.css",
+   "sections": [
+    "hero",
+    "separator",
+    "mosaic (1 large + 4 small tiles; 2 hidden live variants mirrored)",
+    "stats (4)",
+    "sage-strip",
+    "programs (heading + 4 photo cards/promo + hr + 4 photo cards + hr + ad slot)"
+   ],
+   "breakpoints": {
+    "360": {
+     "iterations": 1,
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "2 justified",
+      "pixelPct": 1.07,
+      "heightDelta": 0,
+      "liveDocH": 6699,
+      "buildDocH": 6699,
+      "chrome": {
+       "headerPct": 0.55,
+       "footerPct": 0.67
+      },
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "\ud83d\udfe1 MISSING BODY 'googletag.cmd.push(...)'",
+       "why": "same as 1440"
+      },
+      {
+       "probe": "visual",
+       "flag": "SURFACE/GROUND MISMATCH heading 'Programs'",
+       "why": "same pairing artefact as 1440"
+      },
+      {
+       "probe": "visual",
+       "flag": "FLUSH-LEFT h1 at x6",
+       "why": "mirrors live (lift @360: h1 x=6)"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "y 3000-3500",
+       "pct": 4.68,
+       "cause": "1px vertical sub-pixel drift on the Performance Academy card (512x257 image renders 324x162.56; rounding differs per side), self-correcting at the promo card; mixed texture = text edges",
+       "flaggedFor": "none"
+      },
+      {
+       "band": "y 500-1000",
+       "pct": 1.51,
+       "cause": "SHOW ME button 132px wide vs live 160.8px at 360 (no source rule found in harvested CSS; desktop width matches at 460)",
+       "flaggedFor": "user"
+      },
+      {
+       "band": "y 6500-6699",
+       "pct": 3.08,
+       "cause": "live-only OneTrust floating consent shield repeating at chunk seams",
+       "flaggedFor": "none"
+      },
+      {
+       "band": "ad slot 320x50",
+       "pct": "within 0.2% band",
+       "cause": "capture-state: GPT creative not capturable (static slot box)",
+       "flaggedFor": "delivery"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "style-lift @360 recorded 3 lazy images (Performance Academy, Red Ball, promo icon) as 1x1 placeholders (324x324 squares, docH 7089); the settled gate capture loaded them (docH 6699) \u2014 prototype uses the real images",
+       "where": "programs cards"
+      }
+     ],
+     "encodedWithoutSourceRule": [
+      {
+       "value": ".mosaic__main min-height 355.39px @360",
+       "why": "lifted tile height; no CSS rule found (likely JS/Target-set equal-height); at 1440 the tile stretches to the right column (505.19px) naturally"
+      }
+     ],
+     "probes": {
+      "contentDiff": "gates/en-home-html-360/content-diff-iter1.txt",
+      "visualDiff": "gates/en-home-html-360/visual-diff-iter1.txt",
+      "pixel": "gates/en-home-html-360/gate-iter1.txt",
+      "chrome": "gates/en-home-html-360/chrome-header-diff.png, chrome-footer-diff.png"
+     }
+    },
+    "1440": {
+     "iterations": 2,
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "2 justified",
+      "pixelPct": 0.51,
+      "heightDelta": -1,
+      "liveDocH": 3673,
+      "buildDocH": 3674,
+      "chrome": {
+       "headerPct": 0,
+       "footerPct": 0.67
+      },
+      "pass": true
+     },
+     "iterationLog": [
+      {
+       "iter": 1,
+       "pixelPct": 6.84,
+       "heightDelta": -1,
+       "hotBands": "y0-1000 (19.7%, 27.1%)",
+       "cause": ".hero__media measured 626px not 658px: title-panel margin-bottom collapsed through the padding-only parent, rescaling the cover photo",
+       "fix": "display:flow-root on .hero__media"
+      },
+      {
+       "iter": 2,
+       "pixelPct": 0.51,
+       "heightDelta": -1,
+       "hotBands": "none (max 1.8%)"
+      }
+     ],
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "\ud83d\udfe1 MISSING BODY 'googletag.cmd.push(...)'",
+       "why": "live inline GPT <script> text inventoried as body copy; no prototype script (ad slot is static)"
+      },
+      {
+       "probe": "visual",
+       "flag": "SURFACE/GROUND MISMATCH heading 'Programs' white vs black",
+       "why": "text-keyed pairing artefact: both sides carry a white h3 'Programs' (mosaic tile) and a black h2 'Programs' (section heading)"
+      },
+      {
+       "probe": "visual",
+       "flag": "FLUSH-LEFT h1 at x6",
+       "why": "mirrors live (lift: h1 rect x=6, 8/9-column inside a 75% panel)"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "y 2742-2946",
+       "pct": 3.3,
+       "cause": "instrument: fixed header repeated at a stitch-chunk seam, offset by the -1px doc-height delta; header band itself 0.00%",
+       "flaggedFor": "none"
+      },
+      {
+       "band": "y 2803-2893 (ad slot 728x90)",
+       "pct": "within 1.6% band",
+       "cause": "capture-state: third-party GPT creative not capturable; rendered as a static #f2f2f2 728x90 slot box",
+       "flaggedFor": "delivery"
+      },
+      {
+       "band": "y 3500-3673",
+       "pct": 1.8,
+       "cause": "live-only OneTrust floating consent shield (#ot-sdk-btn-floating, fixed 50x50 at bottom-left) repeating at chunk seams",
+       "flaggedFor": "none"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "GPT ad iframe /5681/National_Campus (728x90) \u2014 creative served third-party, not in the capture",
+       "where": "programs > ad slot"
+      },
+      {
+       "what": "OneTrust floating consent button visible in live capture (not content)",
+       "where": "fixed bottom-left"
+      }
+     ],
+     "probes": {
+      "contentDiff": "gates/en-home-html-1440/content-diff-iter1.txt (final: no markup change after iter1)",
+      "visualDiff": "gates/en-home-html-1440/visual-diff-iter1.txt",
+      "pixel": "gates/en-home-html-1440/gate-iter2.txt",
+      "chrome": "gates/en-home-html-1440/chrome-header-diff.png, chrome-footer-diff.png"
+     }
+    }
+   },
+   "motion": {
+    "evidence": "stardust/replica/motion/en-home-html.json (pre-existing; not re-run)",
+    "observed": [
+     "nav link hover color -> #2456b2 (color .3s ease-out)",
+     "a.cmp-button:hover opacity .7",
+     "toggle-button border-top-color .3s"
+    ],
+    "implemented": [
+     "nav link hover + toggle transition (canon.css .main-nav__link/.main-nav__toggle)",
+     "button hover opacity .7 (canon.css .btn:hover, applied to SHOW ME + BOOK A FREE SESSION)"
+    ],
+    "dead": [
+     "cmp-container--clickable hover: measured no change -> no hover rule",
+     "0 animations, 0 class mutations -> no motion.js"
+    ],
+    "verification": {
+     "360": "1.07% / 25881 px identical to gated run",
+     "1440": "0.51% / 27019 px identical to gated run"
+    },
+    "notImplemented": [
+     "clickable tile navigation (role=button containers) \u2014 not probed with --click; outbound tile CTAs remain real links"
     ]
+   },
+   "canonFeedback": "none required; canon .content h4 (22px/32px) is overridden in page CSS for the 12px italic ad title (.content .ad-slot__title)",
+   "liveHits": {
+    "360": "content-diff 1, visual-diff 1, stitch 1 (cached), anchor 1 (cached)",
+    "1440": "content-diff 1, visual-diff 1, stitch 1 (cached), anchor 1 (cached)"
+   }
+  },
+  "en-home-play-private-lessons-html": {
+   "_provenance": {
+    "writtenBy": "stardust:replica archetype agent",
+    "writtenAt": "2026-09-18T21:30:00Z",
+    "stardustVersion": "0.22.1",
+    "regime": "prototype (standalone vs live)"
+   },
+   "pageType": "program",
+   "template": "nc---landing-page-template (18 pages)",
+   "archetype": "en-home-play-private-lessons-html",
+   "liveUrl": "https://www.ustanationalcampus.com/en/home/play/private-lessons.html",
+   "outputs": {
+    "html": "stardust/prototypes/en-home-play-private-lessons-html-proposed.html",
+    "css": "stardust/prototypes/css/en-home-play-private-lessons-html.css",
+    "lift": "stardust/current/_style-lift-en-home-play-private-lessons-html.json",
+    "liftScript": "stardust/.work/lift-en-home-play-private-lessons-html.mjs",
+    "motion": "stardust/replica/motion/en-home-play-private-lessons-html.json",
+    "gates": [
+     "stardust/replica/gates/en-home-play-private-lessons-html-1440/",
+     "stardust/replica/gates/en-home-play-private-lessons-html-360/"
+    ],
+    "canonFeedback": "stardust/replica/canon-feedback/en-home-play-private-lessons-html.md"
+   },
+   "structure": {
+    "sections": [
+     "hero (photo + rgba(255,255,255,.78) box: h1 + lede)",
+     "intro (image left / h2 + p + pill right, 1200px)",
+     "lesson-types band #92BFB7 (h2, accordion x3 with 4-col price tables, 2 icon pills, italic note; photo right/desktop, top/mobile)",
+     "separator",
+     "camps band #DCDFCF (photo left, h2 + p + pill)",
+     "separator",
+     "faq heading (60px icon + h2)",
+     "faq accordion x6",
+     "separator",
+     "cancellation policy (h2 + 3 p + bold link)",
+     "separator",
+     "contact band #DCDFCF with 16px white stripes + EMAIL pill",
+     "app badges (label + App Store / Google Play)"
+    ],
+    "counts": {
+     "headings": "1 h1, 7 h2, 9 h4 (accordion headers)",
+     "accordions": 2,
+     "accordionItems": "3 + 6",
+     "priceTables": 3,
+     "ctas": 8,
+     "images": 4
+    }
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "liveDocHeight": 5400,
+     "result": {
+      "structuralRed": 0,
+      "contentFindings": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.81,
+      "heightDelta": 0,
+      "chromeHeaderPct": 0.55,
+      "chromeFooterPct": 1.3,
+      "pass": true
+     },
+     "history": [
+      {
+       "iter": 1,
+       "pixelPct": 0.81,
+       "heightDelta": 0,
+       "fix": null
+      },
+      {
+       "iter": 2,
+       "pixelPct": 0.81,
+       "heightDelta": 0,
+       "fix": "none needed - motion re-verification run, byte-identical differing count (15668 px)"
+      }
+     ],
+     "justified": [],
+     "residuals": [
+      {
+       "band": "x 13-64 at y 840, 1740, 2640, 3540, 4440, 5340 (+ alert-banner rows 31-43 at each seam)",
+       "pct": 0.75,
+       "cause": "capture-state: live OneTrust floating button repeated at every stitch seam (6 chunks); alert-banner seam rows are the stitched fixed header on both sides",
+       "flaggedFor": "delivery"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "OneTrust floating consent button in live capture",
+       "where": "bottom-left of each 900px chunk"
+      }
+     ]
+    },
+    "1440": {
+     "iterations": 3,
+     "liveDocHeight": 4405,
+     "result": {
+      "structuralRed": 0,
+      "contentFindings": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.13,
+      "heightDelta": 0,
+      "chromeHeaderPct": 0,
+      "chromeFooterPct": 0.21,
+      "pass": true
+     },
+     "history": [
+      {
+       "iter": 1,
+       "pixelPct": 1.06,
+       "heightDelta": 0,
+       "fix": "canon .content a outranked .button-core (labels blue/underlined) -> .content a.button-core; contact band margins collapsed through wrapper (grey 3331-3499 vs live 3299-3531, crop 16.1%) -> display:flow-root"
+      },
+      {
+       "iter": 2,
+       "pixelPct": 0.17,
+       "heightDelta": 0,
+       "fix": "accordion title line-height 40px -> inherited 1.42857 (live title box 39.9844px); contact band crop 16.1% -> 0.00%"
+      },
+      {
+       "iter": 3,
+       "pixelPct": 0.13,
+       "heightDelta": 0,
+       "fix": null
+      }
+     ],
+     "justified": [],
+     "residuals": [
+      {
+       "band": "y 840-896 / 1740-1794 / 4345-4394, x 13-64",
+       "pct": 0.12,
+       "cause": "capture-state: live OneTrust persistent floating button (50x50, fixed bottom-left) repeats at every stitch seam; not page content",
+       "flaggedFor": "delivery"
+      },
+      {
+       "band": "y 3819-3829 (footer link column)",
+       "pct": 0.01,
+       "cause": "canon footer glyph edges (footer crop 0.21% <= 2%)",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "OneTrust floating consent button in live capture",
+       "where": "bottom-left of each 900px chunk"
+      }
+     ]
+    }
+   },
+   "contentDiff": {
+    "360": "iter1: 0 findings, 78/78 nodes; markup unchanged after iteration 1 (all later fixes were CSS values), so both runs measured the final markup",
+    "1440": "iter1: 0 findings, 78/78 nodes (7 h, 8 CTA, 63 body, 4 img)"
+   },
+   "motion": {
+    "observeRun": "stardust/replica/motion/en-home-play-private-lessons-html.json (1440; --click both accordions' first button; --hover 3 pills, 1 accordion button, badge links)",
+    "observed": [
+     "accordion click: button += cmp-accordion__button--expanded, panel += cmp-accordion__panel--expanded (4 classMutations, both accordions; data-cmp-single-expansion on both)",
+     "button-core hover: opacity 1 -> 0.7 (3/3 pills; transition none)",
+     "cmp-image__link hover: color #0357b8 -> #23527c (no visible effect, image-only link)"
+    ],
+    "implemented": [
+     "accordion: inline script cloning the AEM core v1 state machine (toggle --expanded/--hidden classes, aria-expanded/aria-hidden, data-cmp-expanded; single expansion collapses siblings); panel max-height .4s ease-in-out transition from source CSS; verified headless at 1440+360: open/sibling-collapse/close/FAQ, 0 pageerrors",
+     ".button-core:hover{opacity:.7}",
+     ".cmp-image__link:hover{color:#23527c}"
+    ],
+    "dead": [
+     "accordion button hover: no change measured -> no hover rule",
+     "0 animations, 0 transitions fired during scroll traversal; headerTimeline all null (fixed header, no scroll morph) -> no scroll motion"
+    ],
+    "pixelRegression": "360 iter2 (motion present) byte-identical to iter1: 15668 differing px both"
+   },
+   "liveHits": {
+    "lift": 2,
+    "motionObserve": 1,
+    "contentDiff": 2,
+    "visualDiff": 2,
+    "stitch": 2,
+    "anchor": 2,
+    "total": 11
+   }
+  },
+  "en-home-visit-html": {
+   "_provenance": {
+    "writtenBy": "stardust:replica archetype agent",
+    "writtenAt": "2026-09-18T17:58:00Z",
+    "stardustVersion": "0.22.1"
+   },
+   "pageType": "listing",
+   "archetype": "en-home-visit-html",
+   "regime": "prototype",
+   "liveUrl": "https://www.ustanationalcampus.com/en/home/visit.html",
+   "prototype": "stardust/prototypes/en-home-visit-html-proposed.html",
+   "css": "stardust/prototypes/css/en-home-visit-html.css",
+   "js": "stardust/prototypes/js/en-home-visit-html.js",
+   "templateFamily": "legacy (body.page, #mainContent.mainContainerWrap; guestServiceMainWrap / text.parbase / campusInformationMainWrap / usefulInformationMainWrap / adComponentWrapper)",
+   "structure": {
+    "sections": [
+     "guest-services (h3 + red dash, h4 sub, 6 boxTile cards in a float grid + 6 hidden collapse detail panels)",
+     "hotel-shuttle richtext (p&nbsp; / h2 b / p / p a / p&nbsp; x2 \u2014 byte patterns mirrored)",
+     "campus-information navy band (LOCATION | HOURS, 1px rgba(255,255,255,.37) rule; mobile horizontal bar)",
+     "useful-information (h3 + red dash, 4-item Bootstrap collapse accordion with verbatim richtext bodies)",
+     "advertisement (static creative in the 728x90 / 320x50 GPT slot)"
+    ],
+    "contentDiffNodes": "214 = 214 (19 headings, 29 CTAs, 166 body) at both widths"
+   },
+   "breakpoints": {
+    "360": {
+     "iterations": 3,
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.53,
+      "heightDelta": 0,
+      "chromeHeaderPct": 0.01,
+      "chromeFooterPct": 0.55,
+      "pass": true
+     },
+     "history": [
+      {
+       "iter": 1,
+       "pixelPct": 4.33,
+       "heightDelta": -18,
+       "cause": "canon footer link rows 22.857px vs live 21px on the legacy body line-height 1.2 (chrome-parity footer: 25/25 paired, +2px/row x 9 rows); 320x50 creative not yet cropped"
+      },
+      {
+       "iter": 2,
+       "pixelPct": 2.9,
+       "heightDelta": -10,
+       "cause": "li line-height:21px still 22px line box (16px strut vs 12px link); strut matched to 12px"
+      },
+      {
+       "iter": 3,
+       "pixelPct": 1.06,
+       "heightDelta": 0
+      },
+      {
+       "iter": "3-verify",
+       "pixelPct": 0.53,
+       "heightDelta": 0,
+       "note": "build-only re-run after header compensation (alert p line-height 1.3, breadcrumb ol vertical-align:top); header band 2.89% -> 0.01%"
+      }
+     ],
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "build 19 img vs source 18 img",
+       "why": "GPT ad iframe rendered as static creative <img> (ad-slot)"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "y 500\u20131000 / 1500\u20132000 / 2500\u20133000 / 4000\u20134332",
+       "pct": 1.3,
+       "cause": "capture-state: live-only OneTrust floating cookie button (fixed 50x50 bottom-left) at each of the 5 stitch seams",
+       "flaggedFor": "delivery"
+      },
+      {
+       "region": "live footer top",
+       "pct": null,
+       "cause": "live nondeterminism: chrome-parity's navigation saw the GPT slot collapsed (footer top 3158 vs 3208 in the stitch/anchor run) \u2014 all 25 footer pairs uniformly +50; not a build delta",
+       "flaggedFor": "delivery"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "GPT 320x50 creative (OUC 'proud to power USTA') frozen as assets/ads/en-home-visit-html-320x50.png cropped from the 360 live stitch",
+       "where": "advertisement"
+      }
+     ],
+     "verificationReruns": 1,
+     "chromeParity": "gates/en-home-visit-html-360/chrome-parity-footer-iter1.json (25/25) + chrome-parity-header-iter3.json (6/6)"
+    },
+    "1440": {
+     "iterations": 3,
+     "verificationReruns": 2,
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "2 justified",
+      "pixelPct": 0.14,
+      "heightDelta": 0,
+      "chromeHeaderPct": 0,
+      "chromeFooterPct": 0.21,
+      "pass": true
+     },
+     "history": [
+      {
+       "iter": 1,
+       "pixelPct": 12.41,
+       "heightDelta": 70,
+       "cause": "canon .content h4/.content p (0,1,1) outranked single-class component rules \u2014 card titles 42px vs 70, accordion heads 32 vs 50, card body 16px vs 14; fixed by scoping every component rule under .content"
+      },
+      {
+       "iter": 2,
+       "pixelPct": 0.29,
+       "heightDelta": 0
+      },
+      {
+       "iter": 3,
+       "pixelPct": 0.27,
+       "heightDelta": 0,
+       "note": "after interaction JS + footer li compensation"
+      },
+      {
+       "iter": "3-verify",
+       "pixelPct": 0.17,
+       "heightDelta": 0,
+       "note": "build-only re-run (live cached) after final CSS; no regression"
+      },
+      {
+       "iter": "final",
+       "pixelPct": 0.14,
+       "heightDelta": 0,
+       "note": "build-only re-run after alert-text/breadcrumb/footer-li family compensation; chrome-parity 1440 header 16/16 + footer 25/25 paired (only sr-only 'submenu' UA button font and BOOK NOW line-height 'normal' \u2014 non-rendering)"
+      }
+     ],
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE x2 (IMG_0633400x238.jpg 400x238->375x203, What-to-Eat_400x238.jpg 400x238->360x203)",
+       "why": "mirrors live: .boxTileImage{height:203px;width:100%} \u2014 the source side reports the identical two flags"
+      },
+      {
+       "probe": "content",
+       "flag": "build 19 img vs source 18 img",
+       "why": "GPT ad iframe on live is rendered as the captured static creative <img> (dynamics row ad-slot: static creative)"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "y 500\u20131000 / 1500\u20132000 / 2500\u20132924",
+       "pct": 0.3,
+       "cause": "capture-state: live-only OneTrust floating cookie button (fixed, 50x50 bottom-left) repeated at each stitch seam; breadcrumb glyph antialiasing at seams",
+       "flaggedFor": "delivery"
+      },
+      {
+       "region": "y 2020\u20132196 (ad slot)",
+       "pct": null,
+       "cause": "occluded on both sides by the bottom-aligned last stitch chunk's fixed-header repeat (2024\u20132237) \u2014 symmetric, not measurable in the stitched capture; creative parity verified against the full-page ground-truth screenshot crop",
+       "flaggedFor": "delivery"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "GPT 728x90 creative (FREE 30 intro session) frozen as assets/ads/en-home-visit-html-728x90.png cropped from stardust/current/assets/screenshots/en-home-visit-html.png",
+       "where": "advertisement"
+      }
+     ],
+     "chromeParity": "gates/en-home-visit-html-1440/chrome-parity-iter3.json (header 16/16, footer 25/25, icons 2/2 + 5/5)"
+    }
+   },
+   "canonCompensation": [
+    {
+     "rule": "body.page .site-footer__links li{font-size:12px;line-height:21px}",
+     "why": "legacy family body line-height 1.2 -> live footer link rows 21px (pitch 43) vs canon 22.857 (pitch 44.86); chrome-parity footer@360 25/25 paired, +2px/row x 9 rows = +19px; verified build-side footer 1124 / doc 4332 @360, link tops == live"
+    },
+    {
+     "rule": "body.page .alert-banner__text,body.page .alert-banner__text a{line-height:1.3}",
+     "why": "the alert text is a <p>; legacy family p line-height 1.3 -> live 18.2px @360 vs canon 20px/19.984px (chrome-parity header@360 6/6 paired); quiet at 1440 after the rule"
+    },
+    {
+     "rule": "body.page .breadcrumb ol{vertical-align:top}",
+     "why": "live crumbs at the band top (li y 121 @360, a y 135) vs canon 123/137: the nav line box (42px) rides the inline-flex ol 2px down on this page; measured by chrome-parity header@360 and reproduced build-side (121/135 @360, 184 @1440)"
+    }
+   ],
+   "motion": {
+    "observe": "stardust/replica/motion/en-home-visit-html.json (1 run, 1440: --click #headingone, #headingtwo, card 1 content; --hover card 2 content) + targeted card probe (hover overlay display, click on the real trigger a)",
+    "observed": [
+     "useful-information accordion: Bootstrap 3 collapse \u2014 trigger h4[data-toggle=collapse] -> panel .collapsing (transition height .35s ease) -> .collapse.in; closing .collapsing -> .collapse; trigger gets .collapsed; data-parent closes the open sibling; span.arrowDown.open transform .4s (rotate 180deg); chevron sprite hover background-position 0 0 -> 20px 0; h4 cursor pointer",
+     "guest-services card: hover .boxTileContent -> .boxTileHover display none->block (opacity .84 #002649, 'VIEW MORE'); click the overlay/smallText a -> #boxN .collapsing (height 298 mid-flight -> 413 settled) -> .collapse.in, all group triggers aria-expanded/.collapsed updated, .boxTileText gains .active (2px #ce1126 underline), .boxTileArrow shown; data-parent #guestServiceAccordion closes the open card",
+     "header: no scroll morph (headerTimeline states null at every sample); 0 animations, no entrance classes"
+    ],
+    "implemented": [
+     "js/en-home-visit-html.js: collapse state machine (.collapsing height .35s -> .collapse.in / .collapse, .collapsed on triggers, data-parent accordion, aria-expanded) for both widgets; .ui-acc__chev.open toggle; .gs-card.is-open + .gs-card__text.active hooks; keyboard Enter/Space on role=button headers",
+     "css: .collapsing transition, .ui-acc__chev transition transform .4s + hover sprite offset, .gs-card__content:hover .gs-card__hover{display:block}, .gs-card.is-open .gs-card__arrow{display:block}"
+    ],
+    "dead": [
+     "motion-observe's --click on .boxTileContent (card centre) fired nothing on live \u2014 the trigger is the overlay/smallText <a>, not the content div; confirmed by the targeted probe and implemented accordingly (not a dead class)"
+    ],
+    "behaviourMatch": "headless run against the prototype: #collapseone .collapsing (543px mid) -> .collapse.in 752px, chevron .open, #headingtwo closes #collapseone; card 1 hover overlay display block, click -> #box1 .collapsing 305 -> .collapse.in 423, text .active, arrow display block; card 2 click closes card 1; 0 pageerrors",
+    "pixelRegression": "1440 0.29% (iter2, pre-motion) -> 0.27% (iter3, motion in) -> 0.14% (final); 360 1.06% (iter3, motion in) -> 0.53% (verify)"
+   },
+   "canonFeedback": "stardust/replica/canon-feedback/en-home-visit-html.md",
+   "assets": [
+    "stardust/prototypes/assets/ads/en-home-visit-html-728x90.png (from the 1440 ground-truth screenshot; the stitched live capture has the ad occluded by the last chunk's header repeat)",
+    "stardust/prototypes/assets/ads/en-home-visit-html-320x50.png (from the 360 live stitch)"
+   ]
+  },
+  "en-home-about-holiday-hours-html": {
+   "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-09-18T17:49:14Z",
+    "stardustVersion": "0.22.1"
+   },
+   "archetype": "en-home-about-holiday-hours-html",
+   "url": "https://www.ustanationalcampus.com/en/home/about/holiday-hours.html",
+   "finalUrl": "https://www.ustanationalcampus.com/en/home/about/holiday-hours.html",
+   "prototype": "stardust/prototypes/en-home-about-holiday-hours-html-proposed.html",
+   "css": "stardust/prototypes/css/en-home-news-holiday-hours-html.css",
+   "pageType": "static",
+   "template": "content-page-template",
+   "portations": [
+    {
+     "what": "header height 229/176 on this template (canon 213/160): .top-nav margin 8px 0 (transparent strips) + --header-height override in page CSS",
+     "evidence": "gates/<slug>-1440/gate-iter1.txt (header crop 13.30% \u2192 0.00%), canon-feedback/en-home-about-holiday-hours-html.md"
+    },
+    {
+     "what": "footer partial placed outside #mainContent \u2014 live runtime inventory under #mainContent has no footer nodes (content-diff iter1: 25 \ud83d\udfe0 EXTRA build-side footer nodes \u2192 final: none)",
+     "evidence": "gates/<slug>-1440/content-diff-iter1.txt vs content-diff-final.txt"
+    }
+   ],
+   "motion": {
+    "observed": "0 animations, 0 transitions, 0 class mutations, 0 widget pokes, 0 hover probes (nothing interactive on the page)",
+    "implemented": [],
+    "dead": [],
+    "evidence": "stardust/replica/motion/en-home-about-holiday-hours-html.json"
+   },
+   "instrumentNotes": [],
+   "breakpoints": {
+    "360": {
+     "iterations": 1,
+     "iterationsNote": "iter1 0.70%; 'final' = verification re-run after footer DOM reparenting, pixel unchanged",
+     "result": {
+      "structuralRed": 0,
+      "contentFindings": "none \u2014 25/25 text nodes, content + roles match",
+      "visualFlags": "none",
+      "pixelPct": 0.7,
+      "heightDelta": 0,
+      "chromeHeaderPct": 0.5,
+      "chromeFooterPct": 0.71,
+      "footerAnchorDeltaH": 1,
+      "pass": true,
+      "regime": "prototype"
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "y 840\u2013895 and y 2240\u20132295, x 3\u201354",
+       "pct": 0.6,
+       "cause": "capture-state: live-only OneTrust floating cookie button at the chunk seams (\u22484.9k px)",
+       "flaggedFor": "delivery"
+      },
+      {
+       "band": "y 40\u201352 (+ seam repeats 940\u2013952, 1440\u20131452), x 50\u2013162",
+       "pct": 0.15,
+       "cause": "canon chrome: alert-banner second text line offset ~1px at 360 (canon 360 parity recorded as 'offsets only')",
+       "flaggedFor": "user"
+      },
+      {
+       "band": "y 1836\u20131847 x 181\u2013294 and y 2107\u20132118 x 31\u2013159",
+       "pct": 0.14,
+       "cause": "canon chrome: footer text offsets at 360 (canon 360 parity recorded as 'offsets only'); footer anchor h 1143 vs live 1142",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "OneTrust floating cookie button (div.ot-floating-button, 50x50, fixed bottom-left) is live-only and repeats at every stitched chunk seam",
+       "where": "x 13\u201364, bottom of each capture chunk"
+      }
+     ]
+    },
+    "1440": {
+     "iterations": 1,
+     "iterationsNote": "iter1 0.15% (built on the gated sibling CSS); 'final' = verification re-run after footer DOM reparenting, pixel unchanged",
+     "result": {
+      "structuralRed": 0,
+      "contentFindings": "none \u2014 25/25 text nodes, content + roles match",
+      "visualFlags": "none",
+      "pixelPct": 0.15,
+      "heightDelta": 0,
+      "chromeHeaderPct": 0,
+      "chromeFooterPct": 0.19,
+      "footerAnchorDeltaH": 0,
+      "pass": true,
+      "regime": "prototype"
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "y 840\u2013895 and y 1880\u20131935, x 13\u201364",
+       "pct": 0.15,
+       "cause": "capture-state: live-only OneTrust floating cookie button at the chunk seams (\u22484.8k px of the 4247 differing)",
+       "flaggedFor": "delivery"
+      },
+      {
+       "band": "y 1302\u20131477, x 770\u20131007",
+       "pct": 0.003,
+       "cause": "glyph-antialiasing in the footer link columns (\u224890 px)",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "OneTrust floating cookie button (div.ot-floating-button, 50x50, fixed bottom-left) is live-only and repeats at every stitched chunk seam",
+       "where": "x 13\u201364, bottom of each capture chunk"
+      }
+     ]
+    }
+   },
+   "siblingOf": "en-home-news-holiday-hours-html (shares css/en-home-news-holiday-hours-html.css)"
+  },
+  "en-home-news-holiday-hours-html": {
+   "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-09-18T17:49:14Z",
+    "stardustVersion": "0.22.1"
+   },
+   "archetype": "en-home-news-holiday-hours-html",
+   "url": "https://www.ustanationalcampus.com/en/home/news/holiday-hours.html",
+   "finalUrl": "https://www.ustanationalcampus.com/en/home/about/holiday-hours.html (302; identical #mainContent)",
+   "prototype": "stardust/prototypes/en-home-news-holiday-hours-html-proposed.html",
+   "css": "stardust/prototypes/css/en-home-news-holiday-hours-html.css",
+   "pageType": "static",
+   "template": "content-page-template",
+   "portations": [
+    {
+     "what": "header height 229/176 on this template (canon 213/160): .top-nav margin 8px 0 (transparent strips) + --header-height override in page CSS",
+     "evidence": "gates/en-home-news-holiday-hours-html-1440/gate-iter1.txt (header crop 13.30% \u2192 0.00%), canon-feedback/en-home-news-holiday-hours-html.md"
+    },
+    {
+     "what": "footer partial placed outside #mainContent \u2014 live runtime inventory under #mainContent has no footer nodes (content-diff iter1: 25 \ud83d\udfe0 EXTRA build-side footer nodes \u2192 final: none)",
+     "evidence": "gates/en-home-news-holiday-hours-html-1440/content-diff-iter1.txt vs content-diff-final.txt"
+    }
+   ],
+   "motion": {
+    "observed": "0 animations, 0 transitions, 0 class mutations, 0 widget pokes, 0 hover probes (nothing interactive on the page)",
+    "implemented": [],
+    "dead": [],
+    "evidence": "stardust/replica/motion/en-home-news-holiday-hours-html.json"
+   },
+   "instrumentNotes": [
+    "1440 iter1 content-diff/visual-diff first attempt failed with ERR_MODULE_NOT_FOUND playwright while node_modules was being reinstalled concurrently \u2014 re-run, not counted"
+   ],
+   "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "iterationsNote": "iter1 1.37% \u2192 iter2 0.70%; 'final' = verification re-run after footer DOM reparenting, pixel unchanged",
+     "result": {
+      "structuralRed": 0,
+      "contentFindings": "none \u2014 25/25 text nodes, content + roles match",
+      "visualFlags": "none",
+      "pixelPct": 0.7,
+      "heightDelta": 0,
+      "chromeHeaderPct": 0.5,
+      "chromeFooterPct": 0.71,
+      "footerAnchorDeltaH": 1,
+      "pass": true,
+      "regime": "prototype"
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "y 840\u2013895 and y 2240\u20132295, x 3\u201354",
+       "pct": 0.6,
+       "cause": "capture-state: live-only OneTrust floating cookie button at the chunk seams (\u22484.9k px)",
+       "flaggedFor": "delivery"
+      },
+      {
+       "band": "y 40\u201352 (+ seam repeats 940\u2013952, 1440\u20131452), x 50\u2013162",
+       "pct": 0.15,
+       "cause": "canon chrome: alert-banner second text line offset ~1px at 360 (canon 360 parity recorded as 'offsets only')",
+       "flaggedFor": "user"
+      },
+      {
+       "band": "y 1836\u20131847 x 181\u2013294 and y 2107\u20132118 x 31\u2013159",
+       "pct": 0.14,
+       "cause": "canon chrome: footer text offsets at 360 (canon 360 parity recorded as 'offsets only'); footer anchor h 1143 vs live 1142",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "OneTrust floating cookie button (div.ot-floating-button, 50x50, fixed bottom-left) is live-only and repeats at every stitched chunk seam",
+       "where": "x 13\u201364, bottom of each capture chunk"
+      }
+     ]
+    },
+    "1440": {
+     "iterations": 3,
+     "iterationsNote": "iter1 5.49% (header +8/+8 on this template) \u2192 iter2 0.57% (header 229) \u2192 iter3 0.15% (transparent strips); 'final' = verification re-run after footer DOM reparenting, pixel unchanged",
+     "result": {
+      "structuralRed": 0,
+      "contentFindings": "none \u2014 25/25 text nodes, content + roles match",
+      "visualFlags": "none",
+      "pixelPct": 0.15,
+      "heightDelta": 0,
+      "chromeHeaderPct": 0,
+      "chromeFooterPct": 0.19,
+      "footerAnchorDeltaH": 0,
+      "pass": true,
+      "regime": "prototype"
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "y 840\u2013895 and y 1880\u20131935, x 13\u201364",
+       "pct": 0.15,
+       "cause": "capture-state: live-only OneTrust floating cookie button at the chunk seams (\u22484.8k px of the 4247 differing)",
+       "flaggedFor": "delivery"
+      },
+      {
+       "band": "y 1302\u20131477, x 770\u20131007",
+       "pct": 0.003,
+       "cause": "glyph-antialiasing in the footer link columns (\u224890 px)",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "OneTrust floating cookie button (div.ot-floating-button, 50x50, fixed bottom-left) is live-only and repeats at every stitched chunk seam",
+       "where": "x 13\u201364, bottom of each capture chunk"
+      }
+     ]
+    }
+   }
+  },
+  "en-home-visit-health-and-wellness-hydration-matters-html": {
+   "pageType": "article",
+   "archetype": "en-home-visit-health-and-wellness-hydration-matters-html",
+   "liveUrl": "https://www.ustanationalcampus.com/en/home/visit/health-and-wellness/hydration-matters.html",
+   "prototype": "stardust/prototypes/en-home-visit-health-and-wellness-hydration-matters-html-proposed.html",
+   "css": "stardust/prototypes/css/en-home-visit-health-and-wellness-hydration-matters-html.css",
+   "template": "legacy USTA (body.page, #mainContent.mainContainerWrap, .text.parbase > .nc-cmp-container richtext)",
+   "breakpoints": {
+    "360": {
+     "iterations": 3,
+     "iterationNotes": "iter1 5.24% \u0394h -18 (footer 1124\u21921143: legacy li pitch 43 vs canon 44.86); iter2 4.33% \u0394h -10 (li strut 16px vs 12px link); iter3 1.65% \u0394h 0 PASS. Then chrome-parity (styles first) on header named 3 legacy-template deltas (alert p line-height 18.2, BOOK NOW 16.8, 4-crumb trail wrapping + ol 2px baseline drop); one pixel re-capture labelled 'chromeverify' (not a geometry iteration) confirmed 0.55% \u0394h 0. A second verification re-capture ('quirksverify') after the doctype change was byte-identical (5923 px).",
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.55,
+      "heightDelta": 0,
+      "headerBandPct": 0.12,
+      "footerBandPct": 0.58,
+      "pass": true
+     },
+     "contentDiff": {
+      "source": "25 text nodes / 8 editable",
+      "build": "25 text nodes / 8 editable",
+      "findings": "none"
+     },
+     "chromeParity": {
+      "footer": "gates/en-home-visit-health-and-wellness-hydration-matters-html-360/chrome-parity-iter3.txt (quiet 25/25 texts, 5/5 icons)",
+      "header": "gates/\u2026-360/chrome-parity-hdr-iter3.txt (quiet 10/10 texts, 3/3 icons)"
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "IMAGERY GAP 21 vs 9 imgs",
+       "why": "same as 1440 \u2014 hidden chrome-level imgs outside #mainContent"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "y 500\u20131000 / 1500\u20132000 / 2500\u20133000",
+       "pct": 1,
+       "cause": "glyph-antialiasing (body text + footer text edges)",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": []
+    },
+    "1440": {
+     "iterations": 3,
+     "iterationNotes": "iter1 0.47% \u0394h0 PASS on first render; iter2 = pixel re-run after the legacy chrome compensation rules (footer li pitch) landed for 360 \u2014 number moved 0.47\u21920.16%, footer crop 0.84\u21920.21%; iter3 = byte-identical re-run after the quirks-mode markup change (4130 px)",
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.16,
+      "heightDelta": 0,
+      "headerBandPct": 0,
+      "footerBandPct": 0.21,
+      "pass": true
+     },
+     "contentDiff": {
+      "source": "25 text nodes / 8 editable",
+      "build": "25 text nodes / 8 editable",
+      "findings": "none"
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "IMAGERY GAP 21 vs 9 imgs",
+       "why": "live counts hidden chrome-level imgs (mega-menu, consent, modals) outside #mainContent; main has 0 imgs on both sides; chrome is canon (already gated)"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "y 1500\u20131796",
+       "pct": 0.5,
+       "cause": "glyph-antialiasing in footer text (thin-edge texture)",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": []
+    }
+   },
+   "canonFeedback": "stardust/replica/canon-feedback/en-home-visit-health-and-wellness-hydration-matters-html.md \u2014 legacy template (body.page) renders the shared footer/header with a different base cascade: footer link li 21px (pitch 43), alert text 14px/18.2px at mobile, BOOK NOW line-height 16.8px; plus a generic canon defect: long breadcrumb trails shrink+wrap in the inline-flex ol at 360 and the ol baseline-drops 2px. Compensated in the page CSS under body.page.",
+   "motion": {
+    "observed": "stardust/replica/motion/en-home-visit-health-and-wellness-hydration-matters-html.json \u2014 0 animations, 0 transitions, 0 class mutations, header timeline static",
+    "implemented": [],
+    "dead": []
+   },
+   "notes": [
+    "Content: verbatim innerHTML of the live .nc-cmp-container (10 <p>, h2 with <b><br> pattern, table border=1 cellpadding=3 cellspacing=0 with rowspans, 3 trailing <p>&nbsp;</p>) \u2014 AEM byte patterns preserved.",
+    "Lifted: h2 24px/26.4px 'Graphik XXCond Bold' #333; p 16px/1.3 #333; container 1170/970/750/100% with 15px gutters (rule, not px); table line-height normal (row 28px).",
+    "Sibling page carries a YouTube embed (not built here \u2014 variant note for the archetype).",
+    "Final content/visual-diff = iter1 runs (markup unchanged after iter1; only CSS values changed)."
+   ],
+   "renderingMode": "quirks (no doctype) \u2014 mirrors the live legacy template pages (no doctype; the modern template has one). Switched after iter2/iter3; both breakpoints re-measured byte-identical (1440: 4130 px = 0.16%; 360: 5923 px = 0.55%) \u2014 inert on this page, load-bearing on the news-hero sibling.",
+   "finalProbes": {
+    "contentDiff": "gates/<slug>-{1440,360}/content-diff-final.txt \u2014 none (25/25, 8/8 editable)",
+    "visualDiff": "gates/<slug>-{1440,360}/visual-diff-final.txt \u2014 IMAGERY GAP only (justified), mainHeight 855/855 and 1724/1724"
+   }
+  },
+  "en-home-news-campus-pro-shop-html": {
+   "pageType": "article",
+   "archetype": "en-home-news-campus-pro-shop-html",
+   "variantOf": "en-home-visit-health-and-wellness-hydration-matters-html",
+   "liveUrl": "https://www.ustanationalcampus.com/en/home/news/campus-pro-shop.html",
+   "prototype": "stardust/prototypes/en-home-news-campus-pro-shop-html-proposed.html",
+   "css": [
+    "stardust/prototypes/css/en-home-visit-health-and-wellness-hydration-matters-html.css (shared article modules: .news-*)",
+    "stardust/prototypes/css/en-home-news-campus-pro-shop-html.css (photo modal only)"
+   ],
+   "template": "legacy USTA news article (.articleTextDetailImageComp: 656px cover hero + 336px navy scrim + centered white h3/h2/h6 pinned 19px from the bottom; share bar; 800px .contentWrap 20px/35px; 550px gallery teaser)",
+   "renderingMode": "quirks (no doctype) \u2014 mirrors the live legacy template pages, which ship without a doctype. Standards mode measured main +48px at 1440 (bold-only <p> 35px instead of 24px, share bar 29 instead of 25). Delivery note: an EDS build (standards mode) must emulate these heights explicitly.",
+   "breakpoints": {
+    "360": {
+     "iterations": 1,
+     "iterationNotes": "free build-side rect probe before the first stitch found -24px (body <a> keeps 20px/31px at mobile: -7; last <p> keeps the 17px mobile margin: -17) \u2014 fixed from the lift, then iter1 0.59% \u0394h0 PASS.",
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.59,
+      "heightDelta": 0,
+      "headerBandPct": 0.01,
+      "footerBandPct": 1.08,
+      "pass": true
+     },
+     "contentDiff": {
+      "source": "25 text nodes \u2014 3 headings, 5 eyebrows, 3 CTAs, 14 body; 3 img / 21 editable",
+      "build": "identical",
+      "findings": "none"
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE cq5dam.web.1600.750.jpeg 1600x750 \u2192 360x426",
+       "why": "flagged on BOTH sides \u2014 intentional object-fit:cover hero crop, mirrored"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "y 3500\u20133745",
+       "pct": 2.5,
+       "cause": "footer social icons + copyright antialiasing (chrome canon; footer crop 1.08%)",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": []
+    },
+    "1440": {
+     "iterations": 3,
+     "iterationNotes": "iter1 0.15% \u0394h0 PASS (after quirks-mode switch, before first stitch); glyph font warned (live .woff2/.woff byte-mangled) \u2192 TTF; iter2 0.14% \u0394h0; iter3 = byte-identical re-run (8131 px) after mobile-only CSS edits.",
+     "result": {
+      "structuralRed": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.14,
+      "heightDelta": 0,
+      "headerBandPct": 0,
+      "footerBandPct": 0.21,
+      "pass": true
+     },
+     "contentDiff": {
+      "source": "25 text nodes \u2014 3 headings, 3 CTAs, 19 body; 3 img / 21 editable",
+      "build": "identical",
+      "findings": "none"
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "y 4000\u20134154",
+       "pct": 1,
+       "cause": "footer copyright/social glyph antialiasing",
+       "flaggedFor": "user"
+      },
+      {
+       "band": "y 500\u20131000 / 1500\u20132000 / 2500\u20133000",
+       "pct": 0.3,
+       "cause": "hero JPEG decode + body text antialiasing",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "Glyphicons Halflings .woff2/.woff on the live origin are byte-mangled (UTF-8 replacement bytes in the WOFF header); live Chrome falls through to the .ttf \u2014 prototype ships the TTF",
+       "where": "assets/fonts/glyphicons-halflings-regular.ttf"
+      }
+     ]
+    }
+   },
+   "motion": {
+    "observed": "stardust/replica/motion/en-home-news-campus-pro-shop-html.json \u2014 0 animations; click '.galleryIcon a' \u2192 body.modal-open, .modal-backdrop.fade.in (opacity .15s), .modal.fade.in (opacity .15s) + .modal-dialog transform .3s; hover .imgGalWrap / .shareImg a: no change; header timeline static",
+    "implemented": [
+     {
+      "what": "photo gallery modal (11 slides from #photoData, captions + n/11 counter, prev/next, close \u00d7, backdrop click, Esc)",
+      "mechanism": "same class state machine (body.modal-open, .fade\u2192.in, backdrop .5, dialog translate(0,-25%)\u21920 .3s ease-out), inline script in the page; verified build-side: opens/closes, 1/11\u21922/11, zero pageerrors (stardust/.work/replica/modal-check.mjs)"
+     }
+    ],
+    "dead": [
+     {
+      "what": ".scrollTop back-to-top button",
+      "why": "display:none on live at t=0; no runtime mutation recorded \u2192 mirrored hidden, no behaviour"
+     },
+     {
+      "what": "carousel slide animation",
+      "why": "no control click observed live \u2192 slides swap without invented easing"
+     },
+     {
+      "what": "#shareModal (AddThis share dialog)",
+      "why": "not clicked in the observation run; anchor mirrored (href=#shareModal), dialog not built \u2014 third-party AddThis widget"
+     }
+    ]
+   },
+   "notes": [
+    "Hero scrim lifted from the live element's background-image layer list: linear-gradient(rgba(0,37,73,0) 0, #00162b 100%), 336px (242px mobile), bottom-anchored.",
+    "Container model encoded as rules: hero 656/426px fixed heights; body max-width 800 (90.4% at mobile); gallery 550px fixed (also at mobile, as live).",
+    "Sibling news pages may carry a YouTube embed (#videoData) \u2014 not present on this page; variant slot left in the DOM."
+   ]
   }
+ },
+ "publishedOrigin": {
+  "regime": "published-origin (source-fidelity-gate.md \u00a7 The published-origin gate)",
+  "origin": "https://main--sdt-ustanationalcampus--aemcoder.aem.page",
+  "results": {
+   "en-home-html": {
+    "360": "3.00% \u0394h0 PASS",
+    "1440": "0.97% \u0394h-1 header 100% footer 99.24% PASS"
+   },
+   "en-home-about-html": {
+    "360": "1.71% \u0394h0 PASS",
+    "1440": "1.01% \u0394h0 header 100% footer 99.79% PASS"
+   },
+   "en-home-play-private-lessons-html": {
+    "360": "3.17% \u0394h2 PASS",
+    "1440": "0.88% \u0394h0 header 100% footer 99.75% PASS"
+   },
+   "en-home-visit-html": {
+    "360": "16.33% \u0394h-6 FAIL \u2014 service-tiles mobile grid rows differ (residual, follow-up round)",
+    "1440": "0.18% \u0394h0 PASS"
+   },
+   "en-home-visit-health-and-wellness-hydration-matters-html": {
+    "360": "18.31% \u0394h+63 FAIL",
+    "1440": "13.30% \u0394h+43 FAIL \u2014 legacy title/table spacing (residual, follow-up round)"
+   },
+   "en-home-news-holiday-hours-html": {
+    "360": "11.08% \u0394h-6 FAIL \u2014 360 prose pitch (residual)",
+    "1440": "4.47% \u0394h+16 PASS"
+   }
+  },
+  "reconcileRounds": [
+   "#buttonize: pipeline hoists <a><strong> \u2192 button (footer + 6 pages)",
+   "picture-wrapper: p > img selectors \u2192 descendant (icon-heading, -949px on private-lessons)",
+   "legacy ad-slot geometry variant",
+   "#112 spacers: zero-width-space paragraphs replace margin stand-ins (legacy richtext)"
+  ],
+  "siblings": {
+   "generatedAt": "2026-09-19T00:24:24Z",
+   "ledger": "stardust/replica/siblings-final.json",
+   "summary": "22 / 41 pages pass at both widths; 49 / 82 runs < 10 %",
+   "rounds": 9,
+   "residualsDoc": "stardust/rollout/REPORT.md \u00a7 Sibling published-origin pixel gate"
+  }
+ }
 }

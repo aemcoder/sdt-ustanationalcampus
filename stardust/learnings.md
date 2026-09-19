@@ -84,3 +84,10 @@
 - evidence: default + news indices both targeting /query-index.json produced 898 rows of which 896 news (default rows lost); separate targets fixed it (940 + 897)
 - proposed change: `skills/dynamics/reference/listings.md` § query-index mechanics — one target per index on config-service sites
 - status: pending
+
+- [pending] Sibling gate: a `--no-save`-free instrument set (section probe + side-by-side montage + geometry dump) plus content-only agents and centrally applied measured CSS tokens scaled to 41 pages × 2 widths; the archetype re-check after every global rule is what caught the one regression (opt-in tokens beat template-wide rules).
+- [pending] stitch-shot: the live document can report a scrollHeight beyond its painted content (black tail of 50–270 px) — trim near-black trailing rows before pixel-compare or the tail alone costs ~5 % of the page.
+- [pending] published-gate-all: `SUMMARY=` env for per-round ledgers and `ALL=1` to include archetype pages — never truncate the round-0 file.
+- [pending] Section-metadata style values are comma-split into classes (verified on a draft); `main .section:empty {display:none}` hides a section holding only metadata — a pure-spacer token needs `display:block` in the separator list.
+- [pending] stylelint `--fix` folded `:not(.a, .b):not(.c)` into `:not(.a, .c)` (dropped a class) — never `--fix` files with chained :not(); write `:not(.a, .b, .c)`.
+- [pending] Live AEM pages carry hidden 0×0 duplicate containers; kids.mjs paths by nth-child mislead — probe the Nth VISIBLE match.

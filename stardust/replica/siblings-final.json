@@ -1,0 +1,656 @@
+{
+ "generatedAt": "2026-09-19T00:23:30.432Z",
+ "pagesPass": 22,
+ "pages": 41,
+ "runsPass": 49,
+ "runs": 82,
+ "pages_": {
+  "en-home-news-2019-collegiate-winter-wild-card-html": {
+   "path": "/news/2019-collegiate-winter-wild-card",
+   "type": "article",
+   "w1440": {
+    "pct": 0.27,
+    "dh": 0,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 8.23,
+    "dh": 30,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-news-masteruhistory-html": {
+   "path": "/news/masteruhistory",
+   "type": "article",
+   "w1440": {
+    "pct": 2.04,
+    "dh": -66,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 4.66,
+    "dh": 58,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-news-national-campus-program-policies-html": {
+   "path": "/news/national-campus-program-policies",
+   "type": "article",
+   "w1440": {
+    "pct": 5.16,
+    "dh": -154,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 9.06,
+    "dh": 36,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-play-events-and-leagues-html": {
+   "path": "/play/events-and-leagues",
+   "type": "article",
+   "w1440": {
+    "pct": 0.24,
+    "dh": 0,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 4.4,
+    "dh": 3,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-visit-health-and-wellness-breakfast-the-most-important-meal-of-the-day-html": {
+   "path": "/visit/health-and-wellness/breakfast-the-most-important-meal-of-the-day",
+   "type": "article",
+   "w1440": {
+    "pct": 2.85,
+    "dh": 4,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 4.76,
+    "dh": 3,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-visit-health-and-wellness-fluid-loss-and-body-weight-html": {
+   "path": "/visit/health-and-wellness/fluid-loss-and-body-weight",
+   "type": "article",
+   "w1440": {
+    "pct": 0.45,
+    "dh": 0,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 0.88,
+    "dh": 0,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-visit-health-and-wellness-macronutrient-breakdown-html": {
+   "path": "/visit/health-and-wellness/macronutrient-breakdown",
+   "type": "article",
+   "w1440": {
+    "pct": 1.27,
+    "dh": 2,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 1.67,
+    "dh": 1,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-visit-health-and-wellness-macronutrient-breakdown-carbohydrates-html": {
+   "path": "/visit/health-and-wellness/macronutrient-breakdown-carbohydrates",
+   "type": "article",
+   "w1440": {
+    "pct": 1.36,
+    "dh": 2,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 1.67,
+    "dh": 1,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-visit-health-and-wellness-nutrition-for-recovery-html": {
+   "path": "/visit/health-and-wellness/nutrition-for-recovery",
+   "type": "article",
+   "w1440": {
+    "pct": 1.3,
+    "dh": 2,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 2.07,
+    "dh": 2,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-visit-health-and-wellness-nutrition-for-tennis-html": {
+   "path": "/visit/health-and-wellness/nutrition-for-tennis",
+   "type": "article",
+   "w1440": {
+    "pct": 2.77,
+    "dh": 2,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 4.54,
+    "dh": 1,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-visit-health-and-wellness-sleep-matters-html": {
+   "path": "/visit/health-and-wellness/sleep-matters",
+   "type": "article",
+   "w1440": {
+    "pct": 1.16,
+    "dh": 2,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 2.43,
+    "dh": 2,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-visit-health-and-wellness-strength-and-conditioning-html": {
+   "path": "/visit/health-and-wellness/strength-and-conditioning",
+   "type": "article",
+   "w1440": {
+    "pct": 0.36,
+    "dh": 0,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 1.41,
+    "dh": 0,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-about-meet-our-team-html": {
+   "path": "/about/meet-our-team",
+   "type": "hub",
+   "w1440": {
+    "pct": 7.96,
+    "dh": -6,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 25.64,
+    "dh": 73,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-calendar-html": {
+   "path": "/calendar",
+   "type": "hub",
+   "w1440": {
+    "pct": 4.95,
+    "dh": -11,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 37.94,
+    "dh": 2491,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-connect-html": {
+   "path": "/connect",
+   "type": "hub",
+   "w1440": {
+    "pct": 0.89,
+    "dh": 0,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 1.18,
+    "dh": 0,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-events-html": {
+   "path": "/events",
+   "type": "hub",
+   "w1440": {
+    "pct": 10.95,
+    "dh": 27,
+    "pass": false,
+    "error": false
+   },
+   "w360": {
+    "pct": 28.23,
+    "dh": -23,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-play-html": {
+   "path": "/play",
+   "type": "hub",
+   "w1440": {
+    "pct": 2.88,
+    "dh": -3,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 8.94,
+    "dh": -18,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-play-tennis-summer-camps-html": {
+   "path": "/play/tennis/summer-camps",
+   "type": "hub",
+   "w1440": {
+    "pct": 18.49,
+    "dh": 40,
+    "pass": false,
+    "error": false
+   },
+   "w360": {
+    "pct": 20.14,
+    "dh": -38,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-events-collegiate-html": {
+   "path": "/events/collegiate",
+   "type": "listing",
+   "w1440": {
+    "pct": 3.54,
+    "dh": -5,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 6.78,
+    "dh": -10,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-news-html": {
+   "path": "/news",
+   "type": "listing",
+   "w1440": {
+    "pct": 6.99,
+    "dh": 2,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 6.05,
+    "dh": -4,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-play-tennis-html": {
+   "path": "/play/tennis",
+   "type": "listing",
+   "w1440": {
+    "pct": 4.83,
+    "dh": 5,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 8.22,
+    "dh": 2,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-visit-health-and-wellness-html": {
+   "path": "/visit/health-and-wellness",
+   "type": "listing",
+   "w1440": {
+    "pct": 0,
+    "dh": 0,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 0.38,
+    "dh": 0,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-visit-sustainability-html": {
+   "path": "/visit/sustainability",
+   "type": "listing",
+   "w1440": {
+    "pct": 0.02,
+    "dh": 0,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 3.96,
+    "dh": 1,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-about-sponsors-partners-html": {
+   "path": "/about/sponsors-partners",
+   "type": "program",
+   "w1440": {
+    "pct": 10.37,
+    "dh": 16,
+    "pass": false,
+    "error": false
+   },
+   "w360": {
+    "pct": 23.57,
+    "dh": 37,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-about-usta-national-campus-scholarship-html": {
+   "path": "/about/usta-national-campus-scholarship",
+   "type": "program",
+   "w1440": {
+    "pct": 7.96,
+    "dh": 2,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 19.04,
+    "dh": 67,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-events-2026-bnp-paribas-world-team-cup-html": {
+   "path": "/events/2026-bnp-paribas-world-team-cup",
+   "type": "program",
+   "w1440": {
+    "pct": 18.5,
+    "dh": 140,
+    "pass": false,
+    "error": false
+   },
+   "w360": {
+    "pct": 37.52,
+    "dh": 466,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-play-book-a-court-html": {
+   "path": "/play/book-a-court",
+   "type": "program",
+   "w1440": {
+    "pct": 8.55,
+    "dh": 6,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 9.96,
+    "dh": -1,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-play-court-booking-html": {
+   "path": "/play/court-booking",
+   "type": "program",
+   "w1440": {
+    "pct": 8.55,
+    "dh": 6,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 9.96,
+    "dh": -1,
+    "pass": true,
+    "error": false
+   }
+  },
+  "en-home-play-davebailey-html": {
+   "path": "/play/davebailey",
+   "type": "program",
+   "w1440": {
+    "pct": 15.35,
+    "dh": 0,
+    "pass": false,
+    "error": false
+   },
+   "w360": {
+    "pct": 37.52,
+    "dh": 217,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-play-free30-html": {
+   "path": "/play/free30",
+   "type": "program",
+   "w1440": {
+    "pct": 14.21,
+    "dh": 59,
+    "pass": false,
+    "error": false
+   },
+   "w360": {
+    "pct": 23.95,
+    "dh": 68,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-play-pickleball-html": {
+   "path": "/play/pickleball",
+   "type": "program",
+   "w1440": {
+    "pct": 12.12,
+    "dh": -104,
+    "pass": false,
+    "error": false
+   },
+   "w360": {
+    "pct": 19.84,
+    "dh": 76,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-play-play-padel-html": {
+   "path": "/play/play-padel",
+   "type": "program",
+   "w1440": {
+    "error": true
+   },
+   "w360": {
+    "error": true
+   }
+  },
+  "en-home-play-programs-html": {
+   "path": "/play/programs",
+   "type": "program",
+   "w1440": {
+    "pct": 12.66,
+    "dh": 0,
+    "pass": false,
+    "error": false
+   },
+   "w360": {
+    "pct": 32.69,
+    "dh": 19,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-play-programs-adult-tennis-html": {
+   "path": "/play/programs/adult-tennis",
+   "type": "program",
+   "w1440": {
+    "error": true
+   },
+   "w360": {
+    "pct": 26.73,
+    "dh": 602,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-play-programs-junior-tennis-programs-html": {
+   "path": "/play/programs/junior-tennis-programs",
+   "type": "program",
+   "w1440": {
+    "pct": 14.68,
+    "dh": 95,
+    "pass": false,
+    "error": false
+   },
+   "w360": {
+    "pct": 30.28,
+    "dh": 340,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-play-tennis-adult-camps-html": {
+   "path": "/play/tennis/adult-camps",
+   "type": "program",
+   "w1440": {
+    "pct": 11.19,
+    "dh": -70,
+    "pass": false,
+    "error": false
+   },
+   "w360": {
+    "pct": 23.32,
+    "dh": -139,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-play-tennis-adult-red-ball-html": {
+   "path": "/play/tennis/adult-red-ball",
+   "type": "program",
+   "w1440": {
+    "pct": 16.29,
+    "dh": -56,
+    "pass": false,
+    "error": false
+   },
+   "w360": {
+    "pct": 24.39,
+    "dh": 10,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-play-tennis-junior-programming-welcome-letter-html": {
+   "path": "/play/tennis/junior-programming-welcome-letter",
+   "type": "program",
+   "w1440": {
+    "pct": 15.04,
+    "dh": 76,
+    "pass": false,
+    "error": false
+   },
+   "w360": {
+    "pct": 34.79,
+    "dh": 449,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-watch-html": {
+   "path": "/watch",
+   "type": "program",
+   "w1440": {
+    "pct": 8.15,
+    "dh": -6,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 16.65,
+    "dh": -5,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-watch-save-my-play-html": {
+   "path": "/watch/save-my-play",
+   "type": "program",
+   "w1440": {
+    "pct": 5.81,
+    "dh": 6,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 15.26,
+    "dh": 24,
+    "pass": false,
+    "error": false
+   }
+  },
+  "en-home-collegiate-events-html": {
+   "path": "/collegiate/events",
+   "type": "unique",
+   "w1440": {
+    "pct": 0,
+    "dh": -48,
+    "pass": true,
+    "error": false
+   },
+   "w360": {
+    "pct": 0,
+    "dh": 0,
+    "pass": true,
+    "error": false
+   }
+  }
+ }
+}

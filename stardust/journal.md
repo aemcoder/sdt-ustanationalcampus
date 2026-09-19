@@ -132,3 +132,15 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** none pending — hand-off.
 
 ---
+
+## 2026-09-19 — sibling pixel gate, 41 pages, max parallelism
+
+**Prompt:** "let's do the 41 pages, mx parallelisation (without compromising on quality). gate for all is pixel diff under 10%".
+
+**What happened:** round 0 measured every sibling page on the published origin at 1440 and 360 (5-way parallel): 2/41 passed. Triage by section probes found the systematic causes (columns cells fixed at 50 %, hero geometry driven by AEM container classes, legacy `<div>` paragraphs and `&nbsp;` blank lines dropped, missing iframes, tab/accordion xs behaviour, news hero order). Seven page-group agents (articles, programs ×3, hubs, listings, news) worked content-only with instruments; CSS/JS changes were filed as measured requests and applied centrally in 9 rounds (~40 tokens/variants), each followed by an archetype regression check (one regression — private-lessons — caught and reverted into opt-in tokens). Final: 22/41 pages pass at both widths, 49/82 runs; every open run has a named, measured cause in REPORT.md. Two live pages cannot be stitched (inner scroller).
+
+**Decisions:** `/collegiate/events` mirrors the source 301 to usta.com/college (redirect sheet row + external target). Program tabs render as a closed accordion at xs by default; `tabs select` / `tabs large` keep a select + panel. Consent-blocked live video placeholders are NOT replicated (real embeds kept). Live content drift (adult-camps pricing rows) not chased.
+
+**Artifacts:** stardust/scripts/{published-gate-all,section-probe,section-report,sbs,trim-black,gate-report}.mjs; stardust/.work/agents/BRIEF.md + *-report.md + *-css-requests.md; stardust/replica/siblings-final.json; REPORT.md § Sibling published-origin pixel gate.
+
+**Next:** the open 360 runs need a mobile mode decision for the calendar block (events list) and per-page tab behaviour tokens; the open 1440 runs are in-section pixel residuals (renditions, wraps, live drift) — a further round per page with the same instruments.

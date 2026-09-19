@@ -15,3 +15,4 @@
 {"ts":"2026-09-18T20:22:29Z","skill":"stardust:rollout","phase":"E-verify","event":"end","detail":"938/938 verified","artifact":"stardust/rollout/coverage/pages.json"}
 {"ts":"2026-09-18T20:22:29Z","skill":"stardust:rollout","phase":"F-optimize","event":"end","detail":"no open P1; P3 duplicate descriptions (source-faithful duplicates)","artifact":"stardust/rollout/optimize/scorecard.json"}
 {"ts":"2026-09-18T20:55:59Z","skill":"stardust:rollout","phase":"D2-dynamics","event":"end","detail":"owner decisions applied: events sheet live, all tags ported and verified, query index (940 + 897 rows), redirects sheet (945) live; parity replay re-run","artifact":"stardust/qa/dynamics-report.md"}
+{"ts": "2026-09-19T00:24:24Z", "skill": "stardust:replica", "phase": "published-origin-gate-siblings", "event": "end", "detail": "41 pages \u00d7 2 widths, 9 rounds; 22/41 pass both widths, 49/82 runs < 10%; residuals documented", "artifact": "stardust/replica/siblings-final.json"}
